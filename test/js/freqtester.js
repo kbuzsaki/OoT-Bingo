@@ -31,6 +31,8 @@ function generateFrequencies(numCards, randomSeeds) {
         goalCounts[goal] = 0;
     }
 
+    var totalFailures = 0;
+
     // loops through a bunch of generated cards
     for(var i = 0; i < numCards; i++) {
         var bingoOpts = { mode: 'normal', lang: 'name' };
@@ -45,9 +47,10 @@ function generateFrequencies(numCards, randomSeeds) {
             boardItem = bingoBoard[boardKey];
             goalCounts[boardItem.name]++;
         }
+        totalFailures += window.bingoFailures;
     }
 
-    return goalCounts;
+    return {goalCounts: goalCounts, failures: totalFailures};
 }
 
 // updates the frequencies table
@@ -57,7 +60,9 @@ function updateResults(numCards, randomSeeds) {
     var totals = document.getElementById("totals");
 
     // generate cards
-    goalCounts = generateFrequencies(numCards, randomSeeds);
+    var frequencyResults = generateFrequencies(numCards, randomSeeds);
+    var goalCounts = frequencyResults.goalCounts;
+    var totalFailures = frequencyResults.failures;
 
     // clear out the old data
     while(frequencies.firstChild) {
@@ -79,7 +84,7 @@ function updateResults(numCards, randomSeeds) {
     }
 
     // add to totals table
-    totals.appendChild(createTotalsTable(difficultyGroups, goalCounts));
+    totals.appendChild(createTotalsTable(difficultyGroups, goalCounts, totalFailures));
 }
 
 function createDifficultyInfo(difficulty, difficultyGroup, goalCounts) {
@@ -126,7 +131,7 @@ function createTable(difficultyGroup, goalCounts) {
 }
 
 // creates a table of the total number of goals for each difficulty
-function createTotalsTable(difficultyGroups, goalCounts) {
+function createTotalsTable(difficultyGroups, goalCounts, totalFailures) {
     var totalsTable = document.createElement("table");
     totalsTable.style.width = "1.5in";
 
@@ -154,6 +159,11 @@ function createTotalsTable(difficultyGroups, goalCounts) {
     totalRow.childNodes[1].style.fontWeight = "bold";
     totalRow.childNodes[1].style.color = "gold";
     totalsTable.appendChild(totalRow);
+
+    var failuresRow = createRow("Failures", totalFailures);
+    failuresRow.childNodes[0].style.color = "red";
+    failuresRow.childNodes[1].style.color = "red";
+    totalsTable.appendChild(failuresRow);
 
     return totalsTable;
 }

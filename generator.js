@@ -368,6 +368,9 @@ ootBingoGenerator = function(bingoList, opts) {
 		card = makeCard();
 		iterations++;
 	}
-  
+
+    // used in freqtester.js to record number of failures
+    window.bingoFailures = iterations - 1;
+
   	return card;
 }
