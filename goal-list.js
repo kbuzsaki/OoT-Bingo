@@ -18,7 +18,6 @@ var bingoList = {
             "time": 1.0,
             "types": {
                 "forest": 0.5,
-                "nuts": 100.0,
                 "selfsynergy": 0.0
             }
         },
@@ -131,6 +130,7 @@ var bingoList = {
             },
             "time": 1.0,
             "types": {
+                "incsword": 100.0,
                 "selfsynergy": 0.0,
                 "swords": 3.0
             }
@@ -186,7 +186,8 @@ var bingoList = {
             "skill": "",
             "time": 0.75,
             "types": {
-                "selfsynergy": 0.0
+                "selfsynergy": 0.0,
+                "sticks": 100.0
             }
         }
     ],
@@ -210,29 +211,6 @@ var bingoList = {
             "types": {
                 "selfsynergy": 0.0,
                 "wallet": 5.0
-            }
-        },
-        {
-            "difficulty": 10,
-            "id": "at-least-7-magic-beans",
-            "jp": "魔法のマメ7つ以上",
-            "name": "At least 7 Magic Beans",
-            "rowtypes": {
-                "bottle": 0.0,
-                "hookshot": 0.0,
-                "ms": 0.0
-            },
-            "skill": "",
-            "subtypes": {
-                "child2": 3.0,
-                "gerudo": 0.5,
-                "wallet": 0.25
-            },
-            "time": 8.0,
-            "types": {
-                "beans": 6.0,
-                "childreset": 0.5,
-                "selfsynergy": 0.0
             }
         },
         {
@@ -307,7 +285,7 @@ var bingoList = {
             "time": 8.0,
             "types": {
                 "bow": 1.5,
-                "firearrow": 7.5,
+                "firearrow": 8.0,
                 "fortress": 3.0,
                 "gtg": 1.0,
                 "selfsynergy": 0.0,
@@ -380,6 +358,7 @@ var bingoList = {
                 "fountain": 2.0,
                 "hovers": 3.0,
                 "ice": 1.5,
+                "incboot": 100.0,
                 "irons": 2.0,
                 "selfsynergy": 0.0
             }
@@ -427,6 +406,7 @@ var bingoList = {
             },
             "time": 8.5,
             "types": {
+                "incsongs": 100.0,
                 "poachers": 4.25,
                 "selfsynergy": 0.0,
                 "songs": 5.5
@@ -459,6 +439,31 @@ var bingoList = {
         },
         {
             "difficulty": 11,
+            "id": "defeat-big-octo",
+            "jp": "大オクタ撃破",
+            "name": "Defeat Big Octo",
+            "rowtypes": {
+                "bottle": 0.0,
+                "hookshot": 0.5,
+                "ms": 0.0
+            },
+            "skill": "",
+            "subtypes": {
+                "compass": 2.0,
+                "hovers": 1.0,
+                "wallet": 0.75
+            },
+            "time": 8.5,
+            "types": {
+                "childchu": 0.0,
+                "fountain": 2.0,
+                "gtg": 1.0,
+                "jabu": 3.0,
+                "selfsynergy": 0.0
+            }
+        },
+        {
+            "difficulty": 11,
             "id": "get-to-the-end-of-light-trial",
             "jp": "光の結界の最後の部屋に到達",
             "name": "Get to the end of Light Trial",
@@ -471,11 +476,13 @@ var bingoList = {
             "subtypes": {
                 "bosskey": 2.5,
                 "childchu": -2.0,
+                "hearts": 1.0,
                 "wallet": 0.25
             },
             "time": 8.0,
             "types": {
                 "bothzl": -4.25,
+                "chuczl": 2.0,
                 "czl": 4.25,
                 "endon": -0.5,
                 "ganon": 3.0,
@@ -504,6 +511,31 @@ var bingoList = {
                 "hovers": 3.0,
                 "map": 9.0,
                 "selfsynergy": -3.0
+            }
+        },
+        {
+            "difficulty": 11,
+            "id": "boomerang",
+            "jp": "",
+            "name": "Boomerang",
+            "rowtypes": {
+                "bottle": 0.0,
+                "hookshot": 0.0,
+                "ms": 0.0
+            },
+            "skill": "",
+            "subtypes": {
+                "compass": 2.5,
+                "hearts": 0.5,
+                "wallet": 0.5
+            },
+            "time": 8.25,
+            "types": {
+                "childchu": 0.0,
+                "fountain": 2.0,
+                "gtg": 1.0,
+                "jabu": 5.0,
+                "selfsynergy": 0.0
             }
         },
         {
@@ -552,6 +584,7 @@ var bingoList = {
                 "endon": -0.5,
                 "fortress": 3.0,
                 "gtg": 3.0,
+                "incgtgkey": 100.0,
                 "selfsynergy": 0.0
             }
         }
@@ -581,6 +614,8 @@ var bingoList = {
                 "fountain": 2.0,
                 "hovers": 3.0,
                 "ice": 1.5,
+                "incboot": 100.0,
+                "incsword": 100.0,
                 "irons": 2.0,
                 "selfsynergy": 0.0,
                 "swords": 3.0
@@ -623,7 +658,7 @@ var bingoList = {
             "subtypes": {
                 "bosskey": 2.0,
                 "bosskey2": 5.0,
-                "childchu": -1.0,
+                "childchu": -2.0,
                 "compass": 2.0,
                 "hearts": 1.0,
                 "hovers": 1.0,
@@ -643,31 +678,6 @@ var bingoList = {
         },
         {
             "difficulty": 12,
-            "id": "defeat-big-octo",
-            "jp": "大オクタ撃破",
-            "name": "Defeat Big Octo",
-            "rowtypes": {
-                "bottle": 0.0,
-                "hookshot": 0.5,
-                "ms": 0.0
-            },
-            "skill": "",
-            "subtypes": {
-                "childchu": 1.0,
-                "compass": 2.0,
-                "hovers": 1.0,
-                "wallet": 0.75
-            },
-            "time": 9.5,
-            "types": {
-                "fountain": 2.0,
-                "gtg": 1.0,
-                "jabu": 3.0,
-                "selfsynergy": 0.0
-            }
-        },
-        {
-            "difficulty": 12,
             "id": "double-magic",
             "jp": "魔力2倍",
             "name": "Double Magic",
@@ -681,11 +691,13 @@ var bingoList = {
                 "bosskey": 1.0,
                 "childchu": -2.0,
                 "gtunic": 0.25,
+                "hearts": 1.0,
                 "songs": 1.0
             },
             "time": 9.5,
             "types": {
                 "bothzl": -4.25,
+                "chuczl": 2.0,
                 "czl": 4.25,
                 "dmc": 1.0,
                 "magic": 2.0,
@@ -773,6 +785,36 @@ var bingoList = {
                 "gtunic": 1.0,
                 "selfsynergy": 0.0
             }
+        },
+        {
+            "difficulty": 12,
+            "id": "shadow-temple-boss-key",
+            "jp": "闇の神殿のボス部屋のカギ",
+            "name": "Shadow Temple Boss Key",
+            "rowtypes": {
+                "bottle": 100.0,
+                "hookshot": 1.0,
+                "ms": 3.0
+            },
+            "skill": "",
+            "subtypes": {
+                "bosskey": 4.25,
+                "bosskey2": 5.75,
+                "childchu": -2.0,
+                "compass": 1.0,
+                "hearts": 2.5,
+                "wallet": 0.25
+            },
+            "time": 9.0,
+            "types": {
+                "bothzl": -4.25,
+                "chuczl": 2.0,
+                "czl": 4.25,
+                "hovers": 1.5,
+                "poachers": 4.25,
+                "selfsynergy": 0.0,
+                "shadow": 6.0
+            }
         }
     ],
     "13": [
@@ -802,6 +844,7 @@ var bingoList = {
                 "endon": -0.25,
                 "fortress": 3.0,
                 "gtg": 5.0,
+                "incgtgkey": 100.0,
                 "selfsynergy": 0.0
             }
         },
@@ -860,6 +903,30 @@ var bingoList = {
         },
         {
             "difficulty": 13,
+            "id": "at-least-9-magic-beans",
+            "jp": "魔法のマメ9つ以上",
+            "name": "At least 9 Magic Beans",
+            "rowtypes": {
+                "bottle": 0.0,
+                "hookshot": 0.0,
+                "ms": 0.0
+            },
+            "skill": "",
+            "subtypes": {
+                "child2": 3.0,
+                "gerudo": 6.0,
+                "wallet": 0.5
+            },
+            "time": 9.75,
+            "types": {
+                "beans": 10.0,
+                "childreset": 0.5,
+                "incbeans": 100.0,
+                "selfsynergy": 0.0
+            }
+        },
+        {
+            "difficulty": 13,
             "id": "double-defense",
             "jp": "防御力2倍",
             "name": "Double Defense",
@@ -871,15 +938,17 @@ var bingoList = {
             "skill": "",
             "subtypes": {
                 "childchu": -2.0,
+                "ganon": 0.5,
                 "gtunic": 0.25,
+                "hearts": 1.0,
                 "wallet": 0.25
             },
             "time": 10.0,
             "types": {
                 "bothzl": -4.25,
+                "chuczl": 2.0,
                 "czl": 4.25,
                 "dmc": 1.0,
-                "ganon": 1.0,
                 "magic": 2.0,
                 "poachers": 4.25,
                 "selfsynergy": 0.0
@@ -900,7 +969,8 @@ var bingoList = {
             "types": {
                 "childchu": 0.0,
                 "childtrade": 2.75,
-                "czl": 7.0,
+                "chuczl": 2.0,
+                "czl": 5.0,
                 "selfsynergy": 0.0
             }
         },
@@ -962,31 +1032,6 @@ var bingoList = {
         },
         {
             "difficulty": 13,
-            "id": "boomerang",
-            "jp": "",
-            "name": "Boomerang",
-            "rowtypes": {
-                "bottle": 0.0,
-                "hookshot": 0.0,
-                "ms": 0.0
-            },
-            "skill": "",
-            "subtypes": {
-                "childchu": 1.0,
-                "compass": 1.5,
-                "hearts": 0.5,
-                "wallet": 0.5
-            },
-            "time": 10.0,
-            "types": {
-                "fountain": 2.0,
-                "gtg": 1.0,
-                "jabu": 5.0,
-                "selfsynergy": 0.0
-            }
-        },
-        {
-            "difficulty": 13,
             "id": "at-least-1-skulltula-from-each-child-dungeon",
             "jp": "",
             "name": "At Least 1 Skulltula from each Child Dungeon",
@@ -1026,6 +1071,8 @@ var bingoList = {
             "time": 10.0,
             "types": {
                 "bosskey": 12.0,
+                "ganon": 3.0,
+                "incbk": 100.0,
                 "selfsynergy": -2.0
             }
         }
@@ -1044,8 +1091,8 @@ var bingoList = {
             "skill": "",
             "time": 11.0,
             "types": {
-                "childtrade": 1.0,
                 "hearts": 12.0,
+                "inchearts": 100.0,
                 "selfsynergy": -1.0
             }
         },
@@ -1090,7 +1137,7 @@ var bingoList = {
             "subtypes": {
                 "childchu": -2.0,
                 "compass": 1.5,
-                "hearts": 0.5,
+                "hearts": 2.5,
                 "hovers": 0.25,
                 "map": 1.5,
                 "wallet": 1.5
@@ -1098,10 +1145,12 @@ var bingoList = {
             "time": 11.0,
             "types": {
                 "bothzl": -4.25,
+                "chuczl": 2.0,
                 "czl": 4.25,
                 "dc": 2.5,
                 "fountain": 2.0,
                 "ice": 1.5,
+                "incwskull": 100.0,
                 "irons": 2.0,
                 "longshot": 2.0,
                 "poachers": 4.25,
@@ -1238,7 +1287,6 @@ var bingoList = {
             "subtypes": {
                 "bosskey": 3.0,
                 "bosskey2": 5.0,
-                "childchu": 1.0,
                 "compass": 1.0,
                 "hearts": 0.5,
                 "map": 3.0,
@@ -1247,40 +1295,13 @@ var bingoList = {
             },
             "time": 10.75,
             "types": {
+                "childchu": 0.0,
                 "fortress": 2.5,
                 "gtg": 1.0,
                 "hovers": 3.0,
+                "incshield": 100.0,
                 "selfsynergy": 0.0,
                 "spirit": 3.0
-            }
-        },
-        {
-            "difficulty": 14,
-            "id": "shadow-temple-boss-key",
-            "jp": "闇の神殿のボス部屋のカギ",
-            "name": "Shadow Temple Boss Key",
-            "rowtypes": {
-                "bottle": 100.0,
-                "hookshot": 1.0,
-                "ms": 3.0
-            },
-            "skill": "",
-            "subtypes": {
-                "bosskey": 4.25,
-                "bosskey2": 5.75,
-                "childchu": -2.0,
-                "compass": 1.0,
-                "hearts": 1.0,
-                "wallet": 0.25
-            },
-            "time": 10.5,
-            "types": {
-                "bothzl": -4.25,
-                "czl": 4.25,
-                "hovers": 3.0,
-                "poachers": 4.25,
-                "selfsynergy": 0.0,
-                "shadow": 6.0
             }
         },
         {
@@ -1327,11 +1348,11 @@ var bingoList = {
             "skill": "",
             "subtypes": {
                 "bosskey2": 2.0,
-                "childchu": 1.0,
                 "map": 10.0
             },
             "time": 11.0,
             "types": {
+                "childchu": 0.0,
                 "compass": 10.0,
                 "hovers": 3.0,
                 "selfsynergy": -3.0
@@ -1366,8 +1387,37 @@ var bingoList = {
                 "gtunic": 1.75,
                 "hovers": 3.0,
                 "ice": 1.5,
+                "incboot": 100.0,
+                "inctunic": 100.0,
                 "irons": 2.0,
                 "selfsynergy": 0.0
+            }
+        },
+        {
+            "difficulty": 15,
+            "id": "6-maps",
+            "jp": "マップ6つ",
+            "name": "6 Maps",
+            "rowtypes": {
+                "bottle": 0.0,
+                "hookshot": 0.5,
+                "ms": 2.5
+            },
+            "skill": "",
+            "subtypes": {
+                "bosskey2": 2.0,
+                "claimcheck": 3.0,
+                "compass": 15.0,
+                "hearts": 1.5,
+                "poachers": 0.5,
+                "songs": 1.5
+            },
+            "time": 11.5,
+            "types": {
+                "childchu": 0.0,
+                "hovers": 3.0,
+                "map": 15.0,
+                "selfsynergy": -3.0
             }
         },
         {
@@ -1390,6 +1440,7 @@ var bingoList = {
             },
             "time": 11.5,
             "types": {
+                "incsongs": 100.0,
                 "poachers": 4.25,
                 "selfsynergy": 0.0,
                 "songs": 8.75
@@ -1409,12 +1460,13 @@ var bingoList = {
             "subtypes": {
                 "childchu": -2.0,
                 "gtunic": 0.25,
-                "hearts": 0.75,
+                "hearts": 2.0,
                 "wallet": 0.5
             },
             "time": 11.5,
             "types": {
                 "bothzl": -4.25,
+                "chuczl": 2.0,
                 "czl": 4.25,
                 "dmc": 1.0,
                 "fountain": 2.0,
@@ -1463,14 +1515,15 @@ var bingoList = {
             "subtypes": {
                 "bosskey": 3.0,
                 "bosskey2": 5.0,
-                "childchu": 1.0,
                 "compass": 1.0,
                 "map": 3.0
             },
             "time": 11.25,
             "types": {
+                "childchu": 0.0,
                 "fortress": 2.5,
                 "hovers": 3.0,
+                "incshield": 100.0,
                 "selfsynergy": 0.0,
                 "spirit": 2.5
             }
@@ -1492,7 +1545,6 @@ var bingoList = {
                 "bosskey": 3.0,
                 "bosskey2": 5.0,
                 "bulletbag": -5.0,
-                "childchu": 1.0,
                 "compass": 1.0,
                 "hearts": 0.5,
                 "map": 3.0,
@@ -1501,9 +1553,12 @@ var bingoList = {
             },
             "time": 12.25,
             "types": {
+                "childchu": 0.0,
                 "fortress": 2.5,
                 "gtg": 1.0,
                 "hovers": 3.0,
+                "incshield": 100.0,
+                "incsword": 100.0,
                 "selfsynergy": 0.0,
                 "spirit": 3.0,
                 "swords": 3.0
@@ -1533,6 +1588,7 @@ var bingoList = {
             "types": {
                 "fountain": 2.0,
                 "ice": 1.5,
+                "inclhskull": 100.0,
                 "irons": 2.0,
                 "selfsynergy": 0.0,
                 "water": 1.0
@@ -1611,6 +1667,7 @@ var bingoList = {
             "subtypes": {
                 "bosskey": 2.0,
                 "compass": 4.0,
+                "ganon": 1.0,
                 "hearts": 3.0,
                 "hovers": 0.25,
                 "lightarrow": 3.5,
@@ -1677,40 +1734,14 @@ var bingoList = {
                 "childchu": 0.0,
                 "childreset": 1.25,
                 "childtrade": 2.75,
-                "czl": 7.0,
+                "chuczl": 2.0,
+                "czl": 5.0,
                 "saria": 3.0,
                 "selfsynergy": 0.0
             }
         }
     ],
     "17": [
-        {
-            "difficulty": 17,
-            "id": "6-maps",
-            "jp": "マップ6つ",
-            "name": "6 Maps",
-            "rowtypes": {
-                "bottle": 0.0,
-                "hookshot": 0.5,
-                "ms": 2.5
-            },
-            "skill": "",
-            "subtypes": {
-                "bosskey2": 2.0,
-                "claimcheck": 3.0,
-                "compass": 15.0,
-                "hearts": 1.5,
-                "poachers": 0.5,
-                "songs": 1.5
-            },
-            "time": 13.25,
-            "types": {
-                "childchu": 1.0,
-                "hovers": 3.0,
-                "map": 15.0,
-                "selfsynergy": -3.0
-            }
-        },
         {
             "difficulty": 17,
             "id": "all-4-wasteland-colossus-area-skulltulas",
@@ -1742,29 +1773,6 @@ var bingoList = {
         },
         {
             "difficulty": 17,
-            "id": "at-least-9-magic-beans",
-            "jp": "魔法のマメ9つ以上",
-            "name": "At least 9 Magic Beans",
-            "rowtypes": {
-                "bottle": 0.0,
-                "hookshot": 0.0,
-                "ms": 0.0
-            },
-            "skill": "",
-            "subtypes": {
-                "child2": 3.0,
-                "gerudo": 6.0,
-                "wallet": 0.5
-            },
-            "time": 13.25,
-            "types": {
-                "beans": 10.0,
-                "childreset": 0.5,
-                "selfsynergy": 0.0
-            }
-        },
-        {
-            "difficulty": 17,
             "id": "beat-the-fire-temple",
             "jp": "炎の神殿クリア",
             "name": "Beat the Fire Temple",
@@ -1777,6 +1785,7 @@ var bingoList = {
             "subtypes": {
                 "bosskey": 2.0,
                 "compass": 4.0,
+                "ganon": 2.0,
                 "hearts": 2.0,
                 "hovers": 0.25,
                 "lightarrow": 3.0,
@@ -1896,7 +1905,6 @@ var bingoList = {
             "subtypes": {
                 "bosskey": 6.0,
                 "bosskey2": 6.0,
-                "childchu": 1.0,
                 "compass": 1.0,
                 "hearts": 3.0,
                 "map": 3.0,
@@ -1905,6 +1913,7 @@ var bingoList = {
             },
             "time": 14.0,
             "types": {
+                "childchu": 0.0,
                 "endon": -0.5,
                 "fortress": 2.5,
                 "gtg": 1.0,
@@ -1990,7 +1999,6 @@ var bingoList = {
             "subtypes": {
                 "bosskey": 3.25,
                 "bosskey2": 5.0,
-                "childchu": 1.0,
                 "compass": 2.5,
                 "dmc": 0.25,
                 "hearts": 0.5,
@@ -2000,14 +2008,42 @@ var bingoList = {
             },
             "time": 14.5,
             "types": {
+                "childchu": 0.0,
                 "fire": 2.5,
                 "fortress": 2.5,
                 "fountain": 1.5,
                 "gtg": 1.0,
                 "gtunic": 1.75,
                 "hovers": 3.0,
+                "incshield": 100.0,
+                "inctunic": 100.0,
                 "selfsynergy": 0.0,
                 "spirit": 3.0
+            }
+        },
+        {
+            "difficulty": 19,
+            "id": "6-compasses",
+            "jp": "コンパス6つ",
+            "name": "6 Compasses",
+            "rowtypes": {
+                "bottle": 0.0,
+                "hookshot": 0.5,
+                "ms": 3.0
+            },
+            "skill": "",
+            "subtypes": {
+                "bosskey2": 2.0,
+                "hearts": 1.5,
+                "map": 15.0,
+                "poachers": 0.5
+            },
+            "time": 14.25,
+            "types": {
+                "childchu": 0.0,
+                "compass": 15.0,
+                "hovers": 3.0,
+                "selfsynergy": -3.0
             }
         },
         {
@@ -2024,13 +2060,16 @@ var bingoList = {
             "subtypes": {
                 "child2": 5.5,
                 "childreset": 1.25,
+                "hearts": 3.0,
                 "wallet": 0.5
             },
             "time": 14.25,
             "types": {
                 "childchu": 0.0,
                 "childtrade": 2.75,
-                "czl": 7.0,
+                "chuczl": 2.0,
+                "czl": 5.0,
+                "dins": 3.0,
                 "dmc": 1.5,
                 "magic": 2.0,
                 "selfsynergy": 0.0
@@ -2078,7 +2117,6 @@ var bingoList = {
             "subtypes": {
                 "bosskey": 4.5,
                 "bosskey2": 5.0,
-                "childchu": 1.0,
                 "compass": 1.0,
                 "hearts": 0.5,
                 "map": 3.0,
@@ -2087,6 +2125,7 @@ var bingoList = {
             "time": 14.25,
             "types": {
                 "bow": 1.5,
+                "childchu": 0.0,
                 "endon": -0.5,
                 "fortress": 2.5,
                 "ganon": 3.0,
@@ -2140,7 +2179,7 @@ var bingoList = {
                 "bosskey2": 5.75,
                 "childchu": -2.0,
                 "compass": 1.0,
-                "hearts": 0.5,
+                "hearts": 1.0,
                 "hovers": 0.25,
                 "map": 4.5,
                 "wallet": 0.25
@@ -2148,6 +2187,7 @@ var bingoList = {
             "time": 14.5,
             "types": {
                 "bothzl": -4.25,
+                "chuczl": 2.0,
                 "czl": 4.25,
                 "fortress": 3.0,
                 "lightarrow": 7.0,
@@ -2175,7 +2215,8 @@ var bingoList = {
             },
             "time": 1.5,
             "types": {
-                "selfsynergy": 0.0
+                "selfsynergy": 0.0,
+                "sticks": 100.0
             }
         },
         {
@@ -2219,6 +2260,7 @@ var bingoList = {
             "time": 1.75,
             "types": {
                 "gtunic": 1.75,
+                "inctunic": 100.0,
                 "selfsynergy": 0.0
             }
         },
@@ -2306,6 +2348,7 @@ var bingoList = {
             "time": 1.5,
             "types": {
                 "fountain": 1.5,
+                "inctunic": 100.0,
                 "selfsynergy": 0.0
             }
         }
@@ -2366,6 +2409,7 @@ var bingoList = {
                 "dmc": 1.0,
                 "endon": -0.5,
                 "fire": 7.0,
+                "ganon": 3.0,
                 "gtunic": 1.0,
                 "lightarrow": 10.0,
                 "selfsynergy": 0.0
@@ -2387,13 +2431,14 @@ var bingoList = {
                 "bottleslot": 4.0,
                 "childchu": -2.0,
                 "compass": 1.0,
-                "hearts": 0.5,
+                "hearts": 1.5,
                 "map": 2.0,
                 "wallet": 0.5
             },
             "time": 15.25,
             "types": {
                 "bothzl": -4.25,
+                "chuczl": 2.0,
                 "czl": 4.25,
                 "dmc": 1.0,
                 "endon": -0.25,
@@ -2407,31 +2452,6 @@ var bingoList = {
         }
     ],
     "21": [
-        {
-            "difficulty": 21,
-            "id": "6-compasses",
-            "jp": "コンパス6つ",
-            "name": "6 Compasses",
-            "rowtypes": {
-                "bottle": 0.0,
-                "hookshot": 0.5,
-                "ms": 3.0
-            },
-            "skill": "",
-            "subtypes": {
-                "bosskey2": 2.0,
-                "childchu": 1.0,
-                "hearts": 1.5,
-                "map": 15.0,
-                "poachers": 0.5
-            },
-            "time": 16.0,
-            "types": {
-                "compass": 15.0,
-                "hovers": 3.0,
-                "selfsynergy": -3.0
-            }
-        },
         {
             "difficulty": 21,
             "id": "all-5-skulltulas-in-shadow-temple",
@@ -2448,12 +2468,13 @@ var bingoList = {
                 "bosskey2": 6.0,
                 "childchu": -2.0,
                 "compass": 1.0,
-                "hearts": 1.5,
+                "hearts": 2.5,
                 "wallet": 2.5
             },
             "time": 16.0,
             "types": {
                 "bothzl": -4.25,
+                "chuczl": 2.0,
                 "czl": 4.25,
                 "hovers": 3.0,
                 "poachers": 4.25,
@@ -2476,7 +2497,7 @@ var bingoList = {
                 "bosskey": 3.75,
                 "childchu": -2.0,
                 "compass": 1.5,
-                "hearts": 0.5,
+                "hearts": 2.5,
                 "hovers": 0.5,
                 "map": 2.0,
                 "spirit": -1.0,
@@ -2485,8 +2506,10 @@ var bingoList = {
             "time": 15.75,
             "types": {
                 "bothzl": -4.25,
-                "czl": 3.0,
+                "chuczl": 2.0,
+                "czl": 4.25,
                 "dc": 2.5,
+                "incwskull": 100.0,
                 "longshot": 4.0,
                 "poachers": 4.25,
                 "selfsynergy": 0.0,
@@ -2541,6 +2564,7 @@ var bingoList = {
             "subtypes": {
                 "bombbag": 100.0,
                 "child2": 2.5,
+                "hearts": 3.0,
                 "wallet": 0.25
             },
             "time": 16.0,
@@ -2548,7 +2572,8 @@ var bingoList = {
                 "childchu": 0.0,
                 "childreset": 1.25,
                 "childtrade": 2.75,
-                "czl": 7.0,
+                "chuczl": 2.0,
+                "czl": 5.0,
                 "saria": 5.0,
                 "selfsynergy": 0.0,
                 "strength": 100.0
@@ -2570,7 +2595,6 @@ var bingoList = {
             "subtypes": {
                 "bosskey": 3.0,
                 "bosskey2": 5.0,
-                "childchu": 1.0,
                 "compass": 4.0,
                 "hearts": 1.5,
                 "map": 6.0,
@@ -2579,12 +2603,15 @@ var bingoList = {
             },
             "time": 16.5,
             "types": {
+                "childchu": 0.0,
                 "endon": -0.5,
                 "fortress": 2.5,
                 "fountain": 2.0,
                 "gtg": 1.0,
                 "hovers": 3.0,
                 "ice": 1.5,
+                "incboot": 100.0,
+                "incshield": 100.0,
                 "irons": 2.0,
                 "selfsynergy": 0.0,
                 "spirit": 3.0
@@ -2605,6 +2632,7 @@ var bingoList = {
             "types": {
                 "childtrade": 1.0,
                 "hearts": 18.0,
+                "inchearts": 100.0,
                 "saria": 1.0,
                 "selfsynergy": -1.0
             }
@@ -2630,6 +2658,7 @@ var bingoList = {
             "time": 16.5,
             "types": {
                 "child2": 3.0,
+                "dins": 1.0,
                 "endon": 0.0,
                 "forest": 3.0,
                 "hovers": 3.0,
@@ -2650,7 +2679,7 @@ var bingoList = {
             "skill": "",
             "subtypes": {
                 "child2": 2.5,
-                "hearts": 1.5,
+                "hearts": 4.5,
                 "wallet": 0.25
             },
             "time": 17.0,
@@ -2658,13 +2687,39 @@ var bingoList = {
                 "childchu": 0.0,
                 "childreset": 1.25,
                 "childtrade": 2.75,
-                "czl": 7.0,
+                "chuczl": 2.0,
+                "czl": 5.0,
                 "saria": 3.0,
                 "selfsynergy": -1.0
             }
         }
     ],
     "23": [
+        {
+            "difficulty": 23,
+            "id": "7-compasses",
+            "jp": "コンパス7つ",
+            "name": "7 Compasses",
+            "rowtypes": {
+                "bottle": 0.5,
+                "hookshot": 100.0,
+                "ms": 5.0
+            },
+            "skill": "",
+            "subtypes": {
+                "bosskey2": 2.0,
+                "hearts": 2.0,
+                "map": 22.0,
+                "poachers": 1.25
+            },
+            "time": 17.25,
+            "types": {
+                "childchu": 0.0,
+                "compass": 22.0,
+                "hovers": 3.0,
+                "selfsynergy": -3.0
+            }
+        },
         {
             "difficulty": 23,
             "id": "map-compass-in-spirit-temple",
@@ -2681,7 +2736,7 @@ var bingoList = {
                 "bosskey2": 4.0,
                 "childchu": -2.0,
                 "compass": 4.0,
-                "hearts": 0.5,
+                "hearts": 1.5,
                 "map": 3.0,
                 "songs": 1.0,
                 "wallet": 1.0
@@ -2690,6 +2745,7 @@ var bingoList = {
             "types": {
                 "bothzl": -4.25,
                 "bow": 1.5,
+                "chuczl": 2.0,
                 "czl": 4.25,
                 "fortress": 3.0,
                 "hovers": 3.0,
@@ -2714,7 +2770,6 @@ var bingoList = {
             "subtypes": {
                 "bosskey": 6.0,
                 "bosskey2": 6.0,
-                "childchu": 1.0,
                 "compass": 1.0,
                 "hearts": 3.0,
                 "map": 3.0,
@@ -2723,6 +2778,7 @@ var bingoList = {
             },
             "time": 19.25,
             "types": {
+                "childchu": 0.0,
                 "endon": -1.0,
                 "fortress": 2.5,
                 "gtg": 1.0,
@@ -2748,7 +2804,7 @@ var bingoList = {
                 "child2": 5.5,
                 "childchu": -2.0,
                 "gtunic": 0.25,
-                "hearts": 1.5,
+                "hearts": 2.5,
                 "map": 2.0,
                 "wallet": 0.75
             },
@@ -2756,6 +2812,7 @@ var bingoList = {
             "types": {
                 "bothzl": -4.25,
                 "childtrade": 2.75,
+                "chuczl": 2.0,
                 "czl": 4.25,
                 "dmc": 1.0,
                 "endon": -0.25,
@@ -2782,7 +2839,6 @@ var bingoList = {
             "subtypes": {
                 "bosskey": 3.25,
                 "bosskey2": 5.0,
-                "childchu": 1.0,
                 "compass": 4.0,
                 "hearts": 2.0,
                 "map": 6.0,
@@ -2791,9 +2847,14 @@ var bingoList = {
             },
             "time": 19.25,
             "types": {
+                "childchu": 0.0,
                 "fortress": 2.5,
                 "gtg": 1.0,
                 "hovers": 3.0,
+                "incboot": 100.0,
+                "incshield": 100.0,
+                "incsword": 100.0,
+                "inctunic": 100.0,
                 "selfsynergy": 0.0,
                 "spirit": 2.5,
                 "swords": 3.0
@@ -2814,17 +2875,20 @@ var bingoList = {
                 "bosskey": 1.0,
                 "childchu": -2.0,
                 "gtunic": 0.25,
+                "hearts": 3.0,
                 "songs": 1.0
             },
             "time": 18.0,
             "types": {
                 "bothzl": -4.25,
-                "czl": 3.0,
+                "chuczl": 2.0,
+                "czl": 4.25,
+                "dins": 3.0,
                 "dmc": 1.0,
                 "endon": -0.5,
-                "fire": 7.0,
-                "firearrow": 7.5,
+                "firearrow": 8.0,
                 "fortress": 2.0,
+                "ganon": 3.0,
                 "hovers": 1.5,
                 "lightarrow": 10.0,
                 "magic": 2.0,
@@ -2834,31 +2898,6 @@ var bingoList = {
         }
     ],
     "25": [
-        {
-            "difficulty": 25,
-            "id": "7-compasses",
-            "jp": "コンパス7つ",
-            "name": "7 Compasses",
-            "rowtypes": {
-                "bottle": 0.5,
-                "hookshot": 100.0,
-                "ms": 5.0
-            },
-            "skill": "",
-            "subtypes": {
-                "bosskey2": 2.0,
-                "childchu": 1.0,
-                "hearts": 2.0,
-                "map": 22.0,
-                "poachers": 1.25
-            },
-            "time": 19.0,
-            "types": {
-                "compass": 22.0,
-                "hovers": 3.0,
-                "selfsynergy": -3.0
-            }
-        },
         {
             "difficulty": 25,
             "id": "9-hearts",
@@ -2874,6 +2913,7 @@ var bingoList = {
             "types": {
                 "childtrade": 2.75,
                 "hearts": 24.0,
+                "inchearts": 100.0,
                 "saria": 3.0,
                 "selfsynergy": -1.0
             }
@@ -2892,7 +2932,6 @@ var bingoList = {
             "subtypes": {
                 "bosskey": 6.0,
                 "bosskey2": 6.0,
-                "childchu": 1.0,
                 "compass": 1.0,
                 "hearts": 2.0,
                 "map": 3.0,
@@ -2901,6 +2940,7 @@ var bingoList = {
             },
             "time": 19.25,
             "types": {
+                "childchu": 0.0,
                 "endon": -1.0,
                 "fortress": 2.5,
                 "gtg": 1.0,
@@ -2923,6 +2963,7 @@ var bingoList = {
             "subtypes": {
                 "bombbag": 100.0,
                 "bulletbag": 100.0,
+                "hearts": 3.0,
                 "wallet": 0.5
             },
             "time": 17.75,
@@ -2930,7 +2971,8 @@ var bingoList = {
                 "childchu": 0.0,
                 "childreset": 1.25,
                 "childtrade": 2.75,
-                "czl": 7.0,
+                "chuczl": 2.0,
+                "czl": 5.0,
                 "saria": 5.0,
                 "selfsynergy": -1.0,
                 "strength": 100.0
@@ -3002,6 +3044,29 @@ var bingoList = {
         },
         {
             "difficulty": 3,
+            "id": "at-least-5-magic-beans",
+            "jp": "",
+            "name": "At Least 5 Magic Beans",
+            "rowtypes": {
+                "bottle": 0.0,
+                "hookshot": 0.0,
+                "ms": 0.0
+            },
+            "skill": "",
+            "subtypes": {
+                "child2": 3.0,
+                "wallet": 0.25
+            },
+            "time": 2.5,
+            "types": {
+                "beans": 3.0,
+                "childreset": 0.5,
+                "incbeans": 100.0,
+                "selfsynergy": 0.0
+            }
+        },
+        {
+            "difficulty": 3,
             "id": "lon-lon-ranch-hp",
             "jp": "",
             "name": "Lon Lon Ranch HP",
@@ -3012,6 +3077,7 @@ var bingoList = {
             },
             "skill": "",
             "subtypes": {
+                "childreset": 1.0,
                 "hearts": 1.0
             },
             "time": 2.5,
@@ -3056,6 +3122,7 @@ var bingoList = {
                 "fire": 2.5,
                 "fountain": 1.5,
                 "gtunic": 1.75,
+                "inctunic": 100.0,
                 "selfsynergy": 0.0
             }
         },
@@ -3167,6 +3234,7 @@ var bingoList = {
             "time": 3.0,
             "types": {
                 "hearts": 5.0,
+                "inchearts": 100.0,
                 "selfsynergy": -1.0
             }
         }
@@ -3206,6 +3274,8 @@ var bingoList = {
                 "fire": 2.5,
                 "fountain": 1.5,
                 "gtunic": 1.75,
+                "incsword": 100.0,
+                "inctunic": 100.0,
                 "selfsynergy": 0.0,
                 "swords": 3.0
             }
@@ -3233,6 +3303,7 @@ var bingoList = {
                 "endon": -0.25,
                 "fortress": 3.0,
                 "gtg": 2.0,
+                "incgtgkey": 100.0,
                 "selfsynergy": 0.0
             }
         },
@@ -3274,14 +3345,15 @@ var bingoList = {
             },
             "skill": "",
             "subtypes": {
-                "childchu": -2.0,
+                "czl": 1.0,
                 "hearts": 0.5,
+                "saria": 2.0,
                 "wallet": 0.25
             },
             "time": 4.25,
             "types": {
                 "bothzl": -4.25,
-                "czl": 1.0,
+                "incsongs": 100.0,
                 "poachers": 4.25,
                 "selfsynergy": 0.0,
                 "songs": 2.0
@@ -3301,10 +3373,13 @@ var bingoList = {
             "subtypes": {
                 "child2": 2.0,
                 "childchu": -2.0,
-                "hearts": 0.5
+                "czl": 1.0,
+                "hearts": 0.5,
+                "saria": 2.0
             },
             "time": 4.25,
             "types": {
+                "incsongs": 100.0,
                 "poachers": 4.25,
                 "selfsynergy": 0.0
             }
@@ -3395,6 +3470,7 @@ var bingoList = {
                 "bosskey": 4.25,
                 "childtrade": 1.5,
                 "czl": 1.5,
+                "hearts": 2.0,
                 "wallet": 0.25
             },
             "time": 4.25,
@@ -3444,13 +3520,13 @@ var bingoList = {
             "skill": "",
             "subtypes": {
                 "compass": 3.0,
+                "czl": 3.0,
                 "hovers": 0.5,
                 "map": 3.0,
                 "wallet": 0.5
             },
             "time": 3.75,
             "types": {
-                "czl": 3.0,
                 "deku": 3.0,
                 "selfsynergy": 0.0
             }
@@ -3502,28 +3578,6 @@ var bingoList = {
                 "fortress": 3.0,
                 "selfsynergy": 0.0,
                 "water": 1.0
-            }
-        },
-        {
-            "difficulty": 5,
-            "id": "at-least-5-magic-beans",
-            "jp": "",
-            "name": "At Least 5 Magic Beans",
-            "rowtypes": {
-                "bottle": 0.0,
-                "hookshot": 0.0,
-                "ms": 0.0
-            },
-            "skill": "",
-            "subtypes": {
-                "child2": 3.0,
-                "wallet": 0.25
-            },
-            "time": 3.75,
-            "types": {
-                "beans": 3.0,
-                "childreset": 0.5,
-                "selfsynergy": 0.0
             }
         },
         {
@@ -3597,6 +3651,7 @@ var bingoList = {
                 "endon": -0.25,
                 "fortress": 3.0,
                 "gtg": 3.0,
+                "incgtgkey": 100.0,
                 "selfsynergy": 0.0
             }
         },
@@ -3907,6 +3962,8 @@ var bingoList = {
             "time": 4.75,
             "types": {
                 "bosskey": 6.75,
+                "ganon": 2.5,
+                "incbk": 100.0,
                 "selfsynergy": -2.0
             }
         }
@@ -3962,6 +4019,7 @@ var bingoList = {
                 "endon": -0.25,
                 "fortress": 3.0,
                 "gtg": 4.0,
+                "incgtgkey": 100.0,
                 "selfsynergy": 0.0
             }
         },
@@ -4031,6 +4089,7 @@ var bingoList = {
             },
             "time": 5.5,
             "types": {
+                "incsongs": 100.0,
                 "poachers": 4.25,
                 "selfsynergy": 0.0,
                 "songs": 1.25
@@ -4050,16 +4109,17 @@ var bingoList = {
             "subtypes": {
                 "childtrade": 1.5,
                 "compass": 2.5,
-                "czl": 5.0,
+                "czl": 3.0,
+                "ganon": 3.0,
                 "hearts": 3.0,
                 "map": 3.0,
                 "wallet": 0.25
             },
             "time": 5.25,
             "types": {
+                "chuczl": 2.0,
                 "deku": 5.0,
                 "endon": -1.0,
-                "ganon": 3.0,
                 "selfsynergy": 0.0
             }
         },
@@ -4075,7 +4135,7 @@ var bingoList = {
             },
             "skill": "",
             "subtypes": {
-                "compass": 1.5,
+                "compass": 2.0,
                 "hearts": 3.0,
                 "map": 1.5,
                 "poachers": 1.25
@@ -4101,16 +4161,17 @@ var bingoList = {
             "skill": "",
             "subtypes": {
                 "compass": 2.0,
-                "czl": 5.0,
+                "czl": 3.0,
+                "ganon": 1.5,
                 "hearts": 3.0,
                 "map": 3.0,
                 "wallet": 0.25
             },
             "time": 5.25,
             "types": {
+                "chuczl": 2.0,
                 "deku": 5.0,
                 "endon": -0.5,
-                "ganon": 1.5,
                 "selfsynergy": 0.0
             }
         },
@@ -4167,6 +4228,7 @@ var bingoList = {
                 "endon": -0.5,
                 "fountain": 2.0,
                 "ice": 1.5,
+                "incboot": 100.0,
                 "irons": 2.0,
                 "selfsynergy": 0.0
             }
@@ -4190,11 +4252,39 @@ var bingoList = {
             "time": 5.25,
             "types": {
                 "fountain": 0.5,
+                "inclhskull": 100.0,
                 "selfsynergy": 0.0
             }
         }
     ],
     "8": [
+        {
+            "difficulty": 8,
+            "id": "6-unused-keys-in-gerudo-training-grounds",
+            "jp": "ゲルドの修練場の未使用のカギ6つ",
+            "name": "6 unused keys in Gerudo Training Grounds",
+            "rowtypes": {
+                "bottle": 0.0,
+                "hookshot": 1.0,
+                "ms": 0.0
+            },
+            "skill": "",
+            "subtypes": {
+                "bosskey": 3.0,
+                "hearts": 0.5,
+                "hovers": 0.5,
+                "map": 3.0,
+                "wallet": 0.25
+            },
+            "time": 6.5,
+            "types": {
+                "endon": -0.25,
+                "fortress": 3.0,
+                "gtg": 5.0,
+                "incgtgkey": 100.0,
+                "selfsynergy": 0.0
+            }
+        },
         {
             "difficulty": 8,
             "id": "all-5-skulltulas-in-forest-temple",
@@ -4239,6 +4329,30 @@ var bingoList = {
             "time": 6.0,
             "types": {
                 "childchu": 0.0,
+                "selfsynergy": 0.0
+            }
+        },
+        {
+            "difficulty": 8,
+            "id": "at-least-7-magic-beans",
+            "jp": "魔法のマメ7つ以上",
+            "name": "At least 7 Magic Beans",
+            "rowtypes": {
+                "bottle": 0.0,
+                "hookshot": 0.0,
+                "ms": 0.0
+            },
+            "skill": "",
+            "subtypes": {
+                "child2": 3.0,
+                "gerudo": 0.5,
+                "wallet": 0.25
+            },
+            "time": 6.0,
+            "types": {
+                "beans": 6.0,
+                "childreset": 0.5,
+                "incbeans": 100.0,
                 "selfsynergy": 0.0
             }
         },
@@ -4305,7 +4419,7 @@ var bingoList = {
             "skill": "",
             "subtypes": {
                 "dmc": 1.0,
-                "firearrow": 2.0,
+                "firearrow": 1.0,
                 "gtunic": 0.25,
                 "magic": 2.0,
                 "wallet": 1.0
@@ -4493,35 +4607,9 @@ var bingoList = {
             "skill": "",
             "time": 7.0,
             "types": {
-                "childtrade": 1.0,
                 "hearts": 8.0,
+                "inchearts": 100.0,
                 "selfsynergy": -1.0
-            }
-        },
-        {
-            "difficulty": 9,
-            "id": "6-unused-keys-in-gerudo-training-grounds",
-            "jp": "ゲルドの修練場の未使用のカギ6つ",
-            "name": "6 unused keys in Gerudo Training Grounds",
-            "rowtypes": {
-                "bottle": 0.0,
-                "hookshot": 1.0,
-                "ms": 0.0
-            },
-            "skill": "",
-            "subtypes": {
-                "bosskey": 3.0,
-                "hearts": 0.5,
-                "hovers": 0.5,
-                "map": 3.0,
-                "wallet": 0.25
-            },
-            "time": 7.0,
-            "types": {
-                "endon": -0.25,
-                "fortress": 3.0,
-                "gtg": 5.0,
-                "selfsynergy": 0.0
             }
         },
         {
@@ -4585,7 +4673,6 @@ var bingoList = {
             },
             "skill": "",
             "subtypes": {
-                "childchu": 1.0,
                 "childreset": 0.5,
                 "compass": 2.0,
                 "hearts": 1.0,
@@ -4593,6 +4680,7 @@ var bingoList = {
             },
             "time": 7.0,
             "types": {
+                "childchu": 0.0,
                 "fountain": 2.0,
                 "gtg": 1.0,
                 "jabu": 3.0,
@@ -4611,7 +4699,7 @@ var bingoList = {
             },
             "skill": "",
             "subtypes": {
-                "compass": 1.5,
+                "compass": 2.0,
                 "hovers": 0.5,
                 "map": 1.5,
                 "poachers": 1.25,
@@ -4724,6 +4812,7 @@ var bingoList = {
             },
             "time": 7.25,
             "types": {
+                "incsongs": 100.0,
                 "poachers": 4.25,
                 "selfsynergy": 0.0,
                 "songs": 3.25
@@ -4742,11 +4831,11 @@ var bingoList = {
             "skill": "",
             "subtypes": {
                 "bosskey2": 2.0,
-                "childchu": 1.0,
                 "map": 7.0
             },
             "time": 7.0,
             "types": {
+                "childchu": 0.0,
                 "compass": 7.0,
                 "hovers": 3.0,
                 "selfsynergy": -3.0
