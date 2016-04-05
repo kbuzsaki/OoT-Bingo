@@ -206,6 +206,12 @@ BingoGenerator.prototype.chooseGoalForPosition = function(position) {
         // scan through each goal at this difficulty level
         for (var j = 0; j < goalsAtTime.length; j++) {
             var goal = goalsAtTime[j];
+
+            // don't allow duplicates of goals
+            if (this.hasGoalOnBoard(goal)) {
+                continue;
+            }
+
             var synergies = this.checkLine(position, goal);
 
             if (this.maximumSynergy >= synergies.maxSynergy && synergies.minSynergy >= this.minimumSynergy) {
@@ -349,6 +355,23 @@ BingoGenerator.prototype.getGoalsInTimeRange = function(minTime, maxTime) {
 };
 
 /**
+ * Returns true if the given goal has already been placed on the board.
+ * Does so by checking against the ids of goals already on the board. Therefore relies on
+ * different goals having different id fields.
+ * @param goal  the goal to check for
+ * @returns {boolean}  true if the goal is on the board, false otherwise
+ */
+BingoGenerator.prototype.hasGoalOnBoard = function(goal) {
+    for (var i = 1; i <= 25; i++) {
+        if (this.bingoBoard[i].id === goal.id) {
+            return true;
+        }
+    }
+
+    return false;
+};
+
+/**
  * Return the squares in the given row *EXCEPT* the square at the given position.
  *
  * for example, getOtherSquares("row1", 4) would return the squares at positions [1, 2, 3, 5],
@@ -429,6 +452,8 @@ BingoGenerator.prototype.getEffectiveTypeSynergiesForRow = function(row) {
  */
 BingoGenerator.prototype.evaluateSquares = function(squares) {
     // bail out if there are duplicate goals
+    // NOTE: keep this in addition to the duplicate checking from chooseGoalForPosition
+    // because this still detects cases from hardcoded boards for analysis
     var ids = squares.map(function(el) { return el.id; }).filter(function(el) { return el; });
     if (hasDuplicateStrings(ids)) {
         return TOO_MUCH_SYNERGY;
