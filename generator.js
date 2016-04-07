@@ -112,7 +112,15 @@ var BingoGenerator = function(bingoList, options) {
             return timeDiff;
         }
 
-        return a.id.localeCompare(b.id);
+        if (a.id > b.id) {
+            return 1;
+        }
+        else if (a.id < b.id) {
+            return -1;
+        }
+        else {
+            return 0;
+        }
     });
 
     this.goalsByName = {};
