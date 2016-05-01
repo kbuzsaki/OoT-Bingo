@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ocarina of Time Bingo</title>
+    <meta name="description" content="Generates 'Bingo' boards for Zelda: Ocarina of Time with any bingo version." />
+    <meta name="keywords" content="oot bingo, zelda bingo" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" type="image/png" href="http://www.speedrunslive.com/favico.png">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://bingosync.com/static/bingosync/bootstrap.min.css">
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script> <!-- google libraries API -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> <!-- jquery -->
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+    <script src="js/querystring.js"></script>
+    <style>
+        #goals-list-select {
+            min-height: 600px;
+        }
+        #selected-goals-select {
+            min-height: 200px;
+        }
+        .goal-list {
+            width: 100%;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="margin-top: 20px">
+        <script src="js/seedrandom-min.js" type="text/javascript"></script>
+        <script src="../goal-list.js" type="text/javascript"></script>
+        <script src="../generator.js" type="text/javascript"></script>
+        <script src="js/bingosetup.js" type="text/javascript"></script>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Goal List
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <a id="add-goal" class="btn btn-default">Add Goal</a>
+                            </div>
+                        </div>
+                        <div style="margin-top: 10px">
+                            <select id="goals-list-select" class="goal-list" multiple="multiple">
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Selected Goals
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <a id="remove-goal" class="btn btn-default">Remove Goal</a>
+                            </div>
+                        </div>
+                        <div style="margin-top: 10px">
+                            <select id="selected-goals-select" class="goal-list" multiple="multiple">
+                            </select>
+                        </div>
+                        <div>
+                            <h4>Goal Info</h4>
+                            <div><b>Raw Time:</b> <span id="debug-raw-time"></span></div>
+                            <div><b>Synergy:</b> <span id="debug-synergy"></span></div>
+                            <div><b>Effective Time:</b> <span id="debug-effective-time"></span></div>
+                            <p></p>
+                            <table id="debug-synergy-table" style="width: 100%">
+                                <thead>
+                                    <th>Synergy</th>
+                                    <th>Values</th>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            var gen = new BingoGenerator(bingoList);
+            var goalsList = gen.goalsList.slice();
+            goalsList.sort(function(a, b) {
+                if (a.id > b.id) {
+                    return 1;
+                }
+                else if (a.id < b.id) {
+                    return -1;
+                }
+                else {
+                    return 0;
+                }
+            });
+
+            var $goalsListSelect = $("#goals-list-select");
+            for (var i = 0; i < goalsList.length; i++) {
+                var goal = goalsList[i];
+                var $option = $("<option value=\"" + goal["name"] + "\">" + goal["name"] + "</option>")
+                $goalsListSelect.append($option);
+            }
+
+            var $rowSelected = $("#selected-goals-select");
+
+            var updateStats = function() {
+                var rowSquares = $rowSelected.find("option").map(function(){
+                    return gen.goalsByName[$(this).val()];
+                }).toArray();
+
+                var rowSynergy = gen.evaluateSquares(rowSquares);
+
+                var rowRawTime = BASELINE_TIME;
+                for (var i = 0; i < rowSquares.length; i++) {
+                    rowRawTime += rowSquares[i].time;
+                }
+
+                // calculate the time difference between the raw time and the desired time
+                // so we can factor it out from synergy
+                var timeDifference = (65 * TIME_PER_DIFFICULTY + BASELINE_TIME) - rowRawTime;
+
+                // adjust the calculated rowSynergy to not include the time difference since that's already
+                // accounted for in rowRawTime
+                rowSynergy = rowSynergy - timeDifference;
+
+                var rowEffectiveTime = rowRawTime - rowSynergy;
+
+                $("#debug-raw-time").html(rowRawTime);
+                $("#debug-synergy").html(rowSynergy);
+                $("#debug-effective-time").html(rowEffectiveTime);
+
+                var synergiesForSquares = gen.calculateSynergiesForSquares(rowSquares);
+                var effectiveTypes = gen.calculateEffectiveTypeSynergies(gen.calculateCombinedTypeSynergies(synergiesForSquares));
+
+                var $synergyTable = $("#debug-synergy-table tbody");
+                $synergyTable.html("");
+
+                for (var type in effectiveTypes) {
+                    $synergyTable.append("<tr><td>" + type + "</td><td>" + JSON.stringify(effectiveTypes[type]) + "</td></tr>");
+                }
+            };
+
+            $("#add-goal").on("click", function() {
+                $goalsListSelect.find(":selected").each(function() {
+                    var $copy = $(this).clone();
+                    $rowSelected.append($copy)
+                });
+                updateStats();
+            });
+            $("#remove-goal").on("click", function() {
+                $rowSelected.find(":selected").remove();
+                updateStats();
+            });
+        });
+    </script>
+</body>
+</html>
