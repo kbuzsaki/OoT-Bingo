@@ -69,13 +69,23 @@
                         <div>
                             <h4>Goal Info</h4>
                             <div><b>Raw Time:</b> <span id="debug-raw-time"></span></div>
+                            <div><b>Time Difference:</b> <span id="debug-time-difference"></span></div>
                             <div><b>Synergy:</b> <span id="debug-synergy"></span></div>
                             <div><b>Effective Time:</b> <span id="debug-effective-time"></span></div>
                             <p></p>
                             <table id="debug-synergy-table" style="width: 100%">
                                 <thead>
-                                    <th>Synergy</th>
-                                    <th>Values</th>
+                                    <th width="30%">Synergy</th>
+                                    <th width="70%">Values</th>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                            <p></p>
+                            <table id="debug-row-synergy-table" style="width: 100%">
+                                <thead>
+                                <th width="30%">Row Synergy</th>
+                                <th width="70%">Values</th>
                                 </thead>
                                 <tbody>
                                 </tbody>
@@ -129,22 +139,30 @@
 
                 // adjust the calculated rowSynergy to not include the time difference since that's already
                 // accounted for in rowRawTime
-                rowSynergy = rowSynergy - timeDifference;
+                // NOTE: don't actually do that because time diff doesn't get calculated here in the generator
+                //rowSynergy = rowSynergy - timeDifference;
 
                 var rowEffectiveTime = rowRawTime - rowSynergy;
 
                 $("#debug-raw-time").html(rowRawTime);
                 $("#debug-synergy").html(rowSynergy);
+                $("#debug-time-difference").html(timeDifference);
                 $("#debug-effective-time").html(rowEffectiveTime);
 
                 var synergiesForSquares = gen.calculateSynergiesForSquares(rowSquares);
                 var effectiveTypes = gen.calculateEffectiveTypeSynergies(gen.calculateCombinedTypeSynergies(synergiesForSquares));
+                var rowtypeSynergies = gen.filterRowtypeSynergies(synergiesForSquares);
 
                 var $synergyTable = $("#debug-synergy-table tbody");
                 $synergyTable.html("");
-
                 for (var type in effectiveTypes) {
                     $synergyTable.append("<tr><td>" + type + "</td><td>" + JSON.stringify(effectiveTypes[type]) + "</td></tr>");
+                }
+
+                var $rowSynergyTable = $("#debug-row-synergy-table tbody");
+                $rowSynergyTable.html("");
+                for (var rowType in rowtypeSynergies) {
+                    $rowSynergyTable.append("<tr><td>" + rowType + "</td><td>" + JSON.stringify(rowtypeSynergies[rowType]) + "</td></tr>");
                 }
             };
 

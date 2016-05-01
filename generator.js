@@ -490,7 +490,7 @@ BingoGenerator.prototype.calculateSynergiesForSquares = function(squares) {
         this.mergeTypeSynergies(rowtypeSynergies, square.rowtypes);
 
         // can't add a time difference for squares that are empty (since it's undefined)
-        if (square.time !== undefined) {
+        if (square.time !== undefined && square.desiredTime !== undefined) {
             timeDifferences.push(square.desiredTime - square.time);
         }
     }
