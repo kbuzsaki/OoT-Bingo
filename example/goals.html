@@ -169,17 +169,22 @@
                 }
             };
 
-            $("#add-goal").on("click", function() {
+            var addGoals = function() {
                 $goalsListSelect.find(":selected").each(function() {
                     var $copy = $(this).clone();
                     $rowSelected.append($copy)
                 });
                 updateStats();
-            });
-            $("#remove-goal").on("click", function() {
+            };
+            var removeGoals = function() {
                 $rowSelected.find(":selected").remove();
                 updateStats();
-            });
+            };
+
+            $("#add-goal").on("click", addGoals);
+            $goalsListSelect.on("keyup dblclick", function(e) { if (e.which == 13 || e.type == 'dblclick') addGoals() });
+            $("#remove-goal").on("click", removeGoals);
+            $rowSelected.on("keyup dblclick", function(e) { if (e.which == 13 || e.type == 'dblclick') removeGoals() });
 
             $("#search-box").on("change keyup paste", function() {
                 var pattern = $(this).val();
