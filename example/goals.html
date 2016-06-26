@@ -43,6 +43,9 @@
                             <div class="col-md-2">
                                 <a id="add-goal" class="btn btn-default">Add Goal</a>
                             </div>
+                            <div class="col-md-10">
+                                <input type="text" id="search-box" class="form-control" placeholder="search">
+                            </div>
                         </div>
                         <div style="margin-top: 10px">
                             <select id="goals-list-select" class="goal-list" multiple="multiple">
@@ -176,6 +179,21 @@
             $("#remove-goal").on("click", function() {
                 $rowSelected.find(":selected").remove();
                 updateStats();
+            });
+
+            $("#search-box").on("change keyup paste", function() {
+                var pattern = $(this).val();
+                var re = new RegExp(pattern, 'i');
+                console.log("pattern: " + pattern);
+                $goalsListSelect.find("option").each(function() {
+                    var match = $(this).val().match(re);
+                    if (match) {
+                        $(this).show();
+                    }
+                    else {
+                        $(this).hide();
+                    }
+                });
             });
         });
     </script>
