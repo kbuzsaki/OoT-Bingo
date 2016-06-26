@@ -99,6 +99,7 @@ var BingoGenerator = function(bingoList, options) {
 
     this.goalsByDifficulty = bingoList;
     this.rowtypeTimeSave = bingoList.rowtypes;
+    this.synergyFilters = bingoList.synfilters || {};
 
     // assemble a list of all goals sorted by the goals' times
     this.goalsList = [];
@@ -568,15 +569,33 @@ BingoGenerator.prototype.calculateEffectiveTypeSynergies = function(typeSynergie
 
     for (var type in typeSynergies) {
         var synergies = typeSynergies[type];
-        synergies.sortNumerically();
 
-        var effectiveSynergies = synergies.slice(0, synergies.length - 1);
+        var effectiveSynergies = this.filterSynergyValuesForType(type, synergies);
+
         if (effectiveSynergies.length > 0) {
             effectiveTypeSynergies[type] = effectiveSynergies;
         }
     }
 
     return effectiveTypeSynergies;
+};
+
+BingoGenerator.prototype.filterSynergyValuesForType = function(type, synergies) {
+    synergies.sortNumerically();
+
+    var filter = this.synergyFilters[type] || "";
+    if (filter.startsWith("min")) {
+        var count = Number(filter.split(" ")[1]);
+        return synergies.slice(0, count);
+    }
+    else if (filter.startsWith("max")) {
+        var count = Number(filter.split(" ")[1]);
+        synergies.reverse();
+        return synergies.slice(0, count);
+    }
+    else {
+        return synergies.slice(0, -1);
+    }
 };
 
 // given aggregated type synergies for the row, calculates the effective synergy for that row
