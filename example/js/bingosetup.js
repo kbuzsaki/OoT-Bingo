@@ -176,14 +176,14 @@ function bingosetup() {
                 var rowSynergy = bingoGenerator.evaluateRow(row);
 
                 var rowSquares = bingoGenerator.getOtherSquares(row);
-                var rowRawTime = BASELINE_TIME;
+                var rowRawTime = bingoGenerator.baselineTime;
                 for (var i = 0; i < rowSquares.length; i++) {
                     rowRawTime += rowSquares[i].goal.time;
                 }
 
                 // calculate the time difference between the raw time and the desired time
                 // so we can factor it out from synergy
-                var timeDifference = (65 * TIME_PER_DIFFICULTY + BASELINE_TIME) - rowRawTime;
+                var timeDifference = (65 * bingoGenerator.timePerDifficulty + bingoGenerator.baselineTime) - rowRawTime;
 
                 // adjust the calculated rowSynergy to not include the time difference since that's already
                 // accounted for in rowRawTime

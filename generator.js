@@ -142,6 +142,9 @@ var BingoGenerator = function(bingoList, options) {
         var goal = this.goalsList[i];
         this.goalsByName[goal.name] = goal;
     }
+    
+    this.baselineTime = options.baselineTime || BASELINE_TIME;
+    this.timePerDifficulty = options.timePerDifficulty || TIME_PER_DIFFICULTY;
 
     this.minimumSynergy = options.minimumSynergy || DEFAULT_MINIMUM_SYNERGY;
     this.maximumSynergy = options.maximumSynergy || DEFAULT_MAXIMUM_SYNERGY;
@@ -196,7 +199,7 @@ BingoGenerator.prototype.generateMagicSquare = function() {
 
         magicSquare[i] = {
             difficulty: difficulty,
-            desiredTime: difficulty * TIME_PER_DIFFICULTY
+            desiredTime: difficulty * this.timePerDifficulty
         };
     }
 
@@ -211,7 +214,7 @@ BingoGenerator.prototype.generateMagicSquare = function() {
  */
 BingoGenerator.prototype.chooseGoalForPosition = function(position) {
     var desiredDifficulty = this.bingoBoard[position].difficulty;
-    var desiredTime = desiredDifficulty * TIME_PER_DIFFICULTY;
+    var desiredTime = desiredDifficulty * this.timePerDifficulty;
 
     // scan through the acceptable difficulty ranges
     for (var offset = 1; offset <= this.maximumOffset; offset++) {

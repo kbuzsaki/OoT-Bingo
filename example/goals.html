@@ -131,14 +131,14 @@
 
                 var rowSynergy = gen.evaluateSquares(rowSquares);
 
-                var rowRawTime = BASELINE_TIME;
+                var rowRawTime = gen.baselineTime;
                 for (var i = 0; i < rowSquares.length; i++) {
                     rowRawTime += rowSquares[i].time;
                 }
 
                 // calculate the time difference between the raw time and the desired time
                 // so we can factor it out from synergy
-                var timeDifference = (65 * TIME_PER_DIFFICULTY + BASELINE_TIME) - rowRawTime;
+                var timeDifference = (65 * gen.timePerDifficulty + gen.baselineTime) - rowRawTime;
 
                 // adjust the calculated rowSynergy to not include the time difference since that's already
                 // accounted for in rowRawTime
