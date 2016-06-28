@@ -97,6 +97,19 @@ var BingoGenerator = function(bingoList, options) {
         options = {};
     }
 
+    this.language = options.lang || 'name';
+    this.mode = options.mode || 'normal';
+    this.seed = options.seed || Math.ceil(999999 * Math.random()).toString();
+
+    if (bingoList.info && bingoList.info.combined === 'true') {
+        if (bingoList[this.mode]) {
+            bingoList = bingoList[this.mode];
+        }
+        else {
+            console.log("bingoList doesn't contain a valid sub goal list for mode: \"" + this.mode + "\"");
+        }
+    }
+
     this.goalsByDifficulty = bingoList;
     this.rowtypeTimeSave = bingoList.rowtypes;
     this.synergyFilters = bingoList.synfilters || {};
@@ -129,10 +142,6 @@ var BingoGenerator = function(bingoList, options) {
         var goal = this.goalsList[i];
         this.goalsByName[goal.name] = goal;
     }
-
-    this.language = options.lang || 'name';
-    this.mode = options.mode || 'normal';
-    this.seed = options.seed || Math.ceil(999999 * Math.random()).toString();
 
     this.minimumSynergy = options.minimumSynergy || DEFAULT_MINIMUM_SYNERGY;
     this.maximumSynergy = options.maximumSynergy || DEFAULT_MAXIMUM_SYNERGY;
