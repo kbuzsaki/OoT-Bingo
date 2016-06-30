@@ -105,6 +105,9 @@ var BingoGenerator = function(bingoList, options) {
         if (bingoList[this.mode]) {
             bingoList = bingoList[this.mode];
         }
+        else if (bingoList["normal"]) {
+            bingoList = bingoList["normal"];
+        }
         else {
             console.log("bingoList doesn't contain a valid sub goal list for mode: \"" + this.mode + "\"");
         }
@@ -141,6 +144,13 @@ var BingoGenerator = function(bingoList, options) {
     for (var i = 0; i < this.goalsList.length; i++) {
         var goal = this.goalsList[i];
         this.goalsByName[goal.name] = goal;
+    }
+
+    // set different defaults for short
+    if (this.mode === 'short') {
+        options.maximumSynergy = options.maximumSynergy || 3;
+        options.baselineTime = options.baselineTime || 12;
+        options.timePerDifficulty = options.timePerDifficulty || 0.5;
     }
     
     this.baselineTime = options.baselineTime || BASELINE_TIME;

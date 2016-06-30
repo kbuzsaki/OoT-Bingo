@@ -80,7 +80,7 @@ function bingosetup() {
         });
 
         // fill in the difficulties of the goals if they're not set already
-        if (!bingoList[1][0].difficulty) {
+        if (bingoList[1] && !bingoList[1][0].difficulty) {
             for (var difficulty = 1; difficulty <= 25; difficulty++) {
                 for (var i = 0; i < bingoList[difficulty].length; i++) {
                     bingoList[difficulty][i].difficulty = difficulty;
