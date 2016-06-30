@@ -344,10 +344,7 @@ BingoGenerator.prototype.difficulty = function(i) {
     // Table5 controls the 5* part and Table1 controls the 1* part.
     value = 5 * e5 + e1;
 
-    if (this.mode == "short") {
-        value = Math.floor(value / 2);
-    } // if short mode, limit difficulty
-    else if (this.mode == "long") {
+    if (this.mode == "long") {
         value = Math.floor((value + 25) / 2);
     }
     value++;
