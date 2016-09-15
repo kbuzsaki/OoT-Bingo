@@ -99,6 +99,7 @@ var BingoGenerator = function(bingoList, options) {
 
     this.language = options.lang || 'name';
     this.mode = options.mode || 'normal';
+    this.blackout = options.blackout || false;
     this.seed = options.seed || Math.ceil(999999 * Math.random()).toString();
 
     if (bingoList.info && bingoList.info.combined === 'true') {
@@ -241,6 +242,14 @@ BingoGenerator.prototype.chooseGoalForPosition = function(position) {
             // don't allow duplicates of goals
             if (this.hasGoalOnBoard(goal)) {
                 continue;
+            }
+
+            // in blackout mode, don't allow goals that conflict with each other, e.g. 8 hearts and 9 hearts,
+            // even if they are in different rows
+            if (this.blackout) {
+                if (this.hasConflictsOnBoard(goal)) {
+                    continue;
+                }
             }
 
             var synergies = this.checkLine(position, goal);
@@ -393,6 +402,29 @@ BingoGenerator.prototype.hasGoalOnBoard = function(goal) {
     for (var i = 1; i <= 25; i++) {
         if (this.bingoBoard[i].id === goal.id) {
             return true;
+        }
+    }
+
+    return false;
+};
+
+/**
+ * Returns true if there are goals that conflict with the given goal anywhere on the board.
+ * This is intended for helping to generate better blackout cards.
+ * @param goal  the goal to check for conflicts with (not already on the board)
+ * @returns {boolean} true if the board contains goals that conflict with the given goal
+ */
+BingoGenerator.prototype.hasConflictsOnBoard = function(goal) {
+    for (var i = 1; i <= 25; i++) {
+        var square = this.bingoBoard[i];
+        if (square.goal) {
+            for (var type in square.goal.types) {
+                if (goal.types[type]) {
+                    if (goal.types[type] >= TOO_MUCH_SYNERGY || square.goal.types[type] >= TOO_MUCH_SYNERGY) {
+                        return true;
+                    }
+                }
+            }
         }
     }
 

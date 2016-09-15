@@ -42,6 +42,7 @@ function bingosetup() {
     var initialOpts = {
         seed: getUrlParameter('seed') || Math.ceil(999999 * Math.random()).toString(),
         mode: getUrlParameter('mode') || 'normal',
+        blackout: getUrlParameter('blackout') || false,
         lang: getUrlParameter('lang') || 'name'
     };
 
