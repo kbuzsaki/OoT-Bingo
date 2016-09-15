@@ -10,23 +10,51 @@ var TOO_MUCH_SYNERGY = 100;
 // might change in the future if we want to support arbitrarily sized boards
 var SQUARES_PER_ROW = 5;
 
-// the minimum synergy allowed in any one row
-var DEFAULT_MINIMUM_SYNERGY = -3;
+/*
+ * Profile Format:
+ *
+ * defaultMinimumSynergy: the minimum synergy allowed in any one row
+ * defaultMaximumSynergy: the maximum synergy allowed in any one row
+ * defaultMaximumSpill:   the maximum allowed spill up in difficulty when choosing a goal
+ * defaultMaximumOffset:  the maximum allowed deviation from the desired time when choosing a goal
+ * baselineTime:          the base amount of time that is factored in to account for starting / common setup
+ * timePerDifficulty:     the ratio between time and difficulty
+ */
+var DEFAULT_PROFILE = {
+    defaultMinimumSynergy: -3,
+    defaultMaximumSynergy: 7,
+    defaultMaximumSpill: 2,
+    defaultMaximumOffset: 2,
+    baselineTime: 28.25,
+    timePerDifficulty: 0.75
+};
 
-// the maximum synergy allowed in any one row
-var DEFAULT_MAXIMUM_SYNERGY = 7;
+var NORMAL_PROFILE = {
+    defaultMinimumSynergy: DEFAULT_PROFILE.defaultMinimumSynergy,
+    defaultMaximumSynergy: DEFAULT_PROFILE.defaultMaximumSynergy,
+    defaultMaximumSpill: DEFAULT_PROFILE.defaultMaximumSpill,
+    defaultMaximumOffset: DEFAULT_PROFILE.defaultMaximumOffset,
+    baselineTime: DEFAULT_PROFILE.baselineTime,
+    timePerDifficulty: DEFAULT_PROFILE.timePerDifficulty
+};
 
-// the maximum allowed spill up in difficulty when choosing a goal
-var DEFAULT_MAXIMUM_SPILL = 2;
+var SHORT_PROFILE = {
+    defaultMinimumSynergy: DEFAULT_PROFILE.defaultMinimumSynergy,
+    defaultMaximumSynergy: 3,
+    defaultMaximumSpill: DEFAULT_PROFILE.defaultMaximumSpill,
+    defaultMaximumOffset: DEFAULT_PROFILE.defaultMaximumOffset,
+    baselineTime: 12,
+    timePerDifficulty: 0.5
+};
 
-// the maximum allow deviation from the desired time when choosing a goal
-var DEFAULT_MAXIMUM_OFFSET = 2;
-
-// the base amount of time that is factored in to account for starting / common setup
-var BASELINE_TIME = 28.25;
-
-// the ratio between time and difficulty
-var TIME_PER_DIFFICULTY = 0.75;
+var BLACKOUT_PROFILE = {
+    defaultMinimumSynergy: DEFAULT_PROFILE.defaultMinimumSynergy,
+    defaultMaximumSynergy: DEFAULT_PROFILE.defaultMaximumSynergy,
+    defaultMaximumSpill: DEFAULT_PROFILE.defaultMaximumSpill,
+    defaultMaximumOffset: DEFAULT_PROFILE.defaultMaximumOffset,
+    baselineTime: DEFAULT_PROFILE.baselineTime,
+    timePerDifficulty: DEFAULT_PROFILE.timePerDifficulty
+};
 
 Array.prototype.sortNumerically = function() {
     return this.sort(function(a, b) {
@@ -147,20 +175,21 @@ var BingoGenerator = function(bingoList, options) {
         this.goalsByName[goal.name] = goal;
     }
 
-    // set different defaults for short
+    this.profile = NORMAL_PROFILE;
     if (this.mode === 'short') {
-        options.maximumSynergy = options.maximumSynergy || 3;
-        options.baselineTime = options.baselineTime || 12;
-        options.timePerDifficulty = options.timePerDifficulty || 0.5;
+        this.profile = SHORT_PROFILE;
+    }
+    else if (this.blackout) {
+        this.profile = BLACKOUT_PROFILE;
     }
     
-    this.baselineTime = options.baselineTime || BASELINE_TIME;
-    this.timePerDifficulty = options.timePerDifficulty || TIME_PER_DIFFICULTY;
+    this.baselineTime = options.baselineTime || this.profile.baselineTime;
+    this.timePerDifficulty = options.timePerDifficulty || this.profile.timePerDifficulty;
 
-    this.minimumSynergy = options.minimumSynergy || DEFAULT_MINIMUM_SYNERGY;
-    this.maximumSynergy = options.maximumSynergy || DEFAULT_MAXIMUM_SYNERGY;
-    this.maximumSpill = options.maximumSpill || DEFAULT_MAXIMUM_SPILL;
-    this.maximumOffset = options.maximumOffset || DEFAULT_MAXIMUM_OFFSET;
+    this.minimumSynergy = options.minimumSynergy || this.profile.defaultMinimumSynergy;
+    this.maximumSynergy = options.maximumSynergy || this.profile.defaultMaximumSynergy;
+    this.maximumSpill = options.maximumSpill || this.profile.defaultMaximumSpill;
+    this.maximumOffset = options.maximumOffset || this.profile.defaultMaximumOffset;
 
     Math.seedrandom(this.seed);
 };
