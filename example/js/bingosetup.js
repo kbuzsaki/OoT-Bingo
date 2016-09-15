@@ -177,8 +177,10 @@ function bingosetup() {
 
                 var rowSquares = bingoGenerator.getOtherSquares(row);
                 var rowRawTime = bingoGenerator.baselineTime;
+                var rowSkill = 0;
                 for (var i = 0; i < rowSquares.length; i++) {
                     rowRawTime += rowSquares[i].goal.time;
+                    rowSkill += rowSquares[i].goal.skill;
                 }
 
                 // calculate the time difference between the raw time and the desired time
@@ -190,12 +192,15 @@ function bingosetup() {
                 rowSynergy = rowSynergy - timeDifference;
 
                 var rowEffectiveTime = rowRawTime - rowSynergy;
+                var rowPerfectTime = rowEffectiveTime - rowSkill;
 
                 var rowCell = '<td class="centered">' + row + "</td>";
                 var rawTimeCell = '<td class="raw-time-cell centered">'+ rowRawTime + "</td>";
                 var synergyCell = '<td class="synergy-cell centered">'+ rowSynergy + "</td>";
                 var rowEffTimeCell = '<td class="effective-time-cell centered">' + rowEffectiveTime + "</td>";
-                $rowInfoTable.find(".debug-" + row).html(rowCell + rawTimeCell + synergyCell + rowEffTimeCell);
+                var skillCell = '<td class="skill-cell centered">' + rowSkill + '</td>';
+                var perfectCell = '<td class="perfect-cell centered">' + rowPerfectTime + '</td>';
+                $rowInfoTable.find(".debug-" + row).html(rowCell + rawTimeCell + synergyCell + rowEffTimeCell + skillCell + perfectCell);
 
                 var effectiveTypes = bingoGenerator.getEffectiveTypeSynergiesForRow(row);
                 // clean out the 0 values for selfsynergy
@@ -219,6 +224,12 @@ function bingosetup() {
 
             var $effTimeCells = $rowInfoTable.find(".effective-time-cell");
             colorizeColumns($effTimeCells, 0.1, true);
+
+            var $skillCells = $rowInfoTable.find(".skill-cell");
+            colorizeColumns($skillCells, 0.1, true);
+
+            var $perfectCells = $rowInfoTable.find(".perfect-cell");
+            colorizeColumns($perfectCells, 0.1, true);
         }
 
         function colorizeColumns($columns, offset, reversed) {
