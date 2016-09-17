@@ -46,6 +46,7 @@ function bingosetup() {
     };
 
     var prettyMode = {
+        'blackout': 'Blackout',
         'normal': 'Normal',
         'short': 'Short',
         'long': 'Long'
