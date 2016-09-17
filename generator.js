@@ -16,6 +16,7 @@ var SQUARES_PER_ROW = 5;
  * defaultMinimumSynergy: the minimum synergy allowed in any one row
  * defaultMaximumSynergy: the maximum synergy allowed in any one row
  * defaultMaximumSpill:   the maximum allowed spill up in difficulty when choosing a goal
+ * defaultInitialOffset:  the initial deviation from the desired time to allow when choosing a goal
  * defaultMaximumOffset:  the maximum allowed deviation from the desired time when choosing a goal
  * baselineTime:          the base amount of time that is factored in to account for starting / common setup
  * timePerDifficulty:     the ratio between time and difficulty
@@ -24,6 +25,7 @@ var DEFAULT_PROFILE = {
     defaultMinimumSynergy: -3,
     defaultMaximumSynergy: 7,
     defaultMaximumSpill: 2,
+    defaultInitialOffset: 1,
     defaultMaximumOffset: 2,
     baselineTime: 28.25,
     timePerDifficulty: 0.75
@@ -33,6 +35,7 @@ var NORMAL_PROFILE = {
     defaultMinimumSynergy: DEFAULT_PROFILE.defaultMinimumSynergy,
     defaultMaximumSynergy: DEFAULT_PROFILE.defaultMaximumSynergy,
     defaultMaximumSpill: DEFAULT_PROFILE.defaultMaximumSpill,
+    defaultInitialOffset: DEFAULT_PROFILE.defaultInitialOffset,
     defaultMaximumOffset: DEFAULT_PROFILE.defaultMaximumOffset,
     baselineTime: DEFAULT_PROFILE.baselineTime,
     timePerDifficulty: DEFAULT_PROFILE.timePerDifficulty
@@ -42,6 +45,7 @@ var SHORT_PROFILE = {
     defaultMinimumSynergy: DEFAULT_PROFILE.defaultMinimumSynergy,
     defaultMaximumSynergy: 3,
     defaultMaximumSpill: DEFAULT_PROFILE.defaultMaximumSpill,
+    defaultInitialOffset: DEFAULT_PROFILE.defaultInitialOffset,
     defaultMaximumOffset: DEFAULT_PROFILE.defaultMaximumOffset,
     baselineTime: 12,
     timePerDifficulty: 0.5
@@ -51,6 +55,7 @@ var BLACKOUT_PROFILE = {
     defaultMinimumSynergy: DEFAULT_PROFILE.defaultMinimumSynergy,
     defaultMaximumSynergy: DEFAULT_PROFILE.defaultMaximumSynergy,
     defaultMaximumSpill: DEFAULT_PROFILE.defaultMaximumSpill,
+    defaultInitialOffset: DEFAULT_PROFILE.defaultInitialOffset,
     defaultMaximumOffset: DEFAULT_PROFILE.defaultMaximumOffset,
     baselineTime: DEFAULT_PROFILE.baselineTime,
     timePerDifficulty: DEFAULT_PROFILE.timePerDifficulty
@@ -188,6 +193,7 @@ var BingoGenerator = function(bingoList, options) {
     this.minimumSynergy = options.minimumSynergy || this.profile.defaultMinimumSynergy;
     this.maximumSynergy = options.maximumSynergy || this.profile.defaultMaximumSynergy;
     this.maximumSpill = options.maximumSpill || this.profile.defaultMaximumSpill;
+    this.initialOffset = options.initialOffset || this.profile.defaultInitialOffset;
     this.maximumOffset = options.maximumOffset || this.profile.defaultMaximumOffset;
 
     Math.seedrandom(this.seed);
@@ -256,7 +262,7 @@ BingoGenerator.prototype.chooseGoalForPosition = function(position) {
     var desiredTime = desiredDifficulty * this.timePerDifficulty;
 
     // scan through the acceptable difficulty ranges
-    for (var offset = 1; offset <= this.maximumOffset; offset++) {
+    for (var offset = this.initialOffset; offset <= this.maximumOffset; offset++) {
         var minTime = desiredTime - offset;
         var maxTime = desiredTime + offset;
 
