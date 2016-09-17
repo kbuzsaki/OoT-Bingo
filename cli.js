@@ -6,9 +6,10 @@ if (process.argv.length < 3) {
     process.exit(1);
 }
 seed = process.argv[2];
+mode = process.argv[3] || "normal";
 
 // seed is expected to be a string, so just use it directly
-options = {"seed": seed};
+options = {"seed": seed, "mode": mode};
 card = ootBingoGenerator(bingoList, options);
 
 console.log(card);
