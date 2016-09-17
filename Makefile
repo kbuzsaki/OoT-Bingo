@@ -23,5 +23,8 @@ new: clean all
 
 # integration tests that fully generate cards for given seeds
 itest: all
-	./tester.sh
+	scripts/run_tests.sh
+
+rebuild_tests: all
+	scripts/rebuild_tests.sh
 
