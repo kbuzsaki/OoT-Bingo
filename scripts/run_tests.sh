@@ -1,6 +1,6 @@
 #!/bin/sh
 
-TEST_OUTPUT_DIR="tests"
+TEST_OUTPUT_DIR="test_data"
 TEMP_FILE=".testoutput"
 
 for mode_dir in $(ls $TEST_OUTPUT_DIR); do
