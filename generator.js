@@ -15,6 +15,7 @@ var SQUARES_PER_ROW = 5;
  *
  * defaultMinimumSynergy: the minimum synergy allowed in any one row
  * defaultMaximumSynergy: the maximum synergy allowed in any one row
+ * defaultMaximumIndividualSynergy: the maximum synergy allowed between a pair of goals
  * defaultMaximumSpill:   the maximum allowed spill up in difficulty when choosing a goal
  * defaultInitialOffset:  the initial deviation from the desired time to allow when choosing a goal
  * defaultMaximumOffset:  the maximum allowed deviation from the desired time when choosing a goal
@@ -24,6 +25,7 @@ var SQUARES_PER_ROW = 5;
 var DEFAULT_PROFILE = {
     defaultMinimumSynergy: -3,
     defaultMaximumSynergy: 7,
+    defaultMaximumIndividualSynergy: 4.5,
     defaultMaximumSpill: 2,
     defaultInitialOffset: 1,
     defaultMaximumOffset: 2,
@@ -34,6 +36,7 @@ var DEFAULT_PROFILE = {
 var NORMAL_PROFILE = {
     defaultMinimumSynergy: DEFAULT_PROFILE.defaultMinimumSynergy,
     defaultMaximumSynergy: DEFAULT_PROFILE.defaultMaximumSynergy,
+    defaultMaximumIndividualSynergy: DEFAULT_PROFILE.defaultMaximumIndividualSynergy,
     defaultMaximumSpill: DEFAULT_PROFILE.defaultMaximumSpill,
     defaultInitialOffset: DEFAULT_PROFILE.defaultInitialOffset,
     defaultMaximumOffset: DEFAULT_PROFILE.defaultMaximumOffset,
@@ -44,6 +47,7 @@ var NORMAL_PROFILE = {
 var SHORT_PROFILE = {
     defaultMinimumSynergy: DEFAULT_PROFILE.defaultMinimumSynergy,
     defaultMaximumSynergy: 3,
+    defaultMaximumIndividualSynergy: DEFAULT_PROFILE.defaultMaximumIndividualSynergy,
     defaultMaximumSpill: DEFAULT_PROFILE.defaultMaximumSpill,
     defaultInitialOffset: DEFAULT_PROFILE.defaultInitialOffset,
     defaultMaximumOffset: DEFAULT_PROFILE.defaultMaximumOffset,
@@ -54,6 +58,7 @@ var SHORT_PROFILE = {
 var BLACKOUT_PROFILE = {
     defaultMinimumSynergy: DEFAULT_PROFILE.defaultMinimumSynergy,
     defaultMaximumSynergy: DEFAULT_PROFILE.defaultMaximumSynergy,
+    defaultMaximumIndividualSynergy: DEFAULT_PROFILE.defaultMaximumIndividualSynergy,
     defaultMaximumSpill: DEFAULT_PROFILE.defaultMaximumSpill,
     defaultInitialOffset: DEFAULT_PROFILE.defaultInitialOffset,
     defaultMaximumOffset: DEFAULT_PROFILE.defaultMaximumOffset,
@@ -192,6 +197,7 @@ var BingoGenerator = function(bingoList, options) {
 
     this.minimumSynergy = options.minimumSynergy || this.profile.defaultMinimumSynergy;
     this.maximumSynergy = options.maximumSynergy || this.profile.defaultMaximumSynergy;
+    this.maximumIndividualSynergy = options.maximumIndividualSynergy || this.profile.defaultMaximumIndividualSynergy;
     this.maximumSpill = options.maximumSpill || this.profile.defaultMaximumSpill;
     this.initialOffset = options.initialOffset || this.profile.defaultInitialOffset;
     this.maximumOffset = options.maximumOffset || this.profile.defaultMaximumOffset;
@@ -683,11 +689,6 @@ BingoGenerator.prototype.filterSynergyValuesForType = function(type, synergies) 
 
 // given aggregated type synergies for the row, calculates the effective synergy for that row
 BingoGenerator.prototype.calculateEffectiveSynergyForSquares = function(synergiesForSquares) {
-    // the maximum synergy value allowed for a single synergy before we puke
-    // not sure if we care about this?
-    // why would a single large synergy matter more than the sum of small synergies...
-    var MAX_INDIVIDUAL_SYNERGY = 4.5;
-
     var typeSynergies = this.calculateCombinedTypeSynergies(synergiesForSquares);
     var rowtypeSynergies = this.filterRowtypeSynergies(synergiesForSquares);
 
@@ -703,7 +704,7 @@ BingoGenerator.prototype.calculateEffectiveSynergyForSquares = function(synergie
         var synergies = effectiveTypeSynergies[type];
 
         for (var i = 0; i < synergies.length; i++) {
-            if (synergies[i] > MAX_INDIVIDUAL_SYNERGY) {
+            if (synergies[i] > this.maximumIndividualSynergy) {
                 return TOO_MUCH_SYNERGY;
             }
 
