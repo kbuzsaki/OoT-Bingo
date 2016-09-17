@@ -446,12 +446,10 @@ BingoGenerator.prototype.hasConflictsOnBoard = function(goal) {
     for (var i = 1; i <= 25; i++) {
         var square = this.bingoBoard[i];
         if (square.goal) {
-            for (var type in square.goal.types) {
-                if (goal.types[type]) {
-                    if (goal.types[type] >= TOO_MUCH_SYNERGY || square.goal.types[type] >= TOO_MUCH_SYNERGY) {
-                        return true;
-                    }
-                }
+            var squares = [goal, square.goal];
+            var synergy = this.evaluateSquares(squares);
+            if (synergy >= TOO_MUCH_SYNERGY) {
+                return true;
             }
         }
     }
