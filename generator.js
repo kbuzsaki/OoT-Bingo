@@ -127,7 +127,6 @@ var BingoGenerator = function(bingoList, options) {
 
     this.language = options.lang || 'name';
     this.mode = options.mode || 'normal';
-    this.blackout = options.blackout || false;
     this.seed = options.seed || Math.ceil(999999 * Math.random()).toString();
 
     if (bingoList.info && bingoList.info.combined === 'true') {
@@ -179,7 +178,7 @@ var BingoGenerator = function(bingoList, options) {
     if (this.mode === 'short') {
         this.profile = SHORT_PROFILE;
     }
-    else if (this.blackout) {
+    else if (this.mode === 'blackout') {
         this.profile = BLACKOUT_PROFILE;
     }
     
@@ -275,7 +274,7 @@ BingoGenerator.prototype.chooseGoalForPosition = function(position) {
 
             // in blackout mode, don't allow goals that conflict with each other, e.g. 8 hearts and 9 hearts,
             // even if they are in different rows
-            if (this.blackout) {
+            if (this.mode === 'blackout') {
                 if (this.hasConflictsOnBoard(goal)) {
                     continue;
                 }
