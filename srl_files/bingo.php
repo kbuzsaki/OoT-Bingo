@@ -25,6 +25,7 @@
 				<?php echo ('<a class="newcard" href="?seed='.mt_rand(0, 999999).'">Normal card</a>'); ?>
 				<?php echo ('<a class="newcard" href="?seed='.mt_rand(0, 999999).'&mode=short">Short card</a>'); ?>
 				<!--<?php echo ('<a class="newcard" href="?seed='.mt_rand(0, 999999).'&mode=long">Long card</a>'); ?>-->
+				<?php echo ('<a class="newcard" href="?seed='.mt_rand(0, 999999).'&mode=blackout">Blackout card</a>'); ?>
 			</div>
 			<div style="clear:both;"></div>
 			

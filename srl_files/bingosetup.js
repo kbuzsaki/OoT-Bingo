@@ -48,7 +48,8 @@ function bingosetup() {
 	var prettyMode = {
 		'normal': 'Normal',
 		'short': 'Short',
-		'long': 'Long'
+		'long': 'Long',
+		'blackout': 'Blackout'
 	};
 
 	var cardType = prettyMode[bingoOpts.mode];
