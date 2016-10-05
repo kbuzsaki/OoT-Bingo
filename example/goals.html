@@ -101,7 +101,30 @@
     </div>
     <script>
         $(document).ready(function() {
+            var filterMaxSynergies = function(dict) {
+                if (!dict) {
+                    return;
+                }
+
+                var keys = Object.keys(dict);
+                for (var i = 0; i < keys.length; i++) {
+                    var synergy = dict[keys[i]];
+                    if (synergy >= 100 || synergy <= -100) {
+                        delete dict[keys[i]];
+                    }
+                }
+            };
+
             var gen = new BingoGenerator(bingoList);
+
+            // filter out 100 value synergies to avoid giving useless answers for overlapping goals
+            for (var i = 0; i < gen.goalsList.length; i++) {
+                var goal = gen.goalsList[i];
+                filterMaxSynergies(goal.types);
+                filterMaxSynergies(goal.subtypes);
+                filterMaxSynergies(goal.rowtypes);
+            }
+
             var goalsList = gen.goalsList.slice();
             goalsList.sort(function(a, b) {
                 if (a.id > b.id) {
