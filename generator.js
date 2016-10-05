@@ -56,14 +56,25 @@ var SHORT_PROFILE = {
 };
 
 var BLACKOUT_PROFILE = {
-    defaultMinimumSynergy: DEFAULT_PROFILE.defaultMinimumSynergy,
-    defaultMaximumSynergy: DEFAULT_PROFILE.defaultMaximumSynergy,
+    defaultMinimumSynergy: -10,
+    defaultMaximumSynergy: 10,
     defaultMaximumIndividualSynergy: DEFAULT_PROFILE.defaultMaximumIndividualSynergy,
     defaultMaximumSpill: DEFAULT_PROFILE.defaultMaximumSpill,
-    defaultInitialOffset: DEFAULT_PROFILE.defaultInitialOffset,
-    defaultMaximumOffset: DEFAULT_PROFILE.defaultMaximumOffset,
+    defaultInitialOffset: 2,
+    defaultMaximumOffset: 6,
     baselineTime: DEFAULT_PROFILE.baselineTime,
     timePerDifficulty: DEFAULT_PROFILE.timePerDifficulty
+};
+
+var SHORTBLACKOUT_PROFILE = {
+    defaultMinimumSynergy: -4,
+    defaultMaximumSynergy: 4,
+    defaultMaximumIndividualSynergy: DEFAULT_PROFILE.defaultMaximumIndividualSynergy,
+    defaultMaximumSpill: DEFAULT_PROFILE.defaultMaximumSpill,
+    defaultInitialOffset: 2,
+    defaultMaximumOffset: 6,
+    baselineTime: 12,
+    timePerDifficulty: 0.5
 };
 
 Array.prototype.sortNumerically = function() {
