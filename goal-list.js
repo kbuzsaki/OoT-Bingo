@@ -1,7 +1,7 @@
 var bingoList = {
     "info": {
         "combined": "true",
-        "version": "v9.1"
+        "version": "v9.2"
     },
     "normal": {
         "0": [],
@@ -13,6 +13,7 @@ var bingoList = {
                 "name": "30 Deku Nuts",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.5,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -33,6 +34,7 @@ var bingoList = {
                 "name": "Bomb Bag (30)",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 3.0
                 },
@@ -55,6 +57,7 @@ var bingoList = {
                 "name": "Bottled Fairy",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -71,6 +74,7 @@ var bingoList = {
                 "name": "Bullet Bag (50)",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -91,8 +95,9 @@ var bingoList = {
                 "name": "Defeat a Skull Kid",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 0.0,
-                    "ms": 0.5
+                    "ms": 0.0
                 },
                 "skill": 0.0,
                 "time": 0.75,
@@ -108,6 +113,7 @@ var bingoList = {
                 "name": "Exactly 20 Deku Sticks",
                 "rowtypes": {
                     "bottle": 1.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 1.0
                 },
@@ -125,6 +131,7 @@ var bingoList = {
                 "name": "Giant's Knife",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 0.0,
                     "ms": 100.0
                 },
@@ -146,6 +153,7 @@ var bingoList = {
                 "name": "Lens of Truth",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -163,6 +171,7 @@ var bingoList = {
                 "name": "Map & Compass in Bottom of the Well",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -186,6 +195,7 @@ var bingoList = {
                 "name": "5 Maps",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 1.5
                 },
@@ -200,6 +210,7 @@ var bingoList = {
                 "time": 7.75,
                 "types": {
                     "hovers": 3.0,
+                    "incmc": 100.0,
                     "map": 9.0,
                     "selfsynergy": -3.0
                 }
@@ -211,6 +222,7 @@ var bingoList = {
                 "name": "7 Songs",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 100.0
                 },
@@ -228,7 +240,6 @@ var bingoList = {
                     "incsongs": 100.0,
                     "poachers": 4.25,
                     "selfsynergy": 0.0,
-                    "songs4": 2.0,
                     "songs5": 3.25
                 }
             },
@@ -239,6 +250,7 @@ var bingoList = {
                 "name": "All 4 Lon-Lon Ranch area Skulltulas",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -262,6 +274,7 @@ var bingoList = {
                 "name": "All 4 Skulltulas in Deku Tree",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 1.0,
                     "ms": 0.0
                 },
@@ -287,6 +300,7 @@ var bingoList = {
                 "name": "All 4 Skulltulas in Jabu-Jabu",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -296,11 +310,11 @@ var bingoList = {
                     "compass": 2.0,
                     "hearts3": 2.0,
                     "hearts4": 1.0,
+                    "hovers": 0.75,
                     "wallet": 2.25
                 },
                 "time": 7.5,
                 "types": {
-                    "childchu": 0.0,
                     "fountain": 2.0,
                     "gtg": 1.0,
                     "jabu": 3.0,
@@ -314,6 +328,7 @@ var bingoList = {
                 "name": "Both Hyrule Field area Skulltulas",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 2.0,
                     "ms": 6.0
                 },
@@ -334,11 +349,38 @@ var bingoList = {
             },
             {
                 "difficulty": 10,
+                "id": "defeat-big-octo",
+                "jp": "大オクタ撃破",
+                "name": "Defeat Big Octo",
+                "rowtypes": {
+                    "bottle": 0.0,
+                    "gclw": 0.0,
+                    "hookshot": 0.5,
+                    "ms": 0.0
+                },
+                "skill": 0.5,
+                "subtypes": {
+                    "childreset": 1.25,
+                    "compass": 2.0,
+                    "hearts3": 0.5,
+                    "wallet": 0.75
+                },
+                "time": 7.75,
+                "types": {
+                    "fountain": 2.0,
+                    "gtg": 1.0,
+                    "jabu": 5.0,
+                    "selfsynergy": 0.0
+                }
+            },
+            {
+                "difficulty": 10,
                 "id": "get-to-the-end-of-fire-trial",
                 "jp": "炎の結界の最後の部屋に到達",
                 "name": "Get to the end of Fire Trial",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 3.0
                 },
@@ -364,6 +406,7 @@ var bingoList = {
                 "name": "Requiem of Spirit",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 1.5,
                     "ms": 0.5
                 },
@@ -395,6 +438,7 @@ var bingoList = {
                 "name": "3 Boots",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 1.5
                 },
@@ -425,6 +469,7 @@ var bingoList = {
                 "name": "500 Rupees",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 2.0,
                     "ms": 7.0
                 },
@@ -436,7 +481,7 @@ var bingoList = {
                 "time": 8.25,
                 "types": {
                     "selfsynergy": 0.0,
-                    "wallet": 5.0
+                    "wallet": 100.0
                 }
             },
             {
@@ -446,6 +491,7 @@ var bingoList = {
                 "name": "7 Hearts",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.5,
                     "ms": 4.0
                 },
@@ -465,6 +511,7 @@ var bingoList = {
                 "name": "8 Songs",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 100.0
                 },
@@ -491,6 +538,7 @@ var bingoList = {
                 "name": "All 8 Death Mountain area Skulltulas",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.75,
                     "hookshot": 0.25,
                     "ms": 100.0
                 },
@@ -515,6 +563,7 @@ var bingoList = {
                 "name": "Boomerang",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -531,6 +580,7 @@ var bingoList = {
                     "childchu": 0.0,
                     "fountain": 2.0,
                     "gtg": 1.0,
+                    "incbarinade": 100.0,
                     "jabu": 5.0,
                     "selfsynergy": 0.0
                 }
@@ -542,6 +592,7 @@ var bingoList = {
                 "name": "Bronze Gauntlets",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 2.5,
                     "ms": 100.0
                 },
@@ -571,6 +622,7 @@ var bingoList = {
                 "name": "Fire Arrows",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 0.5,
                     "ms": 100.0
                 },
@@ -578,6 +630,7 @@ var bingoList = {
                 "subtypes": {
                     "bosskey": 2.0,
                     "childchu": -2.5,
+                    "incarrows": 100.0,
                     "map": 3.0,
                     "poachers": 1.5,
                     "wallet": 0.25
@@ -599,6 +652,7 @@ var bingoList = {
                 "name": "Get to the end of Light Trial",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 3.0
                 },
@@ -629,8 +683,9 @@ var bingoList = {
                 "name": "Stone of Agony",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
-                    "ms": 10.0
+                    "ms": 7.0
                 },
                 "skill": 0.5,
                 "subtypes": {
@@ -648,9 +703,10 @@ var bingoList = {
                 "difficulty": 12,
                 "id": "5-zora-area-hps",
                 "jp": "ゾーラエリアのハートのかけら5つ以上",
-                "name": "5 Zora Area HPs",
+                "name": "5 Zora area HPs",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 100.0
                 },
@@ -661,6 +717,7 @@ var bingoList = {
                     "hearts3": 3.0,
                     "hearts4": 0.25,
                     "hovers": 1.0,
+                    "incirons": 100.0,
                     "map": 3.0
                 },
                 "time": 9.0,
@@ -675,9 +732,10 @@ var bingoList = {
                 "difficulty": 12,
                 "id": "7-different-unused-keys-in-gerudo-training-grounds",
                 "jp": "ゲルドの修練場の未使用の鍵7つ(増殖禁止)",
-                "name": "7 different unused keys in Gerudo Training Grounds",
+                "name": "7 Different Unused Keys in Gerudo Training Grounds",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 3.0
                 },
@@ -705,6 +763,7 @@ var bingoList = {
                 "name": "Beat the Shadow Temple",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 5.0
                 },
@@ -720,6 +779,7 @@ var bingoList = {
                     "deku": 2.0,
                     "endon": -1.0,
                     "hovers": 3.0,
+                    "incshboss": 100.0,
                     "legitlacs": 100.0,
                     "selfsynergy": 0.0,
                     "shadow": 5.0
@@ -732,6 +792,7 @@ var bingoList = {
                 "name": "Defeat Amy (Green Poe)",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -760,36 +821,12 @@ var bingoList = {
             },
             {
                 "difficulty": 12,
-                "id": "defeat-big-octo",
-                "jp": "大オクタ撃破",
-                "name": "Defeat Big Octo",
-                "rowtypes": {
-                    "bottle": 0.0,
-                    "hookshot": 0.5,
-                    "ms": 0.0
-                },
-                "skill": 0.5,
-                "subtypes": {
-                    "compass": 2.0,
-                    "hearts3": 0.5,
-                    "wallet": 0.75
-                },
-                "time": 9.0,
-                "types": {
-                    "childchu": 0.0,
-                    "fountain": 2.0,
-                    "gtg": 1.0,
-                    "jabu": 3.0,
-                    "selfsynergy": 0.0
-                }
-            },
-            {
-                "difficulty": 12,
                 "id": "defeat-bongo-bongo",
                 "jp": "ボンゴボンゴ撃破",
                 "name": "Defeat Bongo-Bongo",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 5.0
                 },
@@ -805,6 +842,7 @@ var bingoList = {
                     "deku": 2.0,
                     "endon": -0.25,
                     "hovers": 3.0,
+                    "incshboss": 100.0,
                     "legitlacs": 100.0,
                     "selfsynergy": 0.0,
                     "shadow": 5.0
@@ -817,6 +855,7 @@ var bingoList = {
                 "name": "Fairy Bow",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 4.0
                 },
@@ -848,6 +887,7 @@ var bingoList = {
                 "name": "Gerudo's Card",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.75,
                     "ms": 2.5
                 },
@@ -863,7 +903,8 @@ var bingoList = {
                 "types": {
                     "fortress": 2.5,
                     "gerudo": 6.0,
-                    "selfsynergy": 0.0
+                    "selfsynergy": 0.0,
+                    "spirit": 0.5
                 }
             },
             {
@@ -873,6 +914,7 @@ var bingoList = {
                 "name": "Map & Compass in Fire Temple",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 0.25,
                     "ms": 4.0
                 },
@@ -901,6 +943,7 @@ var bingoList = {
                 "name": "Shadow Temple Boss Key",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 1.0,
                     "ms": 3.0
                 },
@@ -929,11 +972,46 @@ var bingoList = {
         "13": [
             {
                 "difficulty": 13,
+                "id": "3-skulltulas-in-water-temple",
+                "jp": "水の神殿の黄金のスタルチュラ3匹以上",
+                "name": "3 Skulltulas in Water Temple",
+                "rowtypes": {
+                    "bottle": 100.0,
+                    "gclw": 0.5,
+                    "hookshot": 100.0,
+                    "ms": 7.0
+                },
+                "skill": 0.5,
+                "subtypes": {
+                    "aganon": 0.25,
+                    "bbprize": -4.0,
+                    "childchu": -2.5,
+                    "compass": 2.5,
+                    "hearts3": 1.5,
+                    "hearts4": 2.5,
+                    "hovers": 0.5,
+                    "map": 2.5,
+                    "wallet": 1.5
+                },
+                "time": 9.75,
+                "types": {
+                    "dc": 2.0,
+                    "ice": 1.5,
+                    "incwskull": 100.0,
+                    "irons": 2.0,
+                    "longshot": 2.0,
+                    "selfsynergy": 0.0,
+                    "water": 3.0
+                }
+            },
+            {
+                "difficulty": 13,
                 "id": "3-swords-3-boots",
                 "jp": "剣3種、靴3種",
                 "name": "3 Swords & 3 Boots",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 100.0
                 },
@@ -968,6 +1046,7 @@ var bingoList = {
                 "name": "4 Skulltulas in Shadow Temple",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -991,6 +1070,7 @@ var bingoList = {
                 "name": "Double Defense",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 100.0
                 },
@@ -1020,6 +1100,7 @@ var bingoList = {
                 "name": "Double Magic",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 3.0
                 },
@@ -1050,6 +1131,7 @@ var bingoList = {
                 "name": "Map & Compass in Jabu-Jabu",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -1079,6 +1161,7 @@ var bingoList = {
                 "name": "Obtain all 8 Small Keys in Fire Temple",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -1109,6 +1192,7 @@ var bingoList = {
                 "name": "1 Skulltula from each Child Dungeon",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.5,
                     "hookshot": 0.5,
                     "ms": 0.0
                 },
@@ -1135,6 +1219,7 @@ var bingoList = {
                 "name": "3 Boss Keys",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -1159,9 +1244,10 @@ var bingoList = {
                 "difficulty": 14,
                 "id": "8-different-unused-keys-in-gerudo-training-grounds",
                 "jp": "ゲルドの修練場の未使用の鍵8つ(増殖禁止)",
-                "name": "8 different unused keys in Gerudo Training Grounds",
+                "name": "8 Different Unused Keys in Gerudo Training Grounds",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -1192,6 +1278,7 @@ var bingoList = {
                 "name": "All 8 Zora's Domain area Skulltulas",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -1218,6 +1305,7 @@ var bingoList = {
                 "name": "Defeat both Flare Dancers",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 0.25,
                     "ms": 100.0
                 },
@@ -1226,6 +1314,7 @@ var bingoList = {
                     "bosskey": 2.0,
                     "compass": 4.0,
                     "hovers": 0.25,
+                    "incgorons": 100.0,
                     "map": 2.5,
                     "songs5": 1.25,
                     "wallet": 0.5
@@ -1235,6 +1324,7 @@ var bingoList = {
                     "dmc": 1.0,
                     "fire": 8.0,
                     "gtunic": 1.0,
+                    "incflare": 100.0,
                     "selfsynergy": 0.0
                 }
             },
@@ -1245,6 +1335,7 @@ var bingoList = {
                 "name": "Forest Temple Boss Key",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -1277,6 +1368,7 @@ var bingoList = {
                 "name": "Keaton Mask",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -1304,6 +1396,7 @@ var bingoList = {
                 "name": "Megaton Hammer",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 0.25,
                     "ms": 4.0
                 },
@@ -1314,6 +1407,7 @@ var bingoList = {
                     "hearts3": 1.5,
                     "hearts4": 1.0,
                     "hovers": 0.25,
+                    "incgorons": 100.0,
                     "map": 2.0,
                     "songs5": 1.25,
                     "wallet": 0.25
@@ -1330,44 +1424,12 @@ var bingoList = {
         "15": [
             {
                 "difficulty": 15,
-                "id": "3-skulltulas-in-water-temple",
-                "jp": "水の神殿の黄金のスタルチュラ3匹以上",
-                "name": "3 Skulltulas in Water Temple",
-                "rowtypes": {
-                    "bottle": 100.0,
-                    "hookshot": 100.0,
-                    "ms": 6.0
-                },
-                "skill": 0.25,
-                "subtypes": {
-                    "aganon": 0.25,
-                    "bbprize": -4.0,
-                    "childchu": -2.5,
-                    "compass": 2.5,
-                    "hearts3": 1.5,
-                    "hearts4": 2.5,
-                    "hovers": 0.25,
-                    "map": 2.5,
-                    "wallet": 1.5
-                },
-                "time": 11.25,
-                "types": {
-                    "dc": 2.0,
-                    "ice": 1.5,
-                    "incwskull": 100.0,
-                    "irons": 2.0,
-                    "longshot": 2.0,
-                    "selfsynergy": 0.0,
-                    "water": 3.0
-                }
-            },
-            {
-                "difficulty": 15,
                 "id": "5-compasses",
                 "jp": "コンパス5つ",
                 "name": "5 Compasses",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 2.0
                 },
@@ -1383,6 +1445,7 @@ var bingoList = {
                 "types": {
                     "compass": 10.0,
                     "hovers": 3.0,
+                    "incmc": 100.0,
                     "selfsynergy": -3.0
                 }
             },
@@ -1393,6 +1456,7 @@ var bingoList = {
                 "name": "9 Songs",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 100.0
                 },
@@ -1419,6 +1483,7 @@ var bingoList = {
                 "name": "All 5 Skulltulas in Fire Temple",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -1448,6 +1513,7 @@ var bingoList = {
                 "name": "Defeat Barinade",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -1466,6 +1532,7 @@ var bingoList = {
                     "childchu": 0.0,
                     "endon": -0.25,
                     "fountain": 2.0,
+                    "incbarinade": 100.0,
                     "jabu": 8.0,
                     "selfsynergy": 0.0
                 }
@@ -1477,6 +1544,7 @@ var bingoList = {
                 "name": "Farore's Wind",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 3.0
                 },
@@ -1488,6 +1556,7 @@ var bingoList = {
                     "compass": 2.0,
                     "gtunic": 0.25,
                     "hearts3": 2.5,
+                    "incfairy": 100.0,
                     "map": 2.0,
                     "wallet": 0.5
                 },
@@ -1509,6 +1578,7 @@ var bingoList = {
                 "name": "Map & Compass in Forest Temple",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -1539,6 +1609,7 @@ var bingoList = {
                 "name": "Mirror Shield",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 6.0
                 },
@@ -1558,7 +1629,9 @@ var bingoList = {
                     "fortress": 2.5,
                     "gtg": 1.0,
                     "hovers": 3.0,
+                    "incmirror": 100.0,
                     "incshield": 100.0,
+                    "incspboss": 100.0,
                     "selfsynergy": 0.0,
                     "spirit": 3.5
                 }
@@ -1570,6 +1643,7 @@ var bingoList = {
                 "name": "Silver Gauntlets",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 3.5
                 },
@@ -1604,6 +1678,7 @@ var bingoList = {
                 "name": "3 Shields",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 6.0
                 },
@@ -1632,6 +1707,7 @@ var bingoList = {
                 "name": "3 Tunics & 3 Boots",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 100.0
                 },
@@ -1666,6 +1742,7 @@ var bingoList = {
                 "name": "6 Maps",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 2.5
                 },
@@ -1684,6 +1761,7 @@ var bingoList = {
                 "types": {
                     "childchu": 0.0,
                     "hovers": 3.0,
+                    "incmc": 100.0,
                     "map": 15.0,
                     "selfsynergy": -3.0
                 }
@@ -1695,6 +1773,7 @@ var bingoList = {
                 "name": "All 4 Wasteland/ Colossus area Skulltulas",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -1724,6 +1803,7 @@ var bingoList = {
                 "name": "Get Bombchu chest in Spirit Temple",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 2.0,
                     "ms": 1.0
                 },
@@ -1752,6 +1832,7 @@ var bingoList = {
                 "name": "3 Swords & 3 Shields",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -1787,6 +1868,7 @@ var bingoList = {
                 "name": "8 Hearts",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 1.0,
                     "ms": 6.0
                 },
@@ -1808,6 +1890,7 @@ var bingoList = {
                 "name": "All 5 Lake Hylia Skulltulas",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -1819,6 +1902,7 @@ var bingoList = {
                     "hearts3": 1.0,
                     "hearts4": 0.25,
                     "hovers": 0.5,
+                    "incirons": 100.0,
                     "map": 4.0,
                     "wallet": 3.0
                 },
@@ -1839,6 +1923,7 @@ var bingoList = {
                 "name": "Beat Jabu-Jabu's Belly",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -1856,6 +1941,7 @@ var bingoList = {
                 "types": {
                     "childchu": 0.0,
                     "fountain": 2.0,
+                    "incbarinade": 100.0,
                     "jabu": 8.0,
                     "selfsynergy": 0.0
                 }
@@ -1867,6 +1953,7 @@ var bingoList = {
                 "name": "Blue Gauntlets",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -1901,6 +1988,7 @@ var bingoList = {
                 "name": "Defeat Nabooru-Knuckle",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -1920,6 +2008,7 @@ var bingoList = {
                     "fortress": 2.5,
                     "gtg": 1.0,
                     "hovers": 3.0,
+                    "incspboss": 100.0,
                     "selfsynergy": 0.0,
                     "spirit": 8.0
                 }
@@ -1931,6 +2020,7 @@ var bingoList = {
                 "name": "Defeat Volvagia",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 0.25,
                     "ms": 100.0
                 },
@@ -1955,16 +2045,18 @@ var bingoList = {
                     "fire": 9.0,
                     "forest": 1.0,
                     "gtunic": 1.75,
+                    "incvolvagia": 100.0,
                     "selfsynergy": 0.0
                 }
             },
             {
                 "difficulty": 17,
-                "id": "frog-s-heart-piece",
+                "id": "frog-s-hp",
                 "jp": "カエルのハートのかけら(嵐の歌)",
-                "name": "Frog's Heart Piece",
+                "name": "Frog's HP",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -1985,6 +2077,7 @@ var bingoList = {
                     "endon": 0.0,
                     "forest": 3.0,
                     "hovers": 3.0,
+                    "incfboss": 100.0,
                     "pg": 2.25,
                     "selfsynergy": 0.0
                 }
@@ -1996,6 +2089,7 @@ var bingoList = {
                 "name": "Obtain all 5 Small Keys in Forest Temple",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -2026,6 +2120,7 @@ var bingoList = {
                 "name": "Saria's Song",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -2045,6 +2140,7 @@ var bingoList = {
                     "childtrade": 2.75,
                     "chuczl": 2.0,
                     "czl": 5.0,
+                    "incsaria": 100.0,
                     "saria": 3.0,
                     "selfsynergy": 0.0
                 }
@@ -2058,6 +2154,7 @@ var bingoList = {
                 "name": "Beat the Fire Temple",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 0.25,
                     "ms": 100.0
                 },
@@ -2082,6 +2179,7 @@ var bingoList = {
                     "fire": 10.0,
                     "forest": 2.0,
                     "gtunic": 1.75,
+                    "incvolvagia": 100.0,
                     "selfsynergy": 0.0
                 }
             },
@@ -2092,6 +2190,7 @@ var bingoList = {
                 "name": "Light Arrows",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 100.0
                 },
@@ -2104,6 +2203,7 @@ var bingoList = {
                     "hearts3": 1.5,
                     "hearts4": 0.75,
                     "hovers": 0.25,
+                    "incarrows": 100.0,
                     "map": 3.0,
                     "quiver": 4.5,
                     "wallet": 0.25
@@ -2126,6 +2226,7 @@ var bingoList = {
                 "name": "Spooky Mask",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 0.75,
                     "ms": 7.0
                 },
@@ -2157,6 +2258,7 @@ var bingoList = {
                 "name": "Defeat Meg (purple Poe)",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -2187,6 +2289,7 @@ var bingoList = {
                 "name": "Din's Fire",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -2198,6 +2301,7 @@ var bingoList = {
                     "compass": 2.0,
                     "hearts3": 3.5,
                     "hearts4": 1.0,
+                    "incfairy": 100.0,
                     "map": 2.0,
                     "songs4": 1.75,
                     "wallet": 0.5
@@ -2221,6 +2325,7 @@ var bingoList = {
                 "name": "Fire Medallion",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 100.0
                 },
@@ -2243,7 +2348,38 @@ var bingoList = {
                     "fire": 10.0,
                     "forest": 2.0,
                     "gtunic": 1.75,
+                    "incvolvagia": 100.0,
                     "selfsynergy": 0.0
+                }
+            },
+            {
+                "difficulty": 19,
+                "id": "quiver-50-",
+                "jp": "矢立て(50)",
+                "name": "Quiver (50)",
+                "rowtypes": {
+                    "bottle": 100.0,
+                    "gclw": 0.0,
+                    "hookshot": 0.0,
+                    "ms": 100.0
+                },
+                "skill": 0.0,
+                "subtypes": {
+                    "bosskey": 2.5,
+                    "childchu": -2.5,
+                    "hearts4": 0.5,
+                    "map": 2.0,
+                    "wallet": 0.25
+                },
+                "time": 14.25,
+                "types": {
+                    "beans": 10.0,
+                    "bombbag": 100.0,
+                    "fortress": 3.0,
+                    "gerudo": 7.0,
+                    "quiver": 1.0,
+                    "selfsynergy": 0.0,
+                    "spirit": 0.5
                 }
             },
             {
@@ -2253,6 +2389,7 @@ var bingoList = {
                 "name": "Spirit Temple Boss Key",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 0.0,
                     "ms": 8.0
                 },
@@ -2292,6 +2429,7 @@ var bingoList = {
                 "name": "Bolero of Fire",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 0.25,
                     "ms": 100.0
                 },
@@ -2315,6 +2453,7 @@ var bingoList = {
                 "name": "Exactly 30 Deku Sticks",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 2.0
                 },
@@ -2336,6 +2475,7 @@ var bingoList = {
                 "name": "Goron Tunic",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 0.0,
                     "ms": 100.0
                 },
@@ -2358,6 +2498,7 @@ var bingoList = {
                 "name": "Minuet of Forest",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 0.0,
                     "ms": 100.0
                 },
@@ -2382,6 +2523,7 @@ var bingoList = {
                 "name": "Quiver (40)",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 100.0
                 },
@@ -2403,6 +2545,7 @@ var bingoList = {
                 "name": "Zora Tunic",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 0.0,
                     "ms": 100.0
                 },
@@ -2429,6 +2572,7 @@ var bingoList = {
                 "name": "3 Shields & 3 Tunics",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -2464,6 +2608,7 @@ var bingoList = {
                 "name": "6 Compasses",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 3.0
                 },
@@ -2480,6 +2625,7 @@ var bingoList = {
                 "types": {
                     "compass": 15.0,
                     "hovers": 3.0,
+                    "incmc": 100.0,
                     "selfsynergy": -3.0
                 }
             },
@@ -2490,6 +2636,7 @@ var bingoList = {
                 "name": "All 5 Skulltulas in Spirit Temple",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 4.0
                 },
@@ -2515,9 +2662,10 @@ var bingoList = {
                 "difficulty": 20,
                 "id": "free-all-9-gorons-in-fire-temple",
                 "jp": "炎の神殿で９人のゴロンを全員救う",
-                "name": "Free all 9 gorons in Fire Temple",
+                "name": "Free all 9 Gorons in Fire Temple",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 100.0
                 },
@@ -2537,6 +2685,8 @@ var bingoList = {
                     "dmc": 1.0,
                     "fire": 8.0,
                     "gtunic": 1.0,
+                    "incflare": 100.0,
+                    "incgorons": 100.0,
                     "selfsynergy": 0.0
                 }
             },
@@ -2547,6 +2697,7 @@ var bingoList = {
                 "name": "Get to the end of Spirit Trial",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -2567,6 +2718,7 @@ var bingoList = {
                     "fortress": 2.5,
                     "gtg": 1.0,
                     "hovers": 3.0,
+                    "incmirror": 100.0,
                     "quiver": 1.5,
                     "selfsynergy": 0.0,
                     "spirit": 3.5
@@ -2579,6 +2731,7 @@ var bingoList = {
                 "name": "Get to the end of Water Trial",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 100.0
                 },
@@ -2613,6 +2766,7 @@ var bingoList = {
                 "name": "Obtain all 5 Small Keys in Shadow Temple",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -2636,34 +2790,6 @@ var bingoList = {
                     "selfsynergy": 0.0,
                     "shadow": 8.0
                 }
-            },
-            {
-                "difficulty": 20,
-                "id": "quiver-50-",
-                "jp": "矢立て(50)",
-                "name": "Quiver (50)",
-                "rowtypes": {
-                    "bottle": 100.0,
-                    "hookshot": 0.0,
-                    "ms": 100.0
-                },
-                "skill": 0.5,
-                "subtypes": {
-                    "bosskey": 2.5,
-                    "childchu": -2.5,
-                    "hearts4": 0.5,
-                    "map": 2.0,
-                    "wallet": 0.25
-                },
-                "time": 15.0,
-                "types": {
-                    "beans": 10.0,
-                    "bombbag": 100.0,
-                    "fortress": 3.0,
-                    "gerudo": 7.0,
-                    "quiver": 1.0,
-                    "selfsynergy": 0.0
-                }
             }
         ],
         "21": [
@@ -2674,6 +2800,7 @@ var bingoList = {
                 "name": "7 Maps",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 1.0,
                     "ms": 4.0
                 },
@@ -2692,6 +2819,7 @@ var bingoList = {
                 "types": {
                     "childchu": 0.0,
                     "hovers": 3.0,
+                    "incmc": 100.0,
                     "map": 20.0,
                     "selfsynergy": -3.0
                 }
@@ -2703,6 +2831,7 @@ var bingoList = {
                 "name": "Goron Bracelet",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -2713,10 +2842,11 @@ var bingoList = {
                     "child2": 2.5,
                     "hearts3": 3.0,
                     "hearts4": 1.0,
+                    "incsaria": 100.0,
                     "songs4": 3.0,
-                    "wallet": -100.0
+                    "wallet": 100.0
                 },
-                "time": 16.0,
+                "time": 15.5,
                 "types": {
                     "childchu": 0.0,
                     "childreset": 1.25,
@@ -2735,6 +2865,7 @@ var bingoList = {
                 "name": "Nayru's Love",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 2.5,
                     "ms": 4.0
                 },
@@ -2748,6 +2879,7 @@ var bingoList = {
                     "compass": 2.5,
                     "hearts3": 1.0,
                     "hearts4": 0.25,
+                    "incfairy": 100.0,
                     "map": 2.0,
                     "wallet": 0.5
                 },
@@ -2771,9 +2903,10 @@ var bingoList = {
                 "difficulty": 22,
                 "id": "1-unused-small-key-in-each-adult-dungeon",
                 "jp": "全ての大人のダンジョンから未使用の鍵最低１つずつ",
-                "name": "1 unused small key in each Adult Dungeon",
+                "name": "1 Unused Small Key in each Adult Dungeon",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -2810,6 +2943,7 @@ var bingoList = {
                 "name": "All 5 Skulltulas in Shadow Temple",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -2842,6 +2976,7 @@ var bingoList = {
                 "name": "All 5 Skulltulas in Water Temple",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.5,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -2866,6 +3001,7 @@ var bingoList = {
                     "czl": 4.25,
                     "dc": 2.0,
                     "ice": 1.5,
+                    "inclong": 100.0,
                     "incwskull": 100.0,
                     "irons": 2.0,
                     "longshot": 4.0,
@@ -2881,6 +3017,7 @@ var bingoList = {
                 "name": "Get to the end of Shadow Trial",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 1.0,
                     "ms": 100.0
                 },
@@ -2918,6 +3055,7 @@ var bingoList = {
                 "name": "3 Shields & 3 Boots",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 7.5
                 },
@@ -2933,7 +3071,7 @@ var bingoList = {
                     "songs5": 1.0,
                     "wallet": 1.5
                 },
-                "time": 17.25,
+                "time": 17.0,
                 "types": {
                     "endon": -0.5,
                     "fortress": 2.5,
@@ -2955,8 +3093,9 @@ var bingoList = {
                 "name": "9 Hearts",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 1.0,
-                    "ms": 10.0
+                    "ms": 4.0
                 },
                 "skill": 1.0,
                 "time": 17.0,
@@ -2976,6 +3115,7 @@ var bingoList = {
                 "name": "All 4 Market area Skulltulas",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -3004,11 +3144,12 @@ var bingoList = {
             },
             {
                 "difficulty": 23,
-                "id": "both-heart-pieces-in-lost-woods",
+                "id": "both-hps-in-lost-woods",
                 "jp": "迷いの森のハートのかけら２つ",
-                "name": "Both heart pieces in Lost Woods",
+                "name": "Both HPs in Lost Woods",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -3018,6 +3159,7 @@ var bingoList = {
                     "child2": 2.5,
                     "hearts3": 4.5,
                     "hearts4": 1.5,
+                    "incsaria": 100.0,
                     "songs4": 3.0,
                     "wallet": 0.25
                 },
@@ -3039,6 +3181,7 @@ var bingoList = {
                 "name": "Defeat 4 Different Iron Knuckles",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 8.0
                 },
@@ -3077,6 +3220,7 @@ var bingoList = {
                 "name": "1 Skulltula from each Adult Dungeon",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -3113,6 +3257,7 @@ var bingoList = {
                 "name": "7 Compasses",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 5.0
                 },
@@ -3129,6 +3274,7 @@ var bingoList = {
                 "types": {
                     "compass": 22.0,
                     "hovers": 3.0,
+                    "incmc": 100.0,
                     "selfsynergy": -3.0
                 }
             },
@@ -3139,6 +3285,7 @@ var bingoList = {
                 "name": "Green Gauntlets",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 100.0
                 },
@@ -3149,6 +3296,7 @@ var bingoList = {
                     "cganon": 2.0,
                     "hearts3": 3.0,
                     "hearts4": 1.0,
+                    "incsaria": 100.0,
                     "songs4": 3.0,
                     "wallet": 0.5
                 },
@@ -3171,6 +3319,7 @@ var bingoList = {
                 "name": "Map & Compass in Spirit Temple",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 5.0
                 },
@@ -3209,6 +3358,7 @@ var bingoList = {
                 "name": "10 Songs",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 2.0,
                     "ms": 100.0
                 },
@@ -3243,6 +3393,7 @@ var bingoList = {
                 "name": "3 Swords, Tunics, Boots, and Shields",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -3279,6 +3430,7 @@ var bingoList = {
                 "name": "All 3 Elemental Arrows",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 1.5,
                     "ms": 100.0
                 },
@@ -3317,6 +3469,7 @@ var bingoList = {
                 "name": "Beat the Spirit Temple",
                 "rowtypes": {
                     "bottle": 1.0,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -3337,6 +3490,7 @@ var bingoList = {
                     "fortress": 2.5,
                     "gtg": 1.0,
                     "hovers": 3.0,
+                    "incspboss": 100.0,
                     "legitlacs": 100.0,
                     "selfsynergy": -1.0,
                     "spirit": 8.0
@@ -3349,6 +3503,7 @@ var bingoList = {
                 "name": "Defeat Twinrova",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -3369,6 +3524,7 @@ var bingoList = {
                     "fortress": 2.5,
                     "gtg": 1.0,
                     "hovers": 3.0,
+                    "incspboss": 100.0,
                     "legitlacs": 100.0,
                     "selfsynergy": 0.0,
                     "spirit": 8.0
@@ -3381,6 +3537,7 @@ var bingoList = {
                 "name": "Get to the end of Forest Trial",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 6.0
                 },
@@ -3418,8 +3575,9 @@ var bingoList = {
                 "name": "Two Fairy Spells",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 1.0,
-                    "ms": 4.0
+                    "ms": 0.0
                 },
                 "skill": 0.25,
                 "subtypes": {
@@ -3440,12 +3598,13 @@ var bingoList = {
                 "types": {
                     "bothzl": -4.25,
                     "childtrade": 2.75,
-                    "czl": 4.25,
+                    "czl": 7.0,
                     "dmc": 1.0,
                     "endon": -0.25,
                     "fortress": 2.5,
                     "fountain": 2.0,
                     "hovers": 2.0,
+                    "incfairy": 100.0,
                     "magic": 2.0,
                     "poachers": 4.25,
                     "selfsynergy": -0.5,
@@ -3465,6 +3624,7 @@ var bingoList = {
                 "name": "5 Hearts",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 1.0
                 },
@@ -3483,6 +3643,7 @@ var bingoList = {
                 "name": "5 Magic Beans",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -3501,11 +3662,12 @@ var bingoList = {
             },
             {
                 "difficulty": 3,
-                "id": "both-heart-pieces-in-death-mountain-crater",
+                "id": "both-hps-in-death-mountain-crater",
                 "jp": "デスマウンテン火口のハートのかけら２つ",
-                "name": "Both heart pieces in Death Mountain Crater",
+                "name": "Both HPs in Death Mountain Crater",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 0.0,
                     "ms": 1.0
                 },
@@ -3529,6 +3691,7 @@ var bingoList = {
                 "name": "Fire Temple Boss Key",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -3549,11 +3712,34 @@ var bingoList = {
             },
             {
                 "difficulty": 3,
+                "id": "lon-lon-ranch-hp",
+                "jp": "ロンロン牧場のハートのかけら",
+                "name": "Lon Lon Ranch HP",
+                "rowtypes": {
+                    "bottle": 0.0,
+                    "gclw": 0.0,
+                    "hookshot": 0.0,
+                    "ms": 0.0
+                },
+                "skill": 0.0,
+                "subtypes": {
+                    "hearts3": 0.75,
+                    "hearts4": 0.25
+                },
+                "time": 2.25,
+                "types": {
+                    "lonlon": 1.75,
+                    "selfsynergy": 0.0
+                }
+            },
+            {
+                "difficulty": 3,
                 "id": "map-compass-in-dodongo-s-cavern",
                 "jp": "ドドンゴの洞窟のマップとコンパス",
                 "name": "Map & Compass in Dodongo's Cavern",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.5,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -3587,6 +3773,7 @@ var bingoList = {
                 "name": "3 Tunics",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 0.0,
                     "ms": 100.0
                 },
@@ -3614,6 +3801,7 @@ var bingoList = {
                 "name": "Silver Scale",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -3626,6 +3814,7 @@ var bingoList = {
                 "time": 3.0,
                 "types": {
                     "fountain": 1.0,
+                    "inclhskull": 2.0,
                     "selfsynergy": 0.0
                 }
             }
@@ -3648,6 +3837,7 @@ var bingoList = {
                 "name": "All 3 Skulltulas in Bottom of the Well",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -3668,6 +3858,7 @@ var bingoList = {
                 "name": "Blue Fire",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -3696,6 +3887,7 @@ var bingoList = {
                 "name": "Both Gerudo Valley HPs",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -3721,6 +3913,7 @@ var bingoList = {
                 "name": "Defeat King Dodongo",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 0.5,
                     "hookshot": 0.0,
                     "ms": 1.0
                 },
@@ -3748,6 +3941,7 @@ var bingoList = {
                 "name": "Fairy Slingshot",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -3772,6 +3966,7 @@ var bingoList = {
                 "name": "Ice Arrows",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 1.0,
                     "ms": 0.0
                 },
@@ -3781,6 +3976,7 @@ var bingoList = {
                     "hearts3": 0.5,
                     "hearts4": 0.25,
                     "hovers": 0.5,
+                    "incarrows": 100.0,
                     "kd": 2.0,
                     "map": 3.0,
                     "quiver": 4.5,
@@ -3790,17 +3986,17 @@ var bingoList = {
                 "types": {
                     "fortress": 3.0,
                     "gtg": 1.0,
-                    "incarrows": 100.0,
                     "selfsynergy": 0.0
                 }
             },
             {
                 "difficulty": 5,
-                "id": "ice-cavern-heart-piece",
+                "id": "ice-cavern-hp",
                 "jp": "氷の洞窟のハートのかけら",
-                "name": "Ice Cavern Heart Piece",
+                "name": "Ice Cavern HP",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 0.0,
                     "ms": 1.0
                 },
@@ -3820,33 +4016,12 @@ var bingoList = {
             },
             {
                 "difficulty": 5,
-                "id": "lon-lon-ranch-hp",
-                "jp": "ロンロン牧場のハートのかけら",
-                "name": "Lon Lon Ranch HP",
-                "rowtypes": {
-                    "bottle": 0.0,
-                    "hookshot": 0.0,
-                    "ms": 0.0
-                },
-                "skill": 0.0,
-                "subtypes": {
-                    "hearts3": 0.75,
-                    "hearts4": 0.25
-                },
-                "time": 3.5,
-                "types": {
-                    "childreset": 1.0,
-                    "lonlon": 1.75,
-                    "selfsynergy": 0.0
-                }
-            },
-            {
-                "difficulty": 5,
                 "id": "map-compass-in-deku-tree",
                 "jp": "デクの樹様の中のマップとコンパス",
                 "name": "Map & Compass in Deku Tree",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -3875,6 +4050,7 @@ var bingoList = {
                 "name": "2 Boss Keys",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 2.0,
                     "ms": 100.0
                 },
@@ -3899,9 +4075,10 @@ var bingoList = {
                 "difficulty": 6,
                 "id": "3-songs",
                 "jp": "歌3つ以上",
-                "name": "3 songs",
+                "name": "3 Songs",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 0.5,
                     "ms": 3.0
                 },
@@ -3929,6 +4106,7 @@ var bingoList = {
                 "name": "3 Swords & 3 Tunics",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 0.0,
                     "ms": 100.0
                 },
@@ -3956,9 +4134,10 @@ var bingoList = {
                 "difficulty": 6,
                 "id": "3-unused-keys-in-gerudo-training-grounds",
                 "jp": "ゲルドの修練場の未使用の鍵3つ",
-                "name": "3 unused keys in Gerudo Training Grounds",
+                "name": "3 Unused Keys in Gerudo Training Grounds",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 1.0,
                     "ms": 0.0
                 },
@@ -3986,6 +4165,7 @@ var bingoList = {
                 "name": "4 Maps",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.5,
                     "hookshot": 0.5,
                     "ms": 0.5
                 },
@@ -3998,6 +4178,7 @@ var bingoList = {
                 "time": 4.25,
                 "types": {
                     "hovers": 3.0,
+                    "incmc": 100.0,
                     "map": 6.0,
                     "selfsynergy": -3.0
                 }
@@ -4009,6 +4190,7 @@ var bingoList = {
                 "name": "4 Songs",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 6.0
                 },
@@ -4036,6 +4218,7 @@ var bingoList = {
                 "name": "All 3 Kokiri Forest area Skulltulas",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 100.0
                 },
@@ -4058,6 +4241,7 @@ var bingoList = {
                 "name": "All 3 Skulltulas in Ice Cavern",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 1.5,
                     "ms": 1.0
                 },
@@ -4084,6 +4268,7 @@ var bingoList = {
                 "name": "Blue Potion",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 5.0
                 },
@@ -4106,6 +4291,7 @@ var bingoList = {
                 "name": "Both Gerudo's Fortress area Skulltulas",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 100.0
                 },
@@ -4129,6 +4315,7 @@ var bingoList = {
                 "name": "Cow in House",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 100.0
                 },
@@ -4145,6 +4332,7 @@ var bingoList = {
                 "name": "Defeat a White Wolfos",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.5,
                     "ms": 0.0
                 },
@@ -4173,6 +4361,7 @@ var bingoList = {
                 "name": "Defeat all Lizalfos in Dodongo's Cavern",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.5,
                     "hookshot": 0.0,
                     "ms": 1.0
                 },
@@ -4196,6 +4385,7 @@ var bingoList = {
                 "name": "Defeat Phantom Ganon",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 3.0
                 },
@@ -4225,6 +4415,7 @@ var bingoList = {
                 "name": "Ganon's Castle Boss Key",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -4253,6 +4444,7 @@ var bingoList = {
                 "name": "Map & Compass in Ice Cavern",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 0.0,
                     "ms": 1.0
                 },
@@ -4277,6 +4469,7 @@ var bingoList = {
                 "name": "Plant bean in Death Mountain Crater",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -4302,6 +4495,7 @@ var bingoList = {
                 "name": "Ruto's Letter",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -4313,6 +4507,7 @@ var bingoList = {
                 },
                 "time": 4.5,
                 "types": {
+                    "inclhskull": 2.0,
                     "selfsynergy": 0.0
                 }
             },
@@ -4323,6 +4518,7 @@ var bingoList = {
                 "name": "Water Temple Boss Key",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 1.0,
                     "ms": 5.0
                 },
@@ -4332,13 +4528,13 @@ var bingoList = {
                     "hearts3": 0.5,
                     "hearts4": 0.25,
                     "hovers": 0.5,
+                    "incarrows": 100.0,
                     "map": 3.0,
                     "wallet": 0.25
                 },
                 "time": 4.5,
                 "types": {
                     "fortress": 3.0,
-                    "incarrows": 100.0,
                     "selfsynergy": 0.0,
                     "water": 1.0
                 }
@@ -4352,6 +4548,7 @@ var bingoList = {
                 "name": "3 Lake Hylia Skulltulas",
                 "rowtypes": {
                     "bottle": 1.5,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -4372,9 +4569,10 @@ var bingoList = {
                 "difficulty": 7,
                 "id": "4-unused-keys-in-gerudo-training-grounds",
                 "jp": "ゲルドの修練場の未使用の鍵4つ",
-                "name": "4 unused keys in Gerudo Training Grounds",
+                "name": "4 Unused Keys in Gerudo Training Grounds",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 1.0,
                     "ms": 0.0
                 },
@@ -4402,6 +4600,7 @@ var bingoList = {
                 "name": "6 Songs",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 0.5,
                     "ms": 100.0
                 },
@@ -4427,6 +4626,7 @@ var bingoList = {
                 "name": "All 4 Lost Woods area Skulltulas",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 2.0,
                     "ms": 100.0
                 },
@@ -4450,6 +4650,7 @@ var bingoList = {
                 "name": "Beat the Deku Tree",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -4480,6 +4681,7 @@ var bingoList = {
                 "name": "Beat the Forest Temple",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 3.0
                 },
@@ -4509,6 +4711,7 @@ var bingoList = {
                 "name": "Bullet Bag (40)",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -4532,6 +4735,7 @@ var bingoList = {
                 "name": "Defeat Queen Gohma",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -4561,6 +4765,7 @@ var bingoList = {
                 "name": "Fill all 4 Bottle Slots",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.5
                 },
@@ -4581,6 +4786,7 @@ var bingoList = {
                 "name": "Forest Medallion",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 1.0,
                     "ms": 4.0
                 },
@@ -4614,6 +4820,7 @@ var bingoList = {
                 "name": "Iron Boots",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 1.0,
                     "hookshot": 0.0,
                     "ms": 1.0
                 },
@@ -4633,6 +4840,7 @@ var bingoList = {
                     "fountain": 2.0,
                     "ice": 1.5,
                     "incboot": 100.0,
+                    "incirons": 100.0,
                     "irons": 2.0,
                     "selfsynergy": 0.0
                 }
@@ -4644,6 +4852,7 @@ var bingoList = {
                 "name": "Map & Compass in Shadow Temple",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.75,
                     "ms": 0.5
                 },
@@ -4666,9 +4875,10 @@ var bingoList = {
                 "difficulty": 8,
                 "id": "37th-heart-piece-child-fortress-",
                 "jp": "37番目のハートのかけら(子供のゲルドの砦)",
-                "name": "37th heart piece (Child Fortress)",
+                "name": "37th Heart Piece (Child Fortress)",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -4694,9 +4904,10 @@ var bingoList = {
                 "difficulty": 8,
                 "id": "5-unused-keys-in-gerudo-training-grounds",
                 "jp": "ゲルドの修練場の未使用の鍵5つ",
-                "name": "5 unused keys in Gerudo Training Grounds",
+                "name": "5 Unused Keys in Gerudo Training Grounds",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 1.0,
                     "ms": 0.0
                 },
@@ -4724,6 +4935,7 @@ var bingoList = {
                 "name": "6 Hearts",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 2.0
                 },
@@ -4742,6 +4954,7 @@ var bingoList = {
                 "name": "7 Magic Beans",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -4766,6 +4979,7 @@ var bingoList = {
                 "name": "All 5 Skulltulas in Dodongo's Cavern",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.5,
                     "hookshot": 0.25,
                     "ms": 1.5
                 },
@@ -4791,11 +5005,13 @@ var bingoList = {
                 "name": "All 8 Kakariko area Skulltulas",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 1.5,
                     "ms": 100.0
                 },
                 "skill": 0.25,
                 "subtypes": {
+                    "jabu": 0.5,
                     "wallet": 4.0
                 },
                 "time": 6.25,
@@ -4811,6 +5027,7 @@ var bingoList = {
                 "name": "Beat Dodongo's Cavern",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 0.5,
                     "hookshot": 0.0,
                     "ms": 1.0
                 },
@@ -4838,6 +5055,7 @@ var bingoList = {
                 "name": "Beat the Water Temple",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 1.0
                 },
@@ -4865,6 +5083,7 @@ var bingoList = {
                 "name": "Defeat Morpha",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 100.0,
                     "ms": 1.0
                 },
@@ -4892,6 +5111,7 @@ var bingoList = {
                 "name": "Giant's Wallet",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 2.0,
                     "ms": 6.0
                 },
@@ -4904,7 +5124,7 @@ var bingoList = {
                 "types": {
                     "incbeans": 100.0,
                     "selfsynergy": 0.0,
-                    "wallet": 5.0
+                    "wallet": 100.0
                 }
             },
             {
@@ -4914,6 +5134,7 @@ var bingoList = {
                 "name": "Golden Gauntlets",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 2.5,
                     "ms": 0.0
                 },
@@ -4942,6 +5163,7 @@ var bingoList = {
                 "name": "Milk",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -4968,8 +5190,9 @@ var bingoList = {
                 "name": "15 Different Skulltulas",
                 "rowtypes": {
                     "bottle": 1.0,
+                    "gclw": 0.5,
                     "hookshot": 2.0,
-                    "ms": 6.0
+                    "ms": 2.0
                 },
                 "skill": 0.5,
                 "time": 6.5,
@@ -4985,6 +5208,7 @@ var bingoList = {
                 "name": "4 Compasses",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.5,
                     "hookshot": 0.5,
                     "ms": 0.75
                 },
@@ -4998,6 +5222,7 @@ var bingoList = {
                 "types": {
                     "compass": 7.0,
                     "hovers": 3.0,
+                    "incmc": 100.0,
                     "selfsynergy": -3.0
                 }
             },
@@ -5008,6 +5233,7 @@ var bingoList = {
                 "name": "4 Unused Keys in Forest Temple",
                 "rowtypes": {
                     "bottle": 0.5,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 4.0
                 },
@@ -5031,9 +5257,10 @@ var bingoList = {
                 "difficulty": 9,
                 "id": "6-unused-keys-in-gerudo-training-grounds",
                 "jp": "ゲルドの修練場の未使用の鍵6つ",
-                "name": "6 unused keys in Gerudo Training Grounds",
+                "name": "6 Unused Keys in Gerudo Training Grounds",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 1.0,
                     "ms": 0.0
                 },
@@ -5061,6 +5288,7 @@ var bingoList = {
                 "name": "All 4 Gerudo Valley area Skulltulas",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 2.0,
                     "ms": 100.0
                 },
@@ -5089,6 +5317,7 @@ var bingoList = {
                 "name": "All 5 Skulltulas in Forest Temple",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 1.0,
                     "hookshot": 100.0,
                     "ms": 5.0
                 },
@@ -5116,12 +5345,14 @@ var bingoList = {
                 "name": "Defeat Dark Link",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.5,
                     "hookshot": 100.0,
                     "ms": 10.0
                 },
                 "skill": 0.25,
                 "subtypes": {
                     "bbprize": -6.0,
+                    "childchu": -2.5,
                     "compass": 3.5,
                     "hearts4": 1.0,
                     "hovers": 0.5,
@@ -5132,6 +5363,7 @@ var bingoList = {
                 "time": 7.0,
                 "types": {
                     "dc": 2.0,
+                    "inclong": 100.0,
                     "longshot": 4.0,
                     "selfsynergy": 0.0,
                     "water": 3.0
@@ -5144,6 +5376,7 @@ var bingoList = {
                 "name": "Epona's Song",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -5169,12 +5402,14 @@ var bingoList = {
                 "name": "Longshot",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.5,
                     "hookshot": 100.0,
                     "ms": 10.0
                 },
                 "skill": 0.0,
                 "subtypes": {
                     "bbprize": -6.0,
+                    "childchu": -2.5,
                     "compass": 3.5,
                     "hearts4": 1.0,
                     "hovers": 0.25,
@@ -5185,6 +5420,7 @@ var bingoList = {
                 "time": 7.0,
                 "types": {
                     "dc": 2.0,
+                    "inclong": 100.0,
                     "longshot": 5.0,
                     "selfsynergy": 0.0,
                     "water": 3.0
@@ -5197,6 +5433,7 @@ var bingoList = {
                 "name": "Map & Compass in Water Temple",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.5,
                     "hookshot": 0.0,
                     "ms": 1.0
                 },
@@ -5221,16 +5458,18 @@ var bingoList = {
                 "name": "Water Medallion",
                 "rowtypes": {
                     "bottle": 100.0,
+                    "gclw": 0.0,
                     "hookshot": 0.5,
                     "ms": 1.5
                 },
                 "skill": 0.0,
                 "subtypes": {
-                    "childchu": -2.5,
+                    "childchu": -1.0,
+                    "compass": 2.5,
                     "hearts3": 3.0,
                     "hearts4": 1.0,
                     "hovers": 0.5,
-                    "map": 1.0
+                    "map": 2.5
                 },
                 "time": 6.5,
                 "types": {
@@ -5248,6 +5487,7 @@ var bingoList = {
                 "name": "Win Bombchu Bowling Prize",
                 "rowtypes": {
                     "bottle": 0.0,
+                    "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
                 },
@@ -5274,10 +5514,11 @@ var bingoList = {
             }
         ],
         "info": {
-            "version": "v9.1"
+            "version": "v9.2"
         },
         "rowtypes": {
             "bottle": 2.0,
+            "gclw": 1.0,
             "hookshot": 3.0,
             "ms": 12.0
         },
@@ -5319,6 +5560,9 @@ var bingoList = {
                 "jp": "99ルピー",
                 "name": "99 Rupees",
                 "skill": 0.0,
+                "subtypes": {
+                    "incrupees": 100.0
+                },
                 "time": 0.5,
                 "types": {
                     "selfsynergy": 0.0
@@ -5393,6 +5637,7 @@ var bingoList = {
                 "skill": 0.0,
                 "subtypes": {
                     "bottle": 1.0,
+                    "incrupees": 100.0,
                     "plant": 4.0
                 },
                 "time": 5.0,
@@ -5442,6 +5687,7 @@ var bingoList = {
                 "types": {
                     "deku": 5.0,
                     "endon": -0.5,
+                    "incgohma": 100.0,
                     "selfsynergy": 0.0
                 }
             }
@@ -5459,8 +5705,22 @@ var bingoList = {
                 },
                 "time": 5.5,
                 "types": {
+                    "incrupees": 100.0,
                     "selfsynergy": -2.0,
                     "wallet": 6.0
+                }
+            },
+            {
+                "difficulty": 11,
+                "id": "30-deku-sticks",
+                "jp": "デクの棒30本",
+                "name": "30 Deku Sticks",
+                "skill": 0.0,
+                "time": 5.5,
+                "types": {
+                    "dc": 3.0,
+                    "selfsynergy": 0.0,
+                    "sticks": 100.0
                 }
             },
             {
@@ -5522,6 +5782,20 @@ var bingoList = {
                     "field": 0.75,
                     "lonlon": 4.0,
                     "selfsynergy": 0.0
+                }
+            },
+            {
+                "difficulty": 11,
+                "id": "plant-5-magic-beans",
+                "jp": "魔法の豆を5ヶ所に埋める",
+                "name": "Plant 5 Magic Beans",
+                "skill": 0.0,
+                "time": 5.5,
+                "types": {
+                    "beans": 10.0,
+                    "incbeans": 100.0,
+                    "plant": 3.5,
+                    "selfsynergy": -0.5
                 }
             }
         ],
@@ -5616,6 +5890,7 @@ var bingoList = {
                 "time": 6.25,
                 "types": {
                     "beans": 10.0,
+                    "incbeans": 100.0,
                     "selfsynergy": 0.0
                 }
             },
@@ -5663,6 +5938,7 @@ var bingoList = {
                 },
                 "time": 6.75,
                 "types": {
+                    "incmap": 100.0,
                     "map": 6.0,
                     "selfsynergy": 0.0
                 }
@@ -5682,6 +5958,7 @@ var bingoList = {
                 },
                 "time": 6.5,
                 "types": {
+                    "dc": 4.0,
                     "dmc": 1.0,
                     "selfsynergy": 0.0
                 }
@@ -5704,19 +5981,6 @@ var bingoList = {
                     "gtg": 1.0,
                     "jabu": 3.0,
                     "selfsynergy": 0.0
-                }
-            },
-            {
-                "difficulty": 13,
-                "id": "plant-5-magic-beans",
-                "jp": "魔法の豆を5ヶ所に埋める",
-                "name": "Plant 5 Magic Beans",
-                "skill": 0.0,
-                "time": 6.5,
-                "types": {
-                    "beans": 10.0,
-                    "plant": 3.5,
-                    "selfsynergy": -0.5
                 }
             }
         ],
@@ -5780,6 +6044,7 @@ var bingoList = {
                 "time": 7.0,
                 "types": {
                     "fountain": 2.0,
+                    "incbarinade": 100.0,
                     "jabu": 5.0,
                     "selfsynergy": 0.0
                 }
@@ -5802,6 +6067,7 @@ var bingoList = {
                     "bottle": 2.0,
                     "endon": -0.5,
                     "ganon": 5.0,
+                    "incgohma": 100.0,
                     "selfsynergy": 0.0
                 }
             }
@@ -5884,19 +6150,8 @@ var bingoList = {
                 "time": 8.0,
                 "types": {
                     "compass": 8.0,
+                    "inccomp": 100.0,
                     "selfsynergy": 0.0
-                }
-            },
-            {
-                "difficulty": 16,
-                "id": "30-deku-sticks",
-                "jp": "デクの棒30本",
-                "name": "30 Deku Sticks",
-                "skill": 0.0,
-                "time": 8.0,
-                "types": {
-                    "selfsynergy": 0.0,
-                    "sticks": 100.0
                 }
             },
             {
@@ -6019,6 +6274,7 @@ var bingoList = {
                 "time": 8.0,
                 "types": {
                     "beans": 10.0,
+                    "incbeans": 100.0,
                     "selfsynergy": 0.0
                 }
             },
@@ -6043,6 +6299,7 @@ var bingoList = {
                     "dmc": 1.0,
                     "endon": -0.5,
                     "fortress": 2.0,
+                    "inckd": 100.0,
                     "kd": 3.0,
                     "selfsynergy": 0.0
                 }
@@ -6110,6 +6367,7 @@ var bingoList = {
                     "bottle": 2.0,
                     "deku": 5.0,
                     "endon": -1.0,
+                    "incgohma": 100.0,
                     "selfsynergy": 0.0
                 }
             },
@@ -6133,6 +6391,7 @@ var bingoList = {
                 "types": {
                     "bottle": 2.0,
                     "deku": 5.0,
+                    "incgohma": 100.0,
                     "selfsynergy": 0.0
                 }
             },
@@ -6245,6 +6504,7 @@ var bingoList = {
                 "types": {
                     "endon": -0.5,
                     "fountain": 2.0,
+                    "incbarinade": 100.0,
                     "jabu": 8.0,
                     "selfsynergy": 0.0
                 }
@@ -6269,6 +6529,7 @@ var bingoList = {
                     "dc": 4.0,
                     "dmc": 1.0,
                     "endon": -0.5,
+                    "inckd": 100.0,
                     "kd": 3.0,
                     "selfsynergy": 0.0
                 }
@@ -6371,6 +6632,7 @@ var bingoList = {
                     "dc": 4.0,
                     "dmc": 1.0,
                     "endon": -1.0,
+                    "inckd": 100.0,
                     "kd": 3.0,
                     "selfsynergy": 0.0
                 }
@@ -6393,6 +6655,7 @@ var bingoList = {
                 "types": {
                     "endon": -1.0,
                     "fountain": 2.0,
+                    "incbarinade": 100.0,
                     "jabu": 8.0,
                     "selfsynergy": 0.0
                 }
@@ -6415,6 +6678,20 @@ var bingoList = {
                     "selfsynergy": 0.0,
                     "zl": 6.75
                 }
+            },
+            {
+                "difficulty": 20,
+                "id": "plant-6-magic-beans",
+                "jp": "魔法の豆を6ヶ所に埋める",
+                "name": "Plant 6 Magic Beans",
+                "skill": 0.0,
+                "time": 10.0,
+                "types": {
+                    "beans": 10.0,
+                    "incbeans": 100.0,
+                    "plant": 4.5,
+                    "selfsynergy": -0.5
+                }
             }
         ],
         "21": [
@@ -6430,6 +6707,7 @@ var bingoList = {
                 "time": 10.75,
                 "types": {
                     "beans": 10.0,
+                    "incbeans": 100.0,
                     "selfsynergy": 0.0
                 }
             },
@@ -6448,6 +6726,7 @@ var bingoList = {
                 "time": 10.5,
                 "types": {
                     "field": 0.75,
+                    "incsaria": 100.0,
                     "saria": 3.0,
                     "selfsynergy": 0.0,
                     "zl": 6.75
@@ -6474,6 +6753,7 @@ var bingoList = {
                 "time": 11.25,
                 "types": {
                     "fountain": 2.0,
+                    "incmap": 100.0,
                     "jabu": 5.0,
                     "map": 14.0,
                     "selfsynergy": -3.0
@@ -6499,19 +6779,6 @@ var bingoList = {
             },
             {
                 "difficulty": 22,
-                "id": "plant-6-magic-beans",
-                "jp": "魔法の豆を6ヶ所に埋める",
-                "name": "Plant 6 Magic Beans",
-                "skill": 0.0,
-                "time": 11.0,
-                "types": {
-                    "beans": 10.0,
-                    "plant": 4.5,
-                    "selfsynergy": -0.5
-                }
-            },
-            {
-                "difficulty": 22,
                 "id": "win-bombchu-bowling-prize",
                 "jp": "ボムチュウボウリングの景品",
                 "name": "Win Bombchu Bowling Prize",
@@ -6529,15 +6796,16 @@ var bingoList = {
                 "time": 11.0,
                 "types": {
                     "dc": 4.0,
+                    "inckd": 100.0,
                     "kd": 3.0,
                     "selfsynergy": 0.0
                 }
             },
             {
                 "difficulty": 22,
-                "id": "zora-s-saphire",
+                "id": "zora-s-sapphire",
                 "jp": "ゾーラのサファイア",
-                "name": "Zora's Saphire",
+                "name": "Zora's Sapphire",
                 "skill": 0.0,
                 "subtypes": {
                     "compass": 6.0,
@@ -6550,6 +6818,7 @@ var bingoList = {
                 "time": 11.0,
                 "types": {
                     "fountain": 2.0,
+                    "incbarinade": 100.0,
                     "jabu": 8.0,
                     "selfsynergy": 0.0
                 }
@@ -6567,7 +6836,11 @@ var bingoList = {
                 },
                 "time": 11.5,
                 "types": {
-                    "selfsynergy": 0.0
+                    "field": 0.75,
+                    "incsaria": 100.0,
+                    "saria": 3.0,
+                    "selfsynergy": 0.0,
+                    "zl": 6.75
                 }
             },
             {
@@ -6612,7 +6885,24 @@ var bingoList = {
                 }
             }
         ],
-        "24": [],
+        "24": [
+            {
+                "difficulty": 24,
+                "id": "plant-7-magic-beans",
+                "jp": "魔法の豆を7ヶ所に埋める",
+                "name": "Plant 7 Magic Beans",
+                "skill": 0.0,
+                "time": 12.25,
+                "types": {
+                    "beans": 10.0,
+                    "field": 0.75,
+                    "incbeans": 100.0,
+                    "plant": 4.5,
+                    "plant2": 2.0,
+                    "selfsynergy": -2.0
+                }
+            }
+        ],
         "25": [
             {
                 "difficulty": 25,
@@ -6634,6 +6924,7 @@ var bingoList = {
                 "types": {
                     "compass": 16.0,
                     "fountain": 2.0,
+                    "inccomp": 100.0,
                     "jabu": 5.0,
                     "selfsynergy": -4.0
                 }
@@ -6652,6 +6943,7 @@ var bingoList = {
                 "types": {
                     "bottle": 2.0,
                     "dmc": 2.5,
+                    "incmagic": 100.0,
                     "magic": 2.0,
                     "zl": 6.75
                 }
@@ -6691,22 +6983,8 @@ var bingoList = {
                 "time": 13.25,
                 "types": {
                     "beans": 10.0,
+                    "incbeans": 100.0,
                     "selfsynergy": 0.0
-                }
-            },
-            {
-                "difficulty": 26,
-                "id": "plant-7-magic-beans",
-                "jp": "魔法の豆を7ヶ所に埋める",
-                "name": "Plant 7 Magic Beans",
-                "skill": 0.0,
-                "time": 13.25,
-                "types": {
-                    "beans": 10.0,
-                    "field": 0.75,
-                    "plant": 4.5,
-                    "plant2": 2.0,
-                    "selfsynergy": -2.0
                 }
             }
         ],
@@ -6733,6 +7011,7 @@ var bingoList = {
                     "bottle": 2.0,
                     "dmc": 1.0,
                     "field": 0.75,
+                    "incmagic": 100.0,
                     "magic": 2.0,
                     "selfsynergy": 0.0,
                     "zl": 6.75
@@ -6806,6 +7085,7 @@ var bingoList = {
                 "time": 15.5,
                 "types": {
                     "bottle": 2.0,
+                    "incsong": 100.0,
                     "selfsynergy": 0.0,
                     "songs": 2.0,
                     "zl": 6.75
@@ -6855,6 +7135,7 @@ var bingoList = {
                 "time": 18.5,
                 "types": {
                     "bottle": 2.0,
+                    "incsong": 100.0,
                     "selfsynergy": 0.0,
                     "zl": 6.75
                 }
@@ -6918,6 +7199,7 @@ var bingoList = {
                 "time": 2.25,
                 "types": {
                     "beans": 10.0,
+                    "incbeans": 100.0,
                     "plant": 2.0,
                     "selfsynergy": -0.5
                 }
@@ -7149,6 +7431,20 @@ var bingoList = {
                     "lonlon": 1.75,
                     "selfsynergy": 0.0
                 }
+            },
+            {
+                "difficulty": 6,
+                "id": "plant-4-magic-beans",
+                "jp": "魔法の豆を4ヶ所に埋める",
+                "name": "Plant 4 Magic Beans",
+                "skill": 0.0,
+                "time": 3.0,
+                "types": {
+                    "beans": 10.0,
+                    "incbeans": 100.0,
+                    "plant": 2.75,
+                    "selfsynergy": -0.5
+                }
             }
         ],
         "7": [
@@ -7164,6 +7460,7 @@ var bingoList = {
                 "time": 3.75,
                 "types": {
                     "beans": 10.0,
+                    "incbeans": 100.0,
                     "selfsynergy": 0.0
                 }
             },
@@ -7205,19 +7502,6 @@ var bingoList = {
                 "types": {
                     "dmc": 3.0,
                     "selfsynergy": 0.0
-                }
-            },
-            {
-                "difficulty": 7,
-                "id": "plant-4-magic-beans",
-                "jp": "魔法の豆を4ヶ所に埋める",
-                "name": "Plant 4 Magic Beans",
-                "skill": 0.0,
-                "time": 3.75,
-                "types": {
-                    "beans": 10.0,
-                    "plant": 2.75,
-                    "selfsynergy": -0.5
                 }
             },
             {
@@ -7313,6 +7597,7 @@ var bingoList = {
                 "time": 4.0,
                 "types": {
                     "fountain": 1.0,
+                    "scale": 100.0,
                     "selfsynergy": 0.0
                 }
             },
@@ -7372,6 +7657,7 @@ var bingoList = {
                     "field": 0.25,
                     "fountain": 1.0,
                     "ruto": 4.0,
+                    "scale": 100.0,
                     "selfsynergy": 0.0
                 }
             }
@@ -7435,7 +7721,7 @@ var bingoList = {
             }
         ],
         "info": {
-            "version": "v9.1"
+            "version": "v9.2"
         },
         "rowtypes": {},
         "synfilters": {
