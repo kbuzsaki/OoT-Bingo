@@ -656,8 +656,14 @@ BingoGenerator.prototype.filterRowtypeSynergies = function(synergiesForSquares) 
             rowtypeCost += rowtypeSynergy[i];
         }
 
-        if (this.rowtypeTimeSave[rowtype] > rowtypeCost) {
-            rowtypeSynergies[rowtype] = this.rowtypeTimeSave[rowtype] - rowtypeCost;
+        var rowTypeThreshold = this.rowtypeTimeSave[rowtype];
+        // "regular" row type synergy
+        if (rowTypeThreshold > 0 && rowTypeThreshold > rowtypeCost) {
+            rowtypeSynergies[rowtype] = rowTypeThreshold - rowtypeCost;
+        }
+        // "reverse" row type synergy
+        else if (rowTypeThreshold < 0 && rowTypeThreshold > rowtypeCost) {
+            rowtypeSynergies[rowtype] = rowtypeCost - rowTypeThreshold;
         }
     }
 
