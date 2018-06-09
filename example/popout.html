@@ -23,7 +23,7 @@
     </table>
     <script type="text/javascript">
   $(function() {
-    var data = document.location.hash.substring(1).split('=');
+    var data=decodeURIComponent(document.location.hash).substring(1).split('=');
     var line = data[0];
     var items = data[1].split(';;;');
     $('table th').html(line);

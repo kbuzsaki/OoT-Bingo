@@ -25,11 +25,11 @@ var SQUARES_PER_ROW = 5;
 var DEFAULT_PROFILE = {
     defaultMinimumSynergy: -3,
     defaultMaximumSynergy: 7,
-    defaultMaximumIndividualSynergy: 4.5,
+    defaultMaximumIndividualSynergy: 3.75,
     defaultMaximumSpill: 2,
     defaultInitialOffset: 1,
     defaultMaximumOffset: 2,
-    baselineTime: 28.25,
+    baselineTime: 27.75,
     timePerDifficulty: 0.75
 };
 
@@ -58,8 +58,8 @@ var SHORT_PROFILE = {
 var BLACKOUT_PROFILE = {
     defaultMinimumSynergy: -10,
     defaultMaximumSynergy: 10,
-    defaultMaximumIndividualSynergy: DEFAULT_PROFILE.defaultMaximumIndividualSynergy,
-    defaultMaximumSpill: DEFAULT_PROFILE.defaultMaximumSpill,
+    defaultMaximumIndividualSynergy: 4.5,
+    defaultMaximumSpill: 4,
     defaultInitialOffset: 2,
     defaultMaximumOffset: 6,
     baselineTime: DEFAULT_PROFILE.baselineTime,
@@ -268,6 +268,21 @@ BingoGenerator.prototype.generateMagicSquare = function() {
     return magicSquare;
 };
 
+function weightedShuffle(arr) {
+    return arr.map(el => ({
+            el,
+            sortVal: (el.weight || 0) + Math.random() + Math.random() + Math.random() + Math.random() - 2
+        }))
+        .sort(({
+            sortVal: sv1
+        }, {
+            sortVal: sv2
+        }) => sv2 - sv1)
+        .map(({
+            el
+        }) => el);
+}
+
 /**
  * Given a position on the board, chooses a goal that can be placed in that position without
  * blowing our synergy budget.
@@ -284,7 +299,7 @@ BingoGenerator.prototype.chooseGoalForPosition = function(position) {
         var maxTime = desiredTime + offset;
 
         var goalsAtTime = this.getGoalsInTimeRange(minTime, maxTime);
-        goalsAtTime = goalsAtTime.shuffled();
+        goalsAtTime = weightedShuffle(goalsAtTime);
 
         // scan through each goal at this difficulty level
         for (var j = 0; j < goalsAtTime.length; j++) {
@@ -301,7 +316,7 @@ BingoGenerator.prototype.chooseGoalForPosition = function(position) {
                 if (this.hasConflictsOnBoard(goal)) {
                     continue;
                 }
-            }
+						}
 
             var synergies = this.checkLine(position, goal);
 
@@ -756,12 +771,17 @@ ootBingoGenerator = function (bingoList, opts) {
     // repeatedly attempt to generate a card until it succeeds, bailing out after 10 fails
     var card = false;
     var iterations = 0;
-    while (!card && iterations < 10) {
+    while (!card && iterations < 100) {
         card = bingoGenerator.makeCard();
         iterations++;
     }
 
     card["meta"] = {iterations: iterations};
+
+    if (!card) {
+        console.log();
+        console.log(iterations);
+    }
 
     return card;
 };
