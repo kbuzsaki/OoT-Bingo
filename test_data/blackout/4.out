@@ -1,4 +1,4 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 10,
     desiredTime: 7.5,
     types: { childchu: 0, selfsynergy: 0 },
@@ -7,7 +7,7 @@
     name: 'All 8 Kakariko area Skulltulas',
     id: 'all-8-kakariko-area-skulltulas',
     time: 6.25,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'all-8-kakariko-area-skulltulas',
        jp: 'カカリコ村エリアの黄金のスタルチュラ8匹',
@@ -26,7 +26,7 @@
     name: 'Map & Compass in Water Temple',
     id: 'map-compass-in-water-temple',
     time: 7,
-    goal: 
+    goal:
      { difficulty: 9,
        id: 'map-compass-in-water-temple',
        jp: '水の神殿のマップとコンパス',
@@ -39,7 +39,7 @@
     synergy: 5 },
   { difficulty: 19,
     desiredTime: 14.25,
-    types: 
+    types:
      { endon: -1,
        fortress: 2,
        inclacs: 100,
@@ -47,7 +47,7 @@
        lightarrow: 6.5,
        poachers: 4.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { aganon: 1,
        bosskey: 3,
        bosskey2: 6,
@@ -63,7 +63,7 @@
     name: 'Light Arrows',
     id: 'light-arrows',
     time: 13.5,
-    goal: 
+    goal:
      { difficulty: 18,
        id: 'light-arrows',
        jp: '光の矢',
@@ -82,7 +82,7 @@
     name: 'Bullet Bag (50)',
     id: 'bullet-bag-50-',
     time: 0.5,
-    goal: 
+    goal:
      { difficulty: 1,
        id: 'bullet-bag-50-',
        jp: 'デクのタネ袋(50)',
@@ -95,7 +95,7 @@
     synergy: 5.75 },
   { difficulty: 23,
     desiredTime: 17.25,
-    types: 
+    types:
      { childchu: 0,
        childreset: 1.25,
        childtrade: 2.75,
@@ -104,7 +104,7 @@
        saria: 5,
        selfsynergy: 0,
        strength: 100 },
-    subtypes: 
+    subtypes:
      { bombbag: 100,
        cganon: 2,
        child2: 2.5,
@@ -117,7 +117,7 @@
     name: 'Goron Bracelet',
     id: 'goron-bracelet',
     time: 15.5,
-    goal: 
+    goal:
      { difficulty: 21,
        id: 'goron-bracelet',
        jp: 'ゴロンの腕輪',
@@ -136,7 +136,7 @@
     name: 'Bolero of Fire',
     id: 'bolero-of-fire',
     time: 1.5,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'bolero-of-fire',
        jp: '炎のボレロ',
@@ -149,14 +149,14 @@
     synergy: 5 },
   { difficulty: 21,
     desiredTime: 15.75,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        hovers: 3,
        poachers: 4.25,
        selfsynergy: 0,
        shadow: 8 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        bosskey: 3.5,
        bosskey2: 6,
@@ -170,7 +170,7 @@
     name: 'All 5 Skulltulas in Shadow Temple',
     id: 'all-5-skulltulas-in-shadow-temple',
     time: 16.25,
-    goal: 
+    goal:
      { difficulty: 22,
        id: 'all-5-skulltulas-in-shadow-temple',
        jp: '闇の神殿の黄金のスタルチュラ5匹',
@@ -183,19 +183,20 @@
     synergy: 0.5 },
   { difficulty: 8,
     desiredTime: 6,
-    types: 
+    types:
      { fortress: 3,
        fountain: 2,
        gtg: 1.5,
        ice: 1.5,
        irons: 1.5,
        selfsynergy: 0 },
-    subtypes: { compass: 3, hearts3: 0.5, hovers: 0.5, map: 3, wallet: 0.25 },
+    subtypes:
+     { compass: 3, hearts3: 0.5, hovers: 0.5, map: 3, wallet: 0.25 },
     rowtypes: { bottle: 0, gclw: 0, hookshot: 0.5, ms: 0 },
     name: 'Defeat a White Wolfos',
     id: 'defeat-a-white-wolfos',
     time: 4.75,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'defeat-a-white-wolfos',
        jp: 'ホワイトウルフォス撃破',
@@ -208,8 +209,9 @@
     synergy: 9.25 },
   { difficulty: 15,
     desiredTime: 11.25,
-    types: { forest: 3, hovers: 2, incforest: 100, meg: 4.25, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { forest: 3, hovers: 2, incforest: 100, meg: 4.25, selfsynergy: 0 },
+    subtypes:
      { bosskey: 2,
        bosskey2: 6,
        compass: 3,
@@ -223,7 +225,7 @@
     name: 'Fairy Bow',
     id: 'fairy-bow',
     time: 9.25,
-    goal: 
+    goal:
      { difficulty: 12,
        id: 'fairy-bow',
        jp: '妖精の弓',
@@ -237,7 +239,7 @@
   { difficulty: 17,
     desiredTime: 12.75,
     types: { dmc: 1, fire: 4.75, gtunic: 1, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        compass: 2,
        hearts3: 0.5,
@@ -250,7 +252,7 @@
     name: 'All 5 Skulltulas in Fire Temple',
     id: 'all-5-skulltulas-in-fire-temple',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 15,
        id: 'all-5-skulltulas-in-fire-temple',
        jp: '炎の神殿の黄金のスタルチュラ5匹',
@@ -263,14 +265,14 @@
     synergy: 7.5 },
   { difficulty: 13,
     desiredTime: 9.75,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        dmc: 1,
        magic: 2,
        poachers: 4.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { aganon: 0.5,
        childchu: -2.5,
        chuczl: 2,
@@ -281,7 +283,7 @@
     name: 'Double Defense',
     id: 'double-defense',
     time: 10,
-    goal: 
+    goal:
      { difficulty: 13,
        id: 'double-defense',
        jp: '防御力2倍',
@@ -294,7 +296,7 @@
     synergy: 10 },
   { difficulty: 20,
     desiredTime: 15,
-    types: 
+    types:
      { beans: 15,
        childtrade: 6.5,
        czl: 2.5,
@@ -308,7 +310,7 @@
     name: 'Spooky Mask',
     id: 'spooky-mask',
     time: 13.5,
-    goal: 
+    goal:
      { difficulty: 18,
        id: 'spooky-mask',
        jp: 'こわそなお面',
@@ -327,7 +329,7 @@
     name: 'Map & Compass in Dodongo\'s Cavern',
     id: 'map-compass-in-dodongo-s-cavern',
     time: 2,
-    goal: 
+    goal:
      { difficulty: 3,
        id: 'map-compass-in-dodongo-s-cavern',
        jp: 'ドドンゴの洞窟のマップとコンパス',
@@ -340,7 +342,7 @@
     synergy: 2 },
   { difficulty: 24,
     desiredTime: 18,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        dc: 2,
@@ -352,7 +354,7 @@
        poachers: 4.25,
        selfsynergy: 0,
        water: 4 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        bbprize: -6,
        bosskey: 3.75,
@@ -369,7 +371,7 @@
     name: 'All 5 Skulltulas in Water Temple',
     id: 'all-5-skulltulas-in-water-temple',
     time: 16.5,
-    goal: 
+    goal:
      { difficulty: 22,
        id: 'all-5-skulltulas-in-water-temple',
        jp: '水の神殿の黄金のスタルチュラ5匹',
@@ -388,7 +390,7 @@
     name: 'Map & Compass in Shadow Temple',
     id: 'map-compass-in-shadow-temple',
     time: 5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'map-compass-in-shadow-temple',
        jp: '闇の神殿のマップとコンパス',
@@ -401,7 +403,7 @@
     synergy: 10 },
   { difficulty: 22,
     desiredTime: 16.5,
-    types: 
+    types:
      { childtrade: 2.75,
        hearts3: 16,
        hearts4: 3,
@@ -413,7 +415,7 @@
     name: '9 Hearts',
     id: '9-hearts',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: '9-hearts',
        jp: 'ハート9つ',
@@ -431,7 +433,7 @@
     name: 'All 4 Skulltulas in Deku Tree',
     id: 'all-4-skulltulas-in-deku-tree',
     time: 7.25,
-    goal: 
+    goal:
      { difficulty: 10,
        id: 'all-4-skulltulas-in-deku-tree',
        jp: 'デクの樹様の中の黄金のスタルチュラ4匹',
@@ -445,7 +447,7 @@
   { difficulty: 11,
     desiredTime: 8.25,
     types: { forest: 3, meg: 1, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey2: 5,
        compass: 1,
        hearts4: 1,
@@ -457,7 +459,7 @@
     name: 'All 5 Skulltulas in Forest Temple',
     id: 'all-5-skulltulas-in-forest-temple',
     time: 6.75,
-    goal: 
+    goal:
      { difficulty: 9,
        id: 'all-5-skulltulas-in-forest-temple',
        jp: '森の神殿の黄金のスタルチュラ5匹',
@@ -470,7 +472,7 @@
     synergy: 8.5 },
   { difficulty: 18,
     desiredTime: 13.5,
-    types: 
+    types:
      { fortress: 2.5,
        fountain: 1.5,
        gtg: 1,
@@ -480,7 +482,7 @@
        inctunic: 100,
        selfsynergy: 0,
        spirit: 3.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 3.25,
        bosskey2: 5,
        compass: 2.5,
@@ -494,7 +496,7 @@
     name: '3 Shields & 3 Tunics',
     id: '3-shields-3-tunics',
     time: 15,
-    goal: 
+    goal:
      { difficulty: 20,
        id: '3-shields-3-tunics',
        jp: '盾3種、服3種',
@@ -507,8 +509,9 @@
     synergy: 0 },
   { difficulty: 5,
     desiredTime: 3.75,
-    types: { endon: -0.5, forest: 3, incfboss: 100, pg: 1.5, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { endon: -0.5, forest: 3, incfboss: 100, pg: 1.5, selfsynergy: 0 },
+    subtypes:
      { bosskey2: 3,
        compass: 1,
        hearts3: 3,
@@ -520,7 +523,7 @@
     name: 'Defeat Phantom Ganon',
     id: 'defeat-phantom-ganon',
     time: 4.5,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'defeat-phantom-ganon',
        jp: 'ファントムガノン撃破',
@@ -534,7 +537,7 @@
   { difficulty: 16,
     desiredTime: 12,
     types: { childchu: 0, fountain: 2, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { childreset: 1.25,
        compass: 2,
        hearts3: 1,
@@ -545,7 +548,7 @@
     name: 'All 8 Zora\'s Domain area Skulltulas',
     id: 'all-8-zora-s-domain-area-skulltulas',
     time: 10.5,
-    goal: 
+    goal:
      { difficulty: 14,
        id: 'all-8-zora-s-domain-area-skulltulas',
        jp: 'ゾーラの里エリアの黄金のスタルチュラ8匹',
@@ -564,7 +567,7 @@
     name: 'Both HPs in Death Mountain Crater',
     id: 'both-hps-in-death-mountain-crater',
     time: 2,
-    goal: 
+    goal:
      { difficulty: 3,
        id: 'both-hps-in-death-mountain-crater',
        jp: 'デスマウンテン火口のハートのかけら２つ',
@@ -577,7 +580,7 @@
     synergy: 6.75 },
   { difficulty: 25,
     desiredTime: 18.75,
-    types: 
+    types:
      { endon: -1,
        fortress: 2.5,
        gtg: 1,
@@ -586,7 +589,7 @@
        legitlacs: 100,
        selfsynergy: 0,
        spirit: 8 },
-    subtypes: 
+    subtypes:
      { bosskey: 6,
        bosskey2: 6,
        compass: 1,
@@ -599,7 +602,7 @@
     name: 'Defeat Twinrova',
     id: 'defeat-twinrova',
     time: 19,
-    goal: 
+    goal:
      { difficulty: 25,
        id: 'defeat-twinrova',
        jp: 'ツインローバ撃破',
@@ -618,7 +621,7 @@
     name: 'Ruto\'s Letter',
     id: 'ruto-s-letter',
     time: 4.5,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'ruto-s-letter',
        jp: 'ルトの手紙',
@@ -631,14 +634,14 @@
     synergy: 4.5 },
   { difficulty: 14,
     desiredTime: 10.5,
-    types: 
+    types:
      { fountain: 2,
        ice: 1.5,
        inclhskull: 100,
        irons: 2,
        selfsynergy: 0,
        water: 1 },
-    subtypes: 
+    subtypes:
      { bottleslot: 2,
        child2: 3,
        compass: 4,
@@ -652,7 +655,7 @@
     name: 'All 5 Lake Hylia Skulltulas',
     id: 'all-5-lake-hylia-skulltulas',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'all-5-lake-hylia-skulltulas',
        jp: 'ハイリア湖畔エリアの黄金のスタルチュラ5匹',

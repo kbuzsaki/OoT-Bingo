@@ -1,4 +1,4 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 5,
     desiredTime: 2.5,
     types: { bottle: 2, endbottle: -2.5, selfsynergy: 0 },
@@ -7,7 +7,7 @@
     name: 'Bottled Poe',
     id: 'bottled-poe',
     time: 3,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'bottled-poe',
        jp: 'ビン(ポウ)',
@@ -19,13 +19,15 @@
     synergy: 0.75 },
   { difficulty: 12,
     desiredTime: 6,
-    types: { bottle: 2, endon: -0.5, ganon: 5, incgohma: 100, selfsynergy: 0 },
-    subtypes: { bosskey: 4.25, hearts: 3, hearts2: 2, plant: 0.25, wallet: 0.5 },
+    types:
+     { bottle: 2, endon: -0.5, ganon: 5, incgohma: 100, selfsynergy: 0 },
+    subtypes:
+     { bosskey: 4.25, hearts: 3, hearts2: 2, plant: 0.25, wallet: 0.5 },
     rowtypes: undefined,
     name: 'Ganon\'s Castle Boss Key',
     id: 'ganon-s-castle-boss-key',
     time: 7,
-    goal: 
+    goal:
      { difficulty: 14,
        id: 'ganon-s-castle-boss-key',
        jp: 'ガノン城のボス部屋のカギ',
@@ -37,13 +39,14 @@
     synergy: 1.5 },
   { difficulty: 19,
     desiredTime: 9.5,
-    types: { field: 0.75, incsaria: 100, saria: 3, selfsynergy: 0, zl: 6.75 },
+    types:
+     { field: 0.75, incsaria: 100, saria: 3, selfsynergy: 0, zl: 6.75 },
     subtypes: { hearts: 2, hearts2: 2, plant: 0.5, wallet: 0.25 },
     rowtypes: undefined,
     name: 'Saria\'s Song',
     id: 'saria-s-song',
     time: 10.5,
-    goal: 
+    goal:
      { difficulty: 21,
        id: 'saria-s-song',
        jp: 'サリアの歌',
@@ -56,12 +59,13 @@
   { difficulty: 21,
     desiredTime: 10.5,
     types: { fountain: 2, incbarinade: 100, jabu: 8, selfsynergy: 0 },
-    subtypes: { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
+    subtypes:
+     { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
     rowtypes: undefined,
     name: 'Zora\'s Sapphire',
     id: 'zora-s-sapphire',
     time: 11,
-    goal: 
+    goal:
      { difficulty: 22,
        id: 'zora-s-sapphire',
        jp: 'ゾーラのサファイア',
@@ -74,7 +78,7 @@
   { difficulty: 8,
     desiredTime: 4,
     types: { deku: 2.5, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bulletbag: 100,
        compass: 2,
        ganon: 2.5,
@@ -86,7 +90,7 @@
     name: 'Fairy Slingshot',
     id: 'fairy-slingshot',
     time: 4,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'fairy-slingshot',
        jp: '妖精のパチンコ',
@@ -98,7 +102,7 @@
     synergy: 1.5 },
   { difficulty: 24,
     desiredTime: 12,
-    types: 
+    types:
      { beans: 10,
        field: 0.75,
        incbeans: 100,
@@ -110,7 +114,7 @@
     name: 'Plant 7 Magic Beans',
     id: 'plant-7-magic-beans',
     time: 12.25,
-    goal: 
+    goal:
      { difficulty: 24,
        id: 'plant-7-magic-beans',
        jp: '魔法の豆を7ヶ所に埋める',
@@ -127,7 +131,7 @@
     name: 'Green Potion',
     id: 'green-potion',
     time: 2.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'green-potion',
        jp: '緑のクスリ',
@@ -144,7 +148,7 @@
     name: 'Lost Dog HP',
     id: 'lost-dog-hp',
     time: 1.25,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'lost-dog-hp',
        jp: 'リチャードのハートのかけら',
@@ -157,7 +161,7 @@
   { difficulty: 15,
     desiredTime: 7.5,
     types: { dc: 3, dmc: 1, endon: -0.5, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3,
        hearts: 2,
        hearts2: 2,
@@ -170,7 +174,7 @@
     name: 'All 5 Skulltulas in Dodongo\'s Cavern',
     id: 'all-5-skulltulas-in-dodongo-s-cavern',
     time: 8.25,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'all-5-skulltulas-in-dodongo-s-cavern',
        jp: 'ドドンゴの洞窟の黄金のスタルチュラ5匹',
@@ -188,7 +192,7 @@
     name: 'All 4 Lon-Lon Ranch area Skulltulas',
     id: 'all-4-lon-lon-ranch-area-skulltulas',
     time: 8,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'all-4-lon-lon-ranch-area-skulltulas',
        jp: 'ロンロン牧場エリアの黄金のスタルチュラ4匹',
@@ -206,7 +210,7 @@
     name: 'Epona\'s Song',
     id: 'epona-s-song',
     time: 8,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'epona-s-song',
        jp: 'エポナの歌',
@@ -218,8 +222,9 @@
     synergy: 1 },
   { difficulty: 20,
     desiredTime: 10,
-    types: { dc: 2, deku: 3, dmc: 1, fountain: 2, jabu: 3, selfsynergy: -3.5 },
-    subtypes: 
+    types:
+     { dc: 2, deku: 3, dmc: 1, fountain: 2, jabu: 3, selfsynergy: -3.5 },
+    subtypes:
      { compass: 4,
        ganon: 2.5,
        map: 4,
@@ -231,7 +236,7 @@
     name: '1 Skulltula from each Child Dungeon',
     id: '1-skulltula-from-each-child-dungeon',
     time: 9.5,
-    goal: 
+    goal:
      { difficulty: 19,
        id: '1-skulltula-from-each-child-dungeon',
        jp: '全ての子供ダンジョンからスタルチュラ最低1匹ずつ',
@@ -243,18 +248,19 @@
     synergy: 1.75 },
   { difficulty: 22,
     desiredTime: 11,
-    types: 
+    types:
      { endon: -1,
        fountain: 2,
        incbarinade: 100,
        jabu: 8,
        selfsynergy: 0 },
-    subtypes: { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
+    subtypes:
+     { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
     rowtypes: undefined,
     name: 'Beat Jabu-Jabu\'s Belly',
     id: 'beat-jabu-jabu-s-belly',
     time: 10,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'beat-jabu-jabu-s-belly',
        jp: 'ジャブジャブ様のお腹クリア',
@@ -266,7 +272,7 @@
     synergy: 1 },
   { difficulty: 9,
     desiredTime: 4.5,
-    types: 
+    types:
      { endon: -0.5,
        field: 0.75,
        fortress: 3,
@@ -278,7 +284,7 @@
     name: '2 unused keys in Gerudo Training Grounds',
     id: '2-unused-keys-in-gerudo-training-grounds',
     time: 5.25,
-    goal: 
+    goal:
      { difficulty: 10,
        id: '2-unused-keys-in-gerudo-training-grounds',
        jp: 'ゲルドの修練場の未使用のカギ2つ',
@@ -296,7 +302,7 @@
     name: '2 Shields',
     id: '2-shields',
     time: 0.5,
-    goal: 
+    goal:
      { difficulty: 1,
        id: '2-shields',
        jp: '盾2種',
@@ -308,12 +314,13 @@
   { difficulty: 7,
     desiredTime: 3.5,
     types: { field: 0.75, fortress: 1.5, selfsynergy: 0 },
-    subtypes: { bosskey: 1, hearts: 2, plant: 0.5, plant2: 1.5, wallet: 0.25 },
+    subtypes:
+     { bosskey: 1, hearts: 2, plant: 0.5, plant2: 1.5, wallet: 0.25 },
     rowtypes: undefined,
     name: 'Both Gerudo Valley HPs',
     id: 'both-gerudo-valley-hps',
     time: 4.25,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'both-gerudo-valley-hps',
        jp: 'ゲルドの谷のハートのかけら2つ',
@@ -331,7 +338,7 @@
     name: 'Lon Lon Ranch HP',
     id: 'lon-lon-ranch-hp',
     time: 3,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'lon-lon-ranch-hp',
        jp: 'ロンロン牧場のハートのかけら',
@@ -349,7 +356,7 @@
     name: '37th heart piece (Child Fortress)',
     id: '37th-heart-piece-child-fortress-',
     time: 6.25,
-    goal: 
+    goal:
      { difficulty: 12,
        id: '37th-heart-piece-child-fortress-',
        jp: '37番目のハートのかけら(子供のゲルドの砦)',
@@ -367,7 +374,7 @@
     name: '7 Magic Beans',
     id: '7-magic-beans',
     time: 8,
-    goal: 
+    goal:
      { difficulty: 16,
        id: '7-magic-beans',
        jp: '魔法のマメ7つ以上',
@@ -379,13 +386,14 @@
     synergy: 1.75 },
   { difficulty: 25,
     desiredTime: 12.5,
-    types: { childtrade: 5, field: 0.75, saria: 3, selfsynergy: 0, zl: 6.75 },
+    types:
+     { childtrade: 5, field: 0.75, saria: 3, selfsynergy: 0, zl: 6.75 },
     subtypes: { hearts: 2, hearts2: 2, plant: 0.5, wallet: 0.25 },
     rowtypes: undefined,
     name: 'Skull Mask',
     id: 'skull-mask',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 25,
        id: 'skull-mask',
        jp: 'ドクロのお面',
@@ -398,7 +406,7 @@
   { difficulty: 16,
     desiredTime: 8,
     types: { bottle: 2, deku: 5, incgohma: 100, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3.5,
        ganon: 5,
        hearts: 3,
@@ -411,7 +419,7 @@
     name: 'Kokiri\'s Emerald',
     id: 'kokiri-s-emerald',
     time: 8.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'kokiri-s-emerald',
        jp: 'コキリのヒスイ',
@@ -429,7 +437,7 @@
     name: '8 Magic Beans',
     id: '8-magic-beans',
     time: 10.75,
-    goal: 
+    goal:
      { difficulty: 21,
        id: '8-magic-beans',
        jp: '魔法のマメ8つ以上',
@@ -447,7 +455,7 @@
     name: 'Ruto\'s Letter',
     id: 'ruto-s-letter',
     time: 4.5,
-    goal: 
+    goal:
      { difficulty: 9,
        id: 'ruto-s-letter',
        jp: 'ルトの手紙',
@@ -465,7 +473,7 @@
     name: '99 Rupees',
     id: '99-rupees',
     time: 0.5,
-    goal: 
+    goal:
      { difficulty: 1,
        id: '99-rupees',
        jp: '99ルピー',
@@ -477,7 +485,7 @@
     synergy: 2 },
   { difficulty: 14,
     desiredTime: 7,
-    types: 
+    types:
      { endon: -0.5,
        field: 0.75,
        fortress: 3,
@@ -489,7 +497,7 @@
     name: '4 unused keys in Gerudo Training Grounds',
     id: '4-unused-keys-in-gerudo-training-grounds',
     time: 6.25,
-    goal: 
+    goal:
      { difficulty: 12,
        id: '4-unused-keys-in-gerudo-training-grounds',
        jp: 'ゲルドの修練場の未使用のカギ4つ',

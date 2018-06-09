@@ -1,13 +1,14 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 25,
     desiredTime: 12.5,
-    types: { field: 0.75, incsaria: 100, saria: 3, selfsynergy: 0, zl: 6.75 },
+    types:
+     { field: 0.75, incsaria: 100, saria: 3, selfsynergy: 0, zl: 6.75 },
     subtypes: { plant: 0.25 },
     rowtypes: undefined,
     name: 'Defeat a Skull Kid',
     id: 'defeat-a-skull-kid',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'defeat-a-skull-kid',
        jp: 'スタルキッド撃破',
@@ -20,7 +21,7 @@
   { difficulty: 12,
     desiredTime: 6,
     types: { fountain: 2, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 2,
        hearts: 0.75,
        jabu: 0.5,
@@ -31,7 +32,7 @@
     name: 'All 4 Child Zora\'s Domain area Skulltulas',
     id: 'all-4-child-zora-s-domain-area-skulltulas',
     time: 6,
-    goal: 
+    goal:
      { difficulty: 12,
        id: 'all-4-child-zora-s-domain-area-skulltulas',
        jp: 'ゾーラの里エリアの黄金のスタルチュラ8匹',
@@ -49,7 +50,7 @@
     name: 'Golden Scale',
     id: 'golden-scale',
     time: 4,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'golden-scale',
        jp: '金のウロコ',
@@ -67,7 +68,7 @@
     name: 'Fairy Ocarina',
     id: 'fairy-ocarina',
     time: 0.5,
-    goal: 
+    goal:
      { difficulty: 1,
        id: 'fairy-ocarina',
        jp: '妖精のオカリナ',
@@ -79,8 +80,9 @@
     synergy: 3 },
   { difficulty: 18,
     desiredTime: 9,
-    types: { dc: 4, dmc: 1, endon: -1, inckd: 100, kd: 3, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { dc: 4, dmc: 1, endon: -1, inckd: 100, kd: 3, selfsynergy: 0 },
+    subtypes:
      { compass: 3,
        fortress: 3,
        hearts: 3,
@@ -93,7 +95,7 @@
     name: 'Beat Dodongo\'s Cavern',
     id: 'beat-dodongo-s-cavern',
     time: 10,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'beat-dodongo-s-cavern',
        jp: 'ドドンゴの洞窟クリア',
@@ -111,7 +113,7 @@
     name: 'Green Potion',
     id: 'green-potion',
     time: 2.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'green-potion',
        jp: '緑のクスリ',
@@ -123,7 +125,7 @@
   { difficulty: 16,
     desiredTime: 8,
     types: { dc: 3, dmc: 1, endon: -0.5, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3,
        hearts: 2,
        hearts2: 2,
@@ -136,7 +138,7 @@
     name: 'All 5 Skulltulas in Dodongo\'s Cavern',
     id: 'all-5-skulltulas-in-dodongo-s-cavern',
     time: 8.25,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'all-5-skulltulas-in-dodongo-s-cavern',
        jp: 'ドドンゴの洞窟の黄金のスタルチュラ5匹',
@@ -148,8 +150,9 @@
     synergy: 2.5 },
   { difficulty: 23,
     desiredTime: 11.5,
-    types: { fountain: 2, incmap: 100, jabu: 5, map: 14, selfsynergy: -3 },
-    subtypes: 
+    types:
+     { fountain: 2, incmap: 100, jabu: 5, map: 14, selfsynergy: -3 },
+    subtypes:
      { bosskey2: 2,
        compass: 14,
        ganon: 2.5,
@@ -162,7 +165,7 @@
     name: '4 Maps',
     id: '4-maps',
     time: 11.25,
-    goal: 
+    goal:
      { difficulty: 22,
        id: '4-maps',
        jp: 'マップ4つ',
@@ -180,7 +183,7 @@
     name: 'All 3 Child Lake Hylia Skulltulas',
     id: 'all-3-child-lake-hylia-skulltulas',
     time: 7,
-    goal: 
+    goal:
      { difficulty: 14,
        id: 'all-3-child-lake-hylia-skulltulas',
        jp: 'ハイリア湖畔エリアの黄金のスタルチュラ3匹以上',
@@ -198,7 +201,7 @@
     name: 'Red Potion',
     id: 'red-potion',
     time: 2.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'red-potion',
        jp: '赤いクスリ',
@@ -210,7 +213,7 @@
   { difficulty: 13,
     desiredTime: 6.5,
     types: { dc: 4, dmc: 1, endon: -0.5, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3,
        hearts: 2,
        map: 2.75,
@@ -221,7 +224,7 @@
     name: 'Defeat all Lizalfos in Dodongo\'s Cavern',
     id: 'defeat-all-lizalfos-in-dodongo-s-cavern',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'defeat-all-lizalfos-in-dodongo-s-cavern',
        jp: 'ドドンゴの洞窟のリザルフォス全て撃破',
@@ -234,7 +237,7 @@
   { difficulty: 10,
     desiredTime: 5,
     types: { bulletbag: 100, deku: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3,
        ganon: 2.5,
        hearts: 2.5,
@@ -245,7 +248,7 @@
     name: 'Bullet Bag (40)',
     id: 'bullet-bag-40-',
     time: 4.5,
-    goal: 
+    goal:
      { difficulty: 9,
        id: 'bullet-bag-40-',
        jp: 'デクのタネ袋(40)',
@@ -263,7 +266,7 @@
     name: '99 Rupees',
     id: '99-rupees',
     time: 0.5,
-    goal: 
+    goal:
      { difficulty: 1,
        id: '99-rupees',
        jp: '99ルピー',
@@ -275,13 +278,14 @@
     synergy: 1.5 },
   { difficulty: 19,
     desiredTime: 9.5,
-    types: { field: 0.75, incsaria: 100, saria: 3, selfsynergy: 0, zl: 6.75 },
+    types:
+     { field: 0.75, incsaria: 100, saria: 3, selfsynergy: 0, zl: 6.75 },
     subtypes: { hearts: 2, hearts2: 2, plant: 0.5, wallet: 0.25 },
     rowtypes: undefined,
     name: 'Saria\'s Song',
     id: 'saria-s-song',
     time: 10.5,
-    goal: 
+    goal:
      { difficulty: 21,
        id: 'saria-s-song',
        jp: 'サリアの歌',
@@ -293,18 +297,19 @@
     synergy: 2.75 },
   { difficulty: 21,
     desiredTime: 10.5,
-    types: 
+    types:
      { endon: -1,
        fountain: 2,
        incbarinade: 100,
        jabu: 8,
        selfsynergy: 0 },
-    subtypes: { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
+    subtypes:
+     { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
     rowtypes: undefined,
     name: 'Beat Jabu-Jabu\'s Belly',
     id: 'beat-jabu-jabu-s-belly',
     time: 10,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'beat-jabu-jabu-s-belly',
        jp: 'ジャブジャブ様のお腹クリア',
@@ -317,7 +322,7 @@
   { difficulty: 17,
     desiredTime: 8.5,
     types: { deku: 3, endon: -0.5, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3.75,
        ganon: 3,
        hearts: 3,
@@ -329,7 +334,7 @@
     name: 'All 4 Skulltulas in Deku Tree',
     id: 'all-4-skulltulas-in-deku-tree',
     time: 8.25,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'all-4-skulltulas-in-deku-tree',
        jp: 'デクの樹様の中の黄金のスタルチュラ4匹',
@@ -342,12 +347,13 @@
   { difficulty: 24,
     desiredTime: 12,
     types: { fountain: 2, incbarinade: 100, jabu: 8, selfsynergy: 0 },
-    subtypes: { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
+    subtypes:
+     { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
     rowtypes: undefined,
     name: 'Zora\'s Sapphire',
     id: 'zora-s-sapphire',
     time: 11,
-    goal: 
+    goal:
      { difficulty: 22,
        id: 'zora-s-sapphire',
        jp: 'ゾーラのサファイア',
@@ -365,7 +371,7 @@
     name: 'Milk',
     id: 'milk',
     time: 5.75,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'milk',
        jp: 'ロンロン牛乳',
@@ -378,12 +384,13 @@
   { difficulty: 8,
     desiredTime: 4,
     types: { field: 0.75, fortress: 1.5, selfsynergy: 0 },
-    subtypes: { bosskey: 1, hearts: 2, plant: 0.5, plant2: 1.5, wallet: 0.25 },
+    subtypes:
+     { bosskey: 1, hearts: 2, plant: 0.5, plant2: 1.5, wallet: 0.25 },
     rowtypes: undefined,
     name: 'Both Gerudo Valley HPs',
     id: 'both-gerudo-valley-hps',
     time: 4.25,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'both-gerudo-valley-hps',
        jp: 'ゲルドの谷のハートのかけら2つ',
@@ -396,7 +403,7 @@
   { difficulty: 5,
     desiredTime: 2.5,
     types: { beans: -1, dmc: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 1,
        hearts: 1,
        map: 1,
@@ -407,7 +414,7 @@
     name: 'Plant bean in Death Mountain Crater',
     id: 'plant-bean-in-death-mountain-crater',
     time: 3.5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'plant-bean-in-death-mountain-crater',
        jp: 'デスマウンテン火口の土にマメを植える',
@@ -420,7 +427,7 @@
   { difficulty: 6,
     desiredTime: 3,
     types: { dmc: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 1,
        compass: 1,
        hearts: 2,
@@ -433,7 +440,7 @@
     name: 'Both heart pieces in Death Mountain Crater',
     id: 'both-heart-pieces-in-death-mountain-crater',
     time: 3.5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'both-heart-pieces-in-death-mountain-crater',
        jp: 'デスマウンテン火口のハートのかけら２つ',
@@ -451,7 +458,7 @@
     name: 'Bottled Fairy',
     id: 'bottled-fairy',
     time: 2.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'bottled-fairy',
        jp: 'ビン(妖精)',
@@ -468,7 +475,7 @@
     name: 'All 7 Child Kakariko area Skulltulas',
     id: 'all-7-child-kakariko-area-skulltulas',
     time: 9,
-    goal: 
+    goal:
      { difficulty: 18,
        id: 'all-7-child-kakariko-area-skulltulas',
        jp: 'カカリコ村エリアの黄金のスタルチュラ8匹',
@@ -486,7 +493,7 @@
     name: '8 Magic Beans',
     id: '8-magic-beans',
     time: 10.75,
-    goal: 
+    goal:
      { difficulty: 21,
        id: '8-magic-beans',
        jp: '魔法のマメ8つ以上',
@@ -504,7 +511,7 @@
     name: 'Epona\'s Song',
     id: 'epona-s-song',
     time: 8,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'epona-s-song',
        jp: 'エポナの歌',

@@ -1,4 +1,4 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 5,
     desiredTime: 3.75,
     types: { childchu: 0, selfsynergy: 0 },
@@ -7,7 +7,7 @@
     name: 'All 3 Skulltulas in Bottom of the Well',
     id: 'all-3-skulltulas-in-bottom-of-the-well',
     time: 3.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'all-3-skulltulas-in-bottom-of-the-well',
        jp: '井戸の底の黄金のスタルチュラ3匹',
@@ -26,7 +26,7 @@
     name: 'Fill all 4 Bottle Slots',
     id: 'fill-all-4-bottle-slots',
     time: 5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'fill-all-4-bottle-slots',
        jp: '4つの空きビンスロットを全て埋める',
@@ -40,12 +40,13 @@
   { difficulty: 14,
     desiredTime: 10.5,
     types: { compass: 10, hovers: 3, incmc: 100, selfsynergy: -3 },
-    subtypes: { bosskey2: 2, hearts3: 1.5, hearts4: 1, map: 10, wallet: 1 },
+    subtypes:
+     { bosskey2: 2, hearts3: 1.5, hearts4: 1, map: 10, wallet: 1 },
     rowtypes: { bottle: 0, gclw: 1, hookshot: 0.5, ms: 2 },
     name: '5 Compasses',
     id: '5-compasses',
     time: 11.25,
-    goal: 
+    goal:
      { difficulty: 15,
        id: '5-compasses',
        jp: 'コンパス5つ',
@@ -58,7 +59,7 @@
     synergy: 4.5 },
   { difficulty: 21,
     desiredTime: 15.75,
-    types: 
+    types:
      { childchu: 0,
        childreset: 1.25,
        childtrade: 2.75,
@@ -67,7 +68,7 @@
        saria: 5,
        selfsynergy: 0,
        strength: 100 },
-    subtypes: 
+    subtypes:
      { bombbag: 100,
        cganon: 2,
        child2: 2.5,
@@ -80,7 +81,7 @@
     name: 'Goron Bracelet',
     id: 'goron-bracelet',
     time: 15.5,
-    goal: 
+    goal:
      { difficulty: 21,
        id: 'goron-bracelet',
        jp: 'ゴロンの腕輪',
@@ -93,7 +94,7 @@
     synergy: 4.75 },
   { difficulty: 18,
     desiredTime: 13.5,
-    types: 
+    types:
      { dmc: 1,
        endon: -0.5,
        fire: 9,
@@ -101,7 +102,7 @@
        gtunic: 1.75,
        incvolvagia: 100,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { aganon: 1,
        bosskey: 2,
        compass: 4,
@@ -117,7 +118,7 @@
     name: 'Defeat Volvagia',
     id: 'defeat-volvagia',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'defeat-volvagia',
        jp: 'ヴァルバジア撃破',
@@ -130,7 +131,7 @@
     synergy: 2 },
   { difficulty: 24,
     desiredTime: 18,
-    types: 
+    types:
      { child2: 5,
        dins: 1,
        endon: 0,
@@ -139,7 +140,7 @@
        incfboss: 100,
        pg: 2.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey2: 2,
        compass: 1,
        hearts3: 3,
@@ -152,7 +153,7 @@
     name: 'All 4 Market area Skulltulas',
     id: 'all-4-market-area-skulltulas',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'all-4-market-area-skulltulas',
        jp: '城下町エリアの黄金のスタルチュラ4匹',
@@ -166,12 +167,13 @@
   { difficulty: 16,
     desiredTime: 12,
     types: { fortress: 2.5, hovers: 3, selfsynergy: 0, spirit: 5 },
-    subtypes: { bosskey: 2, compass: 1, hearts4: 0.25, map: 2, wallet: 0.75 },
+    subtypes:
+     { bosskey: 2, compass: 1, hearts4: 0.25, map: 2, wallet: 0.75 },
     rowtypes: { bottle: 0, gclw: 0, hookshot: 2, ms: 1 },
     name: 'Get Bombchu chest in Spirit Temple',
     id: 'get-bombchu-chest-in-spirit-temple',
     time: 12,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'get-bombchu-chest-in-spirit-temple',
        jp: '魂の神殿のボムチュウ取得',
@@ -190,7 +192,7 @@
     name: 'Zora Tunic',
     id: 'zora-tunic',
     time: 1.5,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'zora-tunic',
        jp: 'ゾーラの服',
@@ -203,19 +205,20 @@
     synergy: 6.5 },
   { difficulty: 10,
     desiredTime: 7.5,
-    types: 
+    types:
      { childchu: 0,
        fountain: 2,
        gtg: 1,
        incbarinade: 100,
        jabu: 5,
        selfsynergy: 0 },
-    subtypes: { compass: 2.5, hearts3: 1, hearts4: 1, map: 3, wallet: 0.5 },
+    subtypes:
+     { compass: 2.5, hearts3: 1, hearts4: 1, map: 3, wallet: 0.5 },
     rowtypes: { bottle: 0, gclw: 0, hookshot: 0, ms: 0 },
     name: 'Boomerang',
     id: 'boomerang',
     time: 8.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'boomerang',
        jp: 'ブーメラン',
@@ -228,7 +231,7 @@
     synergy: 3 },
   { difficulty: 12,
     desiredTime: 9,
-    types: 
+    types:
      { aganon: 3,
        bganon: -2,
        bothzl: -4.25,
@@ -237,7 +240,7 @@
        endon: -0.5,
        poachers: 4.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 2.5,
        childchu: -2.5,
        chuczl: 2,
@@ -247,7 +250,7 @@
     name: 'Get to the end of Light Trial',
     id: 'get-to-the-end-of-light-trial',
     time: 8.25,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'get-to-the-end-of-light-trial',
        jp: '光の結界の最後の部屋に到達',
@@ -266,7 +269,7 @@
     name: '7 Magic Beans',
     id: '7-magic-beans',
     time: 6.25,
-    goal: 
+    goal:
      { difficulty: 8,
        id: '7-magic-beans',
        jp: '魔法のマメ7つ以上',
@@ -279,14 +282,14 @@
     synergy: 1.75 },
   { difficulty: 15,
     desiredTime: 11.25,
-    types: 
+    types:
      { childchu: 0,
        endon: -0.25,
        fountain: 2,
        incbarinade: 100,
        jabu: 8,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { child2: 2,
        childreset: 1.25,
        compass: 2.5,
@@ -298,7 +301,7 @@
     name: 'Defeat Barinade',
     id: 'defeat-barinade',
     time: 11,
-    goal: 
+    goal:
      { difficulty: 15,
        id: 'defeat-barinade',
        jp: 'バリネード撃破',
@@ -311,7 +314,7 @@
     synergy: 5 },
   { difficulty: 22,
     desiredTime: 16.5,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        dc: 2,
@@ -323,7 +326,7 @@
        poachers: 4.25,
        selfsynergy: 0,
        water: 4 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        bbprize: -6,
        bosskey: 3.75,
@@ -340,7 +343,7 @@
     name: 'All 5 Skulltulas in Water Temple',
     id: 'all-5-skulltulas-in-water-temple',
     time: 16.5,
-    goal: 
+    goal:
      { difficulty: 22,
        id: 'all-5-skulltulas-in-water-temple',
        jp: '水の神殿の黄金のスタルチュラ5匹',
@@ -354,7 +357,7 @@
   { difficulty: 19,
     desiredTime: 14.25,
     types: { compass: 15, hovers: 3, incmc: 100, selfsynergy: -3 },
-    subtypes: 
+    subtypes:
      { bosskey2: 2,
        hearts3: 1.5,
        hearts4: 1,
@@ -365,7 +368,7 @@
     name: '6 Compasses',
     id: '6-compasses',
     time: 14.75,
-    goal: 
+    goal:
      { difficulty: 20,
        id: '6-compasses',
        jp: 'コンパス6つ',
@@ -384,7 +387,7 @@
     name: 'Bolero of Fire',
     id: 'bolero-of-fire',
     time: 1.5,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'bolero-of-fire',
        jp: '炎のボレロ',
@@ -397,7 +400,7 @@
     synergy: 2.25 },
   { difficulty: 17,
     desiredTime: 12.75,
-    types: 
+    types:
      { endon: -1,
        fortress: 2,
        inclacs: 100,
@@ -405,7 +408,7 @@
        lightarrow: 6.5,
        poachers: 4.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { aganon: 1,
        bosskey: 3,
        bosskey2: 6,
@@ -421,7 +424,7 @@
     name: 'Light Arrows',
     id: 'light-arrows',
     time: 13.5,
-    goal: 
+    goal:
      { difficulty: 18,
        id: 'light-arrows',
        jp: '光の矢',
@@ -440,7 +443,7 @@
     name: 'Lon Lon Ranch HP',
     id: 'lon-lon-ranch-hp',
     time: 2.25,
-    goal: 
+    goal:
      { difficulty: 3,
        id: 'lon-lon-ranch-hp',
        jp: 'ロンロン牧場のハートのかけら',
@@ -459,7 +462,7 @@
     name: 'Blue Potion',
     id: 'blue-potion',
     time: 4.5,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'blue-potion',
        jp: '青いクスリ',
@@ -472,8 +475,9 @@
     synergy: 4.25 },
   { difficulty: 13,
     desiredTime: 9.75,
-    types: { dmc: 1, fire: 8, gtunic: 1, incflare: 100, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { dmc: 1, fire: 8, gtunic: 1, incflare: 100, selfsynergy: 0 },
+    subtypes:
      { bosskey: 2,
        compass: 4,
        hovers: 0.25,
@@ -485,7 +489,7 @@
     name: 'Defeat both Flare Dancers',
     id: 'defeat-both-flare-dancers',
     time: 10.75,
-    goal: 
+    goal:
      { difficulty: 14,
        id: 'defeat-both-flare-dancers',
        jp: 'フレアダンサー2体撃破',
@@ -498,7 +502,7 @@
     synergy: 3.75 },
   { difficulty: 25,
     desiredTime: 18.75,
-    types: 
+    types:
      { endon: -1,
        fortress: 2.5,
        gtg: 1,
@@ -507,7 +511,7 @@
        legitlacs: 100,
        selfsynergy: 0,
        spirit: 8 },
-    subtypes: 
+    subtypes:
      { bosskey: 6,
        bosskey2: 6,
        compass: 1,
@@ -520,7 +524,7 @@
     name: 'Defeat Twinrova',
     id: 'defeat-twinrova',
     time: 19,
-    goal: 
+    goal:
      { difficulty: 25,
        id: 'defeat-twinrova',
        jp: 'ツインローバ撃破',
@@ -534,7 +538,7 @@
   { difficulty: 11,
     desiredTime: 8.25,
     types: { fountain: 2, ice: 1.5, irons: 2, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { beans: 0.5,
        compass: 3,
        hearts3: 3,
@@ -546,7 +550,7 @@
     name: '5 Zora area HPs',
     id: '5-zora-area-hps',
     time: 9,
-    goal: 
+    goal:
      { difficulty: 12,
        id: '5-zora-area-hps',
        jp: 'ゾーラエリアのハートのかけら5つ以上',
@@ -559,7 +563,7 @@
     synergy: 3 },
   { difficulty: 23,
     desiredTime: 17.25,
-    types: 
+    types:
      { dmc: 1,
        fire: 1.5,
        forest: 2.75,
@@ -570,7 +574,7 @@
        shadow: 2,
        spirit: 3,
        water: 3 },
-    subtypes: 
+    subtypes:
      { bosskey: 4,
        bosskey2: 3,
        childchu: -2.5,
@@ -584,7 +588,7 @@
     name: '1 Skulltula from each Adult Dungeon',
     id: '1-skulltula-from-each-adult-dungeon',
     time: 18,
-    goal: 
+    goal:
      { difficulty: 24,
        id: '1-skulltula-from-each-adult-dungeon',
        jp: '全ての大人ダンジョンからスタルチュラ最低1匹ずつ',
@@ -597,7 +601,7 @@
     synergy: 0 },
   { difficulty: 20,
     desiredTime: 15,
-    types: 
+    types:
      { beans: 10,
        bombbag: 100,
        fortress: 3,
@@ -605,7 +609,7 @@
        quiver: 1,
        selfsynergy: 0,
        spirit: 0.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 2.5,
        childchu: -2.5,
        hearts4: 0.5,
@@ -615,7 +619,7 @@
     name: 'Quiver (50)',
     id: 'quiver-50-',
     time: 14.25,
-    goal: 
+    goal:
      { difficulty: 19,
        id: 'quiver-50-',
        jp: '矢立て(50)',
@@ -634,7 +638,7 @@
     name: 'Bottled Fairy',
     id: 'bottled-fairy',
     time: 0.5,
-    goal: 
+    goal:
      { difficulty: 1,
        id: 'bottled-fairy',
        jp: 'ビン(妖精)',
@@ -646,13 +650,15 @@
     synergy: 2.5 },
   { difficulty: 9,
     desiredTime: 6.75,
-    types: { endon: -0.5, hovers: 1, incwboss: 100, selfsynergy: 0, water: 7 },
-    subtypes: { compass: 2.5, hearts3: 3, hearts4: 1, map: 2.5, poachers: 1.25 },
+    types:
+     { endon: -0.5, hovers: 1, incwboss: 100, selfsynergy: 0, water: 7 },
+    subtypes:
+     { compass: 2.5, hearts3: 3, hearts4: 1, map: 2.5, poachers: 1.25 },
     rowtypes: { bottle: 0, gclw: 0, hookshot: 100, ms: 1 },
     name: 'Defeat Morpha',
     id: 'defeat-morpha',
     time: 5.75,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'defeat-morpha',
        jp: 'モーファ撃破',

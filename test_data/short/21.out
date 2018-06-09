@@ -1,8 +1,8 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 15,
     desiredTime: 7.5,
     types: { deku: 3, endon: -0.5, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3.75,
        ganon: 3,
        hearts: 3,
@@ -14,7 +14,7 @@
     name: 'All 4 Skulltulas in Deku Tree',
     id: 'all-4-skulltulas-in-deku-tree',
     time: 8.25,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'all-4-skulltulas-in-deku-tree',
        jp: 'デクの樹様の中の黄金のスタルチュラ4匹',
@@ -26,7 +26,7 @@
     synergy: 1.5 },
   { difficulty: 22,
     desiredTime: 11,
-    types: 
+    types:
      { childtrade: 2.75,
        dmc: 0.5,
        field: 0.75,
@@ -37,7 +37,7 @@
     name: 'Keaton Mask',
     id: 'keaton-mask',
     time: 10.25,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'keaton-mask',
        jp: 'キータンのお面',
@@ -55,7 +55,7 @@
     name: 'Lon Lon Ranch HP',
     id: 'lon-lon-ranch-hp',
     time: 3,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'lon-lon-ranch-hp',
        jp: 'ロンロン牧場のハートのかけら',
@@ -73,7 +73,7 @@
     name: 'Map & Compass in Jabu-Jabu',
     id: 'map-compass-in-jabu-jabu',
     time: 8.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'map-compass-in-jabu-jabu',
        jp: 'ジャブジャブ様のお腹のマップとコンパス',
@@ -91,7 +91,7 @@
     name: 'Adult\'s Wallet',
     id: 'adult-s-wallet',
     time: 5,
-    goal: 
+    goal:
      { difficulty: 10,
        id: 'adult-s-wallet',
        jp: '大人のサイフ',
@@ -103,8 +103,9 @@
     synergy: 2.25 },
   { difficulty: 19,
     desiredTime: 9.5,
-    types: { dc: 4, dmc: 1, endon: -1, inckd: 100, kd: 3, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { dc: 4, dmc: 1, endon: -1, inckd: 100, kd: 3, selfsynergy: 0 },
+    subtypes:
      { compass: 3,
        fortress: 3,
        hearts: 3,
@@ -117,7 +118,7 @@
     name: 'Beat Dodongo\'s Cavern',
     id: 'beat-dodongo-s-cavern',
     time: 10,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'beat-dodongo-s-cavern',
        jp: 'ドドンゴの洞窟クリア',
@@ -135,7 +136,7 @@
     name: 'All 3 Skulltulas in Bottom of the Well',
     id: 'all-3-skulltulas-in-bottom-of-the-well',
     time: 3.25,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'all-3-skulltulas-in-bottom-of-the-well',
        jp: '井戸の底の黄金のスタルチュラ3匹',
@@ -148,7 +149,7 @@
   { difficulty: 13,
     desiredTime: 6.5,
     types: { incmap: 100, map: 6, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 6,
        ganon: 2.5,
        hearts: 2,
@@ -160,7 +161,7 @@
     name: '3 Maps',
     id: '3-maps',
     time: 6.75,
-    goal: 
+    goal:
      { difficulty: 13,
        id: '3-maps',
        jp: 'マップ3つ',
@@ -178,7 +179,7 @@
     name: 'Magic Bar',
     id: 'magic-bar',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 25,
        id: 'magic-bar',
        jp: '魔力メーター',
@@ -196,7 +197,7 @@
     name: '20 Deku Sticks',
     id: '20-deku-sticks',
     time: 1,
-    goal: 
+    goal:
      { difficulty: 2,
        id: '20-deku-sticks',
        jp: 'デクの棒20本',
@@ -207,8 +208,9 @@
     synergy: 2.75 },
   { difficulty: 23,
     desiredTime: 11.5,
-    types: { fountain: 2, incmap: 100, jabu: 5, map: 14, selfsynergy: -3 },
-    subtypes: 
+    types:
+     { fountain: 2, incmap: 100, jabu: 5, map: 14, selfsynergy: -3 },
+    subtypes:
      { bosskey2: 2,
        compass: 14,
        ganon: 2.5,
@@ -221,7 +223,7 @@
     name: '4 Maps',
     id: '4-maps',
     time: 11.25,
-    goal: 
+    goal:
      { difficulty: 22,
        id: '4-maps',
        jp: 'マップ4つ',
@@ -239,7 +241,7 @@
     name: 'Red Potion',
     id: 'red-potion',
     time: 2.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'red-potion',
        jp: '赤いクスリ',
@@ -256,7 +258,7 @@
     name: 'Fill all 4 Bottle Slots',
     id: 'fill-all-4-bottle-slots',
     time: 7.75,
-    goal: 
+    goal:
      { difficulty: 15,
        id: 'fill-all-4-bottle-slots',
        jp: '4つの空きビンスロットを全て埋める',
@@ -274,7 +276,7 @@
     name: '200 Rupees',
     id: '200-rupees',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: '200-rupees',
        jp: '200ルピー',
@@ -286,7 +288,7 @@
     synergy: 0 },
   { difficulty: 11,
     desiredTime: 5.5,
-    types: 
+    types:
      { field: 0.75,
        fortress: 3,
        gtg: 1.5,
@@ -298,7 +300,7 @@
     name: 'Defeat a White Wolfos',
     id: 'defeat-a-white-wolfos',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'defeat-a-white-wolfos',
        jp: 'ホワイトウルフォス撃破',
@@ -316,7 +318,7 @@
     name: 'Bottled Poe',
     id: 'bottled-poe',
     time: 3,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'bottled-poe',
        jp: 'ビン(ポウ)',
@@ -334,7 +336,7 @@
     name: 'All 4 Lon-Lon Ranch area Skulltulas',
     id: 'all-4-lon-lon-ranch-area-skulltulas',
     time: 8,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'all-4-lon-lon-ranch-area-skulltulas',
        jp: 'ロンロン牧場エリアの黄金のスタルチュラ4匹',
@@ -347,7 +349,7 @@
   { difficulty: 21,
     desiredTime: 10.5,
     types: { field: 0.75, fortress: 2.5, selfsynergy: 0, spirit: 6 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        compass: 1,
        hearts: 0.75,
@@ -359,7 +361,7 @@
     name: 'Get Bombchu chest in Spirit Temple',
     id: 'get-bombchu-chest-in-spirit-temple',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'get-bombchu-chest-in-spirit-temple',
        jp: '魂の神殿のボムチュウ取得',
@@ -377,7 +379,7 @@
     name: 'Lost Dog HP',
     id: 'lost-dog-hp',
     time: 1.25,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'lost-dog-hp',
        jp: 'リチャードのハートのかけら',
@@ -395,7 +397,7 @@
     name: '8 Magic Beans',
     id: '8-magic-beans',
     time: 10.75,
-    goal: 
+    goal:
      { difficulty: 21,
        id: '8-magic-beans',
        jp: '魔法のマメ8つ以上',
@@ -413,7 +415,7 @@
     name: '2 Shields',
     id: '2-shields',
     time: 0.5,
-    goal: 
+    goal:
      { difficulty: 1,
        id: '2-shields',
        jp: '盾2種',
@@ -424,18 +426,19 @@
     synergy: 1.75 },
   { difficulty: 18,
     desiredTime: 9,
-    types: 
+    types:
      { endon: -1,
        fountain: 2,
        incbarinade: 100,
        jabu: 8,
        selfsynergy: 0 },
-    subtypes: { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
+    subtypes:
+     { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
     rowtypes: undefined,
     name: 'Beat Jabu-Jabu\'s Belly',
     id: 'beat-jabu-jabu-s-belly',
     time: 10,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'beat-jabu-jabu-s-belly',
        jp: 'ジャブジャブ様のお腹クリア',
@@ -453,7 +456,7 @@
     name: 'Golden Scale',
     id: 'golden-scale',
     time: 4,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'golden-scale',
        jp: '金のウロコ',
@@ -471,7 +474,7 @@
     name: 'Plant 5 Magic Beans',
     id: 'plant-5-magic-beans',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'plant-5-magic-beans',
        jp: '魔法の豆を5ヶ所に埋める',
@@ -488,7 +491,7 @@
     name: 'Gerudo\'s Card',
     id: 'gerudo-s-card',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'gerudo-s-card',
        jp: 'ゲルドの会員証',

@@ -1,7 +1,7 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 25,
     desiredTime: 18.75,
-    types: 
+    types:
      { child2: 5,
        dins: 1,
        endon: 0,
@@ -10,7 +10,7 @@
        incfboss: 100,
        pg: 2.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey2: 2,
        compass: 1,
        hearts3: 3,
@@ -23,7 +23,7 @@
     name: 'All 4 Market area Skulltulas',
     id: 'all-4-market-area-skulltulas',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'all-4-market-area-skulltulas',
        jp: '城下町エリアの黄金のスタルチュラ4匹',
@@ -36,19 +36,20 @@
     synergy: 1.75 },
   { difficulty: 7,
     desiredTime: 5.25,
-    types: 
+    types:
      { aganon: 2.5,
        bganon: -2.5,
        cganon: 2.5,
        fountain: 2,
        ice: 1.5,
        selfsynergy: 0 },
-    subtypes: { bosskey: 2.5, compass: 3, hearts3: 1, map: 3, wallet: 0.75 },
+    subtypes:
+     { bosskey: 2.5, compass: 3, hearts3: 1, map: 3, wallet: 0.75 },
     rowtypes: { bottle: 100, gclw: 0, hookshot: 0, ms: 0 },
     name: 'Blue Fire',
     id: 'blue-fire',
     time: 3.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'blue-fire',
        jp: '青い炎',
@@ -67,7 +68,7 @@
     name: 'All 3 Skulltulas in Bottom of the Well',
     id: 'all-3-skulltulas-in-bottom-of-the-well',
     time: 3.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'all-3-skulltulas-in-bottom-of-the-well',
        jp: '井戸の底の黄金のスタルチュラ3匹',
@@ -80,7 +81,7 @@
     synergy: 8.25 },
   { difficulty: 16,
     desiredTime: 12,
-    types: 
+    types:
      { fortress: 2.5,
        gtg: 1,
        hovers: 3,
@@ -89,7 +90,7 @@
        selfsynergy: 0,
        spirit: 3.5,
        swords: 3 },
-    subtypes: 
+    subtypes:
      { bosskey: 3,
        bosskey2: 5,
        bulletbag: -3,
@@ -104,7 +105,7 @@
     name: '3 Swords & 3 Shields',
     id: '3-swords-3-shields',
     time: 12.75,
-    goal: 
+    goal:
      { difficulty: 17,
        id: '3-swords-3-shields',
        jp: '剣3種、盾3種',
@@ -118,7 +119,7 @@
   { difficulty: 13,
     desiredTime: 9.75,
     types: { fountain: 2, ice: 1.5, irons: 2, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { beans: 0.5,
        compass: 3,
        hearts3: 3,
@@ -130,7 +131,7 @@
     name: '5 Zora area HPs',
     id: '5-zora-area-hps',
     time: 9,
-    goal: 
+    goal:
      { difficulty: 12,
        id: '5-zora-area-hps',
        jp: 'ゾーラエリアのハートのかけら5つ以上',
@@ -143,7 +144,7 @@
     synergy: 4.75 },
   { difficulty: 19,
     desiredTime: 14.25,
-    types: 
+    types:
      { dmc: 1,
        endon: -0.5,
        fire: 9,
@@ -151,7 +152,7 @@
        gtunic: 1.75,
        incvolvagia: 100,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { aganon: 1,
        bosskey: 2,
        compass: 4,
@@ -167,7 +168,7 @@
     name: 'Defeat Volvagia',
     id: 'defeat-volvagia',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'defeat-volvagia',
        jp: 'ヴァルバジア撃破',
@@ -180,14 +181,14 @@
     synergy: 6.5 },
   { difficulty: 11,
     desiredTime: 8.25,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        dmc: 1,
        magic: 2,
        poachers: 4.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        bosskey: 1,
        childchu: -2.5,
@@ -199,7 +200,7 @@
     name: 'Double Magic',
     id: 'double-magic',
     time: 9.5,
-    goal: 
+    goal:
      { difficulty: 13,
        id: 'double-magic',
        jp: '魔力2倍',
@@ -212,7 +213,7 @@
     synergy: 6 },
   { difficulty: 23,
     desiredTime: 17.25,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        dc: 2,
@@ -224,7 +225,7 @@
        poachers: 4.25,
        selfsynergy: 0,
        water: 4 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        bbprize: -6,
        bosskey: 3.75,
@@ -241,7 +242,7 @@
     name: 'All 5 Skulltulas in Water Temple',
     id: 'all-5-skulltulas-in-water-temple',
     time: 16.5,
-    goal: 
+    goal:
      { difficulty: 22,
        id: 'all-5-skulltulas-in-water-temple',
        jp: '水の神殿の黄金のスタルチュラ5匹',
@@ -260,7 +261,7 @@
     name: 'Stone of Agony',
     id: 'stone-of-agony',
     time: 8.25,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'stone-of-agony',
        jp: 'もだえ石',
@@ -279,7 +280,7 @@
     name: 'Fire Temple Boss Key',
     id: 'fire-temple-boss-key',
     time: 2.5,
-    goal: 
+    goal:
      { difficulty: 3,
        id: 'fire-temple-boss-key',
        jp: '炎の神殿のボス部屋の鍵',
@@ -293,7 +294,7 @@
   { difficulty: 8,
     desiredTime: 6,
     types: { childchu: 0, fortress: 2, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 1.5,
        child2: 1.5,
        hearts3: 0.5,
@@ -306,7 +307,7 @@
     name: 'All 4 Gerudo Valley area Skulltulas',
     id: 'all-4-gerudo-valley-area-skulltulas',
     time: 7,
-    goal: 
+    goal:
      { difficulty: 9,
        id: 'all-4-gerudo-valley-area-skulltulas',
        jp: 'ゲルドの谷エリアの黄金のスタルチュラ4匹',
@@ -325,7 +326,7 @@
     name: 'Fill all 4 Bottle Slots',
     id: 'fill-all-4-bottle-slots',
     time: 5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'fill-all-4-bottle-slots',
        jp: '4つの空きビンスロットを全て埋める',
@@ -338,8 +339,9 @@
     synergy: 0.25 },
   { difficulty: 17,
     desiredTime: 12.75,
-    types: { forest: 3, hovers: 2, incforest: 100, meg: 5, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { forest: 3, hovers: 2, incforest: 100, meg: 5, selfsynergy: 0 },
+    subtypes:
      { bosskey: 2,
        bosskey2: 6,
        compass: 4,
@@ -352,7 +354,7 @@
     name: 'Map & Compass in Forest Temple',
     id: 'map-compass-in-forest-temple',
     time: 11.25,
-    goal: 
+    goal:
      { difficulty: 15,
        id: 'map-compass-in-forest-temple',
        jp: '森の神殿のマップとコンパス',
@@ -371,7 +373,7 @@
     name: '1 Skulltula from each Child Dungeon',
     id: '1-skulltula-from-each-child-dungeon',
     time: 10.25,
-    goal: 
+    goal:
      { difficulty: 14,
        id: '1-skulltula-from-each-child-dungeon',
        jp: '全ての子供ダンジョンからスタルチュラ最低1匹ずつ',
@@ -384,14 +386,14 @@
     synergy: 0 },
   { difficulty: 21,
     desiredTime: 15.75,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        hovers: 3,
        poachers: 4.25,
        selfsynergy: 0,
        shadow: 8 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        bosskey: 3.5,
        bosskey2: 6,
@@ -405,7 +407,7 @@
     name: 'All 5 Skulltulas in Shadow Temple',
     id: 'all-5-skulltulas-in-shadow-temple',
     time: 16.25,
-    goal: 
+    goal:
      { difficulty: 22,
        id: 'all-5-skulltulas-in-shadow-temple',
        jp: '闇の神殿の黄金のスタルチュラ5匹',
@@ -418,14 +420,14 @@
     synergy: 5.75 },
   { difficulty: 12,
     desiredTime: 9,
-    types: 
+    types:
      { endon: -0.25,
        fortress: 3,
        gtg: 5,
        incgtgkey: 100,
        quiver: 4.5,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 3,
        bulletbag: 100,
        childchu: -2.5,
@@ -437,7 +439,7 @@
     name: '8 Different Unused Keys in Gerudo Training Grounds',
     id: '8-different-unused-keys-in-gerudo-training-grounds',
     time: 10.25,
-    goal: 
+    goal:
      { difficulty: 14,
        id: '8-different-unused-keys-in-gerudo-training-grounds',
        jp: 'ゲルドの修練場の未使用の鍵8つ(増殖禁止)',
@@ -450,7 +452,7 @@
     synergy: 9.5 },
   { difficulty: 24,
     desiredTime: 18,
-    types: 
+    types:
      { dmc: 1,
        fire: 1.5,
        forest: 2.75,
@@ -461,7 +463,7 @@
        shadow: 2,
        spirit: 3,
        water: 3 },
-    subtypes: 
+    subtypes:
      { bosskey: 4,
        bosskey2: 3,
        childchu: -2.5,
@@ -475,7 +477,7 @@
     name: '1 Skulltula from each Adult Dungeon',
     id: '1-skulltula-from-each-adult-dungeon',
     time: 18,
-    goal: 
+    goal:
      { difficulty: 24,
        id: '1-skulltula-from-each-adult-dungeon',
        jp: '全ての大人ダンジョンからスタルチュラ最低1匹ずつ',
@@ -488,8 +490,9 @@
     synergy: 0 },
   { difficulty: 6,
     desiredTime: 4.5,
-    types: { aganon: 3, bganon: -3, cganon: 3, endon: -0.5, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { aganon: 3, bganon: -3, cganon: 3, endon: -0.5, selfsynergy: 0 },
+    subtypes:
      { bosskey: 4.25,
        childtrade: 1.5,
        czl: 1.5,
@@ -500,7 +503,7 @@
     name: 'Ganon\'s Castle Boss Key',
     id: 'ganon-s-castle-boss-key',
     time: 4.25,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'ganon-s-castle-boss-key',
        jp: 'ガノン城のボス部屋の鍵',
@@ -519,7 +522,7 @@
     name: 'Goron Tunic',
     id: 'goron-tunic',
     time: 1.75,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'goron-tunic',
        jp: 'ゴロンの服',
@@ -532,7 +535,7 @@
     synergy: 6.75 },
   { difficulty: 20,
     desiredTime: 15,
-    types: 
+    types:
      { childchu: 0,
        fortress: 2.5,
        gtg: 1,
@@ -540,7 +543,7 @@
        selfsynergy: 0,
        spirit: 3.25,
        strength: 100 },
-    subtypes: 
+    subtypes:
      { bombbag: 100,
        bosskey: 3,
        bosskey2: 5,
@@ -555,7 +558,7 @@
     name: 'Blue Gauntlets',
     id: 'blue-gauntlets',
     time: 13,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'blue-gauntlets',
        jp: '青のグローブ',
@@ -574,7 +577,7 @@
     name: 'Map & Compass in Dodongo\'s Cavern',
     id: 'map-compass-in-dodongo-s-cavern',
     time: 2,
-    goal: 
+    goal:
      { difficulty: 3,
        id: 'map-compass-in-dodongo-s-cavern',
        jp: 'ドドンゴの洞窟のマップとコンパス',
@@ -587,7 +590,7 @@
     synergy: 4.5 },
   { difficulty: 18,
     desiredTime: 13.5,
-    types: 
+    types:
      { childchu: 0,
        childreset: 1.25,
        childtrade: 2.75,
@@ -596,7 +599,7 @@
        incsaria: 100,
        saria: 3,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { cganon: 2,
        child2: 2.5,
        hearts3: 3,
@@ -607,7 +610,7 @@
     name: 'Saria\'s Song',
     id: 'saria-s-song',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'saria-s-song',
        jp: 'サリアの歌',
@@ -620,7 +623,7 @@
     synergy: 4.25 },
   { difficulty: 15,
     desiredTime: 11.25,
-    types: 
+    types:
      { endon: -0.5,
        fortress: 2.5,
        gtg: 1,
@@ -628,7 +631,7 @@
        incspboss: 100,
        selfsynergy: 0,
        spirit: 8 },
-    subtypes: 
+    subtypes:
      { bosskey: 6,
        bosskey2: 6,
        compass: 1,
@@ -640,7 +643,7 @@
     name: 'Defeat Nabooru-Knuckle',
     id: 'defeat-nabooru-knuckle',
     time: 13,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'defeat-nabooru-knuckle',
        jp: 'アイアンナック(ナボール)撃破',
@@ -653,7 +656,7 @@
     synergy: 0.5 },
   { difficulty: 22,
     desiredTime: 16.5,
-    types: 
+    types:
      { aganon: 3,
        bothzl: -4.25,
        czl: 4.25,
@@ -667,7 +670,7 @@
        magic: 2,
        poachers: 4.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 1,
        childchu: -2.5,
        chuczl: 2,
@@ -679,7 +682,7 @@
     name: 'Get to the end of Forest Trial',
     id: 'get-to-the-end-of-forest-trial',
     time: 18.5,
-    goal: 
+    goal:
      { difficulty: 25,
        id: 'get-to-the-end-of-forest-trial',
        jp: '森の結界の最後の部屋に到達',
@@ -698,7 +701,7 @@
     name: 'Defeat Big Octo',
     id: 'defeat-big-octo',
     time: 7.75,
-    goal: 
+    goal:
      { difficulty: 10,
        id: 'defeat-big-octo',
        jp: '大オクタ撃破',

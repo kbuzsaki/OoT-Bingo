@@ -1,8 +1,9 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 10,
     desiredTime: 7.5,
-    types: { chuczl: 2, deku: 5, endon: -1, incgohma: 100, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { chuczl: 2, deku: 5, endon: -1, incgohma: 100, selfsynergy: 0 },
+    subtypes:
      { cganon: 2,
        childtrade: 1.5,
        compass: 2.5,
@@ -15,7 +16,7 @@
     name: 'Beat the Deku Tree',
     id: 'beat-the-deku-tree',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'beat-the-deku-tree',
        jp: 'デクの樹様の中クリア',
@@ -34,7 +35,7 @@
     name: '30 Deku Nuts',
     id: '30-deku-nuts',
     time: 1,
-    goal: 
+    goal:
      { difficulty: 1,
        id: '30-deku-nuts',
        jp: 'デクの実30個以上',
@@ -47,8 +48,9 @@
     synergy: 9.5 },
   { difficulty: 14,
     desiredTime: 10.5,
-    types: { dmc: 1, fire: 8, gtunic: 1, incflare: 100, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { dmc: 1, fire: 8, gtunic: 1, incflare: 100, selfsynergy: 0 },
+    subtypes:
      { bosskey: 2,
        compass: 4,
        hovers: 0.25,
@@ -60,7 +62,7 @@
     name: 'Defeat both Flare Dancers',
     id: 'defeat-both-flare-dancers',
     time: 10.75,
-    goal: 
+    goal:
      { difficulty: 14,
        id: 'defeat-both-flare-dancers',
        jp: 'フレアダンサー2体撃破',
@@ -74,7 +76,7 @@
   { difficulty: 16,
     desiredTime: 12,
     types: { childchu: 0, fountain: 2, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { childreset: 1.25,
        compass: 2,
        hearts3: 1,
@@ -85,7 +87,7 @@
     name: 'All 8 Zora\'s Domain area Skulltulas',
     id: 'all-8-zora-s-domain-area-skulltulas',
     time: 10.5,
-    goal: 
+    goal:
      { difficulty: 14,
        id: 'all-8-zora-s-domain-area-skulltulas',
        jp: 'ゾーラの里エリアの黄金のスタルチュラ8匹',
@@ -98,14 +100,14 @@
     synergy: 8.5 },
   { difficulty: 23,
     desiredTime: 17.25,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        hovers: 3,
        poachers: 4.25,
        selfsynergy: 0,
        shadow: 8 },
-    subtypes: 
+    subtypes:
      { bosskey: 3.5,
        bosskey2: 6,
        childchu: -2.5,
@@ -118,7 +120,7 @@
     name: 'Obtain all 5 Small Keys in Shadow Temple',
     id: 'obtain-all-5-small-keys-in-shadow-temple',
     time: 15.25,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'obtain-all-5-small-keys-in-shadow-temple',
        jp: '闇の神殿の小さな鍵５つ取得',
@@ -131,7 +133,7 @@
     synergy: 2 },
   { difficulty: 19,
     desiredTime: 14.25,
-    types: 
+    types:
      { childtrade: 2.75,
        hearts3: 16,
        hearts4: 3,
@@ -143,7 +145,7 @@
     name: '9 Hearts',
     id: '9-hearts',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: '9-hearts',
        jp: 'ハート9つ',
@@ -155,7 +157,7 @@
     synergy: 9.75 },
   { difficulty: 21,
     desiredTime: 15.75,
-    types: 
+    types:
      { beans: 10,
        bombbag: 100,
        fortress: 3,
@@ -163,7 +165,7 @@
        quiver: 1,
        selfsynergy: 0,
        spirit: 0.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 2.5,
        childchu: -2.5,
        hearts4: 0.5,
@@ -173,7 +175,7 @@
     name: 'Quiver (50)',
     id: 'quiver-50-',
     time: 14.25,
-    goal: 
+    goal:
      { difficulty: 19,
        id: 'quiver-50-',
        jp: '矢立て(50)',
@@ -192,7 +194,7 @@
     name: 'Map & Compass in Ice Cavern',
     id: 'map-compass-in-ice-cavern',
     time: 4.75,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'map-compass-in-ice-cavern',
        jp: '氷の洞窟のマップとコンパス',
@@ -206,7 +208,7 @@
   { difficulty: 5,
     desiredTime: 3.75,
     types: { dc: 4, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 2,
        hearts3: 1,
        hearts4: 1,
@@ -217,7 +219,7 @@
     name: 'All 5 Skulltulas in Dodongo\'s Cavern',
     id: 'all-5-skulltulas-in-dodongo-s-cavern',
     time: 5.75,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'all-5-skulltulas-in-dodongo-s-cavern',
        jp: 'ドドンゴの洞窟の黄金のスタルチュラ5匹',
@@ -236,7 +238,7 @@
     name: 'Defeat Big Octo',
     id: 'defeat-big-octo',
     time: 7.75,
-    goal: 
+    goal:
      { difficulty: 10,
        id: 'defeat-big-octo',
        jp: '大オクタ撃破',
@@ -249,18 +251,19 @@
     synergy: 6.25 },
   { difficulty: 3,
     desiredTime: 2.25,
-    types: 
+    types:
      { incsongs: 100,
        poachers: 4.25,
        selfsynergy: 0,
        songs4: 3,
        songs5: 2 },
-    subtypes: { aganon: 0.25, childchu: -2.5, czl: 1, hearts3: 1, saria: 2 },
+    subtypes:
+     { aganon: 0.25, childchu: -2.5, czl: 1, hearts3: 1, saria: 2 },
     rowtypes: { bottle: 100, gclw: 1, hookshot: 0.5, ms: 6 },
     name: '4 Songs',
     id: '4-songs',
     time: 4.25,
-    goal: 
+    goal:
      { difficulty: 6,
        id: '4-songs',
        jp: '歌4つ以上',
@@ -273,7 +276,7 @@
     synergy: 8.5 },
   { difficulty: 15,
     desiredTime: 11.25,
-    types: 
+    types:
      { aganon: 3,
        bganon: -3,
        bosskey: 12,
@@ -285,7 +288,7 @@
     name: '3 Boss Keys',
     id: '3-boss-keys',
     time: 10.25,
-    goal: 
+    goal:
      { difficulty: 14,
        id: '3-boss-keys',
        jp: 'ボス部屋の鍵3つ',
@@ -298,7 +301,7 @@
     synergy: 10 },
   { difficulty: 17,
     desiredTime: 12.75,
-    types: 
+    types:
      { child2: 5,
        endon: 0,
        forest: 3,
@@ -306,7 +309,7 @@
        incfboss: 100,
        pg: 2.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey2: 3,
        compass: 1,
        hearts3: 4,
@@ -319,7 +322,7 @@
     name: 'Frog\'s HP',
     id: 'frog-s-hp',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'frog-s-hp',
        jp: 'カエルのハートのかけら(嵐の歌)',
@@ -332,7 +335,7 @@
     synergy: 5.25 },
   { difficulty: 24,
     desiredTime: 18,
-    types: 
+    types:
      { dmc: 1,
        fire: 1.5,
        forest: 2.75,
@@ -343,7 +346,7 @@
        shadow: 2,
        spirit: 3,
        water: 3 },
-    subtypes: 
+    subtypes:
      { bosskey: 4,
        bosskey2: 3,
        childchu: -2.5,
@@ -357,7 +360,7 @@
     name: '1 Skulltula from each Adult Dungeon',
     id: '1-skulltula-from-each-adult-dungeon',
     time: 18,
-    goal: 
+    goal:
      { difficulty: 24,
        id: '1-skulltula-from-each-adult-dungeon',
        jp: '全ての大人ダンジョンからスタルチュラ最低1匹ずつ',
@@ -371,7 +374,7 @@
   { difficulty: 6,
     desiredTime: 4.5,
     types: { lonlon: 4, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bottleslot: 4.5,
        childreset: 1,
        czl: 2,
@@ -381,7 +384,7 @@
     name: 'Milk',
     id: 'milk',
     time: 6.25,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'milk',
        jp: 'ロンロン牛乳',
@@ -395,7 +398,7 @@
   { difficulty: 22,
     desiredTime: 16.5,
     types: { fortress: 2.5, hovers: 3, selfsynergy: 0, spirit: 5 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        bosskey2: 5,
        compass: 2.5,
@@ -407,7 +410,7 @@
     name: 'All 5 Skulltulas in Spirit Temple',
     id: 'all-5-skulltulas-in-spirit-temple',
     time: 14.75,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'all-5-skulltulas-in-spirit-temple',
        jp: '魂の神殿の黄金のスタルチュラ5匹',
@@ -426,7 +429,7 @@
     name: '3 Lake Hylia Skulltulas',
     id: '3-lake-hylia-skulltulas',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: '3-lake-hylia-skulltulas',
        jp: 'ハイリア湖畔エリアの黄金のスタルチュラ3匹以上',
@@ -445,7 +448,7 @@
     name: 'Lon Lon Ranch HP',
     id: 'lon-lon-ranch-hp',
     time: 2.25,
-    goal: 
+    goal:
      { difficulty: 3,
        id: 'lon-lon-ranch-hp',
        jp: 'ロンロン牧場のハートのかけら',
@@ -458,14 +461,14 @@
     synergy: 6.5 },
   { difficulty: 13,
     desiredTime: 9.75,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        dmc: 1,
        magic: 2,
        poachers: 4.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { aganon: 0.5,
        childchu: -2.5,
        chuczl: 2,
@@ -476,7 +479,7 @@
     name: 'Double Defense',
     id: 'double-defense',
     time: 10,
-    goal: 
+    goal:
      { difficulty: 13,
        id: 'double-defense',
        jp: '防御力2倍',
@@ -489,7 +492,7 @@
     synergy: 7 },
   { difficulty: 20,
     desiredTime: 15,
-    types: 
+    types:
      { dc: 2,
        dmc: 1,
        fire: 1,
@@ -501,7 +504,7 @@
        shadow: 2,
        spirit: 3,
        water: 2 },
-    subtypes: 
+    subtypes:
      { bosskey: 4,
        bosskey2: 3,
        compass: 6,
@@ -514,7 +517,7 @@
     name: '1 Unused Small Key in each Adult Dungeon',
     id: '1-unused-small-key-in-each-adult-dungeon',
     time: 16.25,
-    goal: 
+    goal:
      { difficulty: 22,
        id: '1-unused-small-key-in-each-adult-dungeon',
        jp: '全ての大人のダンジョンから未使用の鍵最低１つずつ',
@@ -527,14 +530,14 @@
     synergy: 8 },
   { difficulty: 11,
     desiredTime: 8.25,
-    types: 
+    types:
      { firearrow: 8,
        fortress: 3,
        gtg: 1,
        quiver: 4.5,
        selfsynergy: 0,
        water: 1.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        childchu: -2.5,
        incarrows: 100,
@@ -545,7 +548,7 @@
     name: 'Fire Arrows',
     id: 'fire-arrows',
     time: 8.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'fire-arrows',
        jp: '炎の矢',
@@ -558,7 +561,7 @@
     synergy: 8 },
   { difficulty: 18,
     desiredTime: 13.5,
-    types: 
+    types:
      { fortress: 2.5,
        fountain: 1.5,
        gtg: 1,
@@ -568,7 +571,7 @@
        inctunic: 100,
        selfsynergy: 0,
        spirit: 3.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 3.25,
        bosskey2: 5,
        compass: 2.5,
@@ -582,7 +585,7 @@
     name: '3 Shields & 3 Tunics',
     id: '3-shields-3-tunics',
     time: 15,
-    goal: 
+    goal:
      { difficulty: 20,
        id: '3-shields-3-tunics',
        jp: '盾3種、服3種',
@@ -595,7 +598,7 @@
     synergy: 5.25 },
   { difficulty: 25,
     desiredTime: 18.75,
-    types: 
+    types:
      { childchu: 0,
        childreset: 1.25,
        childtrade: 2.75,
@@ -603,7 +606,7 @@
        czl: 5,
        saria: 3,
        selfsynergy: -1 },
-    subtypes: 
+    subtypes:
      { cganon: 2,
        child2: 2.5,
        hearts3: 4.5,
@@ -615,7 +618,7 @@
     name: 'Both HPs in Lost Woods',
     id: 'both-hps-in-lost-woods',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'both-hps-in-lost-woods',
        jp: '迷いの森のハートのかけら２つ',
@@ -629,7 +632,7 @@
   { difficulty: 7,
     desiredTime: 5.25,
     types: { endon: -0.25, fortress: 2.5, selfsynergy: 0, spirit: 2.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        compass: 1,
        hearts4: 0.25,
@@ -642,7 +645,7 @@
     name: 'Requiem of Spirit',
     id: 'requiem-of-spirit',
     time: 7.25,
-    goal: 
+    goal:
      { difficulty: 10,
        id: 'requiem-of-spirit',
        jp: '魂のレクイエム',
@@ -661,7 +664,7 @@
     name: 'Map & Compass in Bottom of the Well',
     id: 'map-compass-in-bottom-of-the-well',
     time: 1,
-    goal: 
+    goal:
      { difficulty: 1,
        id: 'map-compass-in-bottom-of-the-well',
        jp: '井戸の底のマップとコンパス',

@@ -1,8 +1,8 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 20,
     desiredTime: 10,
     types: { dc: 4, inckd: 100, kd: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3,
        fortress: 3,
        hearts: 3,
@@ -15,7 +15,7 @@
     name: 'Win Bombchu Bowling Prize',
     id: 'win-bombchu-bowling-prize',
     time: 11,
-    goal: 
+    goal:
      { difficulty: 22,
        id: 'win-bombchu-bowling-prize',
        jp: 'ボムチュウボウリングの景品',
@@ -33,7 +33,7 @@
     name: 'Plant 5 Magic Beans',
     id: 'plant-5-magic-beans',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'plant-5-magic-beans',
        jp: '魔法の豆を5ヶ所に埋める',
@@ -50,7 +50,7 @@
     name: '30 Deku Sticks',
     id: '30-deku-sticks',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: '30-deku-sticks',
        jp: 'デクの棒30本',
@@ -67,7 +67,7 @@
     name: '99 Rupees',
     id: '99-rupees',
     time: 0.5,
-    goal: 
+    goal:
      { difficulty: 1,
        id: '99-rupees',
        jp: '99ルピー',
@@ -79,13 +79,14 @@
     synergy: 3 },
   { difficulty: 23,
     desiredTime: 11.5,
-    types: { field: 0.75, incsaria: 100, saria: 3, selfsynergy: 0, zl: 6.75 },
+    types:
+     { field: 0.75, incsaria: 100, saria: 3, selfsynergy: 0, zl: 6.75 },
     subtypes: { hearts: 2, hearts2: 2, plant: 0.5, wallet: 0.25 },
     rowtypes: undefined,
     name: 'Saria\'s Song',
     id: 'saria-s-song',
     time: 10.5,
-    goal: 
+    goal:
      { difficulty: 21,
        id: 'saria-s-song',
        jp: 'サリアの歌',
@@ -103,7 +104,7 @@
     name: 'Red Potion',
     id: 'red-potion',
     time: 2.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'red-potion',
        jp: '赤いクスリ',
@@ -115,12 +116,13 @@
   { difficulty: 21,
     desiredTime: 10.5,
     types: { fountain: 2, incbarinade: 100, jabu: 8, selfsynergy: 0 },
-    subtypes: { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
+    subtypes:
+     { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
     rowtypes: undefined,
     name: 'Zora\'s Sapphire',
     id: 'zora-s-sapphire',
     time: 11,
-    goal: 
+    goal:
      { difficulty: 22,
        id: 'zora-s-sapphire',
        jp: 'ゾーラのサファイア',
@@ -138,7 +140,7 @@
     name: '7 Magic Beans',
     id: '7-magic-beans',
     time: 8,
-    goal: 
+    goal:
      { difficulty: 16,
        id: '7-magic-beans',
        jp: '魔法のマメ7つ以上',
@@ -150,8 +152,9 @@
     synergy: 2.25 },
   { difficulty: 15,
     desiredTime: 7.5,
-    types: { dc: 4, dmc: 1, endon: -0.5, inckd: 100, kd: 3, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { dc: 4, dmc: 1, endon: -0.5, inckd: 100, kd: 3, selfsynergy: 0 },
+    subtypes:
      { compass: 3,
        hearts: 3,
        hearts2: 2,
@@ -163,7 +166,7 @@
     name: 'Goron\'s Ruby',
     id: 'goron-s-ruby',
     time: 9.5,
-    goal: 
+    goal:
      { difficulty: 19,
        id: 'goron-s-ruby',
        jp: 'ゴロンのルビー',
@@ -176,7 +179,7 @@
   { difficulty: 7,
     desiredTime: 3.5,
     types: { deku: 2.5, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bulletbag: 100,
        compass: 2,
        ganon: 2.5,
@@ -188,7 +191,7 @@
     name: 'Fairy Slingshot',
     id: 'fairy-slingshot',
     time: 4,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'fairy-slingshot',
        jp: '妖精のパチンコ',
@@ -200,7 +203,7 @@
     synergy: 2.25 },
   { difficulty: 13,
     desiredTime: 6.5,
-    types: 
+    types:
      { endon: -0.5,
        field: 0.75,
        fortress: 3,
@@ -212,7 +215,7 @@
     name: '6 unused keys in Gerudo Training Grounds',
     id: '6-unused-keys-in-gerudo-training-grounds',
     time: 8,
-    goal: 
+    goal:
      { difficulty: 16,
        id: '6-unused-keys-in-gerudo-training-grounds',
        jp: 'ゲルドの修練場の未使用のカギ6つ',
@@ -230,7 +233,7 @@
     name: 'Milk',
     id: 'milk',
     time: 5.75,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'milk',
        jp: 'ロンロン牛乳',
@@ -248,7 +251,7 @@
     name: 'Lost Dog HP',
     id: 'lost-dog-hp',
     time: 1.25,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'lost-dog-hp',
        jp: 'リチャードのハートのかけら',
@@ -260,8 +263,9 @@
     synergy: 1.5 },
   { difficulty: 24,
     desiredTime: 12,
-    types: { fountain: 2, incmap: 100, jabu: 5, map: 14, selfsynergy: -3 },
-    subtypes: 
+    types:
+     { fountain: 2, incmap: 100, jabu: 5, map: 14, selfsynergy: -3 },
+    subtypes:
      { bosskey2: 2,
        compass: 14,
        ganon: 2.5,
@@ -274,7 +278,7 @@
     name: '4 Maps',
     id: '4-maps',
     time: 11.25,
-    goal: 
+    goal:
      { difficulty: 22,
        id: '4-maps',
        jp: 'マップ4つ',
@@ -292,7 +296,7 @@
     name: 'All 4 Lon-Lon Ranch area Skulltulas',
     id: 'all-4-lon-lon-ranch-area-skulltulas',
     time: 8,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'all-4-lon-lon-ranch-area-skulltulas',
        jp: 'ロンロン牧場エリアの黄金のスタルチュラ4匹',
@@ -304,13 +308,14 @@
     synergy: 2.75 },
   { difficulty: 22,
     desiredTime: 11,
-    types: { field: 0.75, incsaria: 100, saria: 3, selfsynergy: 0, zl: 6.75 },
+    types:
+     { field: 0.75, incsaria: 100, saria: 3, selfsynergy: 0, zl: 6.75 },
     subtypes: { plant: 0.25 },
     rowtypes: undefined,
     name: 'Defeat a Skull Kid',
     id: 'defeat-a-skull-kid',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'defeat-a-skull-kid',
        jp: 'スタルキッド撃破',
@@ -323,7 +328,7 @@
   { difficulty: 19,
     desiredTime: 9.5,
     types: { bottle: 2, dmc: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { childtrade: 1,
        compass: 1,
        hearts: 1.5,
@@ -335,7 +340,7 @@
     name: 'All 5 Child Death Mountain area Skulltulas',
     id: 'all-5-child-death-mountain-area-skulltulas',
     time: 8.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'all-5-child-death-mountain-area-skulltulas',
        jp: 'デスマウンテンエリアの黄金のスタルチュラ8匹',
@@ -353,7 +358,7 @@
     name: '5 Hearts',
     id: '5-hearts',
     time: 6,
-    goal: 
+    goal:
      { difficulty: 12,
        id: '5-hearts',
        jp: 'ハート5つ',
@@ -366,7 +371,7 @@
   { difficulty: 8,
     desiredTime: 4,
     types: { deku: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 4,
        ganon: 2.5,
        hearts: 3,
@@ -377,7 +382,7 @@
     name: 'Map & Compass in Deku Tree',
     id: 'map-compass-in-deku-tree',
     time: 4.25,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'map-compass-in-deku-tree',
        jp: 'デクの樹様の中のマップとコンパス',
@@ -395,7 +400,7 @@
     name: 'All 3 Skulltulas in Bottom of the Well',
     id: 'all-3-skulltulas-in-bottom-of-the-well',
     time: 3.25,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'all-3-skulltulas-in-bottom-of-the-well',
        jp: '井戸の底の黄金のスタルチュラ3匹',
@@ -413,7 +418,7 @@
     name: 'Plant 4 Magic Beans',
     id: 'plant-4-magic-beans',
     time: 3,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'plant-4-magic-beans',
        jp: '魔法の豆を4ヶ所に埋める',
@@ -430,7 +435,7 @@
     name: 'Green Potion',
     id: 'green-potion',
     time: 2.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'green-potion',
        jp: '緑のクスリ',
@@ -447,7 +452,7 @@
     name: 'Magic Bar',
     id: 'magic-bar',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 25,
        id: 'magic-bar',
        jp: '魔力メーター',
@@ -465,7 +470,7 @@
     name: 'All 7 Child Kakariko area Skulltulas',
     id: 'all-7-child-kakariko-area-skulltulas',
     time: 9,
-    goal: 
+    goal:
      { difficulty: 18,
        id: 'all-7-child-kakariko-area-skulltulas',
        jp: 'カカリコ村エリアの黄金のスタルチュラ8匹',
@@ -477,13 +482,14 @@
     synergy: 2 },
   { difficulty: 14,
     desiredTime: 7,
-    types: { endon: -0.5, fountain: 2, gtg: 1, jabu: 3, selfsynergy: 0 },
+    types:
+     { endon: -0.5, fountain: 2, gtg: 1, jabu: 3, selfsynergy: 0 },
     subtypes: { compass: 5, hearts: 2, map: 5, ruto: 1, wallet: 2.5 },
     rowtypes: undefined,
     name: 'All 4 Skulltulas in Jabu-Jabu',
     id: 'all-4-skulltulas-in-jabu-jabu',
     time: 8,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'all-4-skulltulas-in-jabu-jabu',
        jp: 'ジャブジャブ様のお腹の黄金のスタルチュラ4匹',

@@ -1,7 +1,7 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 24,
     desiredTime: 18,
-    types: 
+    types:
      { childchu: 0,
        childreset: 1.25,
        childtrade: 2.75,
@@ -10,7 +10,7 @@
        saria: 5,
        selfsynergy: -1,
        strength: 100 },
-    subtypes: 
+    subtypes:
      { bombbag: 100,
        bulletbag: 100,
        cganon: 2,
@@ -23,7 +23,7 @@
     name: 'Green Gauntlets',
     id: 'green-gauntlets',
     time: 17.75,
-    goal: 
+    goal:
      { difficulty: 24,
        id: 'green-gauntlets',
        jp: '緑のグローブ',
@@ -36,14 +36,14 @@
     synergy: 0.25 },
   { difficulty: 18,
     desiredTime: 13.5,
-    types: 
+    types:
      { fountain: 2,
        ice: 1.5,
        inclhskull: 100,
        irons: 2,
        selfsynergy: 0,
        water: 1 },
-    subtypes: 
+    subtypes:
      { bottleslot: 2,
        child2: 3,
        compass: 4,
@@ -57,7 +57,7 @@
     name: 'All 5 Lake Hylia Skulltulas',
     id: 'all-5-lake-hylia-skulltulas',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'all-5-lake-hylia-skulltulas',
        jp: 'ハイリア湖畔エリアの黄金のスタルチュラ5匹',
@@ -70,7 +70,7 @@
     synergy: 3.5 },
   { difficulty: 15,
     desiredTime: 11.25,
-    types: 
+    types:
      { fortress: 2.5,
        gtg: 1,
        hovers: 3,
@@ -79,7 +79,7 @@
        incspboss: 100,
        selfsynergy: 0,
        spirit: 3.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 3,
        bosskey2: 5,
        compass: 1,
@@ -92,7 +92,7 @@
     name: 'Mirror Shield',
     id: 'mirror-shield',
     time: 11.25,
-    goal: 
+    goal:
      { difficulty: 15,
        id: 'mirror-shield',
        jp: 'ミラーシールド',
@@ -111,7 +111,7 @@
     name: 'Fill all 4 Bottle Slots',
     id: 'fill-all-4-bottle-slots',
     time: 5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'fill-all-4-bottle-slots',
        jp: '4つの空きビンスロットを全て埋める',
@@ -130,7 +130,7 @@
     name: 'Lens of Truth',
     id: 'lens-of-truth',
     time: 0.25,
-    goal: 
+    goal:
      { difficulty: 1,
        id: 'lens-of-truth',
        jp: 'まことのメガネ',
@@ -143,7 +143,7 @@
   { difficulty: 10,
     desiredTime: 7.5,
     types: { fountain: 2, gtg: 1, jabu: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { childreset: 0.5,
        compass: 2,
        hearts3: 2,
@@ -154,7 +154,7 @@
     name: 'All 4 Skulltulas in Jabu-Jabu',
     id: 'all-4-skulltulas-in-jabu-jabu',
     time: 7.5,
-    goal: 
+    goal:
      { difficulty: 10,
        id: 'all-4-skulltulas-in-jabu-jabu',
        jp: 'ジャブジャブ様のお腹の黄金のスタルチュラ4匹',
@@ -173,7 +173,7 @@
     name: 'Lon Lon Ranch HP',
     id: 'lon-lon-ranch-hp',
     time: 2.25,
-    goal: 
+    goal:
      { difficulty: 3,
        id: 'lon-lon-ranch-hp',
        jp: 'ロンロン牧場のハートのかけら',
@@ -186,7 +186,7 @@
     synergy: 0 },
   { difficulty: 21,
     desiredTime: 15.75,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        dc: 2,
@@ -198,7 +198,7 @@
        poachers: 4.25,
        selfsynergy: 0,
        water: 4 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        bbprize: -6,
        bosskey: 3.75,
@@ -215,7 +215,7 @@
     name: 'All 5 Skulltulas in Water Temple',
     id: 'all-5-skulltulas-in-water-temple',
     time: 16.5,
-    goal: 
+    goal:
      { difficulty: 22,
        id: 'all-5-skulltulas-in-water-temple',
        jp: '水の神殿の黄金のスタルチュラ5匹',
@@ -228,7 +228,7 @@
     synergy: 3.75 },
   { difficulty: 19,
     desiredTime: 14.25,
-    types: 
+    types:
      { endon: -1,
        fortress: 2,
        inclacs: 100,
@@ -236,7 +236,7 @@
        lightarrow: 6.5,
        poachers: 4.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { aganon: 1,
        bosskey: 3,
        bosskey2: 6,
@@ -252,7 +252,7 @@
     name: 'Light Arrows',
     id: 'light-arrows',
     time: 13.5,
-    goal: 
+    goal:
      { difficulty: 18,
        id: 'light-arrows',
        jp: '光の矢',
@@ -265,8 +265,9 @@
     synergy: 6 },
   { difficulty: 13,
     desiredTime: 9.75,
-    types: { dmc: 1, fire: 8, gtunic: 1, incflare: 100, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { dmc: 1, fire: 8, gtunic: 1, incflare: 100, selfsynergy: 0 },
+    subtypes:
      { bosskey: 2,
        compass: 4,
        hovers: 0.25,
@@ -278,7 +279,7 @@
     name: 'Defeat both Flare Dancers',
     id: 'defeat-both-flare-dancers',
     time: 10.75,
-    goal: 
+    goal:
      { difficulty: 14,
        id: 'defeat-both-flare-dancers',
        jp: 'フレアダンサー2体撃破',
@@ -292,7 +293,7 @@
   { difficulty: 16,
     desiredTime: 12,
     types: { childchu: 0, fortress: 2.5, selfsynergy: 0, spirit: 2.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        bosskey2: 4,
        child2: 5,
@@ -305,7 +306,7 @@
     name: 'All 4 Wasteland/ Colossus area Skulltulas',
     id: 'all-4-wasteland-colossus-area-skulltulas',
     time: 12,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'all-4-wasteland-colossus-area-skulltulas',
        jp: '幻影の砂漠・巨大邪神像エリアの黄金のスタルチュラ4匹',
@@ -319,7 +320,7 @@
   { difficulty: 14,
     desiredTime: 10.5,
     types: { dmc: 1, fire: 4.75, gtunic: 1, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        compass: 2,
        hearts3: 0.5,
@@ -332,7 +333,7 @@
     name: 'All 5 Skulltulas in Fire Temple',
     id: 'all-5-skulltulas-in-fire-temple',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 15,
        id: 'all-5-skulltulas-in-fire-temple',
        jp: '炎の神殿の黄金のスタルチュラ5匹',
@@ -345,18 +346,19 @@
     synergy: 7 },
   { difficulty: 8,
     desiredTime: 6,
-    types: 
+    types:
      { endon: -0.25,
        fortress: 3,
        gtg: 5,
        incgtgkey: 100,
        selfsynergy: 0 },
-    subtypes: { bosskey: 3, hearts4: 0.25, hovers: 0.5, map: 3, wallet: 0.25 },
+    subtypes:
+     { bosskey: 3, hearts4: 0.25, hovers: 0.5, map: 3, wallet: 0.25 },
     rowtypes: { bottle: 0, gclw: 0, hookshot: 1, ms: 0 },
     name: '6 Unused Keys in Gerudo Training Grounds',
     id: '6-unused-keys-in-gerudo-training-grounds',
     time: 7,
-    goal: 
+    goal:
      { difficulty: 9,
        id: '6-unused-keys-in-gerudo-training-grounds',
        jp: 'ゲルドの修練場の未使用の鍵6つ',
@@ -370,7 +372,7 @@
   { difficulty: 5,
     desiredTime: 3.75,
     types: { fortress: 1.5, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 1,
        hearts3: 1.5,
        hearts4: 0.5,
@@ -381,7 +383,7 @@
     name: 'Both Gerudo Valley HPs',
     id: 'both-gerudo-valley-hps',
     time: 3.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'both-gerudo-valley-hps',
        jp: 'ゲルドの谷のハートのかけら2つ',
@@ -394,7 +396,7 @@
     synergy: 6.75 },
   { difficulty: 22,
     desiredTime: 16.5,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        dmc: 1,
@@ -405,7 +407,7 @@
        poachers: 4.25,
        selfsynergy: 0,
        spirit: 2 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        bosskey: 2,
        bottleslot: 4,
@@ -421,7 +423,7 @@
     name: 'Nayru\'s Love',
     id: 'nayru-s-love',
     time: 15.5,
-    goal: 
+    goal:
      { difficulty: 21,
        id: 'nayru-s-love',
        jp: 'ネールの愛',
@@ -440,7 +442,7 @@
     name: 'Fire Temple Boss Key',
     id: 'fire-temple-boss-key',
     time: 2.5,
-    goal: 
+    goal:
      { difficulty: 3,
        id: 'fire-temple-boss-key',
        jp: '炎の神殿のボス部屋の鍵',
@@ -453,7 +455,7 @@
     synergy: 3.75 },
   { difficulty: 25,
     desiredTime: 18.75,
-    types: 
+    types:
      { fortress: 2.5,
        gtg: 1,
        hovers: 3,
@@ -464,7 +466,7 @@
        selfsynergy: -1,
        spirit: 3.5,
        swords: 3 },
-    subtypes: 
+    subtypes:
      { bosskey: 3.25,
        bosskey2: 5,
        compass: 4,
@@ -478,7 +480,7 @@
     name: '3 Swords, Tunics, Boots, and Shields',
     id: '3-swords-tunics-boots-and-shields',
     time: 19,
-    goal: 
+    goal:
      { difficulty: 25,
        id: '3-swords-tunics-boots-and-shields',
        jp: '剣3種、服3種、靴3種、盾3種',
@@ -491,8 +493,9 @@
     synergy: 0 },
   { difficulty: 17,
     desiredTime: 12.75,
-    types: { forest: 3, hovers: 2, incforest: 100, meg: 5, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { forest: 3, hovers: 2, incforest: 100, meg: 5, selfsynergy: 0 },
+    subtypes:
      { bosskey: 2,
        bosskey2: 6,
        compass: 4,
@@ -505,7 +508,7 @@
     name: 'Obtain all 5 Small Keys in Forest Temple',
     id: 'obtain-all-5-small-keys-in-forest-temple',
     time: 12.75,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'obtain-all-5-small-keys-in-forest-temple',
        jp: '森の神殿の小さな鍵の宝箱を5つ全て開ける',
@@ -518,7 +521,7 @@
     synergy: 5 },
   { difficulty: 11,
     desiredTime: 8.25,
-    types: 
+    types:
      { aganon: 3,
        bganon: -2,
        bothzl: -4.25,
@@ -527,7 +530,7 @@
        endon: -0.5,
        poachers: 4.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 2.5,
        childchu: -2.5,
        chuczl: 2,
@@ -537,7 +540,7 @@
     name: 'Get to the end of Light Trial',
     id: 'get-to-the-end-of-light-trial',
     time: 8.25,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'get-to-the-end-of-light-trial',
        jp: '光の結界の最後の部屋に到達',
@@ -556,7 +559,7 @@
     name: 'All 4 Skulltulas in Deku Tree',
     id: 'all-4-skulltulas-in-deku-tree',
     time: 7.25,
-    goal: 
+    goal:
      { difficulty: 10,
        id: 'all-4-skulltulas-in-deku-tree',
        jp: 'デクの樹様の中の黄金のスタルチュラ4匹',
@@ -570,12 +573,13 @@
   { difficulty: 12,
     desiredTime: 9,
     types: { fortress: 2.5, gerudo: 6, selfsynergy: 0, spirit: 0.5 },
-    subtypes: { bosskey: 2.5, hearts4: 0.25, hovers: 0.5, map: 2.5, wallet: 0.5 },
+    subtypes:
+     { bosskey: 2.5, hearts4: 0.25, hovers: 0.5, map: 2.5, wallet: 0.5 },
     rowtypes: { bottle: 0, gclw: 0, hookshot: 0.75, ms: 2.5 },
     name: 'Gerudo\'s Card',
     id: 'gerudo-s-card',
     time: 9,
-    goal: 
+    goal:
      { difficulty: 12,
        id: 'gerudo-s-card',
        jp: 'ゲルドの会員証',
@@ -594,7 +598,7 @@
     name: 'All 3 Kokiri Forest area Skulltulas',
     id: 'all-3-kokiri-forest-area-skulltulas',
     time: 4.5,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'all-3-kokiri-forest-area-skulltulas',
        jp: 'コキリの森エリアの黄金のスタルチュラ３匹',
@@ -613,7 +617,7 @@
     name: 'Silver Scale',
     id: 'silver-scale',
     time: 3,
-    goal: 
+    goal:
      { difficulty: 4,
        id: 'silver-scale',
        jp: '銀のウロコ',
@@ -627,7 +631,7 @@
   { difficulty: 23,
     desiredTime: 17.25,
     types: { compass: 22, hovers: 3, incmc: 100, selfsynergy: -3 },
-    subtypes: 
+    subtypes:
      { bosskey2: 2,
        hearts3: 1.5,
        hearts4: 2,
@@ -638,7 +642,7 @@
     name: '7 Compasses',
     id: '7-compasses',
     time: 18.25,
-    goal: 
+    goal:
      { difficulty: 24,
        id: '7-compasses',
        jp: 'コンパス7つ',
@@ -651,7 +655,7 @@
     synergy: 0 },
   { difficulty: 20,
     desiredTime: 15,
-    types: 
+    types:
      { fortress: 2.5,
        fountain: 1.5,
        gtg: 1,
@@ -661,7 +665,7 @@
        inctunic: 100,
        selfsynergy: 0,
        spirit: 3.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 3.25,
        bosskey2: 5,
        compass: 2.5,
@@ -675,7 +679,7 @@
     name: '3 Shields & 3 Tunics',
     id: '3-shields-3-tunics',
     time: 15,
-    goal: 
+    goal:
      { difficulty: 20,
        id: '3-shields-3-tunics',
        jp: '盾3種、服3種',

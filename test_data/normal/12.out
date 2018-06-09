@@ -1,8 +1,9 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 15,
     desiredTime: 11.25,
-    types: { forest: 3, hovers: 2, incforest: 100, meg: 5, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { forest: 3, hovers: 2, incforest: 100, meg: 5, selfsynergy: 0 },
+    subtypes:
      { bosskey: 2,
        bosskey2: 6,
        compass: 4,
@@ -15,7 +16,7 @@
     name: 'Map & Compass in Forest Temple',
     id: 'map-compass-in-forest-temple',
     time: 11.25,
-    goal: 
+    goal:
      { difficulty: 15,
        id: 'map-compass-in-forest-temple',
        jp: '森の神殿のマップとコンパス',
@@ -34,7 +35,7 @@
     name: 'Map & Compass in Ice Cavern',
     id: 'map-compass-in-ice-cavern',
     time: 4.75,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'map-compass-in-ice-cavern',
        jp: '氷の洞窟のマップとコンパス',
@@ -47,7 +48,7 @@
     synergy: 6.75 },
   { difficulty: 24,
     desiredTime: 18,
-    types: 
+    types:
      { fortress: 2.5,
        gtg: 1,
        hovers: 3,
@@ -58,7 +59,7 @@
        selfsynergy: -1,
        spirit: 3.5,
        swords: 3 },
-    subtypes: 
+    subtypes:
      { bosskey: 3.25,
        bosskey2: 5,
        compass: 4,
@@ -72,7 +73,7 @@
     name: '3 Swords, Tunics, Boots, and Shields',
     id: '3-swords-tunics-boots-and-shields',
     time: 19,
-    goal: 
+    goal:
      { difficulty: 25,
        id: '3-swords-tunics-boots-and-shields',
        jp: '剣3種、服3種、靴3種、盾3種',
@@ -85,7 +86,7 @@
     synergy: 0 },
   { difficulty: 16,
     desiredTime: 12,
-    types: 
+    types:
      { childchu: 0,
        childreset: 1.25,
        childtrade: 2.75,
@@ -94,7 +95,7 @@
        incsaria: 100,
        saria: 3,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { cganon: 2,
        child2: 2.5,
        hearts3: 3,
@@ -105,7 +106,7 @@
     name: 'Saria\'s Song',
     id: 'saria-s-song',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'saria-s-song',
        jp: 'サリアの歌',
@@ -124,7 +125,7 @@
     name: 'Lon Lon Ranch HP',
     id: 'lon-lon-ranch-hp',
     time: 2.25,
-    goal: 
+    goal:
      { difficulty: 3,
        id: 'lon-lon-ranch-hp',
        jp: 'ロンロン牧場のハートのかけら',
@@ -137,7 +138,7 @@
     synergy: 5 },
   { difficulty: 19,
     desiredTime: 14.25,
-    types: 
+    types:
      { childtrade: 1,
        hearts3: 13,
        hearts4: 2,
@@ -149,7 +150,7 @@
     name: '8 Hearts',
     id: '8-hearts',
     time: 12.75,
-    goal: 
+    goal:
      { difficulty: 17,
        id: '8-hearts',
        jp: 'ハート8つ',
@@ -167,7 +168,7 @@
     name: 'Bomb Bag (30)',
     id: 'bomb-bag-30-',
     time: 0,
-    goal: 
+    goal:
      { difficulty: 1,
        id: 'bomb-bag-30-',
        jp: 'ボム袋(30)',
@@ -180,18 +181,19 @@
     synergy: 5.25 },
   { difficulty: 13,
     desiredTime: 9.75,
-    types: 
+    types:
      { endon: -0.5,
        fortress: 3,
        gtg: 3,
        incgtgkey: 100,
        selfsynergy: 0 },
-    subtypes: { bosskey: 3, hearts4: 0.25, hovers: 0.75, map: 3, wallet: 0.5 },
+    subtypes:
+     { bosskey: 3, hearts4: 0.25, hovers: 0.75, map: 3, wallet: 0.5 },
     rowtypes: { bottle: 100, gclw: 0, hookshot: 100, ms: 3 },
     name: '7 Different Unused Keys in Gerudo Training Grounds',
     id: '7-different-unused-keys-in-gerudo-training-grounds',
     time: 8.75,
-    goal: 
+    goal:
      { difficulty: 12,
        id: '7-different-unused-keys-in-gerudo-training-grounds',
        jp: 'ゲルドの修練場の未使用の鍵7つ(増殖禁止)',
@@ -210,7 +212,7 @@
     name: '500 Rupees',
     id: '500-rupees',
     time: 8.25,
-    goal: 
+    goal:
      { difficulty: 11,
        id: '500-rupees',
        jp: '500ルピー',
@@ -223,7 +225,7 @@
     synergy: 6.25 },
   { difficulty: 22,
     desiredTime: 16.5,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        dmc: 1,
@@ -234,7 +236,7 @@
        poachers: 4.25,
        selfsynergy: 0,
        spirit: 2 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        bosskey: 2,
        bottleslot: 4,
@@ -250,7 +252,7 @@
     name: 'Nayru\'s Love',
     id: 'nayru-s-love',
     time: 15.5,
-    goal: 
+    goal:
      { difficulty: 21,
        id: 'nayru-s-love',
        jp: 'ネールの愛',
@@ -263,18 +265,19 @@
     synergy: 1.5 },
   { difficulty: 8,
     desiredTime: 6,
-    types: 
+    types:
      { endon: -0.25,
        fortress: 3,
        gtg: 4,
        incgtgkey: 100,
        selfsynergy: 0 },
-    subtypes: { bosskey: 3, hearts4: 0.25, hovers: 0.5, map: 3, wallet: 0.25 },
+    subtypes:
+     { bosskey: 3, hearts4: 0.25, hovers: 0.5, map: 3, wallet: 0.25 },
     rowtypes: { bottle: 0, gclw: 0, hookshot: 1, ms: 0 },
     name: '5 Unused Keys in Gerudo Training Grounds',
     id: '5-unused-keys-in-gerudo-training-grounds',
     time: 6,
-    goal: 
+    goal:
      { difficulty: 8,
        id: '5-unused-keys-in-gerudo-training-grounds',
        jp: 'ゲルドの修練場の未使用の鍵5つ',
@@ -287,7 +290,7 @@
     synergy: 5 },
   { difficulty: 25,
     desiredTime: 18.75,
-    types: 
+    types:
      { endon: -1,
        firearrow: 8,
        fortress: 3,
@@ -298,7 +301,7 @@
        lightarrow: 6.5,
        poachers: 4.25,
        selfsynergy: -0.5 },
-    subtypes: 
+    subtypes:
      { aganon: 1,
        bosskey: 10,
        bosskey2: 10,
@@ -314,7 +317,7 @@
     name: 'All 3 Elemental Arrows',
     id: 'all-3-elemental-arrows',
     time: 19,
-    goal: 
+    goal:
      { difficulty: 25,
        id: 'all-3-elemental-arrows',
        jp: '魔法矢3つ',
@@ -327,7 +330,7 @@
     synergy: 0 },
   { difficulty: 17,
     desiredTime: 12.75,
-    types: 
+    types:
      { dmc: 1,
        endon: -1,
        fire: 10,
@@ -335,7 +338,7 @@
        gtunic: 1.75,
        incvolvagia: 100,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { aganon: 2,
        bosskey: 2,
        compass: 4,
@@ -351,7 +354,7 @@
     name: 'Beat the Fire Temple',
     id: 'beat-the-fire-temple',
     time: 13.25,
-    goal: 
+    goal:
      { difficulty: 18,
        id: 'beat-the-fire-temple',
        jp: '炎の神殿クリア',
@@ -370,7 +373,7 @@
     name: 'Fairy Slingshot',
     id: 'fairy-slingshot',
     time: 4,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'fairy-slingshot',
        jp: '妖精のパチンコ',
@@ -389,7 +392,7 @@
     name: 'Defeat Big Octo',
     id: 'defeat-big-octo',
     time: 7.75,
-    goal: 
+    goal:
      { difficulty: 10,
        id: 'defeat-big-octo',
        jp: '大オクタ撃破',
@@ -408,7 +411,7 @@
     name: 'Exactly 30 Deku Sticks',
     id: 'exactly-30-deku-sticks',
     time: 1.5,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'exactly-30-deku-sticks',
        jp: 'デクの棒30本',
@@ -421,7 +424,7 @@
     synergy: 6.75 },
   { difficulty: 14,
     desiredTime: 10.5,
-    types: 
+    types:
      { fortress: 2.5,
        gtg: 1,
        hovers: 3,
@@ -430,7 +433,7 @@
        incspboss: 100,
        selfsynergy: 0,
        spirit: 3.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 3,
        bosskey2: 5,
        compass: 1,
@@ -443,7 +446,7 @@
     name: 'Mirror Shield',
     id: 'mirror-shield',
     time: 11.25,
-    goal: 
+    goal:
      { difficulty: 15,
        id: 'mirror-shield',
        jp: 'ミラーシールド',
@@ -462,7 +465,7 @@
     name: 'Blue Potion',
     id: 'blue-potion',
     time: 4.5,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'blue-potion',
        jp: '青いクスリ',
@@ -475,7 +478,7 @@
     synergy: 6.75 },
   { difficulty: 23,
     desiredTime: 17.25,
-    types: 
+    types:
      { dc: 2,
        dmc: 1,
        fire: 1,
@@ -487,7 +490,7 @@
        shadow: 2,
        spirit: 3,
        water: 2 },
-    subtypes: 
+    subtypes:
      { bosskey: 4,
        bosskey2: 3,
        compass: 6,
@@ -500,7 +503,7 @@
     name: '1 Unused Small Key in each Adult Dungeon',
     id: '1-unused-small-key-in-each-adult-dungeon',
     time: 16.25,
-    goal: 
+    goal:
      { difficulty: 22,
        id: '1-unused-small-key-in-each-adult-dungeon',
        jp: '全ての大人のダンジョンから未使用の鍵最低１つずつ',
@@ -513,7 +516,7 @@
     synergy: 1 },
   { difficulty: 20,
     desiredTime: 15,
-    types: 
+    types:
      { childtrade: 2.75,
        hearts3: 16,
        hearts4: 3,
@@ -525,7 +528,7 @@
     name: '9 Hearts',
     id: '9-hearts',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: '9-hearts',
        jp: 'ハート9つ',
@@ -538,7 +541,7 @@
   { difficulty: 21,
     desiredTime: 15.75,
     types: { compass: 15, hovers: 3, incmc: 100, selfsynergy: -3 },
-    subtypes: 
+    subtypes:
      { bosskey2: 2,
        hearts3: 1.5,
        hearts4: 1,
@@ -549,7 +552,7 @@
     name: '6 Compasses',
     id: '6-compasses',
     time: 14.75,
-    goal: 
+    goal:
      { difficulty: 20,
        id: '6-compasses',
        jp: 'コンパス6つ',
@@ -562,7 +565,7 @@
     synergy: 5 },
   { difficulty: 18,
     desiredTime: 13.5,
-    types: 
+    types:
      { beans: 15,
        childtrade: 6.5,
        czl: 2.5,
@@ -576,7 +579,7 @@
     name: 'Spooky Mask',
     id: 'spooky-mask',
     time: 13.5,
-    goal: 
+    goal:
      { difficulty: 18,
        id: 'spooky-mask',
        jp: 'こわそなお面',
@@ -590,12 +593,13 @@
   { difficulty: 5,
     desiredTime: 3.75,
     types: { fountain: 2, ice: 1.5, irons: 0.5, selfsynergy: 0 },
-    subtypes: { compass: 3, hearts3: 1, hovers: 0.5, map: 3, wallet: 1.75 },
+    subtypes:
+     { compass: 3, hearts3: 1, hovers: 0.5, map: 3, wallet: 1.75 },
     rowtypes: { bottle: 0, gclw: 1, hookshot: 1.5, ms: 1 },
     name: 'All 3 Skulltulas in Ice Cavern',
     id: 'all-3-skulltulas-in-ice-cavern',
     time: 4.25,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'all-3-skulltulas-in-ice-cavern',
        jp: '氷の洞窟の黄金のスタルチュラ3匹',
@@ -609,7 +613,7 @@
   { difficulty: 12,
     desiredTime: 9,
     types: { dmc: 1, fire: 5, gtunic: 1, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        compass: 4,
        hearts3: 0.5,
@@ -621,7 +625,7 @@
     name: 'Obtain all 8 Small Keys in Fire Temple',
     id: 'obtain-all-8-small-keys-in-fire-temple',
     time: 10,
-    goal: 
+    goal:
      { difficulty: 13,
        id: 'obtain-all-8-small-keys-in-fire-temple',
        jp: '炎の神殿の小さな鍵の宝箱を８つ全て開ける',
@@ -640,7 +644,7 @@
     name: 'All 8 Kakariko area Skulltulas',
     id: 'all-8-kakariko-area-skulltulas',
     time: 6.25,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'all-8-kakariko-area-skulltulas',
        jp: 'カカリコ村エリアの黄金のスタルチュラ8匹',

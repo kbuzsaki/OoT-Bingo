@@ -1,7 +1,7 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 25,
     desiredTime: 18.75,
-    types: 
+    types:
      { endon: -1,
        fortress: 2.5,
        gtg: 1,
@@ -10,7 +10,7 @@
        legitlacs: 100,
        selfsynergy: -1,
        spirit: 8 },
-    subtypes: 
+    subtypes:
      { bosskey: 6,
        bosskey2: 6,
        compass: 1,
@@ -23,7 +23,7 @@
     name: 'Beat the Spirit Temple',
     id: 'beat-the-spirit-temple',
     time: 19,
-    goal: 
+    goal:
      { difficulty: 25,
        id: 'beat-the-spirit-temple',
        jp: '魂の神殿クリア',
@@ -42,7 +42,7 @@
     name: 'Lon Lon Ranch HP',
     id: 'lon-lon-ranch-hp',
     time: 2.25,
-    goal: 
+    goal:
      { difficulty: 3,
        id: 'lon-lon-ranch-hp',
        jp: 'ロンロン牧場のハートのかけら',
@@ -61,7 +61,7 @@
     name: 'All 8 Kakariko area Skulltulas',
     id: 'all-8-kakariko-area-skulltulas',
     time: 6.25,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'all-8-kakariko-area-skulltulas',
        jp: 'カカリコ村エリアの黄金のスタルチュラ8匹',
@@ -74,14 +74,14 @@
     synergy: 2.75 },
   { difficulty: 16,
     desiredTime: 12,
-    types: 
+    types:
      { childchu: 0,
        endon: -0.25,
        fountain: 2,
        incbarinade: 100,
        jabu: 8,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { child2: 2,
        childreset: 1.25,
        compass: 2.5,
@@ -93,7 +93,7 @@
     name: 'Defeat Barinade',
     id: 'defeat-barinade',
     time: 11,
-    goal: 
+    goal:
      { difficulty: 15,
        id: 'defeat-barinade',
        jp: 'バリネード撃破',
@@ -107,7 +107,7 @@
   { difficulty: 13,
     desiredTime: 9.75,
     types: { childchu: 0, fountain: 2, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { childreset: 1.25,
        compass: 2,
        hearts3: 1,
@@ -118,7 +118,7 @@
     name: 'All 8 Zora\'s Domain area Skulltulas',
     id: 'all-8-zora-s-domain-area-skulltulas',
     time: 10.5,
-    goal: 
+    goal:
      { difficulty: 14,
        id: 'all-8-zora-s-domain-area-skulltulas',
        jp: 'ゾーラの里エリアの黄金のスタルチュラ8匹',
@@ -131,8 +131,9 @@
     synergy: 5 },
   { difficulty: 19,
     desiredTime: 14.25,
-    types: { forest: 3, hovers: 2, incforest: 100, meg: 8.75, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { forest: 3, hovers: 2, incforest: 100, meg: 8.75, selfsynergy: 0 },
+    subtypes:
      { bosskey2: 3,
        compass: 4,
        hearts3: 0.25,
@@ -145,7 +146,7 @@
     name: 'Defeat Meg (purple Poe)',
     id: 'defeat-meg-purple-poe-',
     time: 14.25,
-    goal: 
+    goal:
      { difficulty: 19,
        id: 'defeat-meg-purple-poe-',
        jp: 'メグ撃破(紫のポウ)',
@@ -158,13 +159,14 @@
     synergy: 6.75 },
   { difficulty: 11,
     desiredTime: 8.25,
-    types: { hearts3: 10, hearts4: 0.5, inchearts: 100, selfsynergy: -3 },
+    types:
+     { hearts3: 10, hearts4: 0.5, inchearts: 100, selfsynergy: -3 },
     subtypes: undefined,
     rowtypes: { bottle: 0, gclw: 0, hookshot: 0.5, ms: 4 },
     name: '7 Hearts',
     id: '7-hearts',
     time: 8.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: '7-hearts',
        jp: 'ハート7つ',
@@ -176,7 +178,7 @@
     synergy: 6.25 },
   { difficulty: 23,
     desiredTime: 17.25,
-    types: 
+    types:
      { aganon: 3,
        dmc: 1,
        endon: -0.5,
@@ -186,7 +188,7 @@
        incshtrial: 100,
        lightarrow: 10,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 4.5,
        compass: 4,
        hearts3: 2.5,
@@ -200,7 +202,7 @@
     name: 'Get to the end of Shadow Trial',
     id: 'get-to-the-end-of-shadow-trial',
     time: 16.25,
-    goal: 
+    goal:
      { difficulty: 22,
        id: 'get-to-the-end-of-shadow-trial',
        jp: '闇の結界の最後の部屋に到達',
@@ -219,7 +221,7 @@
     name: 'Blue Potion',
     id: 'blue-potion',
     time: 4.5,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'blue-potion',
        jp: '青いクスリ',
@@ -233,7 +235,7 @@
   { difficulty: 7,
     desiredTime: 5.25,
     types: { childchu: 0, dmc: 2, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { beans: -1,
        child2: 5,
        childreset: 1.25,
@@ -243,7 +245,7 @@
     name: 'Plant bean in Death Mountain Crater',
     id: 'plant-bean-in-death-mountain-crater',
     time: 4.5,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'plant-bean-in-death-mountain-crater',
        jp: 'デスマウンテン火口の土にマメを植える',
@@ -262,7 +264,7 @@
     name: 'Goron Tunic',
     id: 'goron-tunic',
     time: 1.75,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'goron-tunic',
        jp: 'ゴロンの服',
@@ -281,7 +283,7 @@
     name: '15 Different Skulltulas',
     id: '15-different-skulltulas',
     time: 6.5,
-    goal: 
+    goal:
      { difficulty: 9,
        id: '15-different-skulltulas',
        jp: 'スタルチュラのしるし15個(増殖禁止)',
@@ -293,8 +295,9 @@
     synergy: 6 },
   { difficulty: 17,
     desiredTime: 12.75,
-    types: { childchu: 0, hovers: 3, incmc: 100, map: 15, selfsynergy: -3 },
-    subtypes: 
+    types:
+     { childchu: 0, hovers: 3, incmc: 100, map: 15, selfsynergy: -3 },
+    subtypes:
      { bosskey2: 2,
        claimcheck: 3,
        compass: 15,
@@ -307,7 +310,7 @@
     name: '6 Maps',
     id: '6-maps',
     time: 12,
-    goal: 
+    goal:
      { difficulty: 16,
        id: '6-maps',
        jp: 'マップ6つ',
@@ -320,7 +323,7 @@
     synergy: 3.75 },
   { difficulty: 14,
     desiredTime: 10.5,
-    types: 
+    types:
      { aganon: 3,
        bganon: -3,
        bosskey: 12,
@@ -332,7 +335,7 @@
     name: '3 Boss Keys',
     id: '3-boss-keys',
     time: 10.25,
-    goal: 
+    goal:
      { difficulty: 14,
        id: '3-boss-keys',
        jp: 'ボス部屋の鍵3つ',
@@ -345,7 +348,7 @@
     synergy: 3.5 },
   { difficulty: 21,
     desiredTime: 15.75,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        dmc: 1,
@@ -356,7 +359,7 @@
        poachers: 4.25,
        selfsynergy: 0,
        spirit: 2 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        bosskey: 2,
        bottleslot: 4,
@@ -372,7 +375,7 @@
     name: 'Nayru\'s Love',
     id: 'nayru-s-love',
     time: 15.5,
-    goal: 
+    goal:
      { difficulty: 21,
        id: 'nayru-s-love',
        jp: 'ネールの愛',
@@ -391,7 +394,7 @@
     name: 'Stone of Agony',
     id: 'stone-of-agony',
     time: 8.25,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'stone-of-agony',
        jp: 'もだえ石',
@@ -404,7 +407,7 @@
     synergy: 3.5 },
   { difficulty: 24,
     desiredTime: 18,
-    types: 
+    types:
      { child2: 5,
        dins: 1,
        endon: 0,
@@ -413,7 +416,7 @@
        incfboss: 100,
        pg: 2.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey2: 2,
        compass: 1,
        hearts3: 3,
@@ -426,7 +429,7 @@
     name: 'All 4 Market area Skulltulas',
     id: 'all-4-market-area-skulltulas',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'all-4-market-area-skulltulas',
        jp: '城下町エリアの黄金のスタルチュラ4匹',
@@ -445,7 +448,7 @@
     name: '30 Deku Nuts',
     id: '30-deku-nuts',
     time: 1,
-    goal: 
+    goal:
      { difficulty: 1,
        id: '30-deku-nuts',
        jp: 'デクの実30個以上',
@@ -458,7 +461,7 @@
     synergy: 3.75 },
   { difficulty: 8,
     desiredTime: 6,
-    types: 
+    types:
      { aganon: 3,
        bganon: -3,
        cganon: 3,
@@ -471,7 +474,7 @@
     name: 'Golden Gauntlets',
     id: 'golden-gauntlets',
     time: 5.75,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'golden-gauntlets',
        jp: '金のグローブ',
@@ -484,14 +487,14 @@
     synergy: 6 },
   { difficulty: 20,
     desiredTime: 15,
-    types: 
+    types:
      { dmc: 1,
        fire: 8,
        gtunic: 1,
        incflare: 100,
        incgorons: 100,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 2.25,
        compass: 4,
        hearts3: 0.5,
@@ -504,7 +507,7 @@
     name: 'Free all 9 Gorons in Fire Temple',
     id: 'free-all-9-gorons-in-fire-temple',
     time: 14.75,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'free-all-9-gorons-in-fire-temple',
        jp: '炎の神殿で９人のゴロンを全員救う',
@@ -517,8 +520,9 @@
     synergy: 4.25 },
   { difficulty: 6,
     desiredTime: 4.5,
-    types: { chuczl: 2, deku: 5, endon: -0.5, incgohma: 100, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { chuczl: 2, deku: 5, endon: -0.5, incgohma: 100, selfsynergy: 0 },
+    subtypes:
      { cganon: 1.5,
        compass: 2,
        czl: 3,
@@ -530,7 +534,7 @@
     name: 'Defeat Queen Gohma',
     id: 'defeat-queen-gohma',
     time: 5.25,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'defeat-queen-gohma',
        jp: 'ゴーマ撃破',
@@ -543,7 +547,7 @@
     synergy: 6.25 },
   { difficulty: 18,
     desiredTime: 13.5,
-    types: 
+    types:
      { endon: -1,
        fortress: 2,
        inclacs: 100,
@@ -551,7 +555,7 @@
        lightarrow: 6.5,
        poachers: 4.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { aganon: 1,
        bosskey: 3,
        bosskey2: 6,
@@ -567,7 +571,7 @@
     name: 'Light Arrows',
     id: 'light-arrows',
     time: 13.5,
-    goal: 
+    goal:
      { difficulty: 18,
        id: 'light-arrows',
        jp: '光の矢',
@@ -580,7 +584,7 @@
     synergy: 3.75 },
   { difficulty: 15,
     desiredTime: 11.25,
-    types: 
+    types:
      { childchu: 0,
        childtrade: 2.75,
        chuczl: 2,
@@ -592,7 +596,7 @@
     name: 'Keaton Mask',
     id: 'keaton-mask',
     time: 10.25,
-    goal: 
+    goal:
      { difficulty: 14,
        id: 'keaton-mask',
        jp: 'キータンのお面',
@@ -605,7 +609,7 @@
     synergy: 3.5 },
   { difficulty: 22,
     desiredTime: 16.5,
-    types: 
+    types:
      { endon: -0.5,
        fortress: 2.5,
        fountain: 2,
@@ -617,7 +621,7 @@
        irons: 2,
        selfsynergy: 0,
        spirit: 3.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 3,
        bosskey2: 5,
        compass: 4,
@@ -631,7 +635,7 @@
     name: '3 Shields & 3 Boots',
     id: '3-shields-3-boots',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: '3-shields-3-boots',
        jp: '盾3種、靴3種',
@@ -650,7 +654,7 @@
     name: '5 Magic Beans',
     id: '5-magic-beans',
     time: 2.5,
-    goal: 
+    goal:
      { difficulty: 3,
        id: '5-magic-beans',
        jp: '魔法のマメ5つ以上',

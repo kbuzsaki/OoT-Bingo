@@ -1,8 +1,9 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 15,
     desiredTime: 11.25,
-    types: { dmc: 1, fire: 8, gtunic: 1, incflare: 100, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { dmc: 1, fire: 8, gtunic: 1, incflare: 100, selfsynergy: 0 },
+    subtypes:
      { bosskey: 2,
        compass: 4,
        hovers: 0.25,
@@ -14,7 +15,7 @@
     name: 'Defeat both Flare Dancers',
     id: 'defeat-both-flare-dancers',
     time: 10.75,
-    goal: 
+    goal:
      { difficulty: 14,
        id: 'defeat-both-flare-dancers',
        jp: 'フレアダンサー2体撃破',
@@ -33,7 +34,7 @@
     name: 'All 3 Skulltulas in Bottom of the Well',
     id: 'all-3-skulltulas-in-bottom-of-the-well',
     time: 3.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'all-3-skulltulas-in-bottom-of-the-well',
        jp: '井戸の底の黄金のスタルチュラ3匹',
@@ -46,7 +47,7 @@
     synergy: 8.75 },
   { difficulty: 24,
     desiredTime: 18,
-    types: 
+    types:
      { childtrade: 2.75,
        hearts3: 16,
        hearts4: 3,
@@ -58,7 +59,7 @@
     name: '9 Hearts',
     id: '9-hearts',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: '9-hearts',
        jp: 'ハート9つ',
@@ -70,14 +71,14 @@
     synergy: 1 },
   { difficulty: 16,
     desiredTime: 12,
-    types: 
+    types:
      { endon: -0.25,
        fortress: 3,
        gtg: 5,
        incgtgkey: 100,
        quiver: 4.5,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 3,
        bulletbag: 100,
        childchu: -2.5,
@@ -89,7 +90,7 @@
     name: '8 Different Unused Keys in Gerudo Training Grounds',
     id: '8-different-unused-keys-in-gerudo-training-grounds',
     time: 10.25,
-    goal: 
+    goal:
      { difficulty: 14,
        id: '8-different-unused-keys-in-gerudo-training-grounds',
        jp: 'ゲルドの修練場の未使用の鍵8つ(増殖禁止)',
@@ -103,7 +104,7 @@
   { difficulty: 3,
     desiredTime: 2.25,
     types: { fortress: 3, gtg: 1, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 3.5,
        hearts3: 0.5,
        hearts4: 0.25,
@@ -117,7 +118,7 @@
     name: 'Ice Arrows',
     id: 'ice-arrows',
     time: 4,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'ice-arrows',
        jp: '氷の矢',
@@ -130,7 +131,7 @@
     synergy: 7.75 },
   { difficulty: 19,
     desiredTime: 14.25,
-    types: 
+    types:
      { child2: 5,
        dins: 1,
        endon: 0,
@@ -139,7 +140,7 @@
        incfboss: 100,
        pg: 2.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey2: 2,
        compass: 1,
        hearts3: 3,
@@ -152,7 +153,7 @@
     name: 'All 4 Market area Skulltulas',
     id: 'all-4-market-area-skulltulas',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'all-4-market-area-skulltulas',
        jp: '城下町エリアの黄金のスタルチュラ4匹',
@@ -171,7 +172,7 @@
     name: 'Defeat a Skull Kid',
     id: 'defeat-a-skull-kid',
     time: 0.75,
-    goal: 
+    goal:
      { difficulty: 1,
        id: 'defeat-a-skull-kid',
        jp: 'スタルキッド撃破',
@@ -189,7 +190,7 @@
     name: '1 Skulltula from each Child Dungeon',
     id: '1-skulltula-from-each-child-dungeon',
     time: 10.25,
-    goal: 
+    goal:
      { difficulty: 14,
        id: '1-skulltula-from-each-child-dungeon',
        jp: '全ての子供ダンジョンからスタルチュラ最低1匹ずつ',
@@ -208,7 +209,7 @@
     name: 'All 8 Death Mountain area Skulltulas',
     id: 'all-8-death-mountain-area-skulltulas',
     time: 8.25,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'all-8-death-mountain-area-skulltulas',
        jp: 'デスマウンテンエリアの黄金のスタルチュラ8匹',
@@ -221,7 +222,7 @@
     synergy: 7.5 },
   { difficulty: 22,
     desiredTime: 16.5,
-    types: 
+    types:
      { dc: 2,
        dmc: 1,
        fire: 1,
@@ -233,7 +234,7 @@
        shadow: 2,
        spirit: 3,
        water: 2 },
-    subtypes: 
+    subtypes:
      { bosskey: 4,
        bosskey2: 3,
        compass: 6,
@@ -246,7 +247,7 @@
     name: '1 Unused Small Key in each Adult Dungeon',
     id: '1-unused-small-key-in-each-adult-dungeon',
     time: 16.25,
-    goal: 
+    goal:
      { difficulty: 22,
        id: '1-unused-small-key-in-each-adult-dungeon',
        jp: '全ての大人のダンジョンから未使用の鍵最低１つずつ',
@@ -259,7 +260,7 @@
     synergy: 3.75 },
   { difficulty: 8,
     desiredTime: 6,
-    types: 
+    types:
      { aganon: 3,
        bganon: -3,
        bosskey: 6.75,
@@ -271,7 +272,7 @@
     name: '2 Boss Keys',
     id: '2-boss-keys',
     time: 4.75,
-    goal: 
+    goal:
      { difficulty: 6,
        id: '2-boss-keys',
        jp: 'ボス部屋の鍵2つ',
@@ -284,7 +285,7 @@
     synergy: 6 },
   { difficulty: 25,
     desiredTime: 18.75,
-    types: 
+    types:
      { dmc: 1,
        fire: 1.5,
        forest: 2.75,
@@ -295,7 +296,7 @@
        shadow: 2,
        spirit: 3,
        water: 3 },
-    subtypes: 
+    subtypes:
      { bosskey: 4,
        bosskey2: 3,
        childchu: -2.5,
@@ -309,7 +310,7 @@
     name: '1 Skulltula from each Adult Dungeon',
     id: '1-skulltula-from-each-adult-dungeon',
     time: 18,
-    goal: 
+    goal:
      { difficulty: 24,
        id: '1-skulltula-from-each-adult-dungeon',
        jp: '全ての大人ダンジョンからスタルチュラ最低1匹ずつ',
@@ -322,13 +323,13 @@
     synergy: 0.75 },
   { difficulty: 17,
     desiredTime: 12.75,
-    types: 
+    types:
      { childchu: 0,
        fountain: 2,
        incbarinade: 100,
        jabu: 8,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { child2: 3.5,
        childreset: 1.25,
        compass: 2.5,
@@ -340,7 +341,7 @@
     name: 'Beat Jabu-Jabu\'s Belly',
     id: 'beat-jabu-jabu-s-belly',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'beat-jabu-jabu-s-belly',
        jp: 'ジャブジャブ様のお腹クリア',
@@ -359,7 +360,7 @@
     name: 'Ice Cavern HP',
     id: 'ice-cavern-hp',
     time: 3.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'ice-cavern-hp',
        jp: '氷の洞窟のハートのかけら',
@@ -372,7 +373,7 @@
     synergy: 0.5 },
   { difficulty: 11,
     desiredTime: 8.25,
-    types: 
+    types:
      { dc: 2,
        ice: 1.5,
        incwskull: 100,
@@ -380,7 +381,7 @@
        longshot: 2,
        selfsynergy: 0,
        water: 3 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        bbprize: -4,
        childchu: -2.5,
@@ -394,7 +395,7 @@
     name: '3 Skulltulas in Water Temple',
     id: '3-skulltulas-in-water-temple',
     time: 9.75,
-    goal: 
+    goal:
      { difficulty: 13,
        id: '3-skulltulas-in-water-temple',
        jp: '水の神殿の黄金のスタルチュラ3匹以上',
@@ -413,7 +414,7 @@
     name: 'Lens of Truth',
     id: 'lens-of-truth',
     time: 0.25,
-    goal: 
+    goal:
      { difficulty: 1,
        id: 'lens-of-truth',
        jp: 'まことのメガネ',
@@ -425,7 +426,7 @@
     synergy: 5 },
   { difficulty: 14,
     desiredTime: 10.5,
-    types: 
+    types:
      { forest: 3,
        fortress: 3,
        gtg: 1,
@@ -433,7 +434,7 @@
        meg: 4.25,
        quiver: 4.5,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        bosskey2: 5,
        childchu: -2.5,
@@ -447,7 +448,7 @@
     name: 'Defeat Amy (Green Poe)',
     id: 'defeat-amy-green-poe-',
     time: 9.25,
-    goal: 
+    goal:
      { difficulty: 12,
        id: 'defeat-amy-green-poe-',
        jp: 'エイミー撃破(緑のポウ)ｴ',
@@ -466,7 +467,7 @@
     name: 'Blue Potion',
     id: 'blue-potion',
     time: 4.5,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'blue-potion',
        jp: '青いクスリ',
@@ -479,7 +480,7 @@
     synergy: 7.5 },
   { difficulty: 23,
     desiredTime: 17.25,
-    types: 
+    types:
      { childchu: 0,
        childreset: 1.25,
        childtrade: 2.75,
@@ -488,7 +489,7 @@
        saria: 5,
        selfsynergy: -1,
        strength: 100 },
-    subtypes: 
+    subtypes:
      { bombbag: 100,
        bulletbag: 100,
        cganon: 2,
@@ -501,7 +502,7 @@
     name: 'Green Gauntlets',
     id: 'green-gauntlets',
     time: 17.75,
-    goal: 
+    goal:
      { difficulty: 24,
        id: 'green-gauntlets',
        jp: '緑のグローブ',
@@ -514,7 +515,7 @@
     synergy: 0 },
   { difficulty: 20,
     desiredTime: 15,
-    types: 
+    types:
      { fortress: 2.5,
        gtg: 1,
        hovers: 3,
@@ -525,7 +526,7 @@
        selfsynergy: -1,
        spirit: 3.5,
        swords: 3 },
-    subtypes: 
+    subtypes:
      { bosskey: 3.25,
        bosskey2: 5,
        compass: 4,
@@ -539,7 +540,7 @@
     name: '3 Swords, Tunics, Boots, and Shields',
     id: '3-swords-tunics-boots-and-shields',
     time: 19,
-    goal: 
+    goal:
      { difficulty: 25,
        id: '3-swords-tunics-boots-and-shields',
        jp: '剣3種、服3種、靴3種、盾3種',
@@ -552,14 +553,14 @@
     synergy: 8.25 },
   { difficulty: 21,
     desiredTime: 15.75,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        hovers: 3,
        poachers: 4.25,
        selfsynergy: 0,
        shadow: 8 },
-    subtypes: 
+    subtypes:
      { bosskey: 3.5,
        bosskey2: 6,
        childchu: -2.5,
@@ -572,7 +573,7 @@
     name: 'Obtain all 5 Small Keys in Shadow Temple',
     id: 'obtain-all-5-small-keys-in-shadow-temple',
     time: 15.25,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'obtain-all-5-small-keys-in-shadow-temple',
        jp: '闇の神殿の小さな鍵５つ取得',
@@ -585,7 +586,7 @@
     synergy: 1.75 },
   { difficulty: 18,
     desiredTime: 13.5,
-    types: 
+    types:
      { beans: 15,
        childtrade: 6.5,
        czl: 2.5,
@@ -599,7 +600,7 @@
     name: 'Spooky Mask',
     id: 'spooky-mask',
     time: 13.5,
-    goal: 
+    goal:
      { difficulty: 18,
        id: 'spooky-mask',
        jp: 'こわそなお面',
@@ -618,7 +619,7 @@
     name: 'Both Gerudo\'s Fortress area Skulltulas',
     id: 'both-gerudo-s-fortress-area-skulltulas',
     time: 4.5,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'both-gerudo-s-fortress-area-skulltulas',
        jp: 'ゲルドの砦の黄金のスタルチュラ2匹',
@@ -631,14 +632,14 @@
     synergy: 9.75 },
   { difficulty: 12,
     desiredTime: 9,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        dmc: 1,
        magic: 2,
        poachers: 4.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { aganon: 0.5,
        childchu: -2.5,
        chuczl: 2,
@@ -649,7 +650,7 @@
     name: 'Double Defense',
     id: 'double-defense',
     time: 10,
-    goal: 
+    goal:
      { difficulty: 13,
        id: 'double-defense',
        jp: '防御力2倍',
@@ -668,7 +669,7 @@
     name: '3 Lake Hylia Skulltulas',
     id: '3-lake-hylia-skulltulas',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: '3-lake-hylia-skulltulas',
        jp: 'ハイリア湖畔エリアの黄金のスタルチュラ3匹以上',

@@ -1,7 +1,7 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 20,
     desiredTime: 15,
-    types: 
+    types:
      { endon: -0.5,
        fortress: 2.5,
        gtg: 1,
@@ -9,7 +9,7 @@
        incspboss: 100,
        selfsynergy: 0,
        spirit: 8 },
-    subtypes: 
+    subtypes:
      { bosskey: 6,
        bosskey2: 6,
        compass: 1,
@@ -21,7 +21,7 @@
     name: 'Defeat Nabooru-Knuckle',
     id: 'defeat-nabooru-knuckle',
     time: 13,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'defeat-nabooru-knuckle',
        jp: 'アイアンナック(ナボール)撃破',
@@ -40,7 +40,7 @@
     name: 'All 3 Skulltulas in Bottom of the Well',
     id: 'all-3-skulltulas-in-bottom-of-the-well',
     time: 3.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'all-3-skulltulas-in-bottom-of-the-well',
        jp: '井戸の底の黄金のスタルチュラ3匹',
@@ -53,7 +53,7 @@
     synergy: 7 },
   { difficulty: 24,
     desiredTime: 18,
-    types: 
+    types:
      { bothzl: -4.25,
        childtrade: 2.75,
        czl: 7,
@@ -67,7 +67,7 @@
        poachers: 4.25,
        selfsynergy: -0.5,
        spirit: 2 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        bosskey: 3,
        bottleslot: 4,
@@ -84,7 +84,7 @@
     name: 'Two Fairy Spells',
     id: 'two-fairy-spells',
     time: 19,
-    goal: 
+    goal:
      { difficulty: 25,
        id: 'two-fairy-spells',
        jp: '魔法のアイテム２つ',
@@ -103,7 +103,7 @@
     name: 'Map & Compass in Ice Cavern',
     id: 'map-compass-in-ice-cavern',
     time: 4.75,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'map-compass-in-ice-cavern',
        jp: '氷の洞窟のマップとコンパス',
@@ -117,7 +117,7 @@
   { difficulty: 13,
     desiredTime: 9.75,
     types: { dmc: 1, fire: 7, gtunic: 1, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        compass: 4,
        hearts3: 1.5,
@@ -131,7 +131,7 @@
     name: 'Megaton Hammer',
     id: 'megaton-hammer',
     time: 10.25,
-    goal: 
+    goal:
      { difficulty: 14,
        id: 'megaton-hammer',
        jp: 'メガトンハンマー',
@@ -144,8 +144,9 @@
     synergy: 7.75 },
   { difficulty: 9,
     desiredTime: 6.75,
-    types: { dc: 2, inclong: 100, longshot: 4, selfsynergy: 0, water: 3 },
-    subtypes: 
+    types:
+     { dc: 2, inclong: 100, longshot: 4, selfsynergy: 0, water: 3 },
+    subtypes:
      { bbprize: -6,
        childchu: -2.5,
        compass: 3.5,
@@ -158,7 +159,7 @@
     name: 'Defeat Dark Link',
     id: 'defeat-dark-link',
     time: 7,
-    goal: 
+    goal:
      { difficulty: 9,
        id: 'defeat-dark-link',
        jp: 'ダークリンク撃破',
@@ -172,7 +173,7 @@
   { difficulty: 11,
     desiredTime: 8.25,
     types: { hovers: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { dmc: 1,
        firearrow: 1,
        gtunic: 0.25,
@@ -183,7 +184,7 @@
     name: 'Both Hyrule Field area Skulltulas',
     id: 'both-hyrule-field-area-skulltulas',
     time: 7.5,
-    goal: 
+    goal:
      { difficulty: 10,
        id: 'both-hyrule-field-area-skulltulas',
        jp: 'ハイラル平原エリアの黄金ノスタルチュラ2匹',
@@ -196,7 +197,7 @@
     synergy: 5.5 },
   { difficulty: 18,
     desiredTime: 13.5,
-    types: 
+    types:
      { aganon: 3,
        endon: -0.5,
        fortress: 2.5,
@@ -206,7 +207,7 @@
        quiver: 1.5,
        selfsynergy: 0,
        spirit: 3.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 4.5,
        bosskey2: 5,
        compass: 1,
@@ -218,7 +219,7 @@
     name: 'Get to the end of Spirit Trial',
     id: 'get-to-the-end-of-spirit-trial',
     time: 15,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'get-to-the-end-of-spirit-trial',
        jp: '魂の結界の最後の部屋に到達',
@@ -231,18 +232,19 @@
     synergy: 3.5 },
   { difficulty: 5,
     desiredTime: 3.75,
-    types: 
+    types:
      { incsongs: 100,
        poachers: 4.25,
        selfsynergy: 0,
        songs4: 3,
        songs5: 2 },
-    subtypes: { aganon: 0.25, childchu: -2.5, czl: 1, hearts3: 1, saria: 2 },
+    subtypes:
+     { aganon: 0.25, childchu: -2.5, czl: 1, hearts3: 1, saria: 2 },
     rowtypes: { bottle: 100, gclw: 1, hookshot: 0.5, ms: 6 },
     name: '4 Songs',
     id: '4-songs',
     time: 4.25,
-    goal: 
+    goal:
      { difficulty: 6,
        id: '4-songs',
        jp: '歌4つ以上',
@@ -255,7 +257,7 @@
     synergy: 6.75 },
   { difficulty: 22,
     desiredTime: 16.5,
-    types: 
+    types:
      { childtrade: 2.75,
        hearts3: 16,
        hearts4: 3,
@@ -267,7 +269,7 @@
     name: '9 Hearts',
     id: '9-hearts',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: '9-hearts',
        jp: 'ハート9つ',
@@ -280,12 +282,13 @@
   { difficulty: 3,
     desiredTime: 2.25,
     types: { deku: 3, selfsynergy: 0 },
-    subtypes: { compass: 3, czl: 3, hearts4: 1, hovers: 0.5, map: 3, wallet: 0.5 },
+    subtypes:
+     { compass: 3, czl: 3, hearts4: 1, hovers: 0.5, map: 3, wallet: 0.5 },
     rowtypes: { bottle: 0, gclw: 0, hookshot: 0, ms: 0 },
     name: 'Map & Compass in Deku Tree',
     id: 'map-compass-in-deku-tree',
     time: 4,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'map-compass-in-deku-tree',
        jp: 'デクの樹様の中のマップとコンパス',
@@ -298,7 +301,7 @@
     synergy: 8.75 },
   { difficulty: 25,
     desiredTime: 18.75,
-    types: 
+    types:
      { endon: -0.5,
        fortress: 2.5,
        fountain: 2,
@@ -310,7 +313,7 @@
        irons: 2,
        selfsynergy: 0,
        spirit: 3.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 3,
        bosskey2: 5,
        compass: 4,
@@ -324,7 +327,7 @@
     name: '3 Shields & 3 Boots',
     id: '3-shields-3-boots',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: '3-shields-3-boots',
        jp: '盾3種、靴3種',
@@ -343,7 +346,7 @@
     name: 'All 8 Kakariko area Skulltulas',
     id: 'all-8-kakariko-area-skulltulas',
     time: 6.25,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'all-8-kakariko-area-skulltulas',
        jp: 'カカリコ村エリアの黄金のスタルチュラ8匹',
@@ -356,13 +359,13 @@
     synergy: 0.75 },
   { difficulty: 14,
     desiredTime: 10.5,
-    types: 
+    types:
      { childchu: 0,
        fountain: 2,
        incbarinade: 100,
        jabu: 8,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { child2: 3.5,
        childreset: 1.25,
        compass: 2.5,
@@ -374,7 +377,7 @@
     name: 'Beat Jabu-Jabu\'s Belly',
     id: 'beat-jabu-jabu-s-belly',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'beat-jabu-jabu-s-belly',
        jp: 'ジャブジャブ様のお腹クリア',
@@ -387,14 +390,14 @@
     synergy: 9.25 },
   { difficulty: 16,
     desiredTime: 12,
-    types: 
+    types:
      { endon: -1,
        fortress: 3,
        hovers: 3,
        selfsynergy: 0,
        spirit: 3.25,
        strength: 100 },
-    subtypes: 
+    subtypes:
      { bombbag: 100,
        bosskey: 3,
        bosskey2: 4.5,
@@ -408,7 +411,7 @@
     name: 'Silver Gauntlets',
     id: 'silver-gauntlets',
     time: 11,
-    goal: 
+    goal:
      { difficulty: 15,
        id: 'silver-gauntlets',
        jp: '銀のグローブ',
@@ -422,7 +425,7 @@
   { difficulty: 12,
     desiredTime: 9,
     types: { childchu: 0, fountain: 2, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { childreset: 1.25,
        compass: 2,
        hearts3: 1,
@@ -433,7 +436,7 @@
     name: 'All 8 Zora\'s Domain area Skulltulas',
     id: 'all-8-zora-s-domain-area-skulltulas',
     time: 10.5,
-    goal: 
+    goal:
      { difficulty: 14,
        id: 'all-8-zora-s-domain-area-skulltulas',
        jp: 'ゾーラの里エリアの黄金のスタルチュラ8匹',
@@ -447,7 +450,7 @@
   { difficulty: 19,
     desiredTime: 14.25,
     types: { compass: 15, hovers: 3, incmc: 100, selfsynergy: -3 },
-    subtypes: 
+    subtypes:
      { bosskey2: 2,
        hearts3: 1.5,
        hearts4: 1,
@@ -458,7 +461,7 @@
     name: '6 Compasses',
     id: '6-compasses',
     time: 14.75,
-    goal: 
+    goal:
      { difficulty: 20,
        id: '6-compasses',
        jp: 'コンパス6つ',
@@ -477,7 +480,7 @@
     name: '30 Deku Nuts',
     id: '30-deku-nuts',
     time: 1,
-    goal: 
+    goal:
      { difficulty: 1,
        id: '30-deku-nuts',
        jp: 'デクの実30個以上',
@@ -490,14 +493,14 @@
     synergy: 9 },
   { difficulty: 23,
     desiredTime: 17.25,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        hovers: 3,
        poachers: 4.25,
        selfsynergy: 0,
        shadow: 8 },
-    subtypes: 
+    subtypes:
      { bosskey: 3.5,
        bosskey2: 6,
        childchu: -2.5,
@@ -510,7 +513,7 @@
     name: 'Obtain all 5 Small Keys in Shadow Temple',
     id: 'obtain-all-5-small-keys-in-shadow-temple',
     time: 15.25,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'obtain-all-5-small-keys-in-shadow-temple',
        jp: '闇の神殿の小さな鍵５つ取得',
@@ -524,7 +527,7 @@
   { difficulty: 10,
     desiredTime: 7.5,
     types: { lonlon: 4, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bottleslot: 4.5,
        childreset: 1,
        czl: 2,
@@ -534,7 +537,7 @@
     name: 'Milk',
     id: 'milk',
     time: 6.25,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'milk',
        jp: 'ロンロン牛乳',
@@ -547,8 +550,9 @@
     synergy: 6 },
   { difficulty: 21,
     desiredTime: 15.75,
-    types: { forest: 3, hovers: 2, incforest: 100, meg: 8.75, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { forest: 3, hovers: 2, incforest: 100, meg: 8.75, selfsynergy: 0 },
+    subtypes:
      { bosskey2: 3,
        compass: 4,
        hearts3: 0.25,
@@ -561,7 +565,7 @@
     name: 'Defeat Meg (purple Poe)',
     id: 'defeat-meg-purple-poe-',
     time: 14.25,
-    goal: 
+    goal:
      { difficulty: 19,
        id: 'defeat-meg-purple-poe-',
        jp: 'メグ撃破(紫のポウ)',
@@ -580,7 +584,7 @@
     name: 'Giant\'s Wallet',
     id: 'giant-s-wallet',
     time: 6.25,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'giant-s-wallet',
        jp: '巨人のサイフ',
@@ -593,14 +597,14 @@
     synergy: 9.25 },
   { difficulty: 15,
     desiredTime: 11.25,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        dmc: 1,
        magic: 2,
        poachers: 4.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        bosskey: 1,
        childchu: -2.5,
@@ -612,7 +616,7 @@
     name: 'Double Magic',
     id: 'double-magic',
     time: 9.5,
-    goal: 
+    goal:
      { difficulty: 13,
        id: 'double-magic',
        jp: '魔力2倍',
@@ -625,14 +629,14 @@
     synergy: 9.25 },
   { difficulty: 17,
     desiredTime: 12.75,
-    types: 
+    types:
      { fountain: 2,
        ice: 1.5,
        inclhskull: 100,
        irons: 2,
        selfsynergy: 0,
        water: 1 },
-    subtypes: 
+    subtypes:
      { bottleslot: 2,
        child2: 3,
        compass: 4,
@@ -646,7 +650,7 @@
     name: 'All 5 Lake Hylia Skulltulas',
     id: 'all-5-lake-hylia-skulltulas',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'all-5-lake-hylia-skulltulas',
        jp: 'ハイリア湖畔エリアの黄金のスタルチュラ5匹',
@@ -665,7 +669,7 @@
     name: 'Bolero of Fire',
     id: 'bolero-of-fire',
     time: 1.5,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'bolero-of-fire',
        jp: '炎のボレロ',

@@ -1,14 +1,14 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 20,
     desiredTime: 15,
-    types: 
+    types:
      { dmc: 1,
        fire: 8,
        gtunic: 1,
        incflare: 100,
        incgorons: 100,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 2.25,
        compass: 4,
        hearts3: 0.5,
@@ -21,7 +21,7 @@
     name: 'Free all 9 Gorons in Fire Temple',
     id: 'free-all-9-gorons-in-fire-temple',
     time: 14.75,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'free-all-9-gorons-in-fire-temple',
        jp: '炎の神殿で９人のゴロンを全員救う',
@@ -34,7 +34,7 @@
     synergy: 4.75 },
   { difficulty: 22,
     desiredTime: 16.5,
-    types: 
+    types:
      { dc: 2,
        dmc: 1,
        fire: 1,
@@ -46,7 +46,7 @@
        shadow: 2,
        spirit: 3,
        water: 2 },
-    subtypes: 
+    subtypes:
      { bosskey: 4,
        bosskey2: 3,
        compass: 6,
@@ -59,7 +59,7 @@
     name: '1 Unused Small Key in each Adult Dungeon',
     id: '1-unused-small-key-in-each-adult-dungeon',
     time: 16.25,
-    goal: 
+    goal:
      { difficulty: 22,
        id: '1-unused-small-key-in-each-adult-dungeon',
        jp: '全ての大人のダンジョンから未使用の鍵最低１つずつ',
@@ -78,7 +78,7 @@
     name: 'Map & Compass in Dodongo\'s Cavern',
     id: 'map-compass-in-dodongo-s-cavern',
     time: 2,
-    goal: 
+    goal:
      { difficulty: 3,
        id: 'map-compass-in-dodongo-s-cavern',
        jp: 'ドドンゴの洞窟のマップとコンパス',
@@ -97,7 +97,7 @@
     name: 'All 4 Lon-Lon Ranch area Skulltulas',
     id: 'all-4-lon-lon-ranch-area-skulltulas',
     time: 7.75,
-    goal: 
+    goal:
      { difficulty: 10,
        id: 'all-4-lon-lon-ranch-area-skulltulas',
        jp: 'ロンロン牧場エリアの黄金のスタルチュラ4匹',
@@ -116,7 +116,7 @@
     name: 'Giant\'s Wallet',
     id: 'giant-s-wallet',
     time: 6.25,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'giant-s-wallet',
        jp: '巨人のサイフ',
@@ -129,14 +129,14 @@
     synergy: 5.25 },
   { difficulty: 14,
     desiredTime: 10.5,
-    types: 
+    types:
      { endon: -0.25,
        fortress: 3,
        gtg: 5,
        incgtgkey: 100,
        quiver: 4.5,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 3,
        bulletbag: 100,
        childchu: -2.5,
@@ -148,7 +148,7 @@
     name: '8 Different Unused Keys in Gerudo Training Grounds',
     id: '8-different-unused-keys-in-gerudo-training-grounds',
     time: 10.25,
-    goal: 
+    goal:
      { difficulty: 14,
        id: '8-different-unused-keys-in-gerudo-training-grounds',
        jp: 'ゲルドの修練場の未使用の鍵8つ(増殖禁止)',
@@ -167,7 +167,7 @@
     name: 'Cow in House',
     id: 'cow-in-house',
     time: 4.5,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'cow-in-house',
        jp: '牛(リンクの家)',
@@ -179,7 +179,7 @@
     synergy: 4.75 },
   { difficulty: 18,
     desiredTime: 13.5,
-    types: 
+    types:
      { child2: 5,
        endon: 0,
        forest: 3,
@@ -187,7 +187,7 @@
        incfboss: 100,
        pg: 2.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey2: 3,
        compass: 1,
        hearts3: 4,
@@ -200,7 +200,7 @@
     name: 'Frog\'s HP',
     id: 'frog-s-hp',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'frog-s-hp',
        jp: 'カエルのハートのかけら(嵐の歌)',
@@ -213,7 +213,7 @@
     synergy: 4.75 },
   { difficulty: 25,
     desiredTime: 18.75,
-    types: 
+    types:
      { childchu: 0,
        childreset: 1.25,
        childtrade: 2.75,
@@ -222,7 +222,7 @@
        saria: 5,
        selfsynergy: -1,
        strength: 100 },
-    subtypes: 
+    subtypes:
      { bombbag: 100,
        bulletbag: 100,
        cganon: 2,
@@ -235,7 +235,7 @@
     name: 'Green Gauntlets',
     id: 'green-gauntlets',
     time: 17.75,
-    goal: 
+    goal:
      { difficulty: 24,
        id: 'green-gauntlets',
        jp: '緑のグローブ',
@@ -254,7 +254,7 @@
     name: '5 Hearts',
     id: '5-hearts',
     time: 2.5,
-    goal: 
+    goal:
      { difficulty: 3,
        id: '5-hearts',
        jp: 'ハート5つ',
@@ -266,7 +266,7 @@
     synergy: 6 },
   { difficulty: 23,
     desiredTime: 17.25,
-    types: 
+    types:
      { endon: -0.5,
        fortress: 2.5,
        fountain: 2,
@@ -278,7 +278,7 @@
        irons: 2,
        selfsynergy: 0,
        spirit: 3.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 3,
        bosskey2: 5,
        compass: 4,
@@ -292,7 +292,7 @@
     name: '3 Shields & 3 Boots',
     id: '3-shields-3-boots',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: '3-shields-3-boots',
        jp: '盾3種、靴3種',
@@ -305,14 +305,14 @@
     synergy: 0.25 },
   { difficulty: 5,
     desiredTime: 3.75,
-    types: 
+    types:
      { fountain: 1.5,
        gtunic: 1.75,
        incsword: 100,
        inctunic: 100,
        selfsynergy: 0,
        swords: 3 },
-    subtypes: 
+    subtypes:
      { bosskey: 0.25,
        bulletbag: -3,
        childchu: -1,
@@ -324,7 +324,7 @@
     name: '3 Swords & 3 Tunics',
     id: '3-swords-3-tunics',
     time: 4.25,
-    goal: 
+    goal:
      { difficulty: 6,
        id: '3-swords-3-tunics',
        jp: '剣3種、服3種',
@@ -337,7 +337,7 @@
     synergy: 6.5 },
   { difficulty: 12,
     desiredTime: 9,
-    types: 
+    types:
      { forest: 3,
        fortress: 3,
        gtg: 1,
@@ -345,7 +345,7 @@
        meg: 4.25,
        quiver: 4.5,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        bosskey2: 5,
        childchu: -2.5,
@@ -359,7 +359,7 @@
     name: 'Defeat Amy (Green Poe)',
     id: 'defeat-amy-green-poe-',
     time: 9.25,
-    goal: 
+    goal:
      { difficulty: 12,
        id: 'defeat-amy-green-poe-',
        jp: 'エイミー撃破(緑のポウ)ｴ',
@@ -372,7 +372,7 @@
     synergy: 4.5 },
   { difficulty: 9,
     desiredTime: 6.75,
-    types: 
+    types:
      { bbprize: 100,
        childchu: 0,
        dc: 3,
@@ -381,7 +381,7 @@
        incdodongo: 100,
        kd: 3,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { child2: 3,
        compass: 2,
        hearts3: 3,
@@ -392,7 +392,7 @@
     name: 'Win Bombchu Bowling Prize',
     id: 'win-bombchu-bowling-prize',
     time: 6.75,
-    goal: 
+    goal:
      { difficulty: 9,
        id: 'win-bombchu-bowling-prize',
        jp: 'ボムチュウボウリングの景品を何か1つ入手',
@@ -405,13 +405,13 @@
     synergy: 5.5 },
   { difficulty: 16,
     desiredTime: 12,
-    types: 
+    types:
      { childchu: 0,
        fountain: 2,
        incbarinade: 100,
        jabu: 8,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { child2: 3.5,
        childreset: 1.25,
        compass: 2.5,
@@ -423,7 +423,7 @@
     name: 'Beat Jabu-Jabu\'s Belly',
     id: 'beat-jabu-jabu-s-belly',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'beat-jabu-jabu-s-belly',
        jp: 'ジャブジャブ様のお腹クリア',
@@ -436,8 +436,9 @@
     synergy: 3.5 },
   { difficulty: 7,
     desiredTime: 5.25,
-    types: { chuczl: 2, deku: 5, endon: -0.5, incgohma: 100, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { chuczl: 2, deku: 5, endon: -0.5, incgohma: 100, selfsynergy: 0 },
+    subtypes:
      { cganon: 1.5,
        compass: 2,
        czl: 3,
@@ -449,7 +450,7 @@
     name: 'Defeat Queen Gohma',
     id: 'defeat-queen-gohma',
     time: 5.25,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'defeat-queen-gohma',
        jp: 'ゴーマ撃破',
@@ -462,7 +463,7 @@
     synergy: 3.75 },
   { difficulty: 19,
     desiredTime: 14.25,
-    types: 
+    types:
      { endon: -1,
        fortress: 2,
        inclacs: 100,
@@ -470,7 +471,7 @@
        lightarrow: 6.5,
        poachers: 4.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { aganon: 1,
        bosskey: 3,
        bosskey2: 6,
@@ -486,7 +487,7 @@
     name: 'Light Arrows',
     id: 'light-arrows',
     time: 13.5,
-    goal: 
+    goal:
      { difficulty: 18,
        id: 'light-arrows',
        jp: '光の矢',
@@ -499,7 +500,7 @@
     synergy: 4.5 },
   { difficulty: 21,
     desiredTime: 15.75,
-    types: 
+    types:
      { childchu: 0,
        childreset: 1.25,
        childtrade: 2.75,
@@ -508,7 +509,7 @@
        saria: 5,
        selfsynergy: 0,
        strength: 100 },
-    subtypes: 
+    subtypes:
      { bombbag: 100,
        cganon: 2,
        child2: 2.5,
@@ -521,7 +522,7 @@
     name: 'Goron Bracelet',
     id: 'goron-bracelet',
     time: 15.5,
-    goal: 
+    goal:
      { difficulty: 21,
        id: 'goron-bracelet',
        jp: 'ゴロンの腕輪',
@@ -540,7 +541,7 @@
     name: 'Fire Temple Boss Key',
     id: 'fire-temple-boss-key',
     time: 2.5,
-    goal: 
+    goal:
      { difficulty: 3,
        id: 'fire-temple-boss-key',
        jp: '炎の神殿のボス部屋の鍵',
@@ -553,14 +554,14 @@
     synergy: 2.5 },
   { difficulty: 15,
     desiredTime: 11.25,
-    types: 
+    types:
      { claimcheck: 10,
        forest: 4,
        hovers: 2,
        incforest: 100,
        meg: 4.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 4.25,
        bosskey2: 5.75,
        compass: 3.5,
@@ -574,7 +575,7 @@
     name: 'Forest Temple Boss Key',
     id: 'forest-temple-boss-key',
     time: 10.75,
-    goal: 
+    goal:
      { difficulty: 14,
        id: 'forest-temple-boss-key',
        jp: '森の神殿のボス部屋の鍵',
@@ -593,7 +594,7 @@
     name: 'Giant\'s Knife',
     id: 'giant-s-knife',
     time: 1,
-    goal: 
+    goal:
      { difficulty: 1,
        id: 'giant-s-knife',
        jp: '巨人のナイフ',
@@ -606,8 +607,9 @@
     synergy: 4.25 },
   { difficulty: 13,
     desiredTime: 9.75,
-    types: { dmc: 1, fire: 8, gtunic: 1, incflare: 100, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { dmc: 1, fire: 8, gtunic: 1, incflare: 100, selfsynergy: 0 },
+    subtypes:
      { bosskey: 2,
        compass: 4,
        hovers: 0.25,
@@ -619,7 +621,7 @@
     name: 'Defeat both Flare Dancers',
     id: 'defeat-both-flare-dancers',
     time: 10.75,
-    goal: 
+    goal:
      { difficulty: 14,
        id: 'defeat-both-flare-dancers',
        jp: 'フレアダンサー2体撃破',
@@ -638,7 +640,7 @@
     name: 'Stone of Agony',
     id: 'stone-of-agony',
     time: 8.25,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'stone-of-agony',
        jp: 'もだえ石',
@@ -651,8 +653,9 @@
     synergy: 5.5 },
   { difficulty: 17,
     desiredTime: 12.75,
-    types: { forest: 3, hovers: 2, incforest: 100, meg: 5, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { forest: 3, hovers: 2, incforest: 100, meg: 5, selfsynergy: 0 },
+    subtypes:
      { bosskey: 2,
        bosskey2: 6,
        compass: 4,
@@ -665,7 +668,7 @@
     name: 'Obtain all 5 Small Keys in Forest Temple',
     id: 'obtain-all-5-small-keys-in-forest-temple',
     time: 12.75,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'obtain-all-5-small-keys-in-forest-temple',
        jp: '森の神殿の小さな鍵の宝箱を5つ全て開ける',
@@ -678,7 +681,7 @@
     synergy: 0.75 },
   { difficulty: 24,
     desiredTime: 18,
-    types: 
+    types:
      { bothzl: -4.25,
        childtrade: 2.75,
        czl: 7,
@@ -692,7 +695,7 @@
        poachers: 4.25,
        selfsynergy: -0.5,
        spirit: 2 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        bosskey: 3,
        bottleslot: 4,
@@ -709,7 +712,7 @@
     name: 'Two Fairy Spells',
     id: 'two-fairy-spells',
     time: 19,
-    goal: 
+    goal:
      { difficulty: 25,
        id: 'two-fairy-spells',
        jp: '魔法のアイテム２つ',

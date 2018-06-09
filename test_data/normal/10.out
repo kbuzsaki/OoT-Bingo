@@ -1,7 +1,7 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 25,
     desiredTime: 18.75,
-    types: 
+    types:
      { endon: -0.25,
        fortress: 2.5,
        incsongs: 100,
@@ -9,7 +9,7 @@
        selfsynergy: 0,
        songs5: 15,
        spirit: 2.5 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        bosskey: 3.5,
        child2: 3,
@@ -24,7 +24,7 @@
     name: '10 Songs',
     id: '10-songs',
     time: 18.75,
-    goal: 
+    goal:
      { difficulty: 25,
        id: '10-songs',
        jp: '歌10つ以上',
@@ -43,7 +43,7 @@
     name: '4 Maps',
     id: '4-maps',
     time: 4.25,
-    goal: 
+    goal:
      { difficulty: 6,
        id: '4-maps',
        jp: 'マップ4つ',
@@ -56,7 +56,7 @@
     synergy: 6.25 },
   { difficulty: 19,
     desiredTime: 14.25,
-    types: 
+    types:
      { childchu: 0,
        childtrade: 2.75,
        chuczl: 2,
@@ -65,7 +65,7 @@
        dmc: 1.5,
        magic: 2,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { cganon: 2,
        child2: 5.5,
        childreset: 1.25,
@@ -80,7 +80,7 @@
     name: 'Din\'s Fire',
     id: 'din-s-fire',
     time: 14.25,
-    goal: 
+    goal:
      { difficulty: 19,
        id: 'din-s-fire',
        jp: 'ディンの炎',
@@ -94,7 +94,7 @@
   { difficulty: 11,
     desiredTime: 8.25,
     types: { fountain: 2, gtg: 1, jabu: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { childreset: 0.5,
        compass: 2,
        hearts3: 2,
@@ -105,7 +105,7 @@
     name: 'All 4 Skulltulas in Jabu-Jabu',
     id: 'all-4-skulltulas-in-jabu-jabu',
     time: 7.5,
-    goal: 
+    goal:
      { difficulty: 10,
        id: 'all-4-skulltulas-in-jabu-jabu',
        jp: 'ジャブジャブ様のお腹の黄金のスタルチュラ4匹',
@@ -124,7 +124,7 @@
     name: 'Both HPs in Death Mountain Crater',
     id: 'both-hps-in-death-mountain-crater',
     time: 2,
-    goal: 
+    goal:
      { difficulty: 3,
        id: 'both-hps-in-death-mountain-crater',
        jp: 'デスマウンテン火口のハートのかけら２つ',
@@ -138,7 +138,7 @@
   { difficulty: 14,
     desiredTime: 10.5,
     types: { dmc: 1, fire: 4.75, gtunic: 1, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        compass: 2,
        hearts3: 0.5,
@@ -151,7 +151,7 @@
     name: 'All 5 Skulltulas in Fire Temple',
     id: 'all-5-skulltulas-in-fire-temple',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 15,
        id: 'all-5-skulltulas-in-fire-temple',
        jp: '炎の神殿の黄金のスタルチュラ5匹',
@@ -170,7 +170,7 @@
     name: 'Bolero of Fire',
     id: 'bolero-of-fire',
     time: 1.5,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'bolero-of-fire',
        jp: '炎のボレロ',
@@ -183,7 +183,7 @@
     synergy: 2.75 },
   { difficulty: 23,
     desiredTime: 17.25,
-    types: 
+    types:
      { dmc: 1,
        fire: 1.5,
        forest: 2.75,
@@ -194,7 +194,7 @@
        shadow: 2,
        spirit: 3,
        water: 3 },
-    subtypes: 
+    subtypes:
      { bosskey: 4,
        bosskey2: 3,
        childchu: -2.5,
@@ -208,7 +208,7 @@
     name: '1 Skulltula from each Adult Dungeon',
     id: '1-skulltula-from-each-adult-dungeon',
     time: 18,
-    goal: 
+    goal:
      { difficulty: 24,
        id: '1-skulltula-from-each-adult-dungeon',
        jp: '全ての大人ダンジョンからスタルチュラ最低1匹ずつ',
@@ -221,8 +221,9 @@
     synergy: 0 },
   { difficulty: 10,
     desiredTime: 7.5,
-    types: { dc: 2, inclong: 100, longshot: 5, selfsynergy: 0, water: 3 },
-    subtypes: 
+    types:
+     { dc: 2, inclong: 100, longshot: 5, selfsynergy: 0, water: 3 },
+    subtypes:
      { bbprize: -6,
        childchu: -2.5,
        compass: 3.5,
@@ -235,7 +236,7 @@
     name: 'Longshot',
     id: 'longshot',
     time: 7,
-    goal: 
+    goal:
      { difficulty: 9,
        id: 'longshot',
        jp: 'ロングフック',
@@ -248,7 +249,7 @@
     synergy: 2.5 },
   { difficulty: 17,
     desiredTime: 12.75,
-    types: 
+    types:
      { childchu: 0,
        childreset: 1.25,
        childtrade: 2.75,
@@ -257,7 +258,7 @@
        incsaria: 100,
        saria: 3,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { cganon: 2,
        child2: 2.5,
        hearts3: 3,
@@ -268,7 +269,7 @@
     name: 'Saria\'s Song',
     id: 'saria-s-song',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'saria-s-song',
        jp: 'サリアの歌',
@@ -287,7 +288,7 @@
     name: 'Fill all 4 Bottle Slots',
     id: 'fill-all-4-bottle-slots',
     time: 5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'fill-all-4-bottle-slots',
        jp: '4つの空きビンスロットを全て埋める',
@@ -300,7 +301,7 @@
     synergy: 1.75 },
   { difficulty: 20,
     desiredTime: 15,
-    types: 
+    types:
      { childchu: 0,
        childreset: 1.25,
        childtrade: 2.75,
@@ -308,7 +309,7 @@
        czl: 5,
        saria: 3,
        selfsynergy: -1 },
-    subtypes: 
+    subtypes:
      { cganon: 2,
        child2: 2.5,
        hearts3: 4.5,
@@ -320,7 +321,7 @@
     name: 'Both HPs in Lost Woods',
     id: 'both-hps-in-lost-woods',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'both-hps-in-lost-woods',
        jp: '迷いの森のハートのかけら２つ',
@@ -334,7 +335,7 @@
   { difficulty: 12,
     desiredTime: 9,
     types: { dmc: 1, fire: 5, gtunic: 1, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        compass: 4,
        hearts3: 0.5,
@@ -346,7 +347,7 @@
     name: 'Map & Compass in Fire Temple',
     id: 'map-compass-in-fire-temple',
     time: 9,
-    goal: 
+    goal:
      { difficulty: 12,
        id: 'map-compass-in-fire-temple',
        jp: '炎の神殿のマップとコンパス',
@@ -365,7 +366,7 @@
     name: 'All 3 Skulltulas in Bottom of the Well',
     id: 'all-3-skulltulas-in-bottom-of-the-well',
     time: 3.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'all-3-skulltulas-in-bottom-of-the-well',
        jp: '井戸の底の黄金のスタルチュラ3匹',
@@ -379,7 +380,7 @@
   { difficulty: 21,
     desiredTime: 15.75,
     types: { fortress: 2.5, hovers: 3, selfsynergy: 0, spirit: 5 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        bosskey2: 5,
        compass: 2.5,
@@ -391,7 +392,7 @@
     name: 'All 5 Skulltulas in Spirit Temple',
     id: 'all-5-skulltulas-in-spirit-temple',
     time: 14.75,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'all-5-skulltulas-in-spirit-temple',
        jp: '魂の神殿の黄金のスタルチュラ5匹',
@@ -410,7 +411,7 @@
     name: 'Zora Tunic',
     id: 'zora-tunic',
     time: 1.5,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'zora-tunic',
        jp: 'ゾーラの服',
@@ -423,7 +424,7 @@
     synergy: 7 },
   { difficulty: 24,
     desiredTime: 18,
-    types: 
+    types:
      { child2: 5,
        dins: 1,
        endon: 0,
@@ -432,7 +433,7 @@
        incfboss: 100,
        pg: 2.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey2: 2,
        compass: 1,
        hearts3: 3,
@@ -445,7 +446,7 @@
     name: 'All 4 Market area Skulltulas',
     id: 'all-4-market-area-skulltulas',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'all-4-market-area-skulltulas',
        jp: '城下町エリアの黄金のスタルチュラ4匹',
@@ -458,7 +459,7 @@
     synergy: 1 },
   { difficulty: 6,
     desiredTime: 4.5,
-    types: 
+    types:
      { endon: -0.5,
        fountain: 2,
        ice: 1.5,
@@ -466,7 +467,7 @@
        incirons: 100,
        irons: 2,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3,
        hearts3: 1,
        hearts4: 0.25,
@@ -478,7 +479,7 @@
     name: 'Iron Boots',
     id: 'iron-boots',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'iron-boots',
        jp: 'ヘビーブーツ',
@@ -491,7 +492,7 @@
     synergy: 5.5 },
   { difficulty: 18,
     desiredTime: 13.5,
-    types: 
+    types:
      { beans: 15,
        childtrade: 6.5,
        czl: 2.5,
@@ -505,7 +506,7 @@
     name: 'Spooky Mask',
     id: 'spooky-mask',
     time: 13.5,
-    goal: 
+    goal:
      { difficulty: 18,
        id: 'spooky-mask',
        jp: 'こわそなお面',
@@ -518,8 +519,9 @@
     synergy: 5.25 },
   { difficulty: 15,
     desiredTime: 11.25,
-    types: { forest: 3, hovers: 2, incforest: 100, meg: 5, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { forest: 3, hovers: 2, incforest: 100, meg: 5, selfsynergy: 0 },
+    subtypes:
      { bosskey: 2,
        bosskey2: 6,
        compass: 4,
@@ -532,7 +534,7 @@
     name: 'Map & Compass in Forest Temple',
     id: 'map-compass-in-forest-temple',
     time: 11.25,
-    goal: 
+    goal:
      { difficulty: 15,
        id: 'map-compass-in-forest-temple',
        jp: '森の神殿のマップとコンパス',
@@ -545,13 +547,13 @@
     synergy: 6 },
   { difficulty: 16,
     desiredTime: 12,
-    types: 
+    types:
      { childchu: 0,
        fountain: 2,
        incbarinade: 100,
        jabu: 8,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { child2: 3.5,
        childreset: 1.25,
        compass: 2.5,
@@ -563,7 +565,7 @@
     name: 'Beat Jabu-Jabu\'s Belly',
     id: 'beat-jabu-jabu-s-belly',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'beat-jabu-jabu-s-belly',
        jp: 'ジャブジャブ様のお腹クリア',
@@ -577,7 +579,7 @@
   { difficulty: 13,
     desiredTime: 9.75,
     types: { dmc: 1, fire: 5, gtunic: 1, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        compass: 4,
        hearts3: 0.5,
@@ -589,7 +591,7 @@
     name: 'Obtain all 8 Small Keys in Fire Temple',
     id: 'obtain-all-8-small-keys-in-fire-temple',
     time: 10,
-    goal: 
+    goal:
      { difficulty: 13,
        id: 'obtain-all-8-small-keys-in-fire-temple',
        jp: '炎の神殿の小さな鍵の宝箱を８つ全て開ける',
@@ -608,7 +610,7 @@
     name: 'Cow in House',
     id: 'cow-in-house',
     time: 4.5,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'cow-in-house',
        jp: '牛(リンクの家)',
@@ -620,7 +622,7 @@
     synergy: 3.75 },
   { difficulty: 22,
     desiredTime: 16.5,
-    types: 
+    types:
      { aganon: 3,
        bganon: -3,
        cganon: 3,
@@ -630,7 +632,7 @@
        hovers: 3,
        selfsynergy: 0,
        spirit: 4 },
-    subtypes: 
+    subtypes:
      { bosskey: 7.25,
        bosskey2: 5,
        childtrade: 1.5,
@@ -645,7 +647,7 @@
     name: 'Defeat 4 Different Iron Knuckles',
     id: 'defeat-4-different-iron-knuckles',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'defeat-4-different-iron-knuckles',
        jp: 'アイアンナックを4体撃破',
@@ -658,13 +660,14 @@
     synergy: 5.75 },
   { difficulty: 9,
     desiredTime: 6.75,
-    types: { aganon: 3, endon: -0.5, gtunic: 1, hovers: 3, selfsynergy: 0 },
+    types:
+     { aganon: 3, endon: -0.5, gtunic: 1, hovers: 3, selfsynergy: 0 },
     subtypes: { bosskey: 3.5, hearts4: 1.5, wallet: 0.25 },
     rowtypes: { bottle: 0, gclw: 1, hookshot: 0.5, ms: 3 },
     name: 'Get to the end of Fire Trial',
     id: 'get-to-the-end-of-fire-trial',
     time: 7.75,
-    goal: 
+    goal:
      { difficulty: 10,
        id: 'get-to-the-end-of-fire-trial',
        jp: '炎の結界の最後の部屋に到達',

@@ -1,8 +1,8 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 10,
     desiredTime: 5,
     types: { dc: 4, dmc: 1, endon: -0.5, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3,
        hearts: 2,
        map: 2.75,
@@ -13,7 +13,7 @@
     name: 'Defeat all Lizalfos in Dodongo\'s Cavern',
     id: 'defeat-all-lizalfos-in-dodongo-s-cavern',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'defeat-all-lizalfos-in-dodongo-s-cavern',
        jp: 'ドドンゴの洞窟のリザルフォス全て撃破',
@@ -25,7 +25,7 @@
     synergy: 0 },
   { difficulty: 12,
     desiredTime: 6,
-    types: 
+    types:
      { field: 0.75,
        fortress: 3,
        gtg: 1.5,
@@ -37,7 +37,7 @@
     name: 'Defeat a White Wolfos',
     id: 'defeat-a-white-wolfos',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'defeat-a-white-wolfos',
        jp: 'ホワイトウルフォス撃破',
@@ -50,7 +50,7 @@
   { difficulty: 19,
     desiredTime: 9.5,
     types: { bottle: 2, dmc: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { childtrade: 1,
        compass: 1,
        hearts: 1.5,
@@ -62,7 +62,7 @@
     name: 'All 5 Child Death Mountain area Skulltulas',
     id: 'all-5-child-death-mountain-area-skulltulas',
     time: 8.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'all-5-child-death-mountain-area-skulltulas',
        jp: 'デスマウンテンエリアの黄金のスタルチュラ8匹',
@@ -74,18 +74,19 @@
     synergy: 2 },
   { difficulty: 21,
     desiredTime: 10.5,
-    types: 
+    types:
      { endon: -1,
        fountain: 2,
        incbarinade: 100,
        jabu: 8,
        selfsynergy: 0 },
-    subtypes: { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
+    subtypes:
+     { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
     rowtypes: undefined,
     name: 'Beat Jabu-Jabu\'s Belly',
     id: 'beat-jabu-jabu-s-belly',
     time: 10,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'beat-jabu-jabu-s-belly',
        jp: 'ジャブジャブ様のお腹クリア',
@@ -103,7 +104,7 @@
     name: '30 Deku Nuts',
     id: '30-deku-nuts',
     time: 1,
-    goal: 
+    goal:
      { difficulty: 2,
        id: '30-deku-nuts',
        jp: 'デクの実30個以上',
@@ -115,13 +116,13 @@
     synergy: 0.5 },
   { difficulty: 24,
     desiredTime: 12,
-    types: 
+    types:
      { compass: 16,
        fountain: 2,
        inccomp: 100,
        jabu: 5,
        selfsynergy: -4 },
-    subtypes: 
+    subtypes:
      { bosskey2: 2,
        ganon: 2.5,
        hearts: 3,
@@ -134,7 +135,7 @@
     name: '4 Compasses',
     id: '4-compasses',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 25,
        id: '4-compasses',
        jp: 'コンパス4つ',
@@ -152,7 +153,7 @@
     name: '2 Shields',
     id: '2-shields',
     time: 0.5,
-    goal: 
+    goal:
      { difficulty: 1,
        id: '2-shields',
        jp: '盾2種',
@@ -169,7 +170,7 @@
     name: 'Ice Arrows',
     id: 'ice-arrows',
     time: 4.75,
-    goal: 
+    goal:
      { difficulty: 9,
        id: 'ice-arrows',
        jp: '氷の矢',
@@ -182,7 +183,7 @@
   { difficulty: 15,
     desiredTime: 7.5,
     types: { bottle: 2, deku: 5, incgohma: 100, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3.5,
        ganon: 5,
        hearts: 3,
@@ -195,7 +196,7 @@
     name: 'Kokiri\'s Emerald',
     id: 'kokiri-s-emerald',
     time: 8.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'kokiri-s-emerald',
        jp: 'コキリのヒスイ',
@@ -208,7 +209,7 @@
   { difficulty: 17,
     desiredTime: 8.5,
     types: { dc: 3, dmc: 1, endon: -0.5, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3,
        hearts: 2,
        hearts2: 2,
@@ -221,7 +222,7 @@
     name: 'All 5 Skulltulas in Dodongo\'s Cavern',
     id: 'all-5-skulltulas-in-dodongo-s-cavern',
     time: 8.25,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'all-5-skulltulas-in-dodongo-s-cavern',
        jp: 'ドドンゴの洞窟の黄金のスタルチュラ5匹',
@@ -239,7 +240,7 @@
     name: 'Plant 5 Magic Beans',
     id: 'plant-5-magic-beans',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'plant-5-magic-beans',
        jp: '魔法の豆を5ヶ所に埋める',
@@ -250,7 +251,7 @@
     synergy: 1 },
   { difficulty: 20,
     desiredTime: 10,
-    types: 
+    types:
      { childtrade: 2.75,
        dmc: 0.5,
        field: 0.75,
@@ -261,7 +262,7 @@
     name: 'Keaton Mask',
     id: 'keaton-mask',
     time: 10.25,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'keaton-mask',
        jp: 'キータンのお面',
@@ -273,8 +274,9 @@
     synergy: 1 },
   { difficulty: 22,
     desiredTime: 11,
-    types: { fountain: 2, incmap: 100, jabu: 5, map: 14, selfsynergy: -3 },
-    subtypes: 
+    types:
+     { fountain: 2, incmap: 100, jabu: 5, map: 14, selfsynergy: -3 },
+    subtypes:
      { bosskey2: 2,
        compass: 14,
        ganon: 2.5,
@@ -287,7 +289,7 @@
     name: '4 Maps',
     id: '4-maps',
     time: 11.25,
-    goal: 
+    goal:
      { difficulty: 22,
        id: '4-maps',
        jp: 'マップ4つ',
@@ -305,7 +307,7 @@
     name: 'Lost Dog HP',
     id: 'lost-dog-hp',
     time: 1.25,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'lost-dog-hp',
        jp: 'リチャードのハートのかけら',
@@ -318,7 +320,7 @@
   { difficulty: 6,
     desiredTime: 3,
     types: { dmc: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 1,
        compass: 1,
        hearts: 2,
@@ -331,7 +333,7 @@
     name: 'Both heart pieces in Death Mountain Crater',
     id: 'both-heart-pieces-in-death-mountain-crater',
     time: 3.5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'both-heart-pieces-in-death-mountain-crater',
        jp: 'デスマウンテン火口のハートのかけら２つ',
@@ -349,7 +351,7 @@
     name: '99 Rupees',
     id: '99-rupees',
     time: 0.5,
-    goal: 
+    goal:
      { difficulty: 1,
        id: '99-rupees',
        jp: '99ルピー',
@@ -367,7 +369,7 @@
     name: '5 Magic Beans',
     id: '5-magic-beans',
     time: 3.75,
-    goal: 
+    goal:
      { difficulty: 7,
        id: '5-magic-beans',
        jp: '魔法のマメ5つ以上',
@@ -385,7 +387,7 @@
     name: '30 Deku Sticks',
     id: '30-deku-sticks',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: '30-deku-sticks',
        jp: 'デクの棒30本',
@@ -396,7 +398,7 @@
     synergy: 3 },
   { difficulty: 18,
     desiredTime: 9,
-    types: 
+    types:
      { endon: -0.5,
        field: 0.75,
        fortress: 3,
@@ -408,7 +410,7 @@
     name: '6 unused keys in Gerudo Training Grounds',
     id: '6-unused-keys-in-gerudo-training-grounds',
     time: 8,
-    goal: 
+    goal:
      { difficulty: 16,
        id: '6-unused-keys-in-gerudo-training-grounds',
        jp: 'ゲルドの修練場の未使用のカギ6つ',
@@ -420,13 +422,14 @@
     synergy: 1.75 },
   { difficulty: 25,
     desiredTime: 12.5,
-    types: { childtrade: 5, field: 0.75, saria: 3, selfsynergy: 0, zl: 6.75 },
+    types:
+     { childtrade: 5, field: 0.75, saria: 3, selfsynergy: 0, zl: 6.75 },
     subtypes: { hearts: 2, hearts2: 2, plant: 0.5, wallet: 0.25 },
     rowtypes: undefined,
     name: 'Skull Mask',
     id: 'skull-mask',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 25,
        id: 'skull-mask',
        jp: 'ドクロのお面',
@@ -444,7 +447,7 @@
     name: 'All 7 Child Kakariko area Skulltulas',
     id: 'all-7-child-kakariko-area-skulltulas',
     time: 9,
-    goal: 
+    goal:
      { difficulty: 18,
        id: 'all-7-child-kakariko-area-skulltulas',
        jp: 'カカリコ村エリアの黄金のスタルチュラ8匹',
@@ -457,12 +460,13 @@
   { difficulty: 23,
     desiredTime: 11.5,
     types: { fountain: 2, incbarinade: 100, jabu: 8, selfsynergy: 0 },
-    subtypes: { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
+    subtypes:
+     { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
     rowtypes: undefined,
     name: 'Zora\'s Sapphire',
     id: 'zora-s-sapphire',
     time: 11,
-    goal: 
+    goal:
      { difficulty: 22,
        id: 'zora-s-sapphire',
        jp: 'ゾーラのサファイア',
@@ -480,7 +484,7 @@
     name: 'All 3 Skulltulas in Bottom of the Well',
     id: 'all-3-skulltulas-in-bottom-of-the-well',
     time: 3.25,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'all-3-skulltulas-in-bottom-of-the-well',
        jp: '井戸の底の黄金のスタルチュラ3匹',
@@ -498,7 +502,7 @@
     name: 'Plant 4 Magic Beans',
     id: 'plant-4-magic-beans',
     time: 3,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'plant-4-magic-beans',
        jp: '魔法の豆を4ヶ所に埋める',
@@ -515,7 +519,7 @@
     name: 'All 4 Lon-Lon Ranch area Skulltulas',
     id: 'all-4-lon-lon-ranch-area-skulltulas',
     time: 8,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'all-4-lon-lon-ranch-area-skulltulas',
        jp: 'ロンロン牧場エリアの黄金のスタルチュラ4匹',

@@ -1,13 +1,13 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 15,
     desiredTime: 11.25,
-    types: 
+    types:
      { childchu: 0,
        fountain: 2,
        incbarinade: 100,
        jabu: 8,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { child2: 3.5,
        childreset: 1.25,
        compass: 2.5,
@@ -19,7 +19,7 @@
     name: 'Beat Jabu-Jabu\'s Belly',
     id: 'beat-jabu-jabu-s-belly',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'beat-jabu-jabu-s-belly',
        jp: 'ジャブジャブ様のお腹クリア',
@@ -32,7 +32,7 @@
     synergy: 9.25 },
   { difficulty: 22,
     desiredTime: 16.5,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        dc: 2,
@@ -44,7 +44,7 @@
        poachers: 4.25,
        selfsynergy: 0,
        water: 4 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        bbprize: -6,
        bosskey: 3.75,
@@ -61,7 +61,7 @@
     name: 'All 5 Skulltulas in Water Temple',
     id: 'all-5-skulltulas-in-water-temple',
     time: 16.5,
-    goal: 
+    goal:
      { difficulty: 22,
        id: 'all-5-skulltulas-in-water-temple',
        jp: '水の神殿の黄金のスタルチュラ5匹',
@@ -74,8 +74,9 @@
     synergy: 9.5 },
   { difficulty: 9,
     desiredTime: 6.75,
-    types: { chuczl: 2, deku: 5, endon: -0.5, incgohma: 100, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { chuczl: 2, deku: 5, endon: -0.5, incgohma: 100, selfsynergy: 0 },
+    subtypes:
      { cganon: 1.5,
        compass: 2,
        czl: 3,
@@ -87,7 +88,7 @@
     name: 'Defeat Queen Gohma',
     id: 'defeat-queen-gohma',
     time: 5.25,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'defeat-queen-gohma',
        jp: 'ゴーマ撃破',
@@ -106,7 +107,7 @@
     name: '30 Deku Nuts',
     id: '30-deku-nuts',
     time: 1,
-    goal: 
+    goal:
      { difficulty: 1,
        id: '30-deku-nuts',
        jp: 'デクの実30個以上',
@@ -119,7 +120,7 @@
     synergy: 1.25 },
   { difficulty: 18,
     desiredTime: 13.5,
-    types: 
+    types:
      { beans: 15,
        childtrade: 6.5,
        czl: 2.5,
@@ -133,7 +134,7 @@
     name: 'Spooky Mask',
     id: 'spooky-mask',
     time: 13.5,
-    goal: 
+    goal:
      { difficulty: 18,
        id: 'spooky-mask',
        jp: 'こわそなお面',
@@ -152,7 +153,7 @@
     name: 'Bolero of Fire',
     id: 'bolero-of-fire',
     time: 1.5,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'bolero-of-fire',
        jp: '炎のボレロ',
@@ -166,12 +167,13 @@
   { difficulty: 16,
     desiredTime: 12,
     types: { fortress: 2.5, hovers: 3, selfsynergy: 0, spirit: 5 },
-    subtypes: { bosskey: 2, compass: 1, hearts4: 0.25, map: 2, wallet: 0.75 },
+    subtypes:
+     { bosskey: 2, compass: 1, hearts4: 0.25, map: 2, wallet: 0.75 },
     rowtypes: { bottle: 0, gclw: 0, hookshot: 2, ms: 1 },
     name: 'Get Bombchu chest in Spirit Temple',
     id: 'get-bombchu-chest-in-spirit-temple',
     time: 12,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'get-bombchu-chest-in-spirit-temple',
        jp: '魂の神殿のボムチュウ取得',
@@ -185,7 +187,7 @@
   { difficulty: 13,
     desiredTime: 9.75,
     types: { childchu: 0, fountain: 2, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { childreset: 1.25,
        compass: 2,
        hearts3: 1,
@@ -196,7 +198,7 @@
     name: 'All 8 Zora\'s Domain area Skulltulas',
     id: 'all-8-zora-s-domain-area-skulltulas',
     time: 10.5,
-    goal: 
+    goal:
      { difficulty: 14,
        id: 'all-8-zora-s-domain-area-skulltulas',
        jp: 'ゾーラの里エリアの黄金のスタルチュラ8匹',
@@ -209,7 +211,7 @@
     synergy: 5.75 },
   { difficulty: 25,
     desiredTime: 18.75,
-    types: 
+    types:
      { endon: -1,
        firearrow: 8,
        fortress: 3,
@@ -220,7 +222,7 @@
        lightarrow: 6.5,
        poachers: 4.25,
        selfsynergy: -0.5 },
-    subtypes: 
+    subtypes:
      { aganon: 1,
        bosskey: 10,
        bosskey2: 10,
@@ -236,7 +238,7 @@
     name: 'All 3 Elemental Arrows',
     id: 'all-3-elemental-arrows',
     time: 19,
-    goal: 
+    goal:
      { difficulty: 25,
        id: 'all-3-elemental-arrows',
        jp: '魔法矢3つ',
@@ -249,13 +251,14 @@
     synergy: 0 },
   { difficulty: 7,
     desiredTime: 5.25,
-    types: { incsongs: 100, poachers: 4.25, selfsynergy: 0, songs5: 1.25 },
+    types:
+     { incsongs: 100, poachers: 4.25, selfsynergy: 0, songs5: 1.25 },
     subtypes: { aganon: 0.25, childchu: -2.5, hearts3: 1.5, wallet: 0.25 },
     rowtypes: { bottle: 100, gclw: 1, hookshot: 0.5, ms: 100 },
     name: '6 Songs',
     id: '6-songs',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: '6-songs',
        jp: '歌6つ以上',
@@ -268,7 +271,7 @@
     synergy: 6.25 },
   { difficulty: 23,
     desiredTime: 17.25,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        dmc: 1,
@@ -279,7 +282,7 @@
        poachers: 4.25,
        selfsynergy: 0,
        spirit: 2 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        bosskey: 2,
        bottleslot: 4,
@@ -295,7 +298,7 @@
     name: 'Nayru\'s Love',
     id: 'nayru-s-love',
     time: 15.5,
-    goal: 
+    goal:
      { difficulty: 21,
        id: 'nayru-s-love',
        jp: 'ネールの愛',
@@ -309,7 +312,7 @@
   { difficulty: 10,
     desiredTime: 7.5,
     types: { endon: -0.25, fortress: 2.5, selfsynergy: 0, spirit: 2.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        compass: 1,
        hearts4: 0.25,
@@ -322,7 +325,7 @@
     name: 'Requiem of Spirit',
     id: 'requiem-of-spirit',
     time: 7.25,
-    goal: 
+    goal:
      { difficulty: 10,
        id: 'requiem-of-spirit',
        jp: '魂のレクイエム',
@@ -341,7 +344,7 @@
     name: 'Zora Tunic',
     id: 'zora-tunic',
     time: 1.5,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'zora-tunic',
        jp: 'ゾーラの服',
@@ -354,7 +357,7 @@
     synergy: 1.75 },
   { difficulty: 19,
     desiredTime: 14.25,
-    types: 
+    types:
      { childtrade: 1,
        hearts3: 13,
        hearts4: 2,
@@ -366,7 +369,7 @@
     name: '8 Hearts',
     id: '8-hearts',
     time: 12.75,
-    goal: 
+    goal:
      { difficulty: 17,
        id: '8-hearts',
        jp: 'ハート8つ',
@@ -378,14 +381,14 @@
     synergy: 8.75 },
   { difficulty: 11,
     desiredTime: 8.25,
-    types: 
+    types:
      { endon: -0.25,
        fortress: 3,
        gtg: 5,
        incgtgkey: 100,
        quiver: 4.5,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 3,
        bulletbag: 100,
        childchu: -2.5,
@@ -397,7 +400,7 @@
     name: '8 Different Unused Keys in Gerudo Training Grounds',
     id: '8-different-unused-keys-in-gerudo-training-grounds',
     time: 10.25,
-    goal: 
+    goal:
      { difficulty: 14,
        id: '8-different-unused-keys-in-gerudo-training-grounds',
        jp: 'ゲルドの修練場の未使用の鍵8つ(増殖禁止)',
@@ -410,7 +413,7 @@
     synergy: 4 },
   { difficulty: 17,
     desiredTime: 12.75,
-    types: 
+    types:
      { child2: 5,
        endon: 0,
        forest: 3,
@@ -418,7 +421,7 @@
        incfboss: 100,
        pg: 2.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey2: 3,
        compass: 1,
        hearts3: 4,
@@ -431,7 +434,7 @@
     name: 'Frog\'s HP',
     id: 'frog-s-hp',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'frog-s-hp',
        jp: 'カエルのハートのかけら(嵐の歌)',
@@ -444,7 +447,7 @@
     synergy: 7 },
   { difficulty: 14,
     desiredTime: 10.5,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        dmc: 1,
@@ -452,7 +455,7 @@
        magic: 2,
        poachers: 4.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        childchu: -2.5,
        chuczl: 2,
@@ -466,7 +469,7 @@
     name: 'Farore\'s Wind',
     id: 'farore-s-wind',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 15,
        id: 'farore-s-wind',
        jp: 'フロルの風',
@@ -479,7 +482,7 @@
     synergy: 9.5 },
   { difficulty: 21,
     desiredTime: 15.75,
-    types: 
+    types:
      { childchu: 0,
        childreset: 1.25,
        childtrade: 2.75,
@@ -488,7 +491,7 @@
        saria: 5,
        selfsynergy: -1,
        strength: 100 },
-    subtypes: 
+    subtypes:
      { bombbag: 100,
        bulletbag: 100,
        cganon: 2,
@@ -501,7 +504,7 @@
     name: 'Green Gauntlets',
     id: 'green-gauntlets',
     time: 17.75,
-    goal: 
+    goal:
      { difficulty: 24,
        id: 'green-gauntlets',
        jp: '緑のグローブ',
@@ -514,8 +517,9 @@
     synergy: 6.75 },
   { difficulty: 8,
     desiredTime: 6,
-    types: { aganon: 3, bganon: -3, cganon: 3, endon: -0.5, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { aganon: 3, bganon: -3, cganon: 3, endon: -0.5, selfsynergy: 0 },
+    subtypes:
      { bosskey: 4.25,
        childtrade: 1.5,
        czl: 1.5,
@@ -526,7 +530,7 @@
     name: 'Ganon\'s Castle Boss Key',
     id: 'ganon-s-castle-boss-key',
     time: 4.25,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'ganon-s-castle-boss-key',
        jp: 'ガノン城のボス部屋の鍵',
@@ -545,7 +549,7 @@
     name: 'Fill all 4 Bottle Slots',
     id: 'fill-all-4-bottle-slots',
     time: 5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'fill-all-4-bottle-slots',
        jp: '4つの空きビンスロットを全て埋める',
@@ -564,7 +568,7 @@
     name: 'All 3 Kokiri Forest area Skulltulas',
     id: 'all-3-kokiri-forest-area-skulltulas',
     time: 4.5,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'all-3-kokiri-forest-area-skulltulas',
        jp: 'コキリの森エリアの黄金のスタルチュラ３匹',
@@ -583,7 +587,7 @@
     name: 'Exactly 30 Deku Sticks',
     id: 'exactly-30-deku-sticks',
     time: 1.5,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'exactly-30-deku-sticks',
        jp: 'デクの棒30本',
@@ -596,8 +600,9 @@
     synergy: 0.25 },
   { difficulty: 20,
     desiredTime: 15,
-    types: { forest: 3, hovers: 2, incforest: 100, meg: 8.75, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { forest: 3, hovers: 2, incforest: 100, meg: 8.75, selfsynergy: 0 },
+    subtypes:
      { bosskey2: 3,
        compass: 4,
        hearts3: 0.25,
@@ -610,7 +615,7 @@
     name: 'Defeat Meg (purple Poe)',
     id: 'defeat-meg-purple-poe-',
     time: 14.25,
-    goal: 
+    goal:
      { difficulty: 19,
        id: 'defeat-meg-purple-poe-',
        jp: 'メグ撃破(紫のポウ)',
@@ -623,8 +628,9 @@
     synergy: 5.75 },
   { difficulty: 12,
     desiredTime: 9,
-    types: { dmc: 1, fire: 8, gtunic: 1, incflare: 100, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { dmc: 1, fire: 8, gtunic: 1, incflare: 100, selfsynergy: 0 },
+    subtypes:
      { bosskey: 2,
        compass: 4,
        hovers: 0.25,
@@ -636,7 +642,7 @@
     name: 'Defeat both Flare Dancers',
     id: 'defeat-both-flare-dancers',
     time: 10.75,
-    goal: 
+    goal:
      { difficulty: 14,
        id: 'defeat-both-flare-dancers',
        jp: 'フレアダンサー2体撃破',
@@ -649,7 +655,7 @@
     synergy: 0 },
   { difficulty: 24,
     desiredTime: 18,
-    types: 
+    types:
      { dc: 2,
        dmc: 1,
        fire: 1,
@@ -661,7 +667,7 @@
        shadow: 2,
        spirit: 3,
        water: 2 },
-    subtypes: 
+    subtypes:
      { bosskey: 4,
        bosskey2: 3,
        compass: 6,
@@ -674,7 +680,7 @@
     name: '1 Unused Small Key in each Adult Dungeon',
     id: '1-unused-small-key-in-each-adult-dungeon',
     time: 16.25,
-    goal: 
+    goal:
      { difficulty: 22,
        id: '1-unused-small-key-in-each-adult-dungeon',
        jp: '全ての大人のダンジョンから未使用の鍵最低１つずつ',

@@ -1,4 +1,4 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 2,
     desiredTime: 1.5,
     types: { dmc: 2, selfsynergy: 0 },
@@ -7,7 +7,7 @@
     name: 'Both HPs in Death Mountain Crater',
     id: 'both-hps-in-death-mountain-crater',
     time: 2,
-    goal: 
+    goal:
      { difficulty: 3,
        id: 'both-hps-in-death-mountain-crater',
        jp: 'デスマウンテン火口のハートのかけら２つ',
@@ -20,7 +20,7 @@
     synergy: 6 },
   { difficulty: 21,
     desiredTime: 15.75,
-    types: 
+    types:
      { fortress: 2.5,
        fountain: 1.5,
        gtg: 1,
@@ -30,7 +30,7 @@
        inctunic: 100,
        selfsynergy: 0,
        spirit: 3.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 3.25,
        bosskey2: 5,
        compass: 2.5,
@@ -44,7 +44,7 @@
     name: '3 Shields & 3 Tunics',
     id: '3-shields-3-tunics',
     time: 15,
-    goal: 
+    goal:
      { difficulty: 20,
        id: '3-shields-3-tunics',
        jp: '盾3種、服3種',
@@ -58,7 +58,7 @@
   { difficulty: 14,
     desiredTime: 10.5,
     types: { dmc: 1, fire: 4.75, gtunic: 1, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        compass: 2,
        hearts3: 0.5,
@@ -71,7 +71,7 @@
     name: 'All 5 Skulltulas in Fire Temple',
     id: 'all-5-skulltulas-in-fire-temple',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 15,
        id: 'all-5-skulltulas-in-fire-temple',
        jp: '炎の神殿の黄金のスタルチュラ5匹',
@@ -84,7 +84,7 @@
     synergy: 4.5 },
   { difficulty: 18,
     desiredTime: 13.5,
-    types: 
+    types:
      { childtrade: 1,
        hearts3: 13,
        hearts4: 2,
@@ -96,7 +96,7 @@
     name: '8 Hearts',
     id: '8-hearts',
     time: 12.75,
-    goal: 
+    goal:
      { difficulty: 17,
        id: '8-hearts',
        jp: 'ハート8つ',
@@ -114,7 +114,7 @@
     name: 'Stone of Agony',
     id: 'stone-of-agony',
     time: 8.25,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'stone-of-agony',
        jp: 'もだえ石',
@@ -127,13 +127,13 @@
     synergy: 6.25 },
   { difficulty: 19,
     desiredTime: 14.25,
-    types: 
+    types:
      { childchu: 0,
        fountain: 2,
        incbarinade: 100,
        jabu: 8,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { child2: 3.5,
        childreset: 1.25,
        compass: 2.5,
@@ -145,7 +145,7 @@
     name: 'Beat Jabu-Jabu\'s Belly',
     id: 'beat-jabu-jabu-s-belly',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'beat-jabu-jabu-s-belly',
        jp: 'ジャブジャブ様のお腹クリア',
@@ -158,8 +158,9 @@
     synergy: 6.5 },
   { difficulty: 8,
     desiredTime: 6,
-    types: { dc: 2, inclong: 100, longshot: 4, selfsynergy: 0, water: 3 },
-    subtypes: 
+    types:
+     { dc: 2, inclong: 100, longshot: 4, selfsynergy: 0, water: 3 },
+    subtypes:
      { bbprize: -6,
        childchu: -2.5,
        compass: 3.5,
@@ -172,7 +173,7 @@
     name: 'Defeat Dark Link',
     id: 'defeat-dark-link',
     time: 7,
-    goal: 
+    goal:
      { difficulty: 9,
        id: 'defeat-dark-link',
        jp: 'ダークリンク撃破',
@@ -185,8 +186,9 @@
     synergy: 3.75 },
   { difficulty: 5,
     desiredTime: 3.75,
-    types: { fountain: 1.5, gtunic: 1.75, inctunic: 100, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { fountain: 1.5, gtunic: 1.75, inctunic: 100, selfsynergy: 0 },
+    subtypes:
      { bosskey: 0.25,
        compass: 1.5,
        dmc: 0.25,
@@ -197,7 +199,7 @@
     name: '3 Tunics',
     id: '3-tunics',
     time: 3.25,
-    goal: 
+    goal:
      { difficulty: 4,
        id: '3-tunics',
        jp: '服3種',
@@ -210,8 +212,9 @@
     synergy: 2.75 },
   { difficulty: 22,
     desiredTime: 16.5,
-    types: { childchu: 0, hovers: 3, incmc: 100, map: 20, selfsynergy: -3 },
-    subtypes: 
+    types:
+     { childchu: 0, hovers: 3, incmc: 100, map: 20, selfsynergy: -3 },
+    subtypes:
      { bosskey2: 2,
        claimcheck: 6,
        compass: 20,
@@ -224,7 +227,7 @@
     name: '7 Maps',
     id: '7-maps',
     time: 16,
-    goal: 
+    goal:
      { difficulty: 21,
        id: '7-maps',
        jp: 'マップ7つ',
@@ -243,7 +246,7 @@
     name: 'All 8 Death Mountain area Skulltulas',
     id: 'all-8-death-mountain-area-skulltulas',
     time: 8.25,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'all-8-death-mountain-area-skulltulas',
        jp: 'デスマウンテンエリアの黄金のスタルチュラ8匹',
@@ -256,7 +259,7 @@
     synergy: 0.25 },
   { difficulty: 25,
     desiredTime: 18.75,
-    types: 
+    types:
      { dmc: 1,
        fire: 1.5,
        forest: 2.75,
@@ -267,7 +270,7 @@
        shadow: 2,
        spirit: 3,
        water: 3 },
-    subtypes: 
+    subtypes:
      { bosskey: 4,
        bosskey2: 3,
        childchu: -2.5,
@@ -281,7 +284,7 @@
     name: '1 Skulltula from each Adult Dungeon',
     id: '1-skulltula-from-each-adult-dungeon',
     time: 18,
-    goal: 
+    goal:
      { difficulty: 24,
        id: '1-skulltula-from-each-adult-dungeon',
        jp: '全ての大人ダンジョンからスタルチュラ最低1匹ずつ',
@@ -294,14 +297,14 @@
     synergy: 0.75 },
   { difficulty: 12,
     desiredTime: 9,
-    types: 
+    types:
      { bothzl: -4.25,
        czl: 4.25,
        dmc: 1,
        magic: 2,
        poachers: 4.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { aganon: 0.5,
        childchu: -2.5,
        chuczl: 2,
@@ -312,7 +315,7 @@
     name: 'Double Defense',
     id: 'double-defense',
     time: 10,
-    goal: 
+    goal:
      { difficulty: 13,
        id: 'double-defense',
        jp: '防御力2倍',
@@ -325,7 +328,7 @@
     synergy: 6.75 },
   { difficulty: 16,
     desiredTime: 12,
-    types: 
+    types:
      { fortress: 2.5,
        gtg: 1,
        hovers: 3,
@@ -334,7 +337,7 @@
        selfsynergy: 0,
        spirit: 3.5,
        swords: 3 },
-    subtypes: 
+    subtypes:
      { bosskey: 3,
        bosskey2: 5,
        bulletbag: -3,
@@ -349,7 +352,7 @@
     name: '3 Swords & 3 Shields',
     id: '3-swords-3-shields',
     time: 12.75,
-    goal: 
+    goal:
      { difficulty: 17,
        id: '3-swords-3-shields',
        jp: '剣3種、盾3種',
@@ -368,7 +371,7 @@
     name: 'Defeat Big Octo',
     id: 'defeat-big-octo',
     time: 7.75,
-    goal: 
+    goal:
      { difficulty: 10,
        id: 'defeat-big-octo',
        jp: '大オクタ撃破',
@@ -387,7 +390,7 @@
     name: 'Map & Compass in Dodongo\'s Cavern',
     id: 'map-compass-in-dodongo-s-cavern',
     time: 2,
-    goal: 
+    goal:
      { difficulty: 3,
        id: 'map-compass-in-dodongo-s-cavern',
        jp: 'ドドンゴの洞窟のマップとコンパス',
@@ -400,7 +403,7 @@
     synergy: 6.75 },
   { difficulty: 6,
     desiredTime: 4.5,
-    types: 
+    types:
      { bothzl: -4.25,
        incsongs: 100,
        poachers: 4.25,
@@ -412,7 +415,7 @@
     name: '3 Songs',
     id: '3-songs',
     time: 4.25,
-    goal: 
+    goal:
      { difficulty: 6,
        id: '3-songs',
        jp: '歌3つ以上',
@@ -431,7 +434,7 @@
     name: 'Silver Scale',
     id: 'silver-scale',
     time: 3,
-    goal: 
+    goal:
      { difficulty: 4,
        id: 'silver-scale',
        jp: '銀のウロコ',
@@ -444,7 +447,7 @@
     synergy: 6.25 },
   { difficulty: 23,
     desiredTime: 17.25,
-    types: 
+    types:
      { child2: 5,
        dins: 1,
        endon: 0,
@@ -453,7 +456,7 @@
        incfboss: 100,
        pg: 2.25,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey2: 2,
        compass: 1,
        hearts3: 3,
@@ -466,7 +469,7 @@
     name: 'All 4 Market area Skulltulas',
     id: 'all-4-market-area-skulltulas',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'all-4-market-area-skulltulas',
        jp: '城下町エリアの黄金のスタルチュラ4匹',
@@ -479,7 +482,7 @@
     synergy: 0.25 },
   { difficulty: 15,
     desiredTime: 11.25,
-    types: 
+    types:
      { aganon: 3,
        bganon: -3,
        bosskey: 12,
@@ -491,7 +494,7 @@
     name: '3 Boss Keys',
     id: '3-boss-keys',
     time: 10.25,
-    goal: 
+    goal:
      { difficulty: 14,
        id: '3-boss-keys',
        jp: 'ボス部屋の鍵3つ',
@@ -505,7 +508,7 @@
   { difficulty: 17,
     desiredTime: 12.75,
     types: { compass: 15, hovers: 3, incmc: 100, selfsynergy: -3 },
-    subtypes: 
+    subtypes:
      { bosskey2: 2,
        hearts3: 1.5,
        hearts4: 1,
@@ -516,7 +519,7 @@
     name: '6 Compasses',
     id: '6-compasses',
     time: 14.75,
-    goal: 
+    goal:
      { difficulty: 20,
        id: '6-compasses',
        jp: 'コンパス6つ',
@@ -529,14 +532,14 @@
     synergy: 4.5 },
   { difficulty: 13,
     desiredTime: 9.75,
-    types: 
+    types:
      { endon: -0.25,
        fortress: 3,
        gtg: 5,
        incgtgkey: 100,
        quiver: 4.5,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 3,
        bulletbag: 100,
        childchu: -2.5,
@@ -548,7 +551,7 @@
     name: '8 Different Unused Keys in Gerudo Training Grounds',
     id: '8-different-unused-keys-in-gerudo-training-grounds',
     time: 10.25,
-    goal: 
+    goal:
      { difficulty: 14,
        id: '8-different-unused-keys-in-gerudo-training-grounds',
        jp: 'ゲルドの修練場の未使用の鍵8つ(増殖禁止)',
@@ -561,14 +564,14 @@
     synergy: 7 },
   { difficulty: 20,
     desiredTime: 15,
-    types: 
+    types:
      { dmc: 1,
        fire: 8,
        gtunic: 1,
        incflare: 100,
        incgorons: 100,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 2.25,
        compass: 4,
        hearts3: 0.5,
@@ -581,7 +584,7 @@
     name: 'Free all 9 Gorons in Fire Temple',
     id: 'free-all-9-gorons-in-fire-temple',
     time: 14.75,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'free-all-9-gorons-in-fire-temple',
        jp: '炎の神殿で９人のゴロンを全員救う',
@@ -594,8 +597,9 @@
     synergy: 4.5 },
   { difficulty: 7,
     desiredTime: 5.25,
-    types: { chuczl: 2, deku: 5, endon: -1, incgohma: 100, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { chuczl: 2, deku: 5, endon: -1, incgohma: 100, selfsynergy: 0 },
+    subtypes:
      { cganon: 2,
        childtrade: 1.5,
        compass: 2.5,
@@ -608,7 +612,7 @@
     name: 'Beat the Deku Tree',
     id: 'beat-the-deku-tree',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'beat-the-deku-tree',
        jp: 'デクの樹様の中クリア',
@@ -627,7 +631,7 @@
     name: 'Giant\'s Knife',
     id: 'giant-s-knife',
     time: 1,
-    goal: 
+    goal:
      { difficulty: 1,
        id: 'giant-s-knife',
        jp: '巨人のナイフ',
@@ -640,7 +644,7 @@
     synergy: 3.5 },
   { difficulty: 24,
     desiredTime: 18,
-    types: 
+    types:
      { childtrade: 2.75,
        hearts3: 16,
        hearts4: 3,
@@ -652,7 +656,7 @@
     name: '9 Hearts',
     id: '9-hearts',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: '9-hearts',
        jp: 'ハート9つ',

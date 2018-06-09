@@ -1,8 +1,9 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 15,
     desiredTime: 11.25,
-    types: { incsongs: 100, poachers: 4.25, selfsynergy: 0, songs5: 8.75 },
-    subtypes: 
+    types:
+     { incsongs: 100, poachers: 4.25, selfsynergy: 0, songs5: 8.75 },
+    subtypes:
      { aganon: 0.25,
        bosskey: 1.5,
        childchu: -2.5,
@@ -12,7 +13,7 @@
     name: '9 Songs',
     id: '9-songs',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 15,
        id: '9-songs',
        jp: '歌9つ以上',
@@ -25,8 +26,9 @@
     synergy: 6.25 },
   { difficulty: 17,
     desiredTime: 12.75,
-    types: { forest: 3, hovers: 2, incforest: 100, meg: 5, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { forest: 3, hovers: 2, incforest: 100, meg: 5, selfsynergy: 0 },
+    subtypes:
      { bosskey: 2,
        bosskey2: 6,
        compass: 4,
@@ -39,7 +41,7 @@
     name: 'Obtain all 5 Small Keys in Forest Temple',
     id: 'obtain-all-5-small-keys-in-forest-temple',
     time: 12.75,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'obtain-all-5-small-keys-in-forest-temple',
        jp: '森の神殿の小さな鍵の宝箱を5つ全て開ける',
@@ -52,7 +54,7 @@
     synergy: 7 },
   { difficulty: 24,
     desiredTime: 18,
-    types: 
+    types:
      { childtrade: 2.75,
        hearts3: 16,
        hearts4: 3,
@@ -64,7 +66,7 @@
     name: '9 Hearts',
     id: '9-hearts',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: '9-hearts',
        jp: 'ハート9つ',
@@ -82,7 +84,7 @@
     name: 'Exactly 30 Deku Sticks',
     id: 'exactly-30-deku-sticks',
     time: 1.5,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'exactly-30-deku-sticks',
        jp: 'デクの棒30本',
@@ -95,7 +97,7 @@
     synergy: 4.75 },
   { difficulty: 8,
     desiredTime: 6,
-    types: 
+    types:
      { aganon: 3,
        bganon: -3,
        cganon: 3,
@@ -108,7 +110,7 @@
     name: 'Golden Gauntlets',
     id: 'golden-gauntlets',
     time: 5.75,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'golden-gauntlets',
        jp: '金のグローブ',
@@ -127,7 +129,7 @@
     name: 'All 3 Skulltulas in Bottom of the Well',
     id: 'all-3-skulltulas-in-bottom-of-the-well',
     time: 3.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'all-3-skulltulas-in-bottom-of-the-well',
        jp: '井戸の底の黄金のスタルチュラ3匹',
@@ -146,7 +148,7 @@
     name: 'Both Gerudo\'s Fortress area Skulltulas',
     id: 'both-gerudo-s-fortress-area-skulltulas',
     time: 4.5,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'both-gerudo-s-fortress-area-skulltulas',
        jp: 'ゲルドの砦の黄金のスタルチュラ2匹',
@@ -159,7 +161,7 @@
     synergy: 3.75 },
   { difficulty: 13,
     desiredTime: 9.75,
-    types: 
+    types:
      { deku: 2,
        endon: -0.25,
        hovers: 3,
@@ -172,7 +174,7 @@
     name: 'Defeat Bongo-Bongo',
     id: 'defeat-bongo-bongo',
     time: 8.75,
-    goal: 
+    goal:
      { difficulty: 12,
        id: 'defeat-bongo-bongo',
        jp: 'ボンゴボンゴ撃破',
@@ -185,7 +187,7 @@
     synergy: 4.5 },
   { difficulty: 20,
     desiredTime: 15,
-    types: 
+    types:
      { childchu: 0,
        childtrade: 2.75,
        chuczl: 2,
@@ -194,7 +196,7 @@
        dmc: 1.5,
        magic: 2,
        selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { cganon: 2,
        child2: 5.5,
        childreset: 1.25,
@@ -209,7 +211,7 @@
     name: 'Din\'s Fire',
     id: 'din-s-fire',
     time: 14.25,
-    goal: 
+    goal:
      { difficulty: 19,
        id: 'din-s-fire',
        jp: 'ディンの炎',
@@ -222,7 +224,7 @@
     synergy: 6 },
   { difficulty: 22,
     desiredTime: 16.5,
-    types: 
+    types:
      { endon: -0.5,
        fortress: 2.5,
        fountain: 2,
@@ -234,7 +236,7 @@
        irons: 2,
        selfsynergy: 0,
        spirit: 3.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 3,
        bosskey2: 5,
        compass: 4,
@@ -248,7 +250,7 @@
     name: '3 Shields & 3 Boots',
     id: '3-shields-3-boots',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: '3-shields-3-boots',
        jp: '盾3種、靴3種',
@@ -261,7 +263,7 @@
     synergy: 7 },
   { difficulty: 18,
     desiredTime: 13.5,
-    types: 
+    types:
      { childtrade: 1,
        hearts3: 13,
        hearts4: 2,
@@ -273,7 +275,7 @@
     name: '8 Hearts',
     id: '8-hearts',
     time: 12.75,
-    goal: 
+    goal:
      { difficulty: 17,
        id: '8-hearts',
        jp: 'ハート8つ',
@@ -285,7 +287,7 @@
     synergy: 4.5 },
   { difficulty: 25,
     desiredTime: 18.75,
-    types: 
+    types:
      { endon: -0.25,
        fortress: 2.5,
        incsongs: 100,
@@ -293,7 +295,7 @@
        selfsynergy: 0,
        songs5: 15,
        spirit: 2.5 },
-    subtypes: 
+    subtypes:
      { aganon: 0.25,
        bosskey: 3.5,
        child2: 3,
@@ -308,7 +310,7 @@
     name: '10 Songs',
     id: '10-songs',
     time: 18.75,
-    goal: 
+    goal:
      { difficulty: 25,
        id: '10-songs',
        jp: '歌10つ以上',
@@ -327,7 +329,7 @@
     name: '30 Deku Nuts',
     id: '30-deku-nuts',
     time: 1,
-    goal: 
+    goal:
      { difficulty: 1,
        id: '30-deku-nuts',
        jp: 'デクの実30個以上',
@@ -346,7 +348,7 @@
     name: 'Giant\'s Wallet',
     id: 'giant-s-wallet',
     time: 6.25,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'giant-s-wallet',
        jp: '巨人のサイフ',
@@ -365,7 +367,7 @@
     name: 'All 8 Death Mountain area Skulltulas',
     id: 'all-8-death-mountain-area-skulltulas',
     time: 8.25,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'all-8-death-mountain-area-skulltulas',
        jp: 'デスマウンテンエリアの黄金のスタルチュラ8匹',
@@ -378,13 +380,14 @@
     synergy: 5.5 },
   { difficulty: 7,
     desiredTime: 5.25,
-    types: { dc: 3, fortress: 2, incdodongo: 100, kd: 2, selfsynergy: 0 },
+    types:
+     { dc: 3, fortress: 2, incdodongo: 100, kd: 2, selfsynergy: 0 },
     subtypes: { compass: 2, hearts3: 3, hearts4: 1, map: 2, wallet: 0.5 },
     rowtypes: { bottle: 0.5, gclw: 0.5, hookshot: 0, ms: 1 },
     name: 'Beat Dodongo\'s Cavern',
     id: 'beat-dodongo-s-cavern',
     time: 6.25,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'beat-dodongo-s-cavern',
        jp: 'ドドンゴの洞窟クリア',
@@ -397,8 +400,9 @@
     synergy: 6 },
   { difficulty: 14,
     desiredTime: 10.5,
-    types: { dmc: 1, fire: 8, gtunic: 1, incflare: 100, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { dmc: 1, fire: 8, gtunic: 1, incflare: 100, selfsynergy: 0 },
+    subtypes:
      { bosskey: 2,
        compass: 4,
        hovers: 0.25,
@@ -410,7 +414,7 @@
     name: 'Defeat both Flare Dancers',
     id: 'defeat-both-flare-dancers',
     time: 10.75,
-    goal: 
+    goal:
      { difficulty: 14,
        id: 'defeat-both-flare-dancers',
        jp: 'フレアダンサー2体撃破',
@@ -424,7 +428,7 @@
   { difficulty: 16,
     desiredTime: 12,
     types: { childchu: 0, fortress: 2.5, selfsynergy: 0, spirit: 2.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        bosskey2: 4,
        child2: 5,
@@ -437,7 +441,7 @@
     name: 'All 4 Wasteland/ Colossus area Skulltulas',
     id: 'all-4-wasteland-colossus-area-skulltulas',
     time: 12,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'all-4-wasteland-colossus-area-skulltulas',
        jp: '幻影の砂漠・巨大邪神像エリアの黄金のスタルチュラ4匹',
@@ -450,7 +454,7 @@
     synergy: 5 },
   { difficulty: 23,
     desiredTime: 17.25,
-    types: 
+    types:
      { aganon: 3,
        bganon: -3,
        cganon: 3,
@@ -460,7 +464,7 @@
        hovers: 3,
        selfsynergy: 0,
        spirit: 4 },
-    subtypes: 
+    subtypes:
      { bosskey: 7.25,
        bosskey2: 5,
        childtrade: 1.5,
@@ -475,7 +479,7 @@
     name: 'Defeat 4 Different Iron Knuckles',
     id: 'defeat-4-different-iron-knuckles',
     time: 17,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'defeat-4-different-iron-knuckles',
        jp: 'アイアンナックを4体撃破',
@@ -494,7 +498,7 @@
     name: 'Fairy Slingshot',
     id: 'fairy-slingshot',
     time: 4,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'fairy-slingshot',
        jp: '妖精のパチンコ',
@@ -508,7 +512,7 @@
   { difficulty: 21,
     desiredTime: 15.75,
     types: { fortress: 2.5, hovers: 3, selfsynergy: 0, spirit: 5 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        bosskey2: 5,
        compass: 2.5,
@@ -520,7 +524,7 @@
     name: 'All 5 Skulltulas in Spirit Temple',
     id: 'all-5-skulltulas-in-spirit-temple',
     time: 14.75,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'all-5-skulltulas-in-spirit-temple',
        jp: '魂の神殿の黄金のスタルチュラ5匹',
@@ -539,7 +543,7 @@
     name: 'Silver Scale',
     id: 'silver-scale',
     time: 3,
-    goal: 
+    goal:
      { difficulty: 4,
        id: 'silver-scale',
        jp: '銀のウロコ',
@@ -552,19 +556,20 @@
     synergy: 6.25 },
   { difficulty: 10,
     desiredTime: 7.5,
-    types: 
+    types:
      { childchu: 0,
        fountain: 2,
        gtg: 1,
        incbarinade: 100,
        jabu: 5,
        selfsynergy: 0 },
-    subtypes: { compass: 2.5, hearts3: 1, hearts4: 1, map: 3, wallet: 0.5 },
+    subtypes:
+     { compass: 2.5, hearts3: 1, hearts4: 1, map: 3, wallet: 0.5 },
     rowtypes: { bottle: 0, gclw: 0, hookshot: 0, ms: 0 },
     name: 'Boomerang',
     id: 'boomerang',
     time: 8.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'boomerang',
        jp: 'ブーメラン',
@@ -577,8 +582,9 @@
     synergy: 4.5 },
   { difficulty: 12,
     desiredTime: 9,
-    types: { incsongs: 100, poachers: 4.25, selfsynergy: 0, songs5: 5.5 },
-    subtypes: 
+    types:
+     { incsongs: 100, poachers: 4.25, selfsynergy: 0, songs5: 5.5 },
+    subtypes:
      { aganon: 0.25,
        bosskey: 1.5,
        childchu: -2.5,
@@ -588,7 +594,7 @@
     name: '8 Songs',
     id: '8-songs',
     time: 8.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: '8-songs',
        jp: '歌8つ以上',
@@ -602,7 +608,7 @@
   { difficulty: 19,
     desiredTime: 14.25,
     types: { compass: 15, hovers: 3, incmc: 100, selfsynergy: -3 },
-    subtypes: 
+    subtypes:
      { bosskey2: 2,
        hearts3: 1.5,
        hearts4: 1,
@@ -613,7 +619,7 @@
     name: '6 Compasses',
     id: '6-compasses',
     time: 14.75,
-    goal: 
+    goal:
      { difficulty: 20,
        id: '6-compasses',
        jp: 'コンパス6つ',

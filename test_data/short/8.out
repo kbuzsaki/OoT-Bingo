@@ -1,8 +1,8 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 20,
     desiredTime: 10,
     types: { dc: 4, inckd: 100, kd: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3,
        fortress: 3,
        hearts: 3,
@@ -15,7 +15,7 @@
     name: 'Win Bombchu Bowling Prize',
     id: 'win-bombchu-bowling-prize',
     time: 11,
-    goal: 
+    goal:
      { difficulty: 22,
        id: 'win-bombchu-bowling-prize',
        jp: 'ボムチュウボウリングの景品',
@@ -33,7 +33,7 @@
     name: 'Lon Lon Ranch HP',
     id: 'lon-lon-ranch-hp',
     time: 3,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'lon-lon-ranch-hp',
        jp: 'ロンロン牧場のハートのかけら',
@@ -51,7 +51,7 @@
     name: 'Green Potion',
     id: 'green-potion',
     time: 2.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'green-potion',
        jp: '緑のクスリ',
@@ -62,8 +62,9 @@
     synergy: 2 },
   { difficulty: 21,
     desiredTime: 10.5,
-    types: { dc: 2, deku: 3, dmc: 1, fountain: 2, jabu: 3, selfsynergy: -3.5 },
-    subtypes: 
+    types:
+     { dc: 2, deku: 3, dmc: 1, fountain: 2, jabu: 3, selfsynergy: -3.5 },
+    subtypes:
      { compass: 4,
        ganon: 2.5,
        map: 4,
@@ -75,7 +76,7 @@
     name: '1 Skulltula from each Child Dungeon',
     id: '1-skulltula-from-each-child-dungeon',
     time: 9.5,
-    goal: 
+    goal:
      { difficulty: 19,
        id: '1-skulltula-from-each-child-dungeon',
        jp: '全ての子供ダンジョンからスタルチュラ最低1匹ずつ',
@@ -93,7 +94,7 @@
     name: '5 Hearts',
     id: '5-hearts',
     time: 6,
-    goal: 
+    goal:
      { difficulty: 12,
        id: '5-hearts',
        jp: 'ハート5つ',
@@ -111,7 +112,7 @@
     name: '6 Hearts',
     id: '6-hearts',
     time: 11,
-    goal: 
+    goal:
      { difficulty: 22,
        id: '6-hearts',
        jp: 'ハート6つ',
@@ -129,7 +130,7 @@
     name: 'Plant 5 Magic Beans',
     id: 'plant-5-magic-beans',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'plant-5-magic-beans',
        jp: '魔法の豆を5ヶ所に埋める',
@@ -140,7 +141,7 @@
     synergy: 0.25 },
   { difficulty: 18,
     desiredTime: 9,
-    types: 
+    types:
      { childtrade: 2.75,
        dmc: 0.5,
        field: 0.75,
@@ -151,7 +152,7 @@
     name: 'Keaton Mask',
     id: 'keaton-mask',
     time: 10.25,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'keaton-mask',
        jp: 'キータンのお面',
@@ -164,7 +165,7 @@
   { difficulty: 10,
     desiredTime: 5,
     types: { fountain: 2, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 2,
        hearts: 0.75,
        jabu: 0.5,
@@ -175,7 +176,7 @@
     name: 'All 4 Child Zora\'s Domain area Skulltulas',
     id: 'all-4-child-zora-s-domain-area-skulltulas',
     time: 6,
-    goal: 
+    goal:
      { difficulty: 12,
        id: 'all-4-child-zora-s-domain-area-skulltulas',
        jp: 'ゾーラの里エリアの黄金のスタルチュラ8匹',
@@ -193,7 +194,7 @@
     name: 'Map & Compass in Bottom of the Well',
     id: 'map-compass-in-bottom-of-the-well',
     time: 1,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'map-compass-in-bottom-of-the-well',
        jp: '井戸の底のマップとコンパス',
@@ -211,7 +212,7 @@
     name: '5 Magic Beans',
     id: '5-magic-beans',
     time: 3.75,
-    goal: 
+    goal:
      { difficulty: 7,
        id: '5-magic-beans',
        jp: '魔法のマメ5つ以上',
@@ -229,7 +230,7 @@
     name: 'Bottled Fairy',
     id: 'bottled-fairy',
     time: 2.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'bottled-fairy',
        jp: 'ビン(妖精)',
@@ -241,7 +242,7 @@
   { difficulty: 22,
     desiredTime: 11,
     types: { field: 0.75, fortress: 2.5, selfsynergy: 0, spirit: 6 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        compass: 1,
        hearts: 0.75,
@@ -253,7 +254,7 @@
     name: 'Get Bombchu chest in Spirit Temple',
     id: 'get-bombchu-chest-in-spirit-temple',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'get-bombchu-chest-in-spirit-temple',
        jp: '魂の神殿のボムチュウ取得',
@@ -271,7 +272,7 @@
     name: '37th heart piece (Child Fortress)',
     id: '37th-heart-piece-child-fortress-',
     time: 6.25,
-    goal: 
+    goal:
      { difficulty: 12,
        id: '37th-heart-piece-child-fortress-',
        jp: '37番目のハートのかけら(子供のゲルドの砦)',
@@ -289,7 +290,7 @@
     name: 'Map & Compass in Jabu-Jabu',
     id: 'map-compass-in-jabu-jabu',
     time: 8.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'map-compass-in-jabu-jabu',
        jp: 'ジャブジャブ様のお腹のマップとコンパス',
@@ -307,7 +308,7 @@
     name: 'Defeat Big Octo',
     id: 'defeat-big-octo',
     time: 6.5,
-    goal: 
+    goal:
      { difficulty: 13,
        id: 'defeat-big-octo',
        jp: '大オクタ撃破',
@@ -320,7 +321,7 @@
   { difficulty: 19,
     desiredTime: 9.5,
     types: { bottle: 2, dmc: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { childtrade: 1,
        compass: 1,
        hearts: 1.5,
@@ -332,7 +333,7 @@
     name: 'All 5 Child Death Mountain area Skulltulas',
     id: 'all-5-child-death-mountain-area-skulltulas',
     time: 8.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'all-5-child-death-mountain-area-skulltulas',
        jp: 'デスマウンテンエリアの黄金のスタルチュラ8匹',
@@ -350,7 +351,7 @@
     name: 'All 3 Skulltulas in Bottom of the Well',
     id: 'all-3-skulltulas-in-bottom-of-the-well',
     time: 3.25,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'all-3-skulltulas-in-bottom-of-the-well',
        jp: '井戸の底の黄金のスタルチュラ3匹',
@@ -368,7 +369,7 @@
     name: 'Red Potion',
     id: 'red-potion',
     time: 2.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'red-potion',
        jp: '赤いクスリ',
@@ -379,7 +380,7 @@
     synergy: 2.25 },
   { difficulty: 25,
     desiredTime: 12.5,
-    types: 
+    types:
      { beans: 10,
        field: 0.75,
        incbeans: 100,
@@ -391,7 +392,7 @@
     name: 'Plant 7 Magic Beans',
     id: 'plant-7-magic-beans',
     time: 12.25,
-    goal: 
+    goal:
      { difficulty: 24,
        id: 'plant-7-magic-beans',
        jp: '魔法の豆を7ヶ所に埋める',
@@ -408,7 +409,7 @@
     name: '99 Rupees',
     id: '99-rupees',
     time: 0.5,
-    goal: 
+    goal:
      { difficulty: 1,
        id: '99-rupees',
        jp: '99ルピー',
@@ -420,8 +421,9 @@
     synergy: 0.5 },
   { difficulty: 23,
     desiredTime: 11.5,
-    types: { fountain: 2, incmap: 100, jabu: 5, map: 14, selfsynergy: -3 },
-    subtypes: 
+    types:
+     { fountain: 2, incmap: 100, jabu: 5, map: 14, selfsynergy: -3 },
+    subtypes:
      { bosskey2: 2,
        compass: 14,
        ganon: 2.5,
@@ -434,7 +436,7 @@
     name: '4 Maps',
     id: '4-maps',
     time: 11.25,
-    goal: 
+    goal:
      { difficulty: 22,
        id: '4-maps',
        jp: 'マップ4つ',
@@ -452,7 +454,7 @@
     name: '15 Different Skulltulas',
     id: '15-different-skulltulas',
     time: 8,
-    goal: 
+    goal:
      { difficulty: 16,
        id: '15-different-skulltulas',
        jp: 'スタルチュラのしるし15個(増殖禁止)',
@@ -470,7 +472,7 @@
     name: '7 Magic Beans',
     id: '7-magic-beans',
     time: 8,
-    goal: 
+    goal:
      { difficulty: 16,
        id: '7-magic-beans',
        jp: '魔法のマメ7つ以上',
@@ -483,7 +485,7 @@
   { difficulty: 9,
     desiredTime: 4.5,
     types: { deku: 2.5, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bulletbag: 100,
        compass: 2,
        ganon: 2.5,
@@ -495,7 +497,7 @@
     name: 'Fairy Slingshot',
     id: 'fairy-slingshot',
     time: 4,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'fairy-slingshot',
        jp: '妖精のパチンコ',

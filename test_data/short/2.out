@@ -1,7 +1,7 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 10,
     desiredTime: 5,
-    types: 
+    types:
      { field: 0.75,
        fortress: 3,
        gtg: 1.5,
@@ -13,7 +13,7 @@
     name: 'Defeat a White Wolfos',
     id: 'defeat-a-white-wolfos',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'defeat-a-white-wolfos',
        jp: 'ホワイトウルフォス撃破',
@@ -25,8 +25,9 @@
     synergy: 3 },
   { difficulty: 17,
     desiredTime: 8.5,
-    types: { dc: 2, deku: 3, dmc: 1, fountain: 2, jabu: 3, selfsynergy: -3.5 },
-    subtypes: 
+    types:
+     { dc: 2, deku: 3, dmc: 1, fountain: 2, jabu: 3, selfsynergy: -3.5 },
+    subtypes:
      { compass: 4,
        ganon: 2.5,
        map: 4,
@@ -38,7 +39,7 @@
     name: '1 Skulltula from each Child Dungeon',
     id: '1-skulltula-from-each-child-dungeon',
     time: 9.5,
-    goal: 
+    goal:
      { difficulty: 19,
        id: '1-skulltula-from-each-child-dungeon',
        jp: '全ての子供ダンジョンからスタルチュラ最低1匹ずつ',
@@ -56,7 +57,7 @@
     name: '6 Hearts',
     id: '6-hearts',
     time: 11,
-    goal: 
+    goal:
      { difficulty: 22,
        id: '6-hearts',
        jp: 'ハート6つ',
@@ -74,7 +75,7 @@
     name: '2 Shields',
     id: '2-shields',
     time: 0.5,
-    goal: 
+    goal:
      { difficulty: 1,
        id: '2-shields',
        jp: '盾2種',
@@ -86,7 +87,7 @@
   { difficulty: 13,
     desiredTime: 6.5,
     types: { fountain: 2, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 2,
        hearts: 0.75,
        jabu: 0.5,
@@ -97,7 +98,7 @@
     name: 'All 4 Child Zora\'s Domain area Skulltulas',
     id: 'all-4-child-zora-s-domain-area-skulltulas',
     time: 6,
-    goal: 
+    goal:
      { difficulty: 12,
        id: 'all-4-child-zora-s-domain-area-skulltulas',
        jp: 'ゾーラの里エリアの黄金のスタルチュラ8匹',
@@ -115,7 +116,7 @@
     name: 'Map & Compass in Bottom of the Well',
     id: 'map-compass-in-bottom-of-the-well',
     time: 1,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'map-compass-in-bottom-of-the-well',
        jp: '井戸の底のマップとコンパス',
@@ -133,7 +134,7 @@
     name: 'Ruto\'s Letter',
     id: 'ruto-s-letter',
     time: 4.5,
-    goal: 
+    goal:
      { difficulty: 9,
        id: 'ruto-s-letter',
        jp: 'ルトの手紙',
@@ -151,7 +152,7 @@
     name: '5 Magic Beans',
     id: '5-magic-beans',
     time: 3.75,
-    goal: 
+    goal:
      { difficulty: 7,
        id: '5-magic-beans',
        jp: '魔法のマメ5つ以上',
@@ -164,7 +165,7 @@
   { difficulty: 20,
     desiredTime: 10,
     types: { dc: 4, inckd: 100, kd: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3,
        fortress: 3,
        hearts: 3,
@@ -177,7 +178,7 @@
     name: 'Win Bombchu Bowling Prize',
     id: 'win-bombchu-bowling-prize',
     time: 11,
-    goal: 
+    goal:
      { difficulty: 22,
        id: 'win-bombchu-bowling-prize',
        jp: 'ボムチュウボウリングの景品',
@@ -189,7 +190,7 @@
     synergy: 0 },
   { difficulty: 22,
     desiredTime: 11,
-    types: 
+    types:
      { childtrade: 2.75,
        dmc: 0.5,
        field: 0.75,
@@ -200,7 +201,7 @@
     name: 'Keaton Mask',
     id: 'keaton-mask',
     time: 10.25,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'keaton-mask',
        jp: 'キータンのお面',
@@ -212,13 +213,14 @@
     synergy: 2 },
   { difficulty: 18,
     desiredTime: 9,
-    types: { endon: -0.5, fountain: 2, gtg: 1, jabu: 3, selfsynergy: 0 },
+    types:
+     { endon: -0.5, fountain: 2, gtg: 1, jabu: 3, selfsynergy: 0 },
     subtypes: { compass: 5, hearts: 2, map: 5, ruto: 1, wallet: 2.5 },
     rowtypes: undefined,
     name: 'All 4 Skulltulas in Jabu-Jabu',
     id: 'all-4-skulltulas-in-jabu-jabu',
     time: 8,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'all-4-skulltulas-in-jabu-jabu',
        jp: 'ジャブジャブ様のお腹の黄金のスタルチュラ4匹',
@@ -230,13 +232,14 @@
     synergy: 1.25 },
   { difficulty: 25,
     desiredTime: 12.5,
-    types: { childtrade: 5, field: 0.75, saria: 3, selfsynergy: 0, zl: 6.75 },
+    types:
+     { childtrade: 5, field: 0.75, saria: 3, selfsynergy: 0, zl: 6.75 },
     subtypes: { hearts: 2, hearts2: 2, plant: 0.5, wallet: 0.25 },
     rowtypes: undefined,
     name: 'Skull Mask',
     id: 'skull-mask',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 25,
        id: 'skull-mask',
        jp: 'ドクロのお面',
@@ -254,7 +257,7 @@
     name: '30 Deku Nuts',
     id: '30-deku-nuts',
     time: 1,
-    goal: 
+    goal:
      { difficulty: 2,
        id: '30-deku-nuts',
        jp: 'デクの実30個以上',
@@ -272,7 +275,7 @@
     name: 'All 4 Lon-Lon Ranch area Skulltulas',
     id: 'all-4-lon-lon-ranch-area-skulltulas',
     time: 8,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'all-4-lon-lon-ranch-area-skulltulas',
        jp: 'ロンロン牧場エリアの黄金のスタルチュラ4匹',
@@ -290,7 +293,7 @@
     name: 'Bottled Poe',
     id: 'bottled-poe',
     time: 3,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'bottled-poe',
        jp: 'ビン(ポウ)',
@@ -308,7 +311,7 @@
     name: '30 Deku Sticks',
     id: '30-deku-sticks',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: '30-deku-sticks',
        jp: 'デクの棒30本',
@@ -325,7 +328,7 @@
     name: 'Adult\'s Wallet',
     id: 'adult-s-wallet',
     time: 5,
-    goal: 
+    goal:
      { difficulty: 10,
        id: 'adult-s-wallet',
        jp: '大人のサイフ',
@@ -343,7 +346,7 @@
     name: 'Fill all 4 Bottle Slots',
     id: 'fill-all-4-bottle-slots',
     time: 7.75,
-    goal: 
+    goal:
      { difficulty: 15,
        id: 'fill-all-4-bottle-slots',
        jp: '4つの空きビンスロットを全て埋める',
@@ -355,8 +358,9 @@
     synergy: 0.25 },
   { difficulty: 23,
     desiredTime: 11.5,
-    types: { fountain: 2, incmap: 100, jabu: 5, map: 14, selfsynergy: -3 },
-    subtypes: 
+    types:
+     { fountain: 2, incmap: 100, jabu: 5, map: 14, selfsynergy: -3 },
+    subtypes:
      { bosskey2: 2,
        compass: 14,
        ganon: 2.5,
@@ -369,7 +373,7 @@
     name: '4 Maps',
     id: '4-maps',
     time: 11.25,
-    goal: 
+    goal:
      { difficulty: 22,
        id: '4-maps',
        jp: 'マップ4つ',
@@ -387,7 +391,7 @@
     name: 'Plant 3 Magic Beans',
     id: 'plant-3-magic-beans',
     time: 2.25,
-    goal: 
+    goal:
      { difficulty: 4,
        id: 'plant-3-magic-beans',
        jp: '魔法の豆を3ヶ所に埋める',
@@ -398,13 +402,14 @@
     synergy: 0.75 },
   { difficulty: 21,
     desiredTime: 10.5,
-    types: { field: 0.75, incsaria: 100, saria: 3, selfsynergy: 0, zl: 6.75 },
+    types:
+     { field: 0.75, incsaria: 100, saria: 3, selfsynergy: 0, zl: 6.75 },
     subtypes: { plant: 0.25 },
     rowtypes: undefined,
     name: 'Defeat a Skull Kid',
     id: 'defeat-a-skull-kid',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'defeat-a-skull-kid',
        jp: 'スタルキッド撃破',
@@ -422,7 +427,7 @@
     name: 'Bottled Fairy',
     id: 'bottled-fairy',
     time: 2.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'bottled-fairy',
        jp: 'ビン(妖精)',
@@ -433,13 +438,13 @@
     synergy: 0 },
   { difficulty: 15,
     desiredTime: 7.5,
-    types: 
+    types:
      { endon: -0.5,
        field: 0.75,
        fortress: 2.5,
        selfsynergy: 0,
        spirit: 2.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        hearts: 0.75,
        map: 2,
@@ -451,7 +456,7 @@
     name: 'Requiem of Spirit',
     id: 'requiem-of-spirit',
     time: 7.5,
-    goal: 
+    goal:
      { difficulty: 15,
        id: 'requiem-of-spirit',
        jp: '魂のレクイエム',
@@ -464,7 +469,7 @@
   { difficulty: 7,
     desiredTime: 3.5,
     types: { deku: 2.5, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bulletbag: 100,
        compass: 2,
        ganon: 2.5,
@@ -476,7 +481,7 @@
     name: 'Fairy Slingshot',
     id: 'fairy-slingshot',
     time: 4,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'fairy-slingshot',
        jp: '妖精のパチンコ',
@@ -488,8 +493,9 @@
     synergy: 1.5 },
   { difficulty: 19,
     desiredTime: 9.5,
-    types: { dc: 4, dmc: 1, endon: -1, inckd: 100, kd: 3, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { dc: 4, dmc: 1, endon: -1, inckd: 100, kd: 3, selfsynergy: 0 },
+    subtypes:
      { compass: 3,
        fortress: 3,
        hearts: 3,
@@ -502,7 +508,7 @@
     name: 'Beat Dodongo\'s Cavern',
     id: 'beat-dodongo-s-cavern',
     time: 10,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'beat-dodongo-s-cavern',
        jp: 'ドドンゴの洞窟クリア',

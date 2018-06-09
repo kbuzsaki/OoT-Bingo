@@ -1,4 +1,4 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 24,
     desiredTime: 12,
     types: { bottle: 2, dmc: 2.5, incmagic: 100, magic: 2, zl: 6.75 },
@@ -7,7 +7,7 @@
     name: 'Magic Bar',
     id: 'magic-bar',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 25,
        id: 'magic-bar',
        jp: '魔力メーター',
@@ -19,8 +19,9 @@
     synergy: 0 },
   { difficulty: 18,
     desiredTime: 9,
-    types: { dc: 4, dmc: 1, endon: -0.5, inckd: 100, kd: 3, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { dc: 4, dmc: 1, endon: -0.5, inckd: 100, kd: 3, selfsynergy: 0 },
+    subtypes:
      { compass: 3,
        hearts: 3,
        hearts2: 2,
@@ -32,7 +33,7 @@
     name: 'Goron\'s Ruby',
     id: 'goron-s-ruby',
     time: 9.5,
-    goal: 
+    goal:
      { difficulty: 19,
        id: 'goron-s-ruby',
        jp: 'ゴロンのルビー',
@@ -50,7 +51,7 @@
     name: 'All 4 Lon-Lon Ranch area Skulltulas',
     id: 'all-4-lon-lon-ranch-area-skulltulas',
     time: 8,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'all-4-lon-lon-ranch-area-skulltulas',
        jp: 'ロンロン牧場エリアの黄金のスタルチュラ4匹',
@@ -63,7 +64,7 @@
   { difficulty: 7,
     desiredTime: 3.5,
     types: { beans: -1, dmc: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 1,
        hearts: 1,
        map: 1,
@@ -74,7 +75,7 @@
     name: 'Plant bean in Death Mountain Crater',
     id: 'plant-bean-in-death-mountain-crater',
     time: 3.5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'plant-bean-in-death-mountain-crater',
        jp: 'デスマウンテン火口の土にマメを植える',
@@ -92,7 +93,7 @@
     name: 'Bullet Bag (50)',
     id: 'bullet-bag-50-',
     time: 1.25,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'bullet-bag-50-',
        jp: 'デクのタネ袋(50)',
@@ -104,13 +105,14 @@
     synergy: 0 },
   { difficulty: 10,
     desiredTime: 5,
-    types: { field: 0.25, fountain: 1, ruto: 4, scale: 100, selfsynergy: 0 },
+    types:
+     { field: 0.25, fountain: 1, ruto: 4, scale: 100, selfsynergy: 0 },
     subtypes: { bottle: 1, plant2: 0.75 },
     rowtypes: undefined,
     name: 'Silver Scale',
     id: 'silver-scale',
     time: 4,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'silver-scale',
        jp: '銀のウロコ',
@@ -128,7 +130,7 @@
     name: 'Map & Compass in Bottom of the Well',
     id: 'map-compass-in-bottom-of-the-well',
     time: 1,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'map-compass-in-bottom-of-the-well',
        jp: '井戸の底のマップとコンパス',
@@ -140,13 +142,14 @@
     synergy: 1.5 },
   { difficulty: 21,
     desiredTime: 10.5,
-    types: { field: 0.75, incsaria: 100, saria: 3, selfsynergy: 0, zl: 6.75 },
+    types:
+     { field: 0.75, incsaria: 100, saria: 3, selfsynergy: 0, zl: 6.75 },
     subtypes: { plant: 0.25 },
     rowtypes: undefined,
     name: 'Defeat a Skull Kid',
     id: 'defeat-a-skull-kid',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'defeat-a-skull-kid',
        jp: 'スタルキッド撃破',
@@ -158,18 +161,19 @@
     synergy: 2.75 },
   { difficulty: 19,
     desiredTime: 9.5,
-    types: 
+    types:
      { endon: -0.5,
        fountain: 2,
        incbarinade: 100,
        jabu: 8,
        selfsynergy: 0 },
-    subtypes: { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
+    subtypes:
+     { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
     rowtypes: undefined,
     name: 'Defeat Barinade',
     id: 'defeat-barinade',
     time: 9.5,
-    goal: 
+    goal:
      { difficulty: 19,
        id: 'defeat-barinade',
        jp: 'バリネード撃破',
@@ -181,7 +185,7 @@
     synergy: 0.75 },
   { difficulty: 13,
     desiredTime: 6.5,
-    types: 
+    types:
      { endon: -0.5,
        field: 0.75,
        fortress: 3,
@@ -193,7 +197,7 @@
     name: '4 unused keys in Gerudo Training Grounds',
     id: '4-unused-keys-in-gerudo-training-grounds',
     time: 6.25,
-    goal: 
+    goal:
      { difficulty: 12,
        id: '4-unused-keys-in-gerudo-training-grounds',
        jp: 'ゲルドの修練場の未使用のカギ4つ',
@@ -211,7 +215,7 @@
     name: '7 Magic Beans',
     id: '7-magic-beans',
     time: 8,
-    goal: 
+    goal:
      { difficulty: 16,
        id: '7-magic-beans',
        jp: '魔法のマメ7つ以上',
@@ -224,12 +228,13 @@
   { difficulty: 14,
     desiredTime: 7,
     types: { fountain: 2, incbarinade: 100, jabu: 5, selfsynergy: 0 },
-    subtypes: { compass: 6, hearts: 1, hearts2: 2, map: 6, ruto: 1, wallet: 1.5 },
+    subtypes:
+     { compass: 6, hearts: 1, hearts2: 2, map: 6, ruto: 1, wallet: 1.5 },
     rowtypes: undefined,
     name: 'Boomerang',
     id: 'boomerang',
     time: 7,
-    goal: 
+    goal:
      { difficulty: 14,
        id: 'boomerang',
        jp: 'ブーメラン',
@@ -247,7 +252,7 @@
     name: 'Both Child Kokiri Forest area Skulltulas',
     id: 'both-child-kokiri-forest-area-skulltulas',
     time: 4,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'both-child-kokiri-forest-area-skulltulas',
        jp: 'コキリの森エリアの黄金のスタルチュラ３匹',
@@ -265,7 +270,7 @@
     name: 'Red Potion',
     id: 'red-potion',
     time: 2.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'red-potion',
        jp: '赤いクスリ',
@@ -282,7 +287,7 @@
     name: 'Gerudo\'s Card',
     id: 'gerudo-s-card',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'gerudo-s-card',
        jp: 'ゲルドの会員証',
@@ -300,7 +305,7 @@
     name: 'Bottled Fairy',
     id: 'bottled-fairy',
     time: 2.5,
-    goal: 
+    goal:
      { difficulty: 5,
        id: 'bottled-fairy',
        jp: 'ビン(妖精)',
@@ -311,13 +316,14 @@
     synergy: 3 },
   { difficulty: 25,
     desiredTime: 12.5,
-    types: { childtrade: 5, field: 0.75, saria: 3, selfsynergy: 0, zl: 6.75 },
+    types:
+     { childtrade: 5, field: 0.75, saria: 3, selfsynergy: 0, zl: 6.75 },
     subtypes: { hearts: 2, hearts2: 2, plant: 0.5, wallet: 0.25 },
     rowtypes: undefined,
     name: 'Skull Mask',
     id: 'skull-mask',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 25,
        id: 'skull-mask',
        jp: 'ドクロのお面',
@@ -329,13 +335,13 @@
     synergy: 0 },
   { difficulty: 17,
     desiredTime: 8.5,
-    types: 
+    types:
      { bottle: 2,
        field: 0.75,
        fortress: 2.5,
        selfsynergy: 0,
        spirit: 2.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        bosskey2: 4,
        hearts: 0.75,
@@ -348,7 +354,7 @@
     name: 'Both Child Wasteland/ Colossus area Skulltulas',
     id: 'both-child-wasteland-colossus-area-skulltulas',
     time: 9,
-    goal: 
+    goal:
      { difficulty: 18,
        id: 'both-child-wasteland-colossus-area-skulltulas',
        jp: '幻影の砂漠・巨大邪神像エリアの黄金のスタルチュラ4匹',
@@ -366,7 +372,7 @@
     name: 'Adult\'s Wallet',
     id: 'adult-s-wallet',
     time: 5,
-    goal: 
+    goal:
      { difficulty: 10,
        id: 'adult-s-wallet',
        jp: '大人のサイフ',
@@ -379,7 +385,7 @@
   { difficulty: 9,
     desiredTime: 4.5,
     types: { dc: 3, dmc: 1, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3.5,
        hearts: 1,
        map: 3,
@@ -390,7 +396,7 @@
     name: 'Map & Compass in Dodongo\'s Cavern',
     id: 'map-compass-in-dodongo-s-cavern',
     time: 4,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'map-compass-in-dodongo-s-cavern',
        jp: 'ドドンゴの洞窟のマップとコンパス',
@@ -408,7 +414,7 @@
     name: '37th heart piece (Child Fortress)',
     id: '37th-heart-piece-child-fortress-',
     time: 6.25,
-    goal: 
+    goal:
      { difficulty: 12,
        id: '37th-heart-piece-child-fortress-',
        jp: '37番目のハートのかけら(子供のゲルドの砦)',
@@ -421,7 +427,7 @@
   { difficulty: 6,
     desiredTime: 3,
     types: { dmc: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 1,
        compass: 1,
        hearts: 2,
@@ -434,7 +440,7 @@
     name: 'Both heart pieces in Death Mountain Crater',
     id: 'both-heart-pieces-in-death-mountain-crater',
     time: 3.5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'both-heart-pieces-in-death-mountain-crater',
        jp: 'デスマウンテン火口のハートのかけら２つ',
@@ -452,7 +458,7 @@
     name: 'Bottled Poe',
     id: 'bottled-poe',
     time: 3,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'bottled-poe',
        jp: 'ビン(ポウ)',
@@ -470,7 +476,7 @@
     name: '8 Magic Beans',
     id: '8-magic-beans',
     time: 10.75,
-    goal: 
+    goal:
      { difficulty: 21,
        id: '8-magic-beans',
        jp: '魔法のマメ8つ以上',
@@ -483,12 +489,13 @@
   { difficulty: 20,
     desiredTime: 10,
     types: { fountain: 2, incbarinade: 100, jabu: 8, selfsynergy: 0 },
-    subtypes: { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
+    subtypes:
+     { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
     rowtypes: undefined,
     name: 'Zora\'s Sapphire',
     id: 'zora-s-sapphire',
     time: 11,
-    goal: 
+    goal:
      { difficulty: 22,
        id: 'zora-s-sapphire',
        jp: 'ゾーラのサファイア',

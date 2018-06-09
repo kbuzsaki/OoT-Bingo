@@ -1,8 +1,8 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 15,
     desiredTime: 7.5,
     types: { bottle: 2, deku: 5, incgohma: 100, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3.5,
        ganon: 5,
        hearts: 3,
@@ -15,7 +15,7 @@
     name: 'Kokiri\'s Emerald',
     id: 'kokiri-s-emerald',
     time: 8.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'kokiri-s-emerald',
        jp: 'コキリのヒスイ',
@@ -27,13 +27,14 @@
     synergy: 2.25 },
   { difficulty: 22,
     desiredTime: 11,
-    types: { field: 0.75, incsaria: 100, saria: 3, selfsynergy: 0, zl: 6.75 },
+    types:
+     { field: 0.75, incsaria: 100, saria: 3, selfsynergy: 0, zl: 6.75 },
     subtypes: { plant: 0.25 },
     rowtypes: undefined,
     name: 'Defeat a Skull Kid',
     id: 'defeat-a-skull-kid',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'defeat-a-skull-kid',
        jp: 'スタルキッド撃破',
@@ -51,7 +52,7 @@
     name: 'Adult\'s Wallet',
     id: 'adult-s-wallet',
     time: 5,
-    goal: 
+    goal:
      { difficulty: 10,
        id: 'adult-s-wallet',
        jp: '大人のサイフ',
@@ -69,7 +70,7 @@
     name: '30 Deku Nuts',
     id: '30-deku-nuts',
     time: 1,
-    goal: 
+    goal:
      { difficulty: 2,
        id: '30-deku-nuts',
        jp: 'デクの実30個以上',
@@ -87,7 +88,7 @@
     name: 'Plant 6 Magic Beans',
     id: 'plant-6-magic-beans',
     time: 10,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'plant-6-magic-beans',
        jp: '魔法の豆を6ヶ所に埋める',
@@ -104,7 +105,7 @@
     name: 'Lon Lon Ranch HP',
     id: 'lon-lon-ranch-hp',
     time: 3,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'lon-lon-ranch-hp',
        jp: 'ロンロン牧場のハートのかけら',
@@ -122,7 +123,7 @@
     name: 'All 7 Child Kakariko area Skulltulas',
     id: 'all-7-child-kakariko-area-skulltulas',
     time: 9,
-    goal: 
+    goal:
      { difficulty: 18,
        id: 'all-7-child-kakariko-area-skulltulas',
        jp: 'カカリコ村エリアの黄金のスタルチュラ8匹',
@@ -134,7 +135,7 @@
     synergy: 1.25 },
   { difficulty: 13,
     desiredTime: 6.5,
-    types: 
+    types:
      { endon: -0.5,
        field: 0.75,
        fortress: 3,
@@ -146,7 +147,7 @@
     name: '4 unused keys in Gerudo Training Grounds',
     id: '4-unused-keys-in-gerudo-training-grounds',
     time: 6.25,
-    goal: 
+    goal:
      { difficulty: 12,
        id: '4-unused-keys-in-gerudo-training-grounds',
        jp: 'ゲルドの修練場の未使用のカギ4つ',
@@ -164,7 +165,7 @@
     name: 'Magic Bar',
     id: 'magic-bar',
     time: 12.5,
-    goal: 
+    goal:
      { difficulty: 25,
        id: 'magic-bar',
        jp: '魔力メーター',
@@ -182,7 +183,7 @@
     name: 'Both Child Lost Woods area Skulltulas',
     id: 'both-child-lost-woods-area-skulltulas',
     time: 3.5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'both-child-lost-woods-area-skulltulas',
        jp: '迷いの森エリアの黄金のスタルチュラ4匹',
@@ -195,7 +196,7 @@
   { difficulty: 23,
     desiredTime: 11.5,
     types: { dc: 4, inckd: 100, kd: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3,
        fortress: 3,
        hearts: 3,
@@ -208,7 +209,7 @@
     name: 'Win Bombchu Bowling Prize',
     id: 'win-bombchu-bowling-prize',
     time: 11,
-    goal: 
+    goal:
      { difficulty: 22,
        id: 'win-bombchu-bowling-prize',
        jp: 'ボムチュウボウリングの景品',
@@ -220,8 +221,9 @@
     synergy: 0.5 },
   { difficulty: 10,
     desiredTime: 5,
-    types: { bottle: 2, fountain: 2, ganon: 5, ice: 1.5, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { bottle: 2, fountain: 2, ganon: 5, ice: 1.5, selfsynergy: 0 },
+    subtypes:
      { bosskey: 2.5,
        compass: 3.5,
        hearts: 3,
@@ -234,7 +236,7 @@
     name: 'Blue Fire',
     id: 'blue-fire',
     time: 6,
-    goal: 
+    goal:
      { difficulty: 12,
        id: 'blue-fire',
        jp: '青い炎',
@@ -252,7 +254,7 @@
     name: '99 Rupees',
     id: '99-rupees',
     time: 0.5,
-    goal: 
+    goal:
      { difficulty: 1,
        id: '99-rupees',
        jp: '99ルピー',
@@ -265,7 +267,7 @@
   { difficulty: 19,
     desiredTime: 9.5,
     types: { field: 0.75, fortress: 2.5, selfsynergy: 0, spirit: 6 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        compass: 1,
        hearts: 0.75,
@@ -277,7 +279,7 @@
     name: 'Get Bombchu chest in Spirit Temple',
     id: 'get-bombchu-chest-in-spirit-temple',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'get-bombchu-chest-in-spirit-temple',
        jp: '魂の神殿のボムチュウ取得',
@@ -290,7 +292,7 @@
   { difficulty: 11,
     desiredTime: 5.5,
     types: { fountain: 2, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 2,
        hearts: 0.75,
        jabu: 0.5,
@@ -301,7 +303,7 @@
     name: 'All 4 Child Zora\'s Domain area Skulltulas',
     id: 'all-4-child-zora-s-domain-area-skulltulas',
     time: 6,
-    goal: 
+    goal:
      { difficulty: 12,
        id: 'all-4-child-zora-s-domain-area-skulltulas',
        jp: 'ゾーラの里エリアの黄金のスタルチュラ8匹',
@@ -319,7 +321,7 @@
     name: 'Map & Compass in Jabu-Jabu',
     id: 'map-compass-in-jabu-jabu',
     time: 8.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'map-compass-in-jabu-jabu',
        jp: 'ジャブジャブ様のお腹のマップとコンパス',
@@ -337,7 +339,7 @@
     name: '37th heart piece (Child Fortress)',
     id: '37th-heart-piece-child-fortress-',
     time: 6.25,
-    goal: 
+    goal:
      { difficulty: 12,
        id: '37th-heart-piece-child-fortress-',
        jp: '37番目のハートのかけら(子供のゲルドの砦)',
@@ -355,7 +357,7 @@
     name: '8 Magic Beans',
     id: '8-magic-beans',
     time: 10.75,
-    goal: 
+    goal:
      { difficulty: 21,
        id: '8-magic-beans',
        jp: '魔法のマメ8つ以上',
@@ -367,13 +369,14 @@
     synergy: 0.5 },
   { difficulty: 8,
     desiredTime: 4,
-    types: { field: 0.25, fountain: 1, ruto: 4, scale: 100, selfsynergy: 0 },
+    types:
+     { field: 0.25, fountain: 1, ruto: 4, scale: 100, selfsynergy: 0 },
     subtypes: { bottle: 1, plant2: 0.75 },
     rowtypes: undefined,
     name: 'Silver Scale',
     id: 'silver-scale',
     time: 4,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'silver-scale',
        jp: '銀のウロコ',
@@ -391,7 +394,7 @@
     name: 'All 3 Skulltulas in Bottom of the Well',
     id: 'all-3-skulltulas-in-bottom-of-the-well',
     time: 3.25,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'all-3-skulltulas-in-bottom-of-the-well',
        jp: '井戸の底の黄金のスタルチュラ3匹',
@@ -409,7 +412,7 @@
     name: 'Bottled Poe',
     id: 'bottled-poe',
     time: 3,
-    goal: 
+    goal:
      { difficulty: 6,
        id: 'bottled-poe',
        jp: 'ビン(ポウ)',
@@ -427,7 +430,7 @@
     name: 'Bullet Bag (50)',
     id: 'bullet-bag-50-',
     time: 1.25,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'bullet-bag-50-',
        jp: 'デクのタネ袋(50)',
@@ -439,8 +442,9 @@
     synergy: 0.25 },
   { difficulty: 20,
     desiredTime: 10,
-    types: { dc: 4, dmc: 1, endon: -0.5, inckd: 100, kd: 3, selfsynergy: 0 },
-    subtypes: 
+    types:
+     { dc: 4, dmc: 1, endon: -0.5, inckd: 100, kd: 3, selfsynergy: 0 },
+    subtypes:
      { compass: 3,
        hearts: 3,
        hearts2: 2,
@@ -452,7 +456,7 @@
     name: 'Goron\'s Ruby',
     id: 'goron-s-ruby',
     time: 9.5,
-    goal: 
+    goal:
      { difficulty: 19,
        id: 'goron-s-ruby',
        jp: 'ゴロンのルビー',
@@ -470,7 +474,7 @@
     name: '200 Rupees',
     id: '200-rupees',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: '200-rupees',
        jp: '200ルピー',
@@ -488,7 +492,7 @@
     name: 'Gerudo\'s Card',
     id: 'gerudo-s-card',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'gerudo-s-card',
        jp: 'ゲルドの会員証',

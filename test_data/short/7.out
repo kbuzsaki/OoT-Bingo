@@ -1,4 +1,4 @@
-[ ,
+[ <1 empty item>,
   { difficulty: 5,
     desiredTime: 2.5,
     types: { beans: 10, incbeans: 100, plant: 2, selfsynergy: -0.5 },
@@ -7,7 +7,7 @@
     name: 'Plant 3 Magic Beans',
     id: 'plant-3-magic-beans',
     time: 2.25,
-    goal: 
+    goal:
      { difficulty: 4,
        id: 'plant-3-magic-beans',
        jp: '魔法の豆を3ヶ所に埋める',
@@ -18,7 +18,7 @@
     synergy: 2.75 },
   { difficulty: 12,
     desiredTime: 6,
-    types: 
+    types:
      { endon: -0.5,
        field: 0.75,
        fortress: 3,
@@ -30,7 +30,7 @@
     name: '5 unused keys in Gerudo Training Grounds',
     id: '5-unused-keys-in-gerudo-training-grounds',
     time: 7,
-    goal: 
+    goal:
      { difficulty: 14,
        id: '5-unused-keys-in-gerudo-training-grounds',
        jp: 'ゲルドの修練場の未使用のカギ5つ',
@@ -43,12 +43,13 @@
   { difficulty: 24,
     desiredTime: 12,
     types: { fountain: 2, incbarinade: 100, jabu: 8, selfsynergy: 0 },
-    subtypes: { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
+    subtypes:
+     { compass: 6, hearts: 3, hearts2: 2, map: 6, ruto: 1, wallet: 1 },
     rowtypes: undefined,
     name: 'Zora\'s Sapphire',
     id: 'zora-s-sapphire',
     time: 11,
-    goal: 
+    goal:
      { difficulty: 22,
        id: 'zora-s-sapphire',
        jp: 'ゾーラのサファイア',
@@ -66,7 +67,7 @@
     name: 'Golden Scale',
     id: 'golden-scale',
     time: 4,
-    goal: 
+    goal:
      { difficulty: 8,
        id: 'golden-scale',
        jp: '金のウロコ',
@@ -84,7 +85,7 @@
     name: '15 Different Skulltulas',
     id: '15-different-skulltulas',
     time: 8,
-    goal: 
+    goal:
      { difficulty: 16,
        id: '15-different-skulltulas',
        jp: 'スタルチュラのしるし15個(増殖禁止)',
@@ -102,7 +103,7 @@
     name: 'Ruto\'s Letter',
     id: 'ruto-s-letter',
     time: 4.5,
-    goal: 
+    goal:
      { difficulty: 9,
        id: 'ruto-s-letter',
        jp: 'ルトの手紙',
@@ -115,7 +116,7 @@
   { difficulty: 16,
     desiredTime: 8,
     types: { deku: 3, endon: -0.5, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3.75,
        ganon: 3,
        hearts: 3,
@@ -127,7 +128,7 @@
     name: 'All 4 Skulltulas in Deku Tree',
     id: 'all-4-skulltulas-in-deku-tree',
     time: 8.25,
-    goal: 
+    goal:
      { difficulty: 16,
        id: 'all-4-skulltulas-in-deku-tree',
        jp: 'デクの樹様の中の黄金のスタルチュラ4匹',
@@ -145,7 +146,7 @@
     name: '20 Deku Sticks',
     id: '20-deku-sticks',
     time: 1,
-    goal: 
+    goal:
      { difficulty: 2,
        id: '20-deku-sticks',
        jp: 'デクの棒20本',
@@ -157,12 +158,13 @@
   { difficulty: 15,
     desiredTime: 7.5,
     types: { dc: 4, dmc: 1, selfsynergy: 0 },
-    subtypes: { compass: 3, map: 2.75, plant: 0.5, plant2: 1.5, wallet: 1 },
+    subtypes:
+     { compass: 3, map: 2.75, plant: 0.5, plant2: 1.5, wallet: 1 },
     rowtypes: undefined,
     name: 'Bomb Bag (30)',
     id: 'bomb-bag-30-',
     time: 6.5,
-    goal: 
+    goal:
      { difficulty: 13,
        id: 'bomb-bag-30-',
        jp: 'ボム袋(30)',
@@ -175,7 +177,7 @@
   { difficulty: 22,
     desiredTime: 11,
     types: { field: 0.75, fortress: 2.5, selfsynergy: 0, spirit: 6 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        compass: 1,
        hearts: 0.75,
@@ -187,7 +189,7 @@
     name: 'Get Bombchu chest in Spirit Temple',
     id: 'get-bombchu-chest-in-spirit-temple',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'get-bombchu-chest-in-spirit-temple',
        jp: '魂の神殿のボムチュウ取得',
@@ -199,13 +201,13 @@
     synergy: 0.25 },
   { difficulty: 13,
     desiredTime: 6.5,
-    types: 
+    types:
      { endon: -0.5,
        field: 0.75,
        fortress: 2.5,
        selfsynergy: 0,
        spirit: 2.5 },
-    subtypes: 
+    subtypes:
      { bosskey: 2,
        hearts: 0.75,
        map: 2,
@@ -217,7 +219,7 @@
     name: 'Requiem of Spirit',
     id: 'requiem-of-spirit',
     time: 7.5,
-    goal: 
+    goal:
      { difficulty: 15,
        id: 'requiem-of-spirit',
        jp: '魂のレクイエム',
@@ -229,7 +231,7 @@
     synergy: 1.5 },
   { difficulty: 25,
     desiredTime: 12.5,
-    types: 
+    types:
      { beans: 10,
        field: 0.75,
        incbeans: 100,
@@ -241,7 +243,7 @@
     name: 'Plant 7 Magic Beans',
     id: 'plant-7-magic-beans',
     time: 12.25,
-    goal: 
+    goal:
      { difficulty: 24,
        id: 'plant-7-magic-beans',
        jp: '魔法の豆を7ヶ所に埋める',
@@ -253,7 +255,7 @@
   { difficulty: 7,
     desiredTime: 3.5,
     types: { beans: -1, dmc: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 1,
        hearts: 1,
        map: 1,
@@ -264,7 +266,7 @@
     name: 'Plant bean in Death Mountain Crater',
     id: 'plant-bean-in-death-mountain-crater',
     time: 3.5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'plant-bean-in-death-mountain-crater',
        jp: 'デスマウンテン火口の土にマメを植える',
@@ -276,7 +278,7 @@
     synergy: 1 },
   { difficulty: 19,
     desiredTime: 9.5,
-    types: 
+    types:
      { childtrade: 2.75,
        dmc: 0.5,
        field: 0.75,
@@ -287,7 +289,7 @@
     name: 'Keaton Mask',
     id: 'keaton-mask',
     time: 10.25,
-    goal: 
+    goal:
      { difficulty: 20,
        id: 'keaton-mask',
        jp: 'キータンのお面',
@@ -305,7 +307,7 @@
     name: 'Map & Compass in Bottom of the Well',
     id: 'map-compass-in-bottom-of-the-well',
     time: 1,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'map-compass-in-bottom-of-the-well',
        jp: '井戸の底のマップとコンパス',
@@ -323,7 +325,7 @@
     name: 'Map & Compass in Jabu-Jabu',
     id: 'map-compass-in-jabu-jabu',
     time: 8.5,
-    goal: 
+    goal:
      { difficulty: 17,
        id: 'map-compass-in-jabu-jabu',
        jp: 'ジャブジャブ様のお腹のマップとコンパス',
@@ -341,7 +343,7 @@
     name: 'Bullet Bag (50)',
     id: 'bullet-bag-50-',
     time: 1.25,
-    goal: 
+    goal:
      { difficulty: 2,
        id: 'bullet-bag-50-',
        jp: 'デクのタネ袋(50)',
@@ -353,13 +355,15 @@
     synergy: 2.25 },
   { difficulty: 11,
     desiredTime: 5.5,
-    types: { field: 0.75, fortress: 2, gtg: 1, jabu: 0.5, selfsynergy: 0 },
-    subtypes: { bosskey: 1.5, hearts: 0.75, plant: 1, plant2: 1.5, wallet: 1.25 },
+    types:
+     { field: 0.75, fortress: 2, gtg: 1, jabu: 0.5, selfsynergy: 0 },
+    subtypes:
+     { bosskey: 1.5, hearts: 0.75, plant: 1, plant2: 1.5, wallet: 1.25 },
     rowtypes: undefined,
     name: 'Both Child Gerudo Valley area Skulltulas',
     id: 'both-child-gerudo-valley-area-skulltulas',
     time: 5,
-    goal: 
+    goal:
      { difficulty: 10,
        id: 'both-child-gerudo-valley-area-skulltulas',
        jp: 'ゲルドの谷エリアの黄金のスタルチュラ4匹',
@@ -377,7 +381,7 @@
     name: '6 Hearts',
     id: '6-hearts',
     time: 11,
-    goal: 
+    goal:
      { difficulty: 22,
        id: '6-hearts',
        jp: 'ハート6つ',
@@ -390,7 +394,7 @@
   { difficulty: 10,
     desiredTime: 5,
     types: { dc: 4, dmc: 1, endon: -0.5, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { compass: 3,
        hearts: 2,
        map: 2.75,
@@ -401,7 +405,7 @@
     name: 'Defeat all Lizalfos in Dodongo\'s Cavern',
     id: 'defeat-all-lizalfos-in-dodongo-s-cavern',
     time: 5.5,
-    goal: 
+    goal:
      { difficulty: 11,
        id: 'defeat-all-lizalfos-in-dodongo-s-cavern',
        jp: 'ドドンゴの洞窟のリザルフォス全て撃破',
@@ -419,7 +423,7 @@
     name: 'Gerudo\'s Card',
     id: 'gerudo-s-card',
     time: 11.5,
-    goal: 
+    goal:
      { difficulty: 23,
        id: 'gerudo-s-card',
        jp: 'ゲルドの会員証',
@@ -432,7 +436,7 @@
   { difficulty: 8,
     desiredTime: 4,
     types: { dmc: 3, selfsynergy: 0 },
-    subtypes: 
+    subtypes:
      { bosskey: 1,
        compass: 1,
        hearts: 2,
@@ -445,7 +449,7 @@
     name: 'Both heart pieces in Death Mountain Crater',
     id: 'both-heart-pieces-in-death-mountain-crater',
     time: 3.5,
-    goal: 
+    goal:
      { difficulty: 7,
        id: 'both-heart-pieces-in-death-mountain-crater',
        jp: 'デスマウンテン火口のハートのかけら２つ',
@@ -463,7 +467,7 @@
     name: '8 Magic Beans',
     id: '8-magic-beans',
     time: 10.75,
-    goal: 
+    goal:
      { difficulty: 21,
        id: '8-magic-beans',
        jp: '魔法のマメ8つ以上',
@@ -481,7 +485,7 @@
     name: '30 Deku Nuts',
     id: '30-deku-nuts',
     time: 1,
-    goal: 
+    goal:
      { difficulty: 2,
        id: '30-deku-nuts',
        jp: 'デクの実30個以上',
@@ -499,7 +503,7 @@
     name: 'Fill all 4 Bottle Slots',
     id: 'fill-all-4-bottle-slots',
     time: 7.75,
-    goal: 
+    goal:
      { difficulty: 15,
        id: 'fill-all-4-bottle-slots',
        jp: '4つの空きビンスロットを全て埋める',
